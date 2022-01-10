@@ -1,15 +1,15 @@
 /*------------------------------------------------------------------
 [Master Stylesheet]
 -------------------------------------------------------------------
-Theme Name:     Shade - Premium Landing Page Template
-Theme URL:      https://finestdevs.com/shade/
-Author:         FinestDevs
+Theme Name:     Appex - Landing Page Template
+Theme URL:      https://09-temp-apex.netlify.app/
+Author:         grayic
 Version:        1.0
-Last change:    April 26, 2021
-Description:    High Converting Landing Pages for Startups
-Support:        https://finestdevs.com/product-support/
+Last change:    23/01/2021
+Description:    A default stylesheet for Appex - Landing HTML5 Template.
+Primary use:    Business, responsive, bootstrap 5, html5, clean, modern, creative, landing page, app  landing etc.
+Support:        https://uxtheme.net/product-support/
 -------------------------------------------------------------------*/
-
 /*********** CSS TABLE OF CONTENTS *******************
 
 |--- 01.Component -> { Header }
@@ -19862,7 +19862,6 @@ Content Area-1 L-11-2
   min-width: 131px;
   height: 40px;
   margin-left: 15px;
-  padding-top: 18px;
 }
 
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
