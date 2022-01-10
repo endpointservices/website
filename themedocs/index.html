@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Shade - Documentation</title>
+  <link rel="shortcut icon" href="image/png/favicon.png" type="image/x-icon">
+  <!-- Bootstrap , fonts & icons  -->
+  <!-- <link rel="stylesheet" href="plugins/plugin.css"> -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="fonts/typography-font/typo.css">
+  <link rel="stylesheet" href="fonts/fontawesome-5/css/all.css">
+  <!-- Plugin'stylesheets  -->
+  <link rel="stylesheet" href="plugins/prismJs/prism.css">
+  <!-- Vendor stylesheets  -->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- Custom stylesheet -->
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+  <div class="site-wrapper overflow-hidden " id="top">
+    <header class="doc-topbar shadow-sm">
+      <div class="container-fluid">
+        <nav class="navbar">
+          <a class="navbar-brand" href="#">
+            <img src="./image/png/company-logo.png" alt="">
+          </a>
+          <a href="https://finestdevs.com/shade/" target="_blank" class="buy-button btn btn-primary ml-auto ml-lg-4 mr-3 mr-md-4 mr-lg-0 order-lg-3">Get Shade</a>
+          <button class="mobile-toggle-btn" data-toggle="collapse" data-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="hamburger-box">
+              <div class="hamburger-inner"></div>
+            </div>
+          </button>
+        </nav>
+      </div>
+    </header>
+    <div class="container-fluid">
+      <div class="row">
+        <aside class="doc-sidebar--left collapse col-lg-3 col-xl-2 pt-25" id="sidebar">
+          <!-- 
+  <div class="sidebar-brand-block">
+    <a href=""><img src="./image/png/company-logo.png" alt=""></a>
+  </div> -->
+          <div class="sidebar-menu-group">
+            <h3 class="menu-title">
+              Getting Started
+            </h3>
+            <ul class="sidebar-menu">
+              <li><a href="index.html">Introduction</a></li>
+              <li><a href="file-structure.html">File Structure</a></li>
+              <li><a href="gulp.html">Gulp</a></li>
+              <!-- <li><a href="credits.html">Credits</a></li> -->
+              <li><a href="update.html">Update</a></li>
+              <li><a href="changelog.html">Change Log</a></li>
+              <li><a href="support.html">Support</a></li>
+            </ul>
+          </div>
+          <div class="sidebar-menu-group">
+            <h3 class="menu-title">
+              Theme Intro
+            </h3>
+            <ul class="sidebar-menu">
+              <li><a href="reboot.html">Reboot</a></li>
+              <li><a href="page-default.html">Page Defaults</a></li>
+              
+            </ul>
+          </div>
+          <div class="sidebar-menu-group pt--40 pt-lg--50">
+            <h3 class="menu-title">
+              How-To Guides
+            </h3>
+            <ul class="sidebar-menu">
+              <li><a href="changing-header.html">Change Header</a></li>
+             
+              <li><a href="menu-sticky.html">Make Menu Sticky</a></li>
+              <li><a href="changing-logo.html">Change Site/Brand Logo</a></li>
+              <li><a href="editing-color-scheme.html">Edit the Color Scheme</a></li>
+              <li><a href="customizing-fonts.html">Linking Google Fonts</a></li>
+              <li><a href="starter-template.html">Starter Template Code</a></li>
+              <li><a href="#">Theme Mode Guide (coming soon)</a></li>
+            </ul>
+          </div>
+          <div class="sidebar-menu-group">
+            <h3 class="menu-title">
+              Javascript and Plugins
+            </h3>
+            <ul class="sidebar-menu">
+              <li><a href="aos-doc.html">Animate On Scroll</a></li>
+              <li><a href="counter-doc.html">Counters</a></li>
+              <li><a href="slick-doc.html">Slick (Slider)</a></li>
+            </ul>
+          </div>
+        
+        </aside>
+        <div class="col-lg-9 col-xl-10 offset-xl-2 offset-lg-3">
+          <div class="row justify-content-around">
+            <div class="col-lg-10 col-xl-8 py-4 py-md-5">
+              <div class="doc-breadcrumb">
+                <h2 class="title">Introduction</h2>
+                <p>Hello! Welcome to Shade's official documentation. Simple, Flexible, ready to use UI components and plugins which will bring you so much closer to your end goals. Let’s dive in.</p>
+              </div>
+              <hr class="my-4 my-md-5">
+              <article class="mt-4 mt-md-12" id="dev-tools">
+                <h2 class="h3">Setting up Dev Tools</h2>
+                <p>To setup the dev tools and environment for customizing the theme, unzip the theme package to any folder and open a command line at that location.</p>
+                <p>Shade's dev tools require <a href="https://nodejs.org/" class="rederect-link">Node</a>, and the <a href="https://gulpjs.com/" class="rederect-link">Gulp CLI</a> package. Assuming you have Node and Git installed, the following command installs Gulp Command Line Utility globally so the <code>gulp</code> command can be used anywhere in your system.</p>
+                <pre class="  language-bash"><code class="  language-bash">npm install gulp-cli -g</code></pre>
+                <p>When you have installed Gulp, run <code>npm install</code> and the required packages for the Shade dev tools will be downloaded to the <code>node_modules</code> directory.</p>
+                <pre class="  language-bash"><code class="  language-bash">npm install</code></pre>
+                <p>If you see errors such as <code>EACCESS</code> during installation, please follow these instructions at <a href="https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally" target="_blank">npm docs</a> to
+                  install Node via <a href="https://github.com/creationix/nvm/blob/master/README.md" target="_blank">nvm</a> which resolves the permissions errors.</p>
+                <p>Shade employs <a href="https://www.browsersync.io/">Browsersync</a> via <code>gulp</code> to serve pages from the <code>dist</code> directory. Running <code>gulp</code> will compile the theme, copy all required files to the <code>dist</code> directory and will open a browser window to <code>localhost:4001/index.html</code>.</p>
+                <pre class="  language-bash"><code class="  language-bash">gulp</code></pre>
+                <p>While Gulp is running, Files in the <code>pages</code>, <code>scss</code> and <code>js</code> folders are monitored for changes, which will inject updated CSS or cause a refresh in Browsersync.</p>
+                <p>Hit Ctrl+C or just close the command line window to stop the server.</p>
+              </article>
+            </div>
+            <div class="col-xl-2">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Vendor Scripts -->
+  <script src="plugins/jquery/jquery.min.js"></script>
+  <script src="plugins/jquery/jquery-migrate.min.js"></script>
+  <script src="plugins/bootstrap-4/js/bootstrap.bundle.min.js"></script>
+  <script src="plugins/prismJs/prism.js"></script>
+  <!-- Activation Script -->
+  <script src="js/custom.js"></script>
+</body>
+
+</html>
