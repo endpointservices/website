@@ -1,0 +1,519 @@
+/*Section heading style-1*/
+
+.section__heading {
+    h2 {
+        color: $cloudburst;
+        font-size: 34px;
+        font-weight: 600;
+        font-style: normal;
+        letter-spacing: -1px;
+        line-height: 44px;
+        margin-bottom: 25px;
+
+        @include mobile {
+            font-size: 38px;
+            line-height: 48px;
+        }
+
+        @include tablet {
+            font-size: 48px;
+            line-height: 58px;
+        }
+    }
+
+    p {
+        opacity: 0.7;
+        color: $cloudburst;
+        font-size: 17px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 30px;
+        margin-bottom: 0;
+    }
+}
+
+/*Section heading style-2*/
+
+.section__heading-2 {
+    h2 {
+        color: $mirage;
+        font-size: 34px !important;
+        font-weight: 600;
+        font-style: normal;
+        letter-spacing: -1px;
+        line-height: 42px;
+        margin-bottom: 30px;
+
+        @include mobile {
+            font-size: 38px !important;
+            line-height: 45px;
+        }
+
+        @include tablet {
+            font-size: 48px;
+            line-height: 55px;
+        }
+
+        @include desktops {
+            font-size: 60px !important;
+            line-height: 66px;
+        }
+    }
+
+    p {
+        opacity: 0.8;
+        color: $mirage;
+        font-size: 17px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 30px;
+        margin-bottom: 0;
+    }
+}
+
+/*Section heading style-3*/
+
+.section__heading-3 {
+    h2 {
+        color: $mirage;
+        font-size: 34px !important;
+        font-weight: 600;
+        font-style: normal;
+        letter-spacing: -1px;
+        line-height: 42px;
+        margin-bottom: 30px;
+
+        @include mobile {
+            font-size: 38px !important;
+            line-height: 45px;
+        }
+
+        @include tablet {
+            font-size: 42px;
+            line-height: 50px;
+        }
+
+    }
+
+    p {
+        opacity: 0.7;
+        color: $mirage;
+        font-size: 15px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 28px;
+        margin-bottom: 0;
+    }
+}
+
+/*Section heading style-4*/
+
+.section-heading-4 {
+    h2 {
+        font-family: Karla;
+        color: #1F1F1F;
+        font-size: 34px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -3px;
+        line-height: 44px;
+        margin-bottom: 35px;
+
+        @include mobile {
+            font-size: 38px;
+            line-height: 48px;
+        }
+
+        @include tablet {
+            font-size: 48px;
+            line-height: 60px;
+        }
+
+    }
+
+    p {
+        font-family: Karla;
+        color: #333333;
+        font-size: 21px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -0.4px;
+        line-height: 36px;
+        margin-bottom: 0;
+    }
+}
+
+/*Section heading style-5*/
+
+.section-heading-5 {
+    h2 {
+        font-family: Gothic A1;
+        color: #1F1F1F;
+        font-size: 34px;
+        font-weight: 800;
+        font-style: normal;
+        letter-spacing: -2.52632px;
+        line-height: 44px;
+        margin-bottom: 35px;
+
+        @include mobile {
+            font-size: 38px;
+            line-height: 48px;
+        }
+
+        @include tablet {
+            font-size: 48px;
+            line-height: 64px;
+        }
+
+    }
+
+    p {
+        font-family: Karla;
+        color: #333333;
+        font-size: 21px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -0.4px;
+        line-height: 36px;
+        margin-bottom: 0;
+    }
+}
+
+
+/*Section heading style-6*/
+
+.section-heading-6 {
+    h2 {
+        font-family: Work Sans;
+        color: #1F1F1F;
+        font-size: 34px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -2.53px;
+        line-height: 44px;
+        margin-bottom: 20px;
+
+        @include mobile {
+            font-size: 38px;
+            line-height: 48px;
+        }
+
+        @include tablet {
+            font-size: 48px;
+            line-height: 56px;
+        }
+
+    }
+
+    p {
+        font-family: Karla;
+        color: #333333;
+        font-size: 21px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -0.4px;
+        line-height: 36px;
+        margin-bottom: 0;
+    }
+}
+
+/*Section heading style-7*/
+
+.section-heading-7 {
+    h2 {
+        font-family: Karla;
+        color: #1F1F1F;
+        font-size: 34px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -5px;
+        line-height: 38px;
+        margin-bottom: 35px;
+
+        @include mobile {
+            font-size: 38px;
+            line-height: 42px;
+        }
+
+        @include tablet {
+            font-size: 48px;
+            line-height: 52px;
+        }
+
+        @include desktops {
+            font-size: 60px;
+            line-height: 64px;
+        }
+    }
+
+    p {
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 21px;
+        line-height: 36px;
+        letter-spacing: -0.3px;
+        color: #666666;
+        margin-bottom: 0;
+    }
+}
+
+/*Section heading style-8*/
+
+.section-heading-8 {
+    h2 {
+        font-family: Rubik;
+        color: #1F1F1F;
+        font-size: 34px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -1px;
+
+        line-height: 46px;
+        margin-bottom: 35px;
+
+        @include mobile {
+            font-size: 38px;
+            line-height: 52px;
+        }
+
+        @include tablet {
+            letter-spacing: -3px;
+            font-size: 48px;
+            line-height: 62px;
+        }
+
+        @include desktops {
+            letter-spacing: -5px;
+            font-size: 60px;
+            line-height: 74px;
+        }
+    }
+
+    p {
+        font-family: Karla;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 21px;
+        line-height: 36px;
+        letter-spacing: -0.3px;
+        color: #666666;
+        margin-bottom: 0;
+    }
+}
+
+
+/*Section heading style-9*/
+
+.section-heading-9 {
+    h2 {
+        font-family: Karla;
+        color: #1F1F1F;
+        font-size: 34px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -2.52632px;
+
+        line-height: 40px;
+        margin-bottom: 15px;
+
+        @include mobile {
+            font-size: 38px;
+            line-height: 46px;
+        }
+
+        @include tablet {
+            font-size: 48px;
+            line-height: 56px;
+        }
+
+    }
+
+    p {
+        font-family: Karla;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 32px;
+        color: #E4E4E4;
+        margin-bottom: 0;
+    }
+}
+
+/*Section heading style-10*/
+
+.section-heading-10 {
+    h2 {
+        font-family: Inter;
+        color: #000;
+        font-size: 34px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -0.345px;
+        line-height: 44px;
+        margin-bottom: 25px;
+
+        @include mobile {
+            font-size: 38px;
+            line-height: 48px;
+        }
+
+        @include tablet {
+            font-size: 46px;
+            line-height: 56px;
+        }
+
+    }
+
+    p {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 32px;
+        color: #323232;
+        margin-bottom: 0;
+    }
+}
+
+/*Section heading style-11*/
+
+.section-heading-11 {
+    h2 {
+        font-family: Inter;
+        color: #000;
+        font-size: 34px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -0.3px;
+        line-height: 46px;
+        margin-bottom: 25px;
+
+        @include mobile {
+            font-size: 38px;
+            line-height: 50px;
+        }
+
+    }
+
+    p {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 32px;
+        color: #323232;
+        margin-bottom: 0;
+    }
+}
+
+/*Section heading style-12*/
+
+.section-heading-12 {
+    h6 {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 32px;
+        color: #5029DE;
+        margin-bottom: 15px;
+    }
+
+    h2 {
+        font-family: Inter;
+        color: #000;
+        font-size: 34px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -0.3px;
+        line-height: 46px;
+        margin-bottom: 25px;
+
+        @include mobile {
+            font-size: 38px;
+            line-height: 50px;
+        }
+
+    }
+
+    p {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 34px;
+        color: #535659;
+        margin-bottom: 0;
+    }
+}
+
+/*Section heading style-13*/
+
+.section-heading-13 {
+
+    h2 {
+        font-family: Nunito;
+        color: #2F4B6E;
+        font-weight: 800;
+        font-size: 38px;
+        line-height: 48px;
+        margin-bottom: 15px;
+
+        @include mobile {
+            font-size: 42px;
+            line-height: 52px;
+        }
+
+    }
+
+    p {
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 36px;
+        color: #2F4B6E;
+        margin-bottom: 0;
+    }
+}
+
+/*Section heading style-14*/
+
+.section-heading-14 {
+
+    h2 {
+        color: #1D263A;
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 42px;
+        letter-spacing: -1px;
+        margin-bottom: 15px;
+
+        @include mobile {
+            font-size: 38px;
+            line-height: 44px;
+        }
+
+        @include tablet {
+            font-size: 48px;
+            line-height: 54px;
+        }
+
+        @include desktops {
+            font-size: 60px;
+            line-height: 66px;
+        }
+
+    }
+
+    p {
+        font-size: 21px;
+        line-height: 32px;
+        color: #1D263A;
+        opacity: 0.7;
+        margin-bottom: 0;
+    }
+}

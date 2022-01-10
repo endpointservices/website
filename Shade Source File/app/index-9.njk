@@ -1,0 +1,309 @@
+{% extends "template.njk" %}
+
+{#
+<!-- Page Info Input Here --> #}
+
+{% set PAGE_INFO = {
+page_title : "Landing-09",
+page_wrapper_class : ""
+
+} %}
+{% import 'components/Header/_header_2.njk' as Header %}
+
+{% block main %}
+<!-- Site Header -->
+{{Header.render({
+"additional_header_class": "site-header--menu-right top-contact-menu-wraper",
+"absolute_header" : "true",
+container_fluid : false,
+sticky_header :false,
+menu_wrapper_class : "mx-auto",
+hideMegamenu : false,
+header_button : "true",
+header_button_text : "Book an appointment",
+header_button_class : "focus-reset",
+additional_button_classes : "l9-header-btn ms-auto d-none d-xs-inline-flex"
+
+
+
+})}}
+
+
+<!-- Hero Area -->
+
+<div class="hero-area-l9 position-relative background-property" style="background: url(./image/landing-9/banner.png);">
+    <div class="container">
+        <div class="row">
+            <div class="col-xxl-5 col-xl-6 col-lg-7 col-md-8" data-aos="fade-up" data-aos-delay="500"
+                data-aos-duration="1000">
+                <div class="banner-content">
+                    <div class="content">
+                        <h4>SOLVE MENTAL ISSUES</h4>
+                        <h2>Take care of your mental health.</h2>
+                        <p>Nulla porttitor accumsan ticidunt. Praesent sapien massa, convallis a pellentesque nec,
+                            egestas non nisi.
+                        </p>
+                        <div class="hero-l9-btn">
+                            <a href="#" class="btn focus-reset btn-style-07">Book an appointment</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hero-curve-shape-l9 d-none d-lg-block">
+        <img src="image/landing-9/hero-curve.svg" alt="curve">
+    </div>
+</div>
+
+<!-- Content-Area 01 -->
+
+<div class="content-area-l9-1">
+    <div class="container">
+        <div class="row content-area-l9-1-items justify-content-center">
+            <div class="col-xxl-3 col-lg-4 col-md-6" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
+                <div class="content">
+                    <h2>Stay happy on your daily life. Stay away from stress and regular problems.</h2>
+                </div>
+
+            </div>
+            <div class="offset-xxl-1 col-xxl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                <div class="content">
+                    <p>Egestas aliquam sit odio cum nunc vitae lobortis. Sit sit tristique sollicitudin nunc id id nulla
+                        duis. Donec amet mauris volupat bibendum auctor consectetur. Bibendum aliquam integer.</p>
+                </div>
+
+            </div>
+            <div class="offset-xxl-1 col-xxl-4 col-lg-4 col-md-6" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000">
+                <div class="content-area-l9-1-image overflow-hidden image-hover-style-01">
+                    <img class="w-100" src="image/landing-9/content-1-img-1.png" alt="image">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Content-Area 02 -->
+
+<div class="content-area-l9-2 position-relative bg-alabaster">
+    <div class="content-area-l9-2-shape d-none d-lg-block">
+        <img src="image/landing-9/contnet-2-curve.svg" alt="curve">
+    </div>
+    <div class="container">
+        <div class="row justify-content-lg-start justify-content-center align-items-center">
+            <div class="offset-xxl-1 col-xxl-4 offset-xl-1 col-xl-5 col-lg-6 col-md-10" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
+                <div class="content-area-l9-2-image position-relative">
+                    <div class="main-image overflow-hidden image-hover-style-01">
+                        <img class="w-100" src="image/landing-9/content-2-img-1.png" alt="image">
+                    </div>
+                    <div class="shape-image d-none d-sm-block">
+                        <img src="image/landing-9/shape-2.png" alt="image">
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="offset-xxl-1 col-xxl-4 offset-xl-1 col-xl-5 col-lg-6 col-md-10"  data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000">
+                <div class="content section__heading-3">
+                    <h2>Happiness cannot be pursued; it must ensue.</h2>
+                    <p>Curabitur arcu erat, accumsan id mperdiet rt, porttitor at sem. Nulla porttitor accumsan
+                        tincidunt.</p>
+                    <div class="book-app-l9-btn">
+                        <a href="#" class="btn focus-reset btn-style-07">Book an appointment</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Counter Area 03-->
+
+<div class="content-area-l9-3">
+    <div class="container">
+        <div class="row align-items-center justify-content-lg-start justify-content-center">
+            <div class="col-xxl-5 col-xl-6 col-lg-6 col-md-10 order-lg-1 order-1">
+                <div class="content-area-l9-3-heading section__heading-3">
+                    <h2>Let us help you solving your personal issues.</h2>
+                    <p>Contory to popular belief, Lorem ipsum is<br> random text, it has roots in a piece</p>
+                </div>
+                <div class="content-l9-3-content-box">
+                    <div class="item d-flex flex-wrap " data-aos="fade-up" data-aos-delay="500"
+                    data-aos-duration="1000">
+                        <div class="item-icon">
+                            <span>1</span>
+                        </div>
+                        <div class="item-content">
+                            <h4>Easy Appointment Booking</h4>
+                            <p>Contray to popular belief, Lorem ipsum</p>
+                        </div>
+                    </div>
+                    <div class="item d-flex flex-wrap" data-aos="fade-up" data-aos-delay="500"
+                    data-aos-duration="1000">
+                        <div class="item-icon">
+                            <span>2</span>
+                        </div>
+                        <div class="item-content">
+                            <h4>Professional Consultation</h4>
+                            <p>Contray to popular belief, Lorem ipsum</p>
+                        </div>
+                    </div>
+                    <div class="item d-flex flex-wrap" data-aos="fade-up" data-aos-delay="500"
+                    data-aos-duration="1000">
+                        <div class="item-icon">
+                            <span>3</span>
+                        </div>
+                        <div class="item-content">
+                            <h4>Affordable Service</h4>
+                            <p>Contray to popular belief, Lorem ipsum</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="offset-xxl-1 col-xxl-6 col-xl-6 col-lg-6 col-md-10 order-lg-1 order-0" data-aos="fade-up" data-aos-delay="500"
+            data-aos-duration="1000">
+                <div class="content-3-l9-image position-relative">
+                    <div class="main-image overflow-hidden image-hover-style-01">
+                        <img class="w-100" src="image/landing-9/content-3-img-1.png" alt="image">
+                    </div>
+                    <div class="shape-image d-none d-sm-block">
+                        <img src="image/landing-9/shape-1.png" alt="image">
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!-- CTA Area  -->
+
+<div class="cta-area-l9 position-relative background-property" style="background: url(./image/landing-9/cta-bg.png);">
+    <div class="container">
+        <div class="row justify-content-lg-end justify-content-center">
+            <div class="col-xxl-4 col-xl-5 col-lg-6 col-md-9"  data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                <div class="cta-form-area-l9">
+                    <div class="icon-area d-flex justify-content-center text-center">
+                        <img src="image/landing-9/chat-round-content.svg" alt="icon">
+                    </div>
+                    <div class="content text-center">
+                        <h4>Schedule free appointment</h4>
+                        <p>Velit tempor, aliquam vel mauris duis rhoncus maecenas Sed porttitor lectus.</p>
+                    </div>
+                    <form action="#" class="cta-form-l9">
+
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input type="text" name="name" id="name" class="form-control" placeholder="Your name">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input type="email" name="email" id="email" class="form-control" placeholder="Email address*">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input type="text" name="date" id="date" class="form-control" placeholder="Date">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input type="text" name="timr" id="time" class="form-control" placeholder="Time">
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <button type="submit" class="btn focus-reset btn-style-07">Request for booking</button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hero-curve-shape-l9 d-none d-lg-block">
+        <img src="image/landing-9/cta-curve.svg" alt="curve">
+    </div>
+</div>
+
+
+
+
+<!-- Blog Area -->
+<div class="blog-area-bg">
+    <div class="blog-area-l9">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-xxl-4 col-xl-5 col-lg-5 col-md-7">
+                    <div class="section__heading-3">
+                        <h2>Latest articles 
+                            about mental health</h2>
+                        <p>Contory to popular belief, Lorem ipsum is random text, it has roots in a piece</p>
+                    </div>
+                </div>
+                <div class="col-xxl-2 col-xl-3 col-lg-3 col-md-4">
+                    <div class="read-all-btn-l9">
+                        <a href="#" class="btn focus-reset btn-style-07">Read all articles</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row blog-items-l9 justify-content-center">
+                <div class="col-lg-4 col-md-6"  data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
+                    <div class="blog-content-area">
+                        <div class="blog-image overflow-hidden image-hover-style-01">
+                            <a href="#"><img class="w-100" src="image/landing-9/blog-1.png" alt="image"></a>
+                        </div>
+                        <div class="content">
+                            <a href="#"><h4>April 02, 2021</h4></a>
+                            <a href="#"><p>06 ways to do workout inside your home during Covid-19</p></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6"  data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                    <div class="blog-content-area">
+                        <div class="blog-image overflow-hidden image-hover-style-01">
+                            <a href="#"><img class="w-100" src="image/landing-9/blog-2.png" alt="image"></a>
+                        </div>
+                        <div class="content">
+                            <a href="#"><h4>April 02, 2021</h4></a>
+                            <a href="#"><p>How is the pandemic affecting the way people work?</p></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6"  data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000">
+                    <div class="blog-content-area">
+                        <div class="blog-image overflow-hidden image-hover-style-01">
+                            <a href="#"><img class="w-100" src="image/landing-9/blog-3.png" alt="image"></a>
+                        </div>
+                        <div class="content">
+                            <a href="#"><h4>April 02, 2021</h4></a>
+                            <a href="#"><p>The parent’s balancing act: using the word ‘No’</p></a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!-- Footer Area -->
+
+{% include "footer-9.njk" %}
+
+
+
+{% endblock %}

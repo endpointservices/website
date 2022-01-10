@@ -1,0 +1,332 @@
+{% extends "template.njk" %}
+
+{#
+<!-- Page Info Input Here --> #}
+
+{% set PAGE_INFO = {
+page_title : "Startup Agency",
+page_wrapper_class : ""
+
+} %}
+{% import 'components/Header/_header.njk' as Header %}
+
+{% block main %}
+<!-- Site Header -->
+{{Header.render({
+"additional_header_class": "site-header--menu-right sticky-menu-bg dark-mode-texts",
+"absolute_header" : "true",
+container_fluid : false,
+sticky_header :true,
+menu_wrapper_class : "mx-auto",
+hideMegamenu : false
+
+
+
+})}}
+
+
+<!-- Hero Area -->
+
+<div class="hero-area-l3 background-property" style="background: url(./image/landing-3/hero-bg.png);">
+    <div class="hero-l3-shape-1 d-none d-lg-block" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">
+        <img class="horizontal-move" src="./image/landing-3/banner-shape-1.png" alt="image">
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="offset-xxl-7 col-xxl-5 offset-xl-6 col-xl-6 offset-lg-4 col-lg-8 col-md-10" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                <div class="banner-content">
+                    <div class="hero-l3-shape-2 d-none d-md-block" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
+                        <img class="vertical-move" src="./image/landing-3/banner-shape-2.png" alt="image">
+                    </div>
+                    <div class="content">
+                        <h2>Let’s talk about startups that people like!</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis, nec donec in morbi pulvinar. Enim non pulvinar neque.</p>
+                    </div>
+                    <div class="hero-l3-btn-group">
+                        <a href="#" class="btn focus-reset btn-style-04 lets-talk-btn">Let's Talk</a>
+                        <a href="#" class="btn focus-reset view-works-btn">View our work</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Features Area -->
+
+<div class="feature-area-l3">
+    <div class="container">
+        <div class="row feature-l3-1-items justify-content-center">
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+                <div class="feature-card d-flex">
+                    <div class="number">
+                        <span>01</span>
+                    </div>
+                    <div class="content">
+                        <h4>Team of experts</h4>
+                        <p>A team of experts passionate about product management </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+                <div class="feature-card d-flex">
+                    <div class="number">
+                        <span>02</span>
+                    </div>
+                    <div class="content">
+                        <h4>Friendly Consultants</h4>
+                        <p>A team of experts passionate about product management</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">
+                <div class="feature-card d-flex">
+                    <div class="number">
+                        <span>03</span>
+                    </div>
+                    <div class="content">
+                        <h4>Best Solutions</h4>
+                        <p>A team of experts passionate about product management</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Content Area-1  -->
+
+<div class="content-are-l3-1">
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-lg-5 col-md-10" data-aos="fade-right" data-aos-delay="400" data-aos-duration="1000">
+                <div class="content-are-l3-1-content section__heading text-center text-lg-start">
+                   <h2>Need to know what Obtain does</h2>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquet orci, sit sagittis sed vel dictum lacus purus. </p>
+                   <a href="#" class="btn btn-style-04 focus-reset lets-talk-btn">Let's Talk</a>
+                </div>
+            </div>
+            <div class="offset-lg-2 col-lg-5 col-md-8" data-aos="fade-left" data-aos-delay="400" data-aos-duration="1000">
+                <div class="content-l3-1-counter-area">
+                    <div class="content-l3-1-image ">
+                        <img class="w-100 d-none d-md-block" src="image/landing-3/counter-img.png" alt="img">
+                        <div class="counter-box-l3 text-center text-md-start">
+                            <div class="counter-items">
+                                <div class="counter-content">
+                                    <h2><span class="counter">1200</span>+</h2>
+                                    <p>Our users are all over<br> the world</p>
+                                </div>
+                                <div class="counter-content">
+                                    <h2><span class="counter">600</span>+</h2>
+                                    <p>Companies<br> corporate with us</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!-- Case-study Studies Area -->
+
+
+<div class="case-study-area-l3">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xxl-4 col-xl-5 col-md-6" data-aos="fade-right" data-aos-delay="400" data-aos-duration="1000">
+                <div class="section__heading">
+                    <h2>We designed our services for results.</h2>
+                </div>
+            </div>
+            <div class="offset-xxl-2 col-xxl-6 offset-xl-1 col-lg-6 col-md-6" data-aos="fade-left" data-aos-delay="400" data-aos-duration="1000">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquet orci, sit sagittis sed vel dictum lacus purus. </p>
+            </div>
+        </div>
+        <div class="row case-study-items-l3 justify-content-center">
+            <div class="col-lg-5 col-md-6">
+                <div class="image-content-box " data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+                    <div class="case-study-area-image image-hover-style-01 overflow-hidden">
+                        <img class="w-100" src="image/landing-3/service-1.png" alt="image">
+                    </div>
+                   
+                    <div class="content">
+                        <h4>IT consulting</h4>
+                        <p> Our “customer first” philosophy ensures that we provide our clients with “the best IT services and solutions”.</p>
+                    </div>
+                </div>
+                <div class="image-content-box" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+                    <div class="case-study-area-image image-hover-style-01 overflow-hidden">
+                        <img class="w-100" src="image/landing-3/service-3.png" alt="image">
+                    </div>
+                  
+                    <div class="content">
+                        <h4>Business analysis</h4>
+                        <p>We continually invest in the development of our team members and provide a supportive environment in which they can work closely with clients.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="offset-lg-1 col-lg-6 col-md-6">
+                <div class="image-content-box" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000"> 
+                    <div class="case-study-area-image image-hover-style-01 overflow-hidden">
+                        <img class="w-100" src="image/landing-3/service-2.png" alt="image">
+                    </div>
+                   
+                    <div class="content">
+                        <h4>HR solutions</h4>
+                        <p>We are adamant to bring success with our HR Recruitment, Payroll and other services in order to give a complete solution to your business.</p>
+                    </div>
+                </div>
+                <div class="image-content-box" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
+                    <div class="case-study-area-image image-hover-style-01 overflow-hidden">
+                        <img class="w-100" src="image/landing-3/service-4.png" alt="image">
+                    </div>
+                    
+                    <div class="content">
+                        <h4>Company development</h4>
+                        <p>Our Secretarial Service, which is backed by our legal service wing, helps acquire all types of Licenses & Permits for your business to run seamlessly.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Services Studies Area -->
+
+<div class="service-area-l3 bg-athensgray">
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-xxl-5 col-xl-6 col-lg-6 col-md-10">
+                <div class="service-l3-content">
+                    <div class="section__heading" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+                        <h2>Our expertise includes digital value chain</h2>
+                    </div>
+                    <div class="service-card-area">
+                        <div class="service-single-card d-flex" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+                            <div class="icon-box">
+                               
+                                   <img src="image/landing-3/coins.png" alt="image">
+                                   <div class="icon-bg">
+                                    <img class="vertical-move" src="image/landing-3/coin-bg.png" alt="image">
+                                   </div>
+                               
+                            </div>
+                            <div class="content-box">
+                                <h4>Investment strategy</h4>
+                                <p>A  sharp expertise of a consulting firm combined with the agility and compatibility of startups.</p>
+                            </div>
+                        </div>
+                        <div class="service-single-card d-flex" data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">
+                            <div class="icon-box">
+                              
+                                   <img src="image/landing-3/cycling-track.png" alt="image">
+                                   <div class="icon-bg-2">
+                                    <img class="horizontal-move" src="image/landing-3/cycle-bg.png" alt="image">
+                                   </div>
+                               
+                            </div>
+                            <div class="content-box">
+                                <h4>Investment strategy</h4>
+                                <p>A  sharp expertise of a consulting firm combined with the agility and compatibility of startups.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="offset-xxl-1 col-xxl-6 col-xl-6 col-lg-6 col-md-10" data-aos="fade-left" data-aos-delay="600" data-aos-duration="1000">
+                <div class="service-l3-card-right">
+                    <div class="ser-card-right-shape d-none d-sm-block">
+                        <img class="swing-2" src="image/landing-3/chain-shape-1.png" alt="image">
+                    </div>
+                    <h4>Digital strategy & innovation</h4>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <a href="#" class="btn  focus-reset">Get started now <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Contact Area -->
+
+<div class="contact-form-l3-area position-relative overflow-hidden bg-mirage">
+    <div class="contact-l3-image-group">
+        <div class="image-1 d-none d-md-block" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+            <img class="vertical-move" src="image/landing-3/con-shape-1.png" alt="image">
+        </div>
+        <div class="image-2 d-none d-lg-block" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+            <img class="spin" src="image/landing-3/con-shape-2.png" alt="image">
+        </div>
+        <div class="image-3 d-none d-lg-block" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+            <img class="spin" src="image/landing-3/con-shape-3.png" alt="image">
+        </div>
+        <div class="image-4 d-none d-md-block" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+            <img class="horizontal-move" src="image/landing-3/con-shape-4.png" alt="image">
+        </div>
+        <div class="image-5 d-none d-lg-block" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000"> 
+            <img class="spin" src="image/landing-3/con-shape-5.png" alt="image">
+        </div>
+        <div class="image-6 d-none d-md-block" data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">
+            <img class="vertical-move" src="image/landing-3/con-shape-6.png" alt="image">
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-9" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                <div class="contact-form-box">
+                    <div class="section__heading text-center">
+                        <h2>Our expertise includes digital value chain</h2>
+                    </div>
+                   <form action="#" class="contact-form-l3">
+                        <div class="form-group">
+                            <label>Your name</label>
+                            <input type="text" name="name" id="name" class="form-control" placeholder="Write your name">
+                        </div>
+                        <div class="form-group">
+                            <label>Email Address</label>
+                            <input type="email" name="name" id="email" class="form-control" placeholder="Write your email address">
+                        </div>
+                        <div class="form-group">
+                            <label>Subject</label>
+                            <input type="text" name="subject" id="subject" class="form-control" placeholder="Write your email address">
+                        </div>
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea name="message" id="message" class="form-control" placeholder="Add a brief of your project"></textarea>
+                        </div>
+    
+                        <div class="send-btn">
+                            <button class="btn btn-style-04">Send</button>
+                        </div>
+                   </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Footer Area -->
+
+{% include "footer-3.njk" %}
+
+
+
+
+
+
+
+
+
+{% endblock %}

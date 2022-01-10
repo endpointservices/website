@@ -1,0 +1,1051 @@
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+   Hero Area-L-14
+
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.landing-15-menu {
+    .site-menu-main .nav-link-item {
+        font-family: Karla;
+        color: #1f1f1f;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -0.4px;
+
+        i {
+            color: #1f1f1f;
+        }
+    }
+}
+
+.landing-15-menu {
+    .site-menu-main .sub-menu--item {
+        font-family: Karla;
+        color: #1f1f1f;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -0.4px;
+    }
+}
+
+.landing-15-menu {
+    &.reveal-header .sign-in-btn {
+        color: #666666 !important;
+    }
+}
+
+
+.hero-area-l-15 {
+    background: #E3EEF8;
+    padding-top: 80px;
+    padding-bottom: 40px;
+
+    @include mobile {
+        padding-top: 90px;
+    }
+
+    @include tablet {
+        padding-top: 110px;
+        padding-bottom: 80px;
+    }
+
+    @include desktops {
+        padding-top: 250px;
+        padding-bottom: 175px;
+    }
+
+    .content {
+        position: relative;
+        z-index: 5;
+        padding-top: 25px;
+
+        @include desktops {
+            padding-top: 0;
+        }
+
+        @include large-desktops {
+            padding-right: 0;
+
+        }
+
+        @include extra-large-desktops {
+            padding-right: 82px;
+        }
+
+        h6 {
+            font-family: Karla;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 18px;
+            text-align: center;
+            letter-spacing: 2.8125px;
+            text-transform: uppercase;
+
+            color: #666666;
+        }
+
+        h1 {
+            font-family: Karla;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 34px;
+            line-height: 40px;
+            letter-spacing: -3.11px;
+            color: #1F1F1F;
+            margin: 27px 0px 20px 0px;
+
+            @include mobile-lg {
+                font-size: 40px;
+                line-height: 46px;
+            }
+
+            @include tablet {
+                font-size: 60px;
+                line-height: 66px;
+            }
+
+            @include large-desktops {
+                font-size: 70px;
+                line-height: 70px;
+            }
+        }
+
+        p {
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 21px;
+            line-height: 36px;
+            text-align: center;
+            letter-spacing: -0.4px;
+            color: #666666;
+            margin: 18px 0px 15px 0px;
+
+        }
+
+
+    }
+
+    .rating-text {
+        font-family: Karla;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: -0.32381px;
+        color: #878B90;
+    }
+
+
+
+}
+
+
+.header-btn-l-15 {
+    .get-start-btn {
+        font-family: Karla;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: -1px;
+        color: #258AFF;
+        min-width: 152px;
+        height: 40px;
+        border: 2px solid #258AFF;
+        box-sizing: border-box;
+        border-radius: 3px;
+        margin-left: 15px;
+        &:hover{
+            color: #258AFF !important;
+        }
+    }
+
+}
+.landing-15-menu{
+    &.reveal-header{
+        .get-start-btn {
+            color: #258AFF !important;
+        }
+    }
+}
+
+
+.subscription-form-15 {
+    margin-bottom: 25px;
+
+    .form-control {
+        font-family: Karla;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: -0.9px;
+        max-width: 100%;
+        height: 60px;
+        background: #EEF4F5;
+        border-radius: 3px;
+        padding-left: 25px;
+        border: 0;
+        margin-top: 20px;
+
+        @include mobile {
+            max-width: 275px;
+        }
+
+        &::placeholder {
+            color: #878B90;
+        }
+    }
+
+    .btn {
+        font-family: Karla;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        letter-spacing: -0.9px;
+        color: #FFFFFF;
+        min-width: 100%;
+        height: 55px;
+        border-radius: 3px;
+        padding: 0px 15px;
+        background: #FC593B;
+        margin-top: 15px;
+
+
+        @include mobile {
+            margin-top: 0;
+            min-width: 171px;
+            height: 60px;
+            margin-left: 5px;
+            margin-top: -6px;
+        }
+        @include mobile-lg {
+            min-width: 209px;
+        }
+    }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+          Feature Area-L-15
+                <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.feature-area-l-15 {
+    padding-bottom: 40px;
+    background: #E3EEF8;
+
+    @include tablet {
+        padding-bottom: 60px;
+    }
+
+    @include desktops {
+        padding-bottom: 110px;
+    }
+}
+
+.feature-area-l-15-items {
+    margin-bottom: -25px;
+
+    .col-lg-4 {
+        margin-bottom: 25px;
+    }
+
+    .content {
+        img {
+            margin-right: 25px;
+        }
+
+        .text-box {
+            margin-top: -7px;
+            padding-right: 30px;
+
+            h3 {
+                font-family: Karla;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 21px;
+                line-height: 32px;
+                letter-spacing: -1px;
+                color: #000000;
+
+            }
+
+            p {
+                font-family: Karla;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 17px;
+                line-height: 28px;
+                color: #666666;
+            }
+        }
+
+    }
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+          Content-Area-1-L-15
+                <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.content-area-l-15-1 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #258AFF;
+
+    @include tablet {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    @include desktops {
+        padding-top: 130px;
+        padding-bottom: 130px;
+    }
+
+    .content {
+        padding-top: 45px;
+
+        @include tablet  {
+            
+            padding-top: 0;
+        }
+        @include large-desktops {
+  
+        }
+        @include extra-large-desktops {
+            padding-right: 31px;
+        }
+        h6 {
+            font-family: Karla;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 18px;
+            letter-spacing: 2.8125px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            margin-bottom: 20px;
+            @include tablet {
+                margin-bottom: 30px;
+            }
+          
+            @include desktops {
+                margin-bottom: 55px;
+            }
+        }
+
+        h2 {
+            color: #FFFFFF;
+        }
+
+        p {
+            color: #E4E4E4;
+        }
+
+        .btn {
+            min-width: 210px;
+            height: 60px;
+            background: #FFFFFF;
+            border-radius: 5px;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 21px;
+            text-align: center;
+            letter-spacing: -0.9px;
+            color: #258AFF;
+            margin-top: 48px;
+
+            &:hover {
+                color: #258AFF !important;
+            }
+        }
+    }
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+          Content-Area-2-L-15
+                <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.content-area-l-15-2 {
+    padding-top:60px;
+    padding-bottom: 40px;
+    background: #E3EEF8;
+
+    @include tablet {
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+
+    @include desktops {
+        padding-top: 130px;
+        padding-bottom: 130px;
+    }
+
+    .content {
+        padding-top: 45px;
+
+        @include tablet  {
+            
+            padding-top: 0;
+        }
+        h6 {
+            font-family: Karla;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 18px;
+            letter-spacing: 2.8125px;
+            text-transform: uppercase;
+            color: #258AFF;
+            margin-bottom: 20px;
+            @include tablet {
+                margin-bottom: 30px;
+            }
+          
+            @include desktops {
+                margin-bottom: 55px;
+            }
+        }
+
+        p {
+            color: #666666;
+        }
+
+    }
+
+    .services-content-area {
+        margin-top: 40px;
+        @include tablet {
+            margin-top: 50px;
+        }
+      
+        @include desktops {
+            margin-top: 70px;
+        }
+        .services-icon {
+            background: #258AFF;
+            height: 60px;
+            width: 60px;
+            text-align: center;
+            line-height: 60px;
+            border-radius: 50%;
+            margin-bottom: 32px;
+        }
+
+        .services-content {
+            padding-right: 20px;
+            @include desktops {
+                padding-right: 20px;
+            }
+            @include large-desktops {
+                padding-right: 53px;
+            }
+            h3 {
+                font-family: Karla;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 21px;
+                line-height: 32px;
+                letter-spacing: -1px;
+                color: #000000;
+                margin-bottom: 13px;
+            }
+
+            p {
+
+                font-family: Karla;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 17px;
+                line-height: 28px;
+                color: #666666;
+            }
+
+        }
+    }
+
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+          Content-Area-3-L-15
+                <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.content-area-l-15-3 {
+    padding-bottom: 60px;
+    background: #E3EEF8;
+
+    @include tablet {
+        padding-bottom: 80px;
+    }
+
+    @include desktops {
+        padding-bottom: 130px;
+    }
+
+    .content-area-l-15-3-border {
+        border-top: 1px solid #FFFFFF;
+        margin: 0px 0px 60px 0px;
+        @include tablet {
+            margin: 0px 0px 80px 0px;
+        }
+      
+        @include desktops {
+            margin: 0px 0px 130px 0px;
+        }
+    }
+
+    .content {
+        h6 {
+            font-family: Karla;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 18px;
+            letter-spacing: 2.8125px;
+            text-transform: uppercase;
+            color: #258AFF;
+            margin-bottom: 20px;
+            @include tablet {
+                margin-bottom: 30px;
+            }
+          
+            @include desktops {
+                margin-bottom: 55px;
+            }
+        }
+
+        p {
+            color: #666666;
+        }
+
+    }
+}
+.content-area-l-15-3-main-items{
+    padding-top: 45px;
+    margin-bottom: -25px;
+    @include desktops {
+        padding-top: 0;
+    }
+   
+    .col-lg-6{
+        margin-bottom: 25px;
+    }
+}
+
+.content-area-l-15-3-items {
+    margin-bottom: -25px;
+
+    .col-lg-12 {
+        margin-bottom: 25px;
+    }
+
+    .card-content {
+        background: #FFFFFF;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.036062);
+        border-radius: 5px;
+        padding: 35px 35px 35px 35px;
+
+
+        p {
+            font-family: Rubik;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 32px;
+            letter-spacing: -0.1px;
+            color: #1F1F1F;
+        }
+
+        .user-meta {
+            img {
+                margin-right: 22px;
+            }
+
+            margin-top: 30px;
+
+            .user-info {
+                margin-top: -5px;
+
+                h5 {
+                    font-family: Karla;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 17px;
+                    line-height: 28px;
+                    letter-spacing: -0.31875px;
+                    color: #1F1F1F;
+                    margin-bottom: 0;
+                }
+
+                span {
+                    font-family: Karla;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 15px;
+                    line-height: 28px;
+                    letter-spacing: -0.4px;
+                    color: #666666;
+                    display: inline-block;
+                }
+            }
+
+        }
+    }
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+          Brand-Area-L-15
+                <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.brand-area-l-15 {
+    padding-bottom: 60px;
+    background: #E3EEF8;
+
+    @include tablet {
+        padding-bottom: 80px;
+    }
+
+    @include desktops {
+        padding-bottom: 130px;
+    }
+}
+
+.brand-area-l-15-items {
+    margin: 0px -20px -45px -20px;
+
+    .single-brand {
+        margin: 0px 20px 45px 20px;
+    }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+         Pricing-Area-L-15
+                <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+.pricing-area-l-15 {
+    background: url(../image/l5/l5-pricing-bg.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+
+}
+
+
+.pricing-area-l-15 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    @include tablet {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+  
+    @include desktops {
+        padding-top: 130px;
+    padding-bottom: 130px;
+    }
+
+    .section-heading-9 {
+        margin-bottom: 40px;
+
+        @include tablet {
+            margin-bottom: 50px;
+        }
+
+        @include desktops {
+            margin-bottom: 75px;
+        }
+
+        h6 {
+            font-family: Karla;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 18px;
+            text-align: center;
+            letter-spacing: 2.8125px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            margin-bottom: 20px;
+            @include tablet {
+                margin-bottom: 30px;
+            }
+          
+            @include desktops {
+                margin-bottom: 55px;
+            }
+        }
+
+        h2 {
+            color: #fff;
+        }
+    }
+
+
+}
+
+.pricing-area-l-15-items {
+    margin-bottom: -25px;
+    .col-xl-4{
+        margin-bottom: 25px;
+    }
+    .single-table {
+        height: 100%;
+        padding: 30px 30px 15px 30px;
+        @include mobile {
+            padding: 30px 45px 15px 45px;
+        }
+    }
+
+    .l-15-table-1 {
+        background: #2B405A;
+        border-radius: 6px;
+
+        .table-top {
+            span {
+                font-family: Karla;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 13px;
+                line-height: 32px;
+                letter-spacing: 0.433333px;
+                text-transform: uppercase;
+                color: #E5E5E5;
+                display: inline-block;
+                margin-bottom: 30px;
+
+            }
+        }
+
+        .main-price {
+            span {
+                font-family: Karla;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 30px;
+                line-height: 35px;
+                letter-spacing: -1.2px;
+                color: #FFFFFF;
+                display: inline-block;
+                margin-right: 8px;
+            }
+
+            h2 {
+                font-family: Karla;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 50px;
+                line-height: 60px;
+                letter-spacing: -2px;
+                color: #FFFFFF;
+                margin-top: -8px;
+
+                span {
+                    font-family: Karla;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 17px;
+                    line-height: 20px;
+                    letter-spacing: -0.68px;
+                    color: #FFFFFF;
+                    display: inline-block;
+                    margin-left: 5px;
+
+                }
+            }
+
+            p {
+                font-family: Karla;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 23px;
+                letter-spacing: -0.4px;
+                color: #E5E5E5;
+            }
+
+        }
+
+        .table-body {
+            margin-top: 25px;
+
+            ul {
+                li {
+                    font-family: Karla;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 17px;
+                    line-height: 32px;
+                    letter-spacing: -0.425px;
+                    color: #FFFFFF;
+                    margin-bottom: 8px;
+
+                    i {
+                        margin-right: 10px;
+                    }
+                }
+            }
+
+            .del {
+                color: #878B90;
+            }
+
+            del {
+                color: #878B90;
+            }
+        }
+
+        .table-btn {
+            .btn {
+                min-width: 190px;
+                height: 50px;
+                background: #258AFF;
+                border-radius: 5px;
+                font-family: Karla;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 21px;
+                letter-spacing: -1.06px;
+                color: #FFFFFF;
+                margin-top: 22px;
+            }
+
+            p {
+                font-family: Karla;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 28px;
+                letter-spacing: -0.4px;
+                color: #878B90;
+                margin-top: 10px;
+            }
+
+
+        }
+    }
+
+    .l-15-table-2 {
+        background: #fff;
+        border-radius: 6px;
+
+        .table-top {
+            .popular-item {
+                background: #4EAB08;
+                border-radius: 13px;
+                color: #fff;
+                padding: 0px 15px;
+            }
+
+            span {
+                font-family: Karla;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 13px;
+                line-height: 32px;
+                letter-spacing: 0.433333px;
+                text-transform: uppercase;
+                color: #666666;
+                display: inline-block;
+                margin-bottom: 30px;
+
+            }
+        }
+
+        .main-price {
+
+
+            span {
+                font-family: Karla;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 30px;
+                line-height: 35px;
+                letter-spacing: -1.2px;
+                color: #1F1F1F;
+                display: inline-block;
+                margin-right: 8px;
+            }
+
+            h2 {
+                font-family: Karla;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 50px;
+                line-height: 60px;
+                letter-spacing: -2px;
+                color: #1F1F1F;
+                margin-top: -8px;
+
+                span {
+                    font-family: Karla;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 17px;
+                    line-height: 20px;
+                    letter-spacing: -0.68px;
+                    color: #1F1F1F;
+                    display: inline-block;
+                    margin-left: 5px;
+
+                }
+            }
+
+            p {
+                font-family: Karla;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 23px;
+                letter-spacing: -0.4px;
+                color: #666666;
+            }
+
+        }
+
+        .table-body {
+            margin-top: 25px;
+
+            ul {
+                li {
+                    font-family: Karla;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 17px;
+                    line-height: 32px;
+                    letter-spacing: -0.425px;
+                    color: #1F1F1F;
+                    margin-bottom: 8px;
+
+                    i {
+                        margin-right: 10px;
+                    }
+                }
+            }
+
+        }
+
+        .table-btn {
+            .btn {
+                min-width: 190px;
+                height: 50px;
+                background: #FC593B;
+                border-radius: 5px;
+                font-family: Karla;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 21px;
+                letter-spacing: -1.06px;
+                color: #FFFFFF;
+                margin-top: 22px;
+            }
+
+            p {
+                font-family: Karla;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 28px;
+                letter-spacing: -0.4px;
+                color: #878B90;
+                margin-top: 10px;
+            }
+
+
+        }
+    }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+        Footer-Area-L-15
+                <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.footer-l-15 {
+    background: #E3EEF8;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    @include tablet {
+        padding-top: 80px;
+       padding-bottom: 50px;
+    }
+  
+    @include desktops {
+        padding-top: 130px;
+        padding-bottom: 100px;
+    }
+   
+ 
+    .content {
+       margin: 35px 0px 33px 0px;
+ 
+       p {
+          font-family: Karla;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 28px;
+          letter-spacing: -0.4px;
+          color: #666666;
+       }
+    }
+ 
+    .footer-widget {
+       p {
+          font-family: Karla;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 14px;
+          line-height: 16px;
+          letter-spacing: -0.4px;
+          color: #666666;
+          margin-bottom: 35px;
+       }
+ 
+       ul {
+          li {
+             a {
+                font-family: Karla;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 15px;
+                line-height: 40px;
+                letter-spacing: -0.4px;
+                color: #1F1F1F;
+             }
+          }
+       }
+    }
+ 
+    .social-icons {
+       margin-bottom: 50px;
+       @include desktops {
+          margin-bottom: 0;
+       }
+       ul {
+          margin: 0px -9px 0px -9px;
+ 
+          li {
+             margin: 0px 9px 0px 9px;
+ 
+             i {
+                font-size: 16px;
+                color: #1f1f1f !important;
+             }
+          }
+       }
+    }
+ }

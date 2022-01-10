@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Shade - Documentation</title>
+  <link rel="shortcut icon" href="image/png/favicon.png" type="image/x-icon">
+  <!-- Bootstrap , fonts & icons  -->
+  <!-- <link rel="stylesheet" href="plugins/plugin.css"> -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="fonts/typography-font/typo.css">
+  <link rel="stylesheet" href="fonts/fontawesome-5/css/all.css">
+  <!-- Plugin'stylesheets  -->
+  <link rel="stylesheet" href="plugins/prismJs/prism.css">
+  <!-- Vendor stylesheets  -->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- Custom stylesheet -->
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+  <div class="site-wrapper overflow-hidden " id="top">
+    <header class="doc-topbar shadow-sm">
+      <div class="container-fluid">
+        <nav class="navbar">
+          <a class="navbar-brand" href="#">
+            <img src="./image/png/company-logo.png" alt="">
+          </a>
+          <a  href="https://finestdevs.com/shade/" target="_blank" class="buy-button btn btn-primary ml-auto ml-lg-4 mr-3 mr-md-4 mr-lg-0 order-lg-3">Buy Shade</a>
+          <button class="mobile-toggle-btn" data-toggle="collapse" data-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="hamburger-box">
+              <div class="hamburger-inner"></div>
+            </div>
+          </button>
+        </nav>
+      </div>
+    </header>
+    <div class="container-fluid">
+      <div class="row">
+        <aside class="doc-sidebar--left collapse col-lg-3 col-xl-2 pt-25" id="sidebar">
+          <!-- 
+  <div class="sidebar-brand-block">
+    <a href=""><img src="./image/png/company-logo.png" alt=""></a>
+  </div> -->
+          <div class="sidebar-menu-group">
+            <h3 class="menu-title">
+              Getting Started
+            </h3>
+            <ul class="sidebar-menu">
+              <li><a href="index.html">Introduction</a></li>
+              <li><a href="file-structure.html">File Structure</a></li>
+              <li><a href="gulp.html">Gulp</a></li>
+              <!-- <li><a href="credits.html">Credits</a></li> -->
+              <li><a href="update.html">Update</a></li>
+              <li><a href="changelog.html">Change Log</a></li>
+              <li><a href="support.html">Support</a></li>
+            </ul>
+          </div>
+          <div class="sidebar-menu-group">
+            <h3 class="menu-title">
+              Theme Intro
+            </h3>
+            <ul class="sidebar-menu">
+              <li><a href="reboot.html">Reboot</a></li>
+              <li><a href="page-default.html">Page Defaults</a></li>
+              
+            </ul>
+          </div>
+          <div class="sidebar-menu-group pt--40 pt-lg--50">
+            <h3 class="menu-title">
+              How-To Guides
+            </h3>
+            <ul class="sidebar-menu">
+              <li><a href="changing-header.html">Change Header</a></li>
+             
+              <li><a href="menu-sticky.html">Make Menu Sticky</a></li>
+              <li><a href="changing-logo.html">Change Site/Brand Logo</a></li>
+              <li><a href="editing-color-scheme.html">Edit the Color Scheme</a></li>
+              <li><a href="customizing-fonts.html">Linking Google Fonts</a></li>
+              <li><a href="starter-template.html">Starter Template Code</a></li>
+              <li><a href="#">Theme Mode Guide (coming soon)</a></li>
+            </ul>
+          </div>
+          <div class="sidebar-menu-group">
+            <h3 class="menu-title">
+              Javascript and Plugins
+            </h3>
+            <ul class="sidebar-menu">
+              <li><a href="aos-doc.html">Animate On Scroll</a></li>
+              <li><a href="counter-doc.html">Counters</a></li>
+              <li><a href="slick-doc.html">Slick (Slider)</a></li>
+            </ul>
+          </div>
+        
+        </aside>
+        <div class="col-lg-9 col-xl-10 offset-xl-2 offset-lg-3">
+          <div class="row justify-content-around">
+            <div class="col-lg-10 col-xl-8 py-4 py-md-5">
+              <div class="doc-breadcrumb">
+                <h2 class="title">Animate On Scroll</h2>
+                <p>Animates elements into view as the user scrolls down the page.</p>
+              </div>
+              <hr class="my-4 my-md-5">
+              <article class="mt-4 mt-md-12" id="about-aos">
+                <h2 class="h3">About the Plugin</h2>
+                <div class="mb-3">
+                  <a class="btn btn-sm btn-primary mr-2" target="_blank" href="http://michalsnik.github.io/aos/">Website</a>
+                  <a class="btn btn-sm btn-primary mr-2" target="_blank" href="https://github.com/michalsnik/aos/tree/v2">GitHub</a>
+                  <a class="btn btn-sm btn-primary mr-2" target="_blank" href="https://www.npmjs.com/package/aos">npm</a>
+                </div>
+                <p>This feature is implemented by including the aos javascript library (V2). For a full list of options, see the project on GitHub.</p>
+                <p>Our script simply initializes the plugin globally, allowing all animation options to be specified by data-attributes on the HTML elements.</p>
+              </article>
+              <article class="mt-4 mt-md-12" id="initializing">
+                <h2 class="h3">Initializing</h2>
+                <div class="alert alert-info">
+                  <p>The demo pages already include the following code. These steps are only necessary if you are building a page from scratch. Remove these references if you are not using this plugin to improve page load times.</p>
+                </div>
+                <h6>1. Include the library in your page</h6>
+                <div class="single-block">
+                  <p class="mt-9"> Link the CSS right before the head closing tag of your page, where you see the other library scripts. This line should be inserted after <code>jquery.min.css</code> and before <code>main.css</code>.</p>
+                  <div class="code-snippet">
+                    <!-- <button class="btn btn-sm btn-primary btn-clipboard" type="button" title="" data-original-title="Copy To Clipboard">Copy</button> -->
+                    <pre class="language-html">
+          <code class="language-html" data-lang="html">
+    &lt;!-- AOS CSS --&gt;
+    &lt;link rel="stylesheet" href="plugins/aos/aos.min.css"/&gt;
+          </code>
+          </pre>
+                  </div>
+                </div>
+                <div class="single-block">
+                  <p>Copy the script tag below and paste in the foot of your page. Add this where you see the other library scripts. This line should be inserted after jquery.min.js and before custom.js.</p>
+                  <div class="code-snippet">
+                    <!-- <button class="btn btn-sm btn-primary btn-clipboard" type="button" title="" data-original-title="Copy To Clipboard">Copy</button> -->
+                    <pre class="language-html">
+        <code class="language-html" data-lang="html">
+  &lt;!-- AOS (Animate On Scroll - animates elements into view 
+  while scrolling down) --&gt;
+  &lt;script type="text/javascript" src="plugins/aos/aos.min.js"&gt;&lt;/script&gt;
+        </code>
+        </pre>
+                  </div>
+                </div>
+                <div class="single-block">
+                  <p>Alternatively you may wish to load this resource from a CDN to potentially improve page load times.</p>
+                  <div class="code-snippet">
+                    <!-- <button class="btn btn-sm btn-primary btn-clipboard" type="button" title="" data-original-title="Copy To Clipboard">Copy</button> -->
+                    <pre class="language-html">
+        <code class="language-html" data-lang="html">
+  &lt;!-- AOS (Animate On Scroll - animates elements into view 
+  while scrolling down) --&gt;
+  &lt;script type="text/javascript" src="https://unpkg.com/aos@~2.3.4"&gt;&lt;/script&gt;
+        </code>
+        </pre>
+                  </div>
+                </div>
+              </article>
+              <article id="defaults" class="mb-4 mb-md-5">
+                <h3>
+                  <p>Defaults</p>
+                </h3>
+                <div>
+                  <p>Our scripts set <code>once</code> to true globally, so elements will not animate out when leaving the viewport.</p>
+                </div>
+                <dl class="row docs-dl">
+                  <dt class="col-3"><code>once:true</code>
+                  </dt>
+                  <dd class="col-9">
+                    <p>To override, add <code>data-aos-once="false"</code> to any element you wish to animate both in and out.</p>
+                  </dd>
+                </dl>
+              </article>
+              <article id="basic-usage" class="mb-4 mb-md-5">
+                <h3>
+                  <p>Basic Usage</p>
+                </h3>
+                <p>Simply add data attribute <code>data-aos</code> to specify the desired animation. Use data attributes with prefix <code>data-aos-*</code> to configure other options on the element.</p>
+                <div class="code-snippet">
+                  <!-- <button class="btn btn-sm btn-primary btn-clipboard" type="button" title="" data-original-title="Copy To Clipboard">Copy</button> -->
+                  <pre class="language-html">
+            <code class="language-html" data-lang="html">
+  &lt;div data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000"&gt;
+    Animated in 1000 milliseconds after 500 milliseconds!
+  &lt;/div&gt;
+            </code>
+            </pre>
+                </div>
+                <p>Animations are run only once by default (on entering the viewport).</p>
+                <p>For a full list of options and built-in animations, please visit the official AOS documentation at <a href="https://github.com/michalsnik/aos/tree/v2" target="_blank">GitHub</a>.</p>
+              </article>
+            </div>
+            <div class="col-xl-2">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Vendor Scripts -->
+  <script src="plugins/jquery/jquery.min.js"></script>
+  <script src="plugins/jquery/jquery-migrate.min.js"></script>
+  <script src="plugins/bootstrap-4/js/bootstrap.bundle.min.js"></script>
+  <script src="plugins/prismJs/prism.js"></script>
+  <!-- Activation Script -->
+  <script src="js/custom.js"></script>
+</body>
+
+</html>

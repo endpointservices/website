@@ -1,0 +1,332 @@
+.background-property{
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.focus-reset:focus {
+    box-shadow: none;
+    outline: none;
+}
+.z-index-1{
+    z-index: 1;
+}
+
+.off-right-xxl-1 {
+    @include extra-large-desktops {
+        margin-right:80px;
+    }
+}
+
+.d-xs-flex{
+    @include mobile {
+        display: flex;
+    }
+}
+
+.text-xs-start{
+    @include mobile {
+    text-align: start !important;
+    }
+}
+.text-xs-center{
+    @include mobile {
+    text-align: center;
+    }
+}
+
+
+ .btn-style-01:before{
+     width: 0%;
+     height: 100%;
+     content: '';
+     margin: auto;
+     position: absolute;
+     top:  0%;
+     left: 0%;
+     border-radius: 0px;
+     background: #213053;
+     transition: all .5s;
+     z-index: -1;
+     opacity: 0;
+    
+ }
+ .btn-style-01:hover{
+     background: none !important;
+     box-shadow: none !important;
+
+ }
+ .btn-style-01:hover:before{
+     box-shadow: 0px;
+     color: $white;		
+    opacity: 1;
+    width: 100%;
+ }
+
+ /*Button Hover style 02*/
+
+
+ .btn-style-02:before{
+    width: 0%;
+    height: 100%;
+    content: '';
+    margin: auto;
+    position: absolute;
+    top:  0%;
+    left: 0%;
+    border-radius: 20px;
+    background: #213053;
+    transition: all .5s;
+    opacity: 0;
+    z-index: -1;
+   
+}
+.btn-style-02:hover{
+    background: none !important;
+    box-shadow: none !important;
+
+}
+.btn-style-02:hover:before{
+    box-shadow: 0px;
+    color: $white;		
+    opacity: 1;
+    width: 100%;
+
+}
+
+ /*Button Hover style 03*/
+
+
+ .btn-style-03:before{
+    width: 0%;
+    height: 100%;
+    content: '';
+    margin: auto;
+    position: absolute;
+    top:  0%;
+    left: 0%;
+    border-radius: 10px;
+    background: #213053;
+    transition: all .5s;
+    z-index: -1;
+    opacity: 0;
+   
+}
+.btn-style-03:hover{
+    background: none !important;
+    box-shadow: none !important;
+
+}
+.btn-style-03:hover:before{
+    box-shadow: 0px;
+    color: $white;		
+   opacity: 1;
+   width: 100%;
+
+}
+
+/*Button Hover style 04*/
+
+
+.btn-style-04:before{
+    width: 0%;
+    height: 100%;
+    content: '';
+    margin: auto;
+    position: absolute;
+    top:  0%;
+    left: 0%;
+    border-radius: 0px;
+    background: #213053;
+    transition: all .5s;
+    z-index: -1;
+    opacity: 0;
+   
+}
+.btn-style-04:hover{
+    background: none !important;
+    box-shadow: none !important;
+
+}
+.btn-style-04:hover:before{
+    box-shadow: 0px;
+    color: $white;		
+   opacity: 1;
+   width: 100%;
+
+}
+/*Button Hover style 05*/
+
+
+.btn-style-05:before{
+    width: 0%;
+    height: 100%;
+    content: '';
+    margin: auto;
+    position: absolute;
+    top:  0%;
+    left: 0%;
+    border-radius: 3px;
+    background: #213053;
+    transition: all .5s;
+    z-index: -1;
+    opacity: 0;
+   
+}
+.btn-style-05:hover{
+    background: none !important;
+    box-shadow: none !important;
+
+}
+.btn-style-05:hover:before{
+    box-shadow: 0px;
+    color: $white;		
+   opacity: 1;
+   width: 100%;
+
+}
+
+/*Button Hover style 06*/
+
+.btn-style-06 {
+    a{
+        span{
+            transition: all 0.4s ease-in-out;
+        }
+        &:hover{
+            span{
+                display: inline-block;
+                margin-left: 5px;
+            }
+        }
+    }
+  
+}
+
+/*Button Hover style 07*/
+
+.btn-style-07:before{
+    width: 0%;
+    height: 100%;
+    content: '';
+    margin: auto;
+    position: absolute;
+    top:  0%;
+    left: 0%;
+    border-radius: 3px;
+    background: #2D947A;
+    transition: all .5s;
+    z-index: -1;
+    opacity: 0;
+   
+}
+.btn-style-07:hover{
+    background: none !important;
+    box-shadow: none !important;
+
+}
+.btn-style-07:hover:before{
+    box-shadow: 0px;
+    color: $white;		
+   opacity: 1;
+   width: 100%;
+
+}
+
+
+
+
+
+img.vertical-move {
+    animation: mover 1s infinite  alternate;
+}
+
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+img.horizontal-move {
+    animation: route 2s infinite  alternate;
+}
+
+@keyframes route {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-20px); }
+}
+
+img.spin {
+    animation: rotate 15s linear infinite;
+    -webkit-animation: rotate 15s linear infinite;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(359deg);
+        -webkit-transform: rotate(359deg);
+        -moz-transform: rotate(359deg);
+        -ms-transform: rotate(359deg);
+        -o-transform: rotate(359deg);
+    }
+}
+
+
+.swing {
+    animation-name: swing;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    transform-origin: 100% 0%;
+  }
+  @keyframes swing {
+    0% {
+      transform: rotate(30deg);
+    }
+    50% {
+      transform: rotate(-60deg);
+    }
+    100% {
+      transform: rotate(30deg);
+    }
+  }
+
+  .swing-2 {
+    animation-name: swing;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    transform-origin: 100% 0%;
+  }
+  @keyframes swing {
+    0% {
+      transform: rotate(20deg);
+    }
+    50% {
+      transform: rotate(-40deg);
+    }
+    100% {
+      transform: rotate(20deg);
+    }
+  }
+
+  /*Image Hover style 01*/
+
+  .image-hover-style-01{
+    border-radius: 10px;
+      & img{
+          transition: all 0.4s ease-in-out;
+          &:hover{
+            transform: scale(1.2);
+            transition: all 1s ease-out;
+            filter: brightness(.7);
+            
+          }
+      }
+  }
+
+
+

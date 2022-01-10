@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Shade - Documentation</title>
+  <link rel="shortcut icon" href="image/png/favicon.png" type="image/x-icon">
+  <!-- Bootstrap , fonts & icons  -->
+  <!-- <link rel="stylesheet" href="plugins/plugin.css"> -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="fonts/typography-font/typo.css">
+  <link rel="stylesheet" href="fonts/fontawesome-5/css/all.css">
+  <!-- Plugin'stylesheets  -->
+  <link rel="stylesheet" href="plugins/prismJs/prism.css">
+  <!-- Vendor stylesheets  -->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- Custom stylesheet -->
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+  <div class="site-wrapper overflow-hidden " id="top">
+    <header class="doc-topbar shadow-sm">
+      <div class="container-fluid">
+        <nav class="navbar">
+          <a class="navbar-brand" href="#">
+            <img src="./image/png/company-logo.png" alt="">
+          </a>
+           <a href="https://finestdevs.com/shade/" target="_blank" class="buy-button btn btn-primary ml-auto ml-lg-4 mr-3 mr-md-4 mr-lg-0 order-lg-3">Get Shade</a>
+          <button class="mobile-toggle-btn" data-toggle="collapse" data-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="hamburger-box">
+              <div class="hamburger-inner"></div>
+            </div>
+          </button>
+        </nav>
+      </div>
+    </header>
+    <div class="container-fluid">
+      <div class="row">
+        <aside class="doc-sidebar--left collapse col-lg-3 col-xl-2 pt-25" id="sidebar">
+          <!-- 
+  <div class="sidebar-brand-block">
+    <a href=""><img src="./image/png/company-logo.png" alt=""></a>
+  </div> -->
+          <div class="sidebar-menu-group">
+            <h3 class="menu-title">
+              Getting Started
+            </h3>
+            <ul class="sidebar-menu">
+              <li><a href="index.html">Introduction</a></li>
+              <li><a href="file-structure.html">File Structure</a></li>
+              <li><a href="gulp.html">Gulp</a></li>
+              <!-- <li><a href="credits.html">Credits</a></li> -->
+              <li><a href="update.html">Update</a></li>
+              <li><a href="changelog.html">Change Log</a></li>
+              <li><a href="support.html">Support</a></li>
+            </ul>
+          </div>
+          <div class="sidebar-menu-group">
+            <h3 class="menu-title">
+              Theme Intro
+            </h3>
+            <ul class="sidebar-menu">
+              <li><a href="reboot.html">Reboot</a></li>
+              <li><a href="page-default.html">Page Defaults</a></li>
+              
+            </ul>
+          </div>
+          <div class="sidebar-menu-group pt--40 pt-lg--50">
+            <h3 class="menu-title">
+              How-To Guides
+            </h3>
+            <ul class="sidebar-menu">
+              <li><a href="changing-header.html">Change Header</a></li>
+             
+              <li><a href="menu-sticky.html">Make Menu Sticky</a></li>
+              <li><a href="changing-logo.html">Change Site/Brand Logo</a></li>
+              <li><a href="editing-color-scheme.html">Edit the Color Scheme</a></li>
+              <li><a href="customizing-fonts.html">Linking Google Fonts</a></li>
+              <li><a href="starter-template.html">Starter Template Code</a></li>
+              <li><a href="#">Theme Mode Guide (coming soon)</a></li>
+            </ul>
+          </div>
+          <div class="sidebar-menu-group">
+            <h3 class="menu-title">
+              Javascript and Plugins
+            </h3>
+            <ul class="sidebar-menu">
+              <li><a href="aos-doc.html">Animate On Scroll</a></li>
+              <li><a href="counter-doc.html">Counters</a></li>
+              <li><a href="slick-doc.html">Slick (Slider)</a></li>
+            </ul>
+          </div>
+        
+        </aside>
+        <div class="col-lg-9 col-xl-10 offset-xl-2 offset-lg-3">
+          <div class="row justify-content-around">
+            <div class="col-lg-10 col-xl-8 py-4 py-md-5">
+              <div class="doc-breadcrumb">
+                <h2 class="title">Reboot or Reset</h2>
+                <p>Reboot builds upon Normalize, providing many HTML elements with somewhat opinionated styles using only element selectors. Additional styling is done only with classes.</p>
+              </div>
+              <hr class="my-4 my-md-5">
+              <article class="mt-4 mt-md-12" id="approach">
+                <h2 class="h3 mb-8">Our guidelines and reasons for choosing what to override in Reboot:</h2>
+                <ul>
+                  <li>We have updated some browser default values to use <code class="highlighter-rouge">rem</code>s instead of <code class="highlighter-rouge">em</code>s or <code class="highlighter-rouge">px</code>s for scalable component spacing.</li>
+                  <li>In General, We have avoided <code class="highlighter-rouge">margin-top</code>. Vertical margins can collapse, yielding unexpected results. More importantly though, a single direction of <code class="highlighter-rouge">margin</code> is a simpler mental model.</li>
+                  <li>For easier scaling across device sizes, we have used <code class="highlighter-rouge">rem</code>s for <code class="highlighter-rouge">spacing</code>s and <code class="highlighter-rouge">font</code>s.</li>
+                  <li>We have kept declarations of <code class="highlighter-rouge">font</code>-related properties to a minimum, using <code class="highlighter-rouge">inherit</code> whenever possible.</li>
+                  <li>We have followed <code class="highlighter-rouge">bootstrap</code>'s themeing and utility naming conventions.</li>
+                </ul>
+              </article>
+            </div>
+            <div class="col-xl-2">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Vendor Scripts -->
+  <script src="plugins/jquery/jquery.min.js"></script>
+  <script src="plugins/jquery/jquery-migrate.min.js"></script>
+  <script src="plugins/bootstrap-4/js/bootstrap.bundle.min.js"></script>
+  <!-- Plugin's Scripts -->
+  <script src="plugins/prismJs/prism.js"></script>
+  <!-- Activation Script -->
+  <script src="js/custom.js"></script>
+</body>
+
+</html>

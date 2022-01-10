@@ -1,0 +1,601 @@
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+   Hero Area-L-19
+
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.landing-20-menu {
+    .site-menu-main .nav-link-item {
+        font-family: Karla;
+        color: #1f1f1f;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -0.4px;
+
+        i {
+            color: #1f1f1f;
+        }
+    }
+}
+
+.landing-20-menu {
+    .menu-block.active {
+        .nav-link-item i {
+            color: #000;
+        }
+    }
+}
+
+
+.landing-20-menu {
+    .site-menu-main .sub-menu--item {
+        font-family: Karla;
+        color: #1f1f1f;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -0.4px;
+    }
+}
+
+.landing-20-menu {
+    &.reveal-header .download-btn {
+        color: #1f1f1f !important;
+    }
+}
+
+.landing-20-menu.reveal-header .nav-link-item {
+    color: #1f1f1f !important;
+}
+
+.landing-20-menu.reveal-header {
+    background: #fff !important;
+}
+
+.hero-area-l-20 {
+    background: #f4fcff;
+    padding-top: 105px;
+    padding-bottom: 55px;
+
+    @include mobile {
+        padding-top: 125px;
+    }
+
+    @include tablet {
+        padding-top: 145px;
+        padding-bottom: 75px;
+    }
+
+    @include desktops {
+        padding-top: 205px;
+        padding-bottom: 185px;
+    }
+
+    .content {
+        padding-top: 45px;
+
+        @include desktops {
+            padding-top: 0;
+        }
+
+        @include large-desktops {
+            padding-right: 10px;
+        }
+        @include extra-large-desktops {
+            padding-right: 60px;
+        }
+        h1 {
+            font-family: Nunito;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 34px;
+            line-height: 44px;
+            color: #2F4B6E;
+
+            @include mobile-lg {
+                font-size: 40px;
+                line-height: 50px;
+            }
+
+            @include tablet {
+                font-size: 46px;
+                line-height: 56px;
+            }
+
+        }
+
+        p {
+
+            font-family: Nunito;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 36px;
+            color: #2F4B6E;
+            margin: 20px 0px 40px 0px;
+        }
+
+        .btn-area {
+            .btn {
+                justify-content: left;
+                background: #F8E587;
+                border-radius: 30.5px;
+                min-width: 236px;
+                height: 57px;
+                font-family: Nunito;
+                font-weight: 800;
+                font-size: 16px;
+                line-height: 22px;
+                letter-spacing: 0.888889px;
+                text-transform: uppercase;
+                color: #2F4B6E;
+
+                i {
+                    margin-right: 35px;
+                    font-size: xx-large;
+                }
+
+                &:hover {
+                    color: #2F4B6E !important;
+                }
+            }
+
+            span {
+                font-family: Nunito;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 15px;
+                line-height: 20px;
+                color: #738091;
+                display: inherit;
+                margin-top: 15px;
+            }
+        }
+    }
+
+}
+
+
+.header-btn-l-20 {
+    .get-btn {
+        background: #EFD358;
+        border-radius: 30px;
+        text-transform: uppercase;
+        min-width: 145px;
+        height: 45px;
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 14px;
+        letter-spacing: 0.777778px;
+        line-height: 19px;
+        text-align: center;
+        color: #2F4B6E;
+        margin-left: 15px;
+        &:hover {
+            color: #2F4B6E !important;
+        }
+    }
+
+
+}
+
+
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+                CTA Area-L-20
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.cta-area-l-20 {
+    background: #f4fcff;
+    padding-bottom: 55px;
+
+    @include tablet {
+        padding-bottom: 75px;
+    }
+
+    @include desktops {
+        padding-bottom: 125px;
+    }
+
+    .cta-border-l-20 {
+        border-top: 1px solid #E1E8F2;
+        margin: 60px 0px 0px 0px;
+    }
+
+    .content {
+        .icon-box {
+            & img {
+                margin-right: 35px;
+            }
+        }
+
+        .content-body {
+            p {
+                font-family: Nunito;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 21px;
+                line-height: 30px;
+                color: #2F4B6E;
+            }
+        }
+    }
+
+    .cta-l-20-1-btn {
+        margin-top: 30px;
+        @include desktops {
+            margin-top: 0;
+        }
+        .btn {
+            min-width: 278px;
+            height: 57px;
+            background: #F4FCFF;
+            border: 2px solid #D0DCEB;
+            box-sizing: border-box;
+            border-radius: 30.5px;
+            font-family: Nunito;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 16px;
+            line-height: 22px;
+            letter-spacing: 0.888889px;
+            text-transform: uppercase;
+            color: #2F4B6E;
+            &:hover{
+                color: #2F4B6E !important;
+            }
+
+        }
+    }
+}
+
+
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+            Feature Area-L-20
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.feature-area-l-19 {
+    background: linear-gradient(180deg, #f4fcff 0%, #e8f5fa 100%);
+    padding-bottom: 50px;
+
+    @include tablet {
+        border-radius: 0 0 293px;
+        padding-bottom: 70px;
+    }
+  
+    @include desktops {
+    padding-bottom: 120px;
+    }
+  
+    .section-heading-13 {
+        margin-bottom: 70px;
+    }
+}
+
+.feature-area-l-19-items {
+    margin-bottom: -30px;
+    .col-xl-3{
+        margin-bottom: 30px;
+    }
+    .single-features {
+      
+        @include mobile {
+            padding: 0px 30px;
+        }
+        @include desktops {
+            padding: 0px 15px;
+        }
+        @include large-desktops {
+            padding: 0px 30px;
+        }
+      
+        @include extra-large-desktops {
+            padding: 0px 55px;
+        }
+        h5 {
+            font-family: Nunito;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 21px;
+            line-height: 30px;
+            color: #2F4B6E;
+            margin-top: 25px;
+        }
+    }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+           Content Area 1-L-20
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.content-area-l-20-1 {
+    background: #F4FCFF;
+    padding-top: 60px;
+    @include tablet {
+        padding-top: 80px;
+    }
+  
+    @include desktops {
+        padding-top: 130px;
+        margin-bottom: -45px;
+    }
+    .content{
+        padding-top: 45px;
+        @include desktops {
+            padding-top: 0;
+        }
+    }
+}
+
+.image-bottom-shape-l-20 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: rotate(-3deg);
+    background: #f4fcff;
+    width: 100%;
+    height: 185px;
+}
+.main-image{
+    img{
+        width: 100%;
+        @include mobile {
+            width: initial;
+        }
+    }
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+             Content Area 2-L-20
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.content-area-l-20-2 {
+    background: #F4FCFF;
+ 
+    @include tablet {
+
+    }
+  
+    @include desktops {
+        margin-bottom: -145px;
+    }
+    .content{
+        padding-top: 45px;
+        @include desktops {
+            padding-top: 0;
+        }
+    }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+             Content Area 2-L-20
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.content-area-l-20-3 {
+    background: #F4FCFF;
+   
+    padding-top: 60px;
+    padding-bottom: 55px;
+    @include tablet {
+        padding-top: 80px;
+        padding-bottom: 75px;
+    }
+  
+    @include desktops {
+        padding-top: 100px;
+        padding-bottom: 90px;
+        margin-bottom: -135px;
+    }
+    .content{
+        padding-top: 45px;
+        @include desktops {
+            padding-top: 0;
+        }
+    }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+             Testimonial Area L-20
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.testimonial-area-l-20 {
+    background: url(../image/l11/testimonial-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    @include tablet {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+  
+    @include desktops {
+        padding-top: 160px;
+    padding-bottom: 170px;
+    }
+    .btn-area {
+        .btn {
+            justify-content: left;
+            min-width: 285px;
+            height: 57px;
+            background: #F8E587;
+            border: 2px solid #2F4B6E;
+            border-radius: 30.5px;
+            font-family: Nunito;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 16px;
+            line-height: 22px;
+            letter-spacing: 0.888889px;
+            text-transform: uppercase;
+            color: #2F4B6E;
+            margin-top: 40px;
+
+            i {
+                margin-right: 35px;
+                font-size: x-large;
+            }
+
+            &:hover {
+                color: #2F4B6E !important;
+            }
+        }
+    }
+
+    .image-group {
+        .image-1 {
+            position: absolute;
+            top: 80px;
+            left: 0;
+            z-index: 1;
+
+            & img{
+                @include large-desktops {
+                    width: 85%;
+                }
+              
+                @include extra-large-desktops {
+                    width: initial;
+                }
+            }
+         
+        }
+
+        .image-2 {
+            position: absolute;
+            bottom: -20%;
+            left: 0;
+            z-index: 1;
+        }
+
+        .image-3 {
+            position: absolute;
+            top: -40px;
+            right: 0;
+            z-index: 1;
+            & img{
+                @include large-desktops {
+                    width: 85%;
+                }
+              
+                @include extra-large-desktops {
+                    width: initial;
+                }
+            }
+        }
+
+        .image-4 {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+    }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+             CTA Area-2 L-20
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.cta-area-l-20-2 {
+    background: #F4FCFF;
+    padding-top: 60px;
+    @include tablet {
+        padding-top: 80px;
+    }
+  
+    @include desktops {
+        padding-top: 130px;
+    }
+    .btn-area {
+        .btn {
+            justify-content: left;
+            min-width: 285px;
+            height: 57px;
+            background: #F8E587;
+            border-radius: 30.5px;
+            font-family: Nunito;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 16px;
+            line-height: 22px;
+            letter-spacing: 0.888889px;
+            text-transform: uppercase;
+            color: #2F4B6E;
+            margin-top: 40px;
+
+            i {
+                margin-right: 35px;
+                font-size: x-large;
+            }
+
+            &:hover {
+                color: #2F4B6E !important;
+            }
+        }
+    }
+
+    & img {
+        margin-top: 80px;
+    }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+             Footer Area L-20
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.footer-area-l-20 {
+    background: #E6F8FF;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    @include tablet {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+
+
+    .social-icons {
+        ul {
+            margin: 0px -3px;
+
+            li {
+                margin: 0px 3px;
+
+                a {
+                    i {
+                        height: 40px;
+                        width: 40px;
+                        line-height: 40px;
+                        text-align: center;
+                        border-radius: 50%;
+                        background: #E6F8FF;
+                        border: 2px solid #D0DCEB;
+                        color: #738091;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+
+    }
+
+    p {
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        color: #2F4B6E;
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+}

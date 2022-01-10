@@ -1,0 +1,768 @@
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+   Hero Area-L3
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.hero-area-l3 {
+   position: relative;
+   z-index: 1;
+   padding-top: 100px;
+   padding-bottom: 50px;
+   overflow: hidden;
+
+   &::after {
+      position: absolute;
+      content: "";
+      background: rgba(12, 20, 38, 0.4);
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: -1;
+   }
+
+   &.background-property {
+      background-position: left top !important;
+      background-attachment: fixed !important;
+   }
+
+   @include mobile-lg {
+      padding-top: 100px;
+      padding-bottom: 60px;
+   }
+
+   @include tablet {
+      padding-top: 120px;
+      padding-bottom: 80px;
+   }
+
+   @include desktops {
+      padding-top: 245px;
+      padding-bottom: 200px;
+   }
+
+   .content {
+
+      @include desktops {
+         padding-top: 0;
+
+      }
+
+      h2 {
+         color: $white;
+         font-size: 34px;
+         font-weight: 600;
+         font-style: normal;
+         letter-spacing: -1px;
+         line-height: 40px;
+         margin-bottom: 30px;
+
+         @include mobile-lg {
+            font-size: 40px;
+            line-height: 46px;
+         }
+
+         @include tablet {
+            font-size: 48px;
+            line-height: 54px;
+            margin-bottom: 50px;
+         }
+
+         @include desktops {
+            font-size: 70px;
+            line-height: 77px;
+         }
+
+
+      }
+
+      p {
+         opacity: 0.8;
+         color: $white;
+         font-size: 21px;
+         font-weight: 400;
+         font-style: normal;
+         letter-spacing: normal;
+         line-height: 32px;
+      }
+
+   }
+
+   .banner-content {
+      position: relative;
+      z-index: 2;
+
+      .hero-l3-shape-2 {
+         position: absolute;
+         top: -20%;
+         right: 0%;
+         z-index: -1;
+
+         @include tablet {
+            right: -16%;
+         }
+
+         @include desktops {
+            right: 0%;
+         }
+
+         @include large-desktops {
+            right: -16%;
+         }
+
+         @include extra-large-desktops {
+            right: -21%;
+         }
+      }
+   }
+}
+
+.hero-l3-shape-1 {
+   position: absolute;
+   bottom: -10%;
+   left: 0;
+}
+
+.hero-l3-btn-group {
+   margin-top: 30px;
+
+   @include tablet {
+      margin-top: 50px;
+   }
+}
+
+.lets-talk-btn {
+   background: $java;
+   min-width: 180px;
+   height: 60px;
+   font-weight: 600;
+   font-size: 21px;
+   line-height: 30px;
+   border-radius: 0;
+   color: $white;
+   @include tablet  {
+      min-width: 218px;
+      height: 85px;
+   }
+}
+
+.view-works-btn {
+   font-weight: 600;
+   font-size: 21px;
+   line-height: 30px;
+   color: $white;
+    margin-top: 20px;
+   @include mobile {
+      margin-top: 0;
+      margin-left: 30px;
+   }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+  Feature Area-L3
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.feature-area-l3 {
+   overflow: hidden;
+   border-bottom: 1px solid $alto;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   @include tablet {
+      padding-top: 70px;
+      padding-bottom: 70px;
+   }
+   @include desktops {
+      padding-top: 0px;
+   padding-bottom: 0px;
+   }
+}
+
+.feature-l3-1-items {
+   margin-bottom: -25px;
+
+   .col-lg-4 {
+      margin-bottom: 25px;
+
+      &:nth-child(1) {
+         @include desktops {
+            border-right: 1px solid $alto;
+         }
+
+      }
+
+      &:nth-child(2) {
+         @include desktops {
+            border-right: 1px solid $alto;
+         }
+      }
+   }
+
+   .feature-card {
+      
+      @include desktops {
+         padding: 65px 0px 68px 10px;
+      }
+    
+      .number {
+         span {
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 42px;
+            letter-spacing: -1px;
+            color: $java;
+            opacity: 0.3;
+            margin-right: 40px;
+         }
+      }
+
+      .content {
+         h4 {
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 40px;
+            letter-spacing: -0.5px;
+            color: $mirage;
+         }
+
+         p {
+            font-size: 17px;
+            line-height: 30px;
+            color: $mirage;
+            opacity: 0.8;
+            margin-bottom: 0;
+         }
+      }
+   }
+}
+
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+    Content Area-L3
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.content-are-l3-1{
+   padding-top: 50px;
+   padding-bottom: 50px;
+   @include tablet {
+      padding-top: 75px;
+      padding-bottom: 70px;
+   }
+ 
+   @include desktops {
+      padding-top: 130px;
+      padding-bottom: 120px;
+   }
+}
+
+.content-l3-1-image {
+   position: relative;
+   padding-top: 45px;
+
+   @include tablet {
+      padding-top: 50px;
+     
+   }
+   @include desktops {
+      padding-top: 0px;
+     
+   }
+
+   .counter-box-l3 {
+      background: $secondary;
+      padding: 45px 30px 45px 30px;
+      box-shadow: 0px 54px 100px -10px rgba(255, 121, 77, 0.3);
+      @include mobile-lg {
+         padding: 65px 30px 70px 30px;
+      }
+      @include tablet {
+         padding: 65px 65px 70px 65px;
+         position: absolute;
+         top: 50%;
+         left: 4%;
+         transform: translate(-50%, -50%);
+        
+      }
+    
+      @include desktops {
+         left: -10%;
+      }
+      .counter-items {
+         margin-bottom: -45px;
+         @include mobile-lg {
+            margin-bottom: -70px;
+         }
+
+         .counter-content {
+            margin-bottom: 45px;
+            @include mobile-lg {
+               margin-bottom: 70px;
+            }
+         }
+      }
+
+      h2 {
+         font-weight: 600;
+         font-size: 36px;
+         line-height: 47px;
+         letter-spacing: -1px;
+         color: $white;
+         @include mobile-lg {
+            font-size: 48px;
+            line-height: 58px;
+         }
+      }
+
+      p {
+         font-size: 21px;
+         line-height: 32px;
+         color: $white;
+         opacity: 0.8;
+         margin-top: 10px;
+      }
+
+
+
+   }
+}
+
+.content-are-l3-1-content {
+   padding-right: 0px;
+
+   @include extra-large-desktops {
+      padding-right: 75px;
+   }
+
+   .lets-talk-btn {
+      margin-top: 48px;
+   }
+}
+
+
+
+
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+   Case Study Area-L3
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.case-study-area-l3 {
+   padding-bottom: 10px;
+   @include tablet {
+      padding-bottom: 10px;
+   }
+ 
+   @include desktops {
+      padding-top: 0;
+      padding-bottom: 60px;
+   }
+}
+
+.case-study-items-l3 {
+   margin-bottom: -30px;
+   padding-top: 30px;
+
+   @include desktops {
+      padding-top: 52px;
+   }
+
+   .col-lg-5 {
+      margin-bottom: 30px;
+   }
+
+   .col-lg-6 {
+      margin-bottom: 30px;
+   }
+
+   .image-content-box {
+      .content {
+         padding-top: 35px;
+         padding-bottom: 25px;
+         @include tablet {
+            padding-top: 50px;
+            padding-bottom: 45px;
+         }
+         h4 {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 32px;
+            letter-spacing: -0.3px;
+         }
+
+         p {
+            font-size: 17px;
+            line-height: 30px;
+            color: $mirage;
+            opacity: 0.8;
+         }
+      }
+   }
+
+}
+
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+   Services Area-L3
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.service-area-l3 {
+   padding-top: 50px;
+   padding-bottom: 60px;
+
+   @include tablet {
+      padding-top: 70px;
+      padding-bottom: 80px;
+   }
+
+   @include desktops {
+      padding-top: 120px;
+      padding-bottom: 105px;
+
+   }
+}
+
+.service-l3-content {
+   h2 {
+      color: $black;
+      margin-bottom: 40px;
+      @include tablet {
+         margin-bottom: 60px;
+      }
+    
+      @include desktops {
+         margin-bottom: 80px;
+      }
+   }
+}
+
+.service-card-area {
+   margin-bottom: -20px;
+   @include tablet {
+      margin-bottom: -45px;
+   }
+ 
+   .service-single-card {
+      margin-bottom: 20px;
+      @include tablet {
+         margin-bottom: 45px;
+      }
+    
+      .icon-box {
+         position: relative;
+         z-index: 1;
+
+         .icon-bg {
+            position: absolute;
+    top: -20px;
+    left: -15px;
+    z-index: -1;
+    @include mobile-lg {
+      left: -35px;
+   }
+         }
+
+         .icon-bg-2 {
+            position: absolute;
+            top: 0;
+            left: -10px;
+            z-index: -1;
+            @include mobile-lg {
+               left: -20px;
+            }
+         }
+      }
+
+      .content-box {
+         margin-left: 30px;
+
+         h4 {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 32px;
+            letter-spacing: -0.3px;
+            color: $mirage;
+            margin-bottom: 20px;
+         }
+
+         p {
+            font-size: 17px;
+            line-height: 30px;
+            color: $mirage;
+            opacity: 0.8;
+         }
+      }
+   }
+}
+
+.service-l3-card-right {
+   position: relative;
+   background: $white;
+   padding: 30px 30px 25px 30px;
+   margin-top: 45px;
+   @include mobile-lg {
+      padding: 40px 30px 25px 30px;
+   }
+ 
+   @include tablet {
+      padding: 50px 65px 45px 65px;
+   }
+   
+  @include desktops {
+    margin-top: 0;
+}
+   h4 {
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 32px;
+      letter-spacing: -0.3px;
+      color: $mirage;
+      margin-bottom: 20px;
+   }
+
+   p {
+      font-size: 17px;
+      line-height: 30px;
+      color: $mirage;
+      opacity: 0.8;
+   }
+
+   .btn {
+      font-weight: 600;
+      font-size: 17px;
+      line-height: 30px;
+      color: $secondary;
+      padding: 0;
+      border: 0;
+
+      &:hover {
+         color: $secondary !important;
+      }
+      i{
+         margin-left: 25px;
+      }
+   }
+
+   .ser-card-right-shape{
+      position: absolute;
+      top: -35%;
+      right: 2%;
+   }
+
+
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+   Contact form Area-L3
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.contact-form-l3-area {
+   padding-top: 50px;
+   padding-bottom: 60px;
+
+   @include tablet {
+      padding-top: 70px;
+      padding-bottom: 80px;
+   }
+
+   @include desktops {
+      padding-top: 120px;
+      padding-bottom: 130px;
+   }
+
+   .section__heading {
+      h2 {
+         color: $white;
+         margin-bottom: 25px;
+
+         @include tablet {
+            margin-bottom: 37px;
+         }
+
+         @include desktops {
+            margin-bottom: 57px;
+         }
+      }
+   }
+}
+.contact-form-box{
+   
+  @include desktops {
+   margin: 0px 50px;
+}
+   
+}
+.contact-form-l3 {
+   background: $white;
+   padding: 30px;
+   @include mobile-lg {
+      padding: 30px 45px 40px 45px;
+   }
+ 
+   .form-group {
+      margin-bottom: 30px;
+   }
+
+   label {
+      font-weight: 600;
+      font-size: 17px;
+      line-height: 30px;
+      color: $mirage;
+      margin-bottom: 5px;
+   }
+
+   .form-control {
+      font-size: 15px;
+      line-height: 28px;
+      color: $mirage;
+      opacity: 0.5;
+      border-left: 0;
+      border-right: 0;
+      border-top: 0;
+      border-bottom: 1px solid rgba(10, 4, 60, 0.15);
+      border-radius: 0;
+      padding-left: 0;
+
+      &::placeholder {
+         color: $mirage;
+         opacity: 0.5;
+      }
+   }
+
+   textarea {
+      height: 100px;
+      @include tablet {
+         height: 184px;
+      }
+   }
+
+   .btn {
+      background: $java;
+      border-radius: 0;
+      width: 100%;
+      height: 60px;
+      font-weight: 600;
+      font-size: 21px;
+      line-height: 30px;
+      color: $white;
+      @include tablet {
+         height: 85px;
+      }
+
+   }
+}
+.contact-l3-image-group{
+   .image-1{
+      position: absolute;
+      top: 10%;
+      left: -12%;
+      @include desktops {
+         left: 0%;
+      }
+   }
+   .image-2{
+      position: absolute;
+      top: 45%;
+      left: 27%;
+      transform: translate(-50%,-50%);
+   }
+   .image-3{
+      position: absolute;
+      top: 24%;
+      right: 28%;
+      transform: translate(-50%,-50%);
+   }
+   .image-4{
+      position: absolute;
+      bottom: 30%;
+      right: -6%;
+      @include desktops {
+         right: 0%;
+      }
+   }
+   .image-5{
+      position: absolute;
+      bottom: 18%;
+      right: 20%;
+      transform: translate(-50%,-50%);
+   }
+   .image-6{
+      position: absolute;
+      bottom: -13%;
+      left: 10%;
+      @include desktops {
+         bottom: -5%;
+      }
+   }
+}
+
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+   Footer Area-L3
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.footer-area-l3 {
+   padding-top: 60px;
+   padding-bottom: 50px;
+   @include tablet {
+      padding-top: 80px;
+      padding-bottom: 70px;
+   }
+ 
+   @include desktops {
+      padding-top: 100px;
+   padding-bottom: 100px;
+   }
+}
+
+.footer-l3-area-items {
+   margin-bottom: -30px;
+   .col-xl-4{
+      margin-bottom: 30px;
+   }
+   .col-xl-2{
+      margin-bottom: 30px;
+   }
+   .footer-content-l3 {
+      & img {
+         margin-bottom: 50px;
+      }
+
+      p {
+         font-size: 17px;
+         line-height: 30px;
+         color: $mirage;
+         opacity: 0.8;
+      }
+   }
+
+   h3 {
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 26px;
+      color: $mirage;
+      opacity: 0.6;
+      margin-bottom: 30px;
+      @include desktops {
+         margin-bottom: 43px;
+      }
+   }
+
+   ul {
+      margin-bottom: -20px;
+
+      li {
+         margin-bottom: 20px;
+
+         a {
+            font-weight: 600;
+            font-size: 17px;
+            line-height: 30px;
+            color: $mirage;
+
+         }
+      }
+   }
+}

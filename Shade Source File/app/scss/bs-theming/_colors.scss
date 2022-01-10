@@ -1,0 +1,140 @@
+$white :#fff;
+$black :#000;
+$green :green;
+$secondary :#FF7139;
+$primary :#1787FC;
+$zumthor :#EBF5FF;
+$cloudburst :#213053;
+$mirage :#1D263A;
+$blackrock :#0A043C;
+$skeptic :#D6EBE4;
+$java :#20BFA9;
+$coral :#FF794D;
+$sunglow :#FFCD28;
+$electricviolet :#9447F5;
+$sandal :#A98A6C;
+$wattle :#C4D944;
+$razzle :#FF4DC2;
+$catskill :#E6EAF4;
+$alto :#DFDFDF;
+$athensgray :#F9FAFB;
+$raven :#7F828A;
+$silver :#C4C4C4;
+$ebony :#222831;
+$lochinvar :#2D947A;
+$alabaster :#F9F9F9;
+
+
+
+
+$theme-colors: ();
+$theme-colors: map-merge(("primary" : $primary,
+    "secondary" : $secondary,
+
+  ),
+  $theme-colors);
+
+$colors: ("white": $white,
+  "black": $black,
+  "green": $green,
+  "secondary": $secondary,
+  "primary": $primary,
+  "zumthor": $zumthor,
+  "cloudburst": $cloudburst,
+  "mirage": $mirage,
+  "blackrock": $blackrock,
+  "skeptic": $skeptic,
+  "java": $java,
+  "coral": $coral,
+  "sunglow": $sunglow,
+  "electricviolet": $electricviolet,
+  "sandal": $sandal,
+  "wattle": $wattle,
+  "razzle": $razzle,
+  "catskill": $catskill,
+  "alto": $alto,
+  "athensgray": $athensgray,
+  "raven": $raven,
+  "silver": $silver,
+  "ebony": $ebony,
+  "lochinvar": $lochinvar,
+  "alabaster": $alabaster,
+
+
+);
+
+// Create your own map
+$custom-colors: ("custom-color": #900);
+
+// Merge the maps
+$theme-colors: (map-merge($theme-colors, $custom-colors));
+
+// For button color
+
+$btn-colors:("black" : $black,
+  "secondary" : $secondary,
+
+);
+
+$backgroundColors:("white" : $white,
+  "black": $black,
+  "green": $green,
+  "secondary": $secondary,
+  "primary": $primary,
+  "zumthor": $zumthor,
+  "cloudburst": $cloudburst,
+  "mirage": $mirage,
+  "blackrock": $blackrock,
+  "skeptic": $skeptic,
+  "java": $java,
+  "coral": $coral,
+  "sunglow": $sunglow,
+  "electricviolet": $electricviolet,
+  "sandal": $sandal,
+  "wattle": $wattle,
+  "razzle": $razzle,
+  "catskill": $catskill,
+  "alto": $alto,
+  "athensgray": $athensgray,
+  "raven": $raven,
+  "silver": $silver,
+  "ebony": $ebony,
+  "lochinvar": $lochinvar,
+  "alabaster": $alabaster,
+  
+
+);
+
+$TextColors:("white" : $white,
+"black": $black,
+"green": $green,
+"secondary": $secondary,
+"primary": $primary,
+"zumthor": $zumthor,
+"cloudburst": $cloudburst,
+"mirage": $mirage,
+"blackrock": $blackrock,
+"skeptic": $skeptic,
+"java": $java,
+"coral": $coral,
+"sunglow": $sunglow,
+"electricviolet": $electricviolet,
+"sandal": $sandal,
+"wattle": $wattle,
+"razzle": $razzle,
+"catskill": $catskill,
+"alto": $alto,
+"athensgray": $athensgray,
+"raven": $raven,
+"silver": $silver,
+"ebony": $ebony,
+"lochinvar": $lochinvar,
+"alabaster": $alabaster,
+
+
+
+);
+
+
+// For button color
+$border-colors:("black" : $black);

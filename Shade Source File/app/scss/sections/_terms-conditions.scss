@@ -1,0 +1,81 @@
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+    Terms & Conditions main Page
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.inner-terms-banner {
+    background: #F9FAFB;
+    padding-top: 123px;
+    padding-bottom: 10px;
+    position: relative;
+
+    @include mobile {
+        padding-top: 130px;
+    }
+
+    @include tablet {
+        padding-top: 152px;
+        padding-bottom: 20px;
+    }
+
+    @include desktops {
+        padding-top: 200px;
+        padding-bottom: 60px;
+    }
+}
+
+.terms-condition-area {
+    background: #F9FAFB;
+    padding-bottom: 35px;
+
+    @include tablet {
+        padding-bottom: 55px;
+    }
+
+    @include desktops {
+        padding-bottom: 115px;
+    }
+}
+
+.terms-condition-area {
+    p {
+        font-size: 17px;
+        line-height: 30px;
+        color: #696871;
+    }
+    h4{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 21px;
+        line-height: 30px;
+        color: #1D263A; 
+        margin-top: 35px;
+    margin-bottom: 17px; 
+    }
+
+    .skills-qualification {
+        margin-bottom: 50px;
+
+        ul {
+            margin-top: 35px;
+            margin-bottom: -18px;
+
+            li {
+                margin-bottom: 18px;
+                display: flex;
+                font-size: 17px;
+                line-height: 30px;
+                color: #696871;
+
+                i {
+                    font-size: 9px;
+                    color: #19191B;
+                    margin-right: 15px;
+                }
+                span{
+                    display: inline-block;
+                    margin-top: -8px;
+                }
+            }
+        }
+    }
+}

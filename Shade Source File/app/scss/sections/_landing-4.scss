@@ -1,0 +1,657 @@
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+   Hero Area-L4
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+.hero-area-l4 {
+   position: relative;
+   z-index: 1;
+   padding-top: 100px;
+   padding-bottom: 35px;
+
+   &.background-property {
+      background-position: 75% 0% !important;
+
+      @include extra-large-desktops {
+         background-position: 100% 0% !important;
+      }
+
+   }
+
+   @include mobile {
+      padding-top: 130px;
+   }
+
+   @include tablet {
+      padding-top: 150px;
+      padding-bottom: 55px;
+   }
+
+   @include desktops {
+      padding-top: 245px;
+      padding-bottom: 200px;
+   }
+
+   .content {
+
+      @include desktops {
+         padding-top: 0;
+
+      }
+
+      h2 {
+         color: $white;
+         font-size: 34px;
+         font-weight: 600;
+         font-style: normal;
+         letter-spacing: -1px;
+         line-height: 40px;
+         margin-bottom: 30px;
+
+         @include mobile-lg {
+            font-size: 40px;
+            line-height: 46px;
+         }
+
+         @include tablet {
+            font-size: 48px;
+            line-height: 54px;
+            margin-bottom: 40px;
+         }
+
+         @include desktops {
+            font-size: 80px;
+            line-height: 86px;
+            margin-bottom: 55px;
+         }
+
+
+      }
+
+      p {
+         color: $white;
+         font-size: 15px;
+         font-weight: 400;
+         font-style: normal;
+         letter-spacing: normal;
+         line-height: 28px;
+         margin-top: 40px;
+      }
+
+   }
+
+}
+
+.hero-l4-btn {
+   .btn {
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 13px;
+      letter-spacing: 4px;
+      border-radius: 0;
+      color: $mirage;
+      width: 100%;
+      height: 60px;
+      background: $sunglow;
+
+      @include mobile {
+         font-size: 17px;
+      }
+
+      @include mobile-lg {
+         width: 416px;
+         height: 70px;
+      }
+
+      @include tablet {
+         width: 416px;
+         height: 90px;
+      }
+   }
+
+}
+
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+   Counter Area-L4
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.counter-area-l4 {
+   padding-top: 60px;
+   padding-bottom: 60px;
+
+   @include tablet {
+      padding-top: 80px;
+      padding-bottom: 80px;
+   }
+
+   @include desktops {
+      padding-top: 127px;
+      padding-bottom: 130px;
+   }
+}
+
+.counter-area-l4-items {
+   margin-bottom: -30px;
+
+   .col-lg-3 {
+      margin-bottom: 30px;
+   }
+
+   .counter-wrapper {
+      padding-bottom: 10px;
+      border-bottom: 3px solid rgba(29, 36, 58, 0.1);
+      transition: all 0.4s ease-in-out;
+
+      @include tablet {
+         margin-right: 30px;
+         padding-bottom: 30px;
+      }
+
+      @include extra-large-desktops {
+         margin-right: 60px;
+      }
+
+      &:hover {
+         border-bottom: 3px solid $sunglow;
+      }
+   }
+
+
+   .count-number {
+      h2 {
+         font-weight: 600;
+         font-size: 36px;
+         line-height: 42px;
+         color: $mirage;
+         margin-bottom: 20px;
+
+         @include tablet {
+            font-size: 48px;
+            line-height: 42px;
+            margin-bottom: 40px;
+         }
+      }
+   }
+
+   .count-content {
+      p {
+         font-weight: normal;
+         font-size: 18px;
+         line-height: 32px;
+         color: $mirage;
+      }
+   }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+   Content Area-L4 1
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.content-area-l4-1 {
+   padding-bottom: 50px;
+
+   @include tablet {
+      padding-bottom: 67px;
+   }
+
+   @include desktops {
+      padding-bottom: 120px;
+   }
+
+}
+
+.content-l4-image-1 {
+   @include desktops {
+      padding-right: 55px;
+   }
+}
+
+.content-l4-image-2 {
+   padding-top: 45px;
+
+   @include desktops {
+      padding-top: 0;
+   }
+}
+
+.content-l4-content-1 {
+   padding-top: 45px;
+
+   @include tablet {
+      padding-top: 0;
+   }
+
+   @include desktops {
+      margin-left: -145px;
+   }
+
+   @include large-desktops {
+      padding-right: 15px;
+   }
+
+   @include extra-large-desktops {
+      padding-right: 75px;
+   }
+
+}
+
+.con-1-l4-learn-btn {
+   .btn {
+      text-transform: uppercase;
+      background: $sunglow;
+      width: 241px;
+      height: 76px;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 26px;
+      letter-spacing: 4px;
+      border-radius: 0;
+      color: $mirage;
+      margin-top: 40px;
+   }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+   Servic Area-L4 1
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.service-area-l4-1 {
+   padding-bottom: 60px;
+
+   @include tablet {
+      padding-bottom: 80px;
+   }
+
+   @include desktops {
+      padding-bottom: 130px;
+   }
+}
+
+.service-l4-head-content {
+
+   @include large-desktops {
+      margin-left: -30px;
+   }
+}
+
+.service-l4-card-items {
+   padding-top: 50px;
+   margin-bottom: -30px;
+
+   @include tablet {
+      padding-top: 70px;
+   }
+
+   @include desktops {
+      padding-top: 105px;
+   }
+
+   .col-lg-4 {
+      margin-bottom: 30px;
+   }
+}
+
+.service-l4-card {
+   padding: 45px 0px 0px 50px;
+   background: $zumthor;
+   transition: all 0.4s ease-in-out;
+
+   .content {
+      padding-right: 30px;
+   }
+
+   h4 {
+      font-weight: 600;
+      font-size: 21px;
+      line-height: 30px;
+      color: $mirage;
+   }
+
+   p {
+      font-size: 17px;
+      line-height: 30px;
+      color: $mirage;
+      padding: 25px 0px 25px 0px;
+   }
+
+   .number-icon-area {
+      .icon {
+         & img {}
+      }
+
+      .number {
+         h1 {
+            font-weight: 600;
+            font-size: 96px;
+            line-height: 65px;
+            letter-spacing: -1px;
+            color: $black;
+            opacity: 0.05;
+            margin-bottom: 0;
+            margin-right: -4px;
+            transition: all 0.4s ease-in-out;
+         }
+      }
+   }
+
+   &:hover {
+      background: $sunglow;
+
+      .number {
+         h1 {
+            opacity: 1;
+         }
+      }
+
+   }
+}
+
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+   Testimonial Area-L4
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.tastimonial-area-l4 {
+   padding-bottom: 60px;
+
+   @include tablet {
+      padding-bottom: 80px;
+   }
+
+   @include desktops {
+      padding-bottom: 130px;
+   }
+}
+
+.testimonial-l4-content {
+   .quote-icon {
+      & img {
+         margin-right: 40px;
+      }
+   }
+
+   .content-box {
+      h3 {
+         font-weight: 600;
+         font-size: 32px;
+         line-height: 42px;
+         letter-spacing: -1px;
+         color: $ebony;
+      }
+   }
+
+   .user-identity {
+      margin-top: 55px;
+
+      & img {
+         margin-right: 20px;
+      }
+
+      h6 {
+         font-weight: 600;
+         font-size: 17px;
+         line-height: 30px;
+         letter-spacing: 2px;
+         text-transform: uppercase;
+         color: $mirage;
+         margin-bottom: 4px;
+      }
+
+      span {
+         font-size: 17px;
+         line-height: 30px;
+         color: $mirage;
+         opacity: 0.8;
+      }
+   }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+   Content Area-L4 2
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.content-area-l4-12 {
+   padding-bottom: 60px;
+
+   @include tablet {
+      padding-bottom: 80px;
+   }
+
+   @include desktops {
+      padding-bottom: 100px;
+   }
+
+   .col-lg-6 {
+      padding: 0;
+   }
+
+   .container{
+      padding: 0px 25px;
+   }
+
+}
+
+.contant-area-2-l4-content {
+   height: 100%;
+   padding: 45px 30px 55px 30px;
+   @include mobile {
+      padding: 45px 55px 55px 55px;
+   }
+   @include desktops {
+      padding: 50px 25px 40px 25px;
+   }
+   @include large-desktops {
+      padding: 72px 50px 50px 50px;
+   }
+   @include extra-large-desktops {
+      padding: 125px 95px 125px 95px;
+   }
+ 
+
+   h2 {
+      color: $white;
+      margin-bottom: 35px;
+      font-size: 36px;
+      @include desktops {
+         font-size: 38px;
+         margin-bottom: 25px;
+    
+      }
+      @include large-desktops {
+         margin-bottom: 35px;
+         font-size: 48px;
+      }
+    
+   }
+
+   p {
+      color: $white;
+      opacity: 0.8;
+   }
+}
+
+.l4-learn-btn {
+   .btn {
+      text-transform: uppercase;
+      background: $sunglow;
+      width: 100%;
+      height: 60px;
+      font-weight: 600;
+      font-size: 15px;
+      border-radius: 0;
+      line-height: 26px;
+      letter-spacing: 4px;
+      color: $mirage;
+      margin-top: 50px;
+      @include mobile {
+         width: 242px;
+         height: 76px;
+      }
+      @include desktops {
+         height: 60px;
+      }
+      @include large-desktops {
+         height: 76px;
+      }
+   }
+}
+
+.cta-l4-items {
+   padding-top: 50px;
+   @include tablet {
+      padding-top: 70px;
+   }
+ 
+   @include desktops {
+      padding-top: 120px;
+   }
+ 
+}
+
+.cta-l4-btn {
+   .btn {
+      text-transform: uppercase;
+      background: $sunglow;
+      width: 100%;
+      height: 60px;
+      font-weight: 600;
+      font-size: 15px;
+      border-radius: 0;
+      line-height: 26px;
+      letter-spacing: 4px;
+      color: $mirage;
+      margin-top: 45px;
+      @include mobile {
+         width: 294px;
+         height: 76px;
+      }
+      @include desktops {
+         margin-top: 0;
+         width:100%;
+      }
+      @include large-desktops {
+         width: 294px;
+      }
+    
+   }
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+   Footer Area-L4 
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.footer-area-l4 {
+   padding-top: 55px;
+   padding-bottom: 35px;
+   @include tablet {
+      padding-top: 75px;
+      padding-bottom: 45px;
+   }
+ 
+   @include desktops {
+      padding-top: 125px;
+   }
+}
+
+.footer-l4-area-items {
+   h3 {
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 26px;
+      letter-spacing: 3px;
+      color: $white;
+      opacity: 0.5;
+      margin-bottom: 35px;
+      @include tablet {
+         margin-bottom: 40px;
+      }
+    
+      @include desktops {
+         margin-bottom: 45px;
+      }
+   }
+
+   p {
+      font-weight: 600;
+      font-size: 21px;
+      line-height: 30px;
+      color: $white;
+   }
+}
+
+.contact-form-l4 {
+   .name-email-area{
+      margin: 0px -10px 0px -10px;
+      .form-group{
+         margin: 0px 10px 0px 10px;
+      }
+   }
+   .form-group{
+      margin-bottom: 20px !important;
+     
+      @include mobile-lg {
+         width: 100%;
+      }
+   }
+   .form-control {
+      background: transparent;
+      border: 1px solid #828282;
+      height: 65px;
+      font-size: 15px;
+      line-height: 28px;
+      color: #828282;
+      border-radius: 0;
+      padding-left: 25px;
+
+      &::placeholder {
+         color: #828282;
+      }
+   }
+
+   .send-btn {
+      .btn {
+         text-transform: uppercase;
+         background: $sunglow;
+         width: 197px;
+         height: 65px;
+         font-weight: 600;
+         font-size: 15px;
+         border-radius: 0;
+         line-height: 26px;
+         letter-spacing: 3px;
+         color: $mirage;
+      }
+   }
+}
+
+.footer-social-icon-l4{
+   margin: 35px -15px 0px -15px;
+   margin-bottom: 45px;
+   @include desktops {
+      margin-bottom: 0;
+   }
+   li{
+      display: inline-flex;
+      margin: 0px 15px 0px 15px;
+      a{
+        color: $white;
+        font-size: 20px;
+      }
+   }
+}
+
+.copyright-area-l4 {
+   p {
+      font-size: 15px;
+      line-height: 28px;
+      color: $white;
+      opacity: 0.7;
+      margin-top: 25px;
+   }
+}

@@ -1,0 +1,552 @@
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+   Hero Area-L6
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.hero-area-l6 {
+   background: linear-gradient(180deg, rgba(23, 135, 252, 0.26) 0%, rgba(32, 191, 169, 0.16) 55.21%, rgba(199, 210, 240, 0) 100%);
+
+   position: relative;
+   z-index: 1;
+   padding-top: 43px;
+
+
+   @include mobile {
+      padding-top: 60px;
+   }
+
+   @include tablet {
+      padding-top: 60px;
+
+   }
+
+   @include desktops {
+      padding-top: 187px;
+
+   }
+
+   .hero-l6-content {
+      padding-top: 45px;
+
+      @include desktops {
+         padding-top: 0;
+
+      }
+
+      h2 {
+         font-weight: 600;
+         font-size: 36px;
+         line-height: 46px;
+         letter-spacing: -1px;
+         color: $mirage;
+         margin-bottom: 30px;
+
+         @include mobile-lg {
+            font-size: 40px;
+            line-height: 46px;
+         }
+
+         @include tablet {
+            font-size: 48px;
+            line-height: 54px;
+         }
+
+         @include desktops {
+            font-size: 80px;
+            line-height: 86px;
+         }
+
+
+      }
+
+
+
+   }
+
+}
+
+.hero-btn-l6 {
+   margin-top: 35px;
+
+   @include tablet {
+      margin-top: 45px;
+   }
+
+   @include desktops {
+      margin-top: 55px;
+   }
+
+   .btn {
+      background: $mirage;
+      border-radius: 10px;
+      width: 258px;
+      height: 55px;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 26px;
+      color: $white;
+   }
+}
+
+.hero-l6-content-image {
+   margin-top: 60px;
+
+   @include tablet {
+      margin-top: 80px;
+   }
+
+   @include desktops {
+      margin-top: 130px;
+   }
+
+   & img {
+      box-shadow: 0px 204px 150px -30px rgba(10, 4, 60, 0.05);
+      border-radius: 0px 0px 30px 30px;
+   }
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+   Content Area-L6 1
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.content-area-l6-1 {
+   padding-top: 60px;
+   padding-bottom: 60px;
+
+   @include tablet {
+      padding-top: 80px;
+      padding-bottom: 80px;
+
+   }
+
+   @include desktops {
+      padding-top: 130px;
+      padding-bottom: 130px;
+
+   }
+}
+
+.content-box-l6-1 {
+   padding-top: 45px;
+
+   @include desktops {
+      padding-top: 0;
+   }
+}
+
+.content-image-group-l6-1 {
+   .bg-image {
+      & img {
+         width: 100%;
+
+         @include large-desktops {
+            width: initial;
+         }
+      }
+   }
+
+   .main-image-group {
+      .image-1 {
+         position: absolute;
+         left: 50%;
+         top: 50%;
+         transform: translate(-50%, -50%);
+         @include desktops {
+            top: 65%;
+         }
+         & img {
+            box-shadow: 0px -10px 104px rgba(0, 0, 0, 0.08);
+            border-radius: 20px;
+         }
+      }
+   }
+
+
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+   Content Area-L6 1
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.content-area-l6-2 {
+   padding-bottom: 60px;
+
+   @include tablet {
+      padding-bottom: 80px;
+   }
+
+   @include desktops {
+      padding-bottom: 130px;
+
+   }
+}
+
+.content-box-l6-2 {
+   padding-top: 45px;
+
+   @include desktops {
+      padding-top: 0;
+   }
+}
+
+.content-image-group-l6-2 {
+   .bg-image {
+      & img {
+         width: 100%;
+
+         @include large-desktops {
+            width: initial;
+         }
+      }
+   }
+
+   .main-image-group {
+      .image-1 {
+         position: absolute;
+         left: 0%;
+         top: 15%;
+
+         @include desktops {
+            left: -25%;
+         }
+
+         @include large-desktops {
+            left: -8%;
+         }
+
+         @include extra-large-desktops {
+            left: 0%;
+         }
+         & img {
+            border-radius: 0px 20px 20px 0px;
+         }
+      }
+
+      .image-2 {
+         position: absolute;
+         left: 3%;
+         right: inherit;
+         top: 0%;
+         @include mobile {
+            left: 18%;
+         }
+         @include mobile-lg {
+            left: inherit;
+            right: -4%;
+            top: 30%;
+         }
+         @include desktops {
+            right: -5%;
+         }
+         @include large-desktops {
+            right: -10%;
+         }
+         @include extra-large-desktops {
+            right: -3%;
+         }
+         & img {
+            box-shadow: 0px -10px 104px rgba(0, 0, 0, 0.08);
+            border-radius: 20px;
+         }
+      }
+
+      .image-3 {
+         position: absolute;
+         left: 6%;
+         bottom: 2%;
+
+         @include desktops {
+            left: 0%;
+         }
+
+         @include large-desktops {
+            left: 5%;
+         }
+
+         @include extra-large-desktops {
+            left: 10%;
+         }
+
+         & img {
+            border-radius: 0px 20px 0px 0px;
+         }
+
+      }
+
+      & img {
+         @include desktops {
+            width: 80%;
+         }
+
+         @include large-desktops {
+            width: initial;
+         }
+
+      }
+   }
+
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+   Content Area-L6 1
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.content-area-l6-3 {
+   padding-bottom: 50px;
+
+   @include tablet {
+      padding-bottom: 70px;
+
+   }
+
+   @include desktops {
+      padding-bottom: 155px;
+
+   }
+}
+
+.content-box-l6-3 {
+   padding-top: 90px;
+
+   @include mobile {
+      padding-top: 45px;
+   }
+   @include desktops {
+      padding-top: 0;
+   }
+}
+
+.content-image-group-l6-3 {
+   .bg-image {
+      & img {
+         width: 100%;
+
+         @include large-desktops {
+            width: initial;
+         }
+      }
+   }
+
+   .main-image-group {
+      .image-1 {
+         position: absolute;
+         left: 50%;
+         top: 65%;
+         transform: translate(-50%, -50%);
+
+         @include desktops {
+            left: 70%;
+         }
+
+         & img {
+            box-shadow: 0px -10px 104px rgba(0, 0, 0, 0.08);
+            border-radius: 20px;
+            width: 300px;
+            @include mobile-lg {
+               width: initial;
+            }
+         }
+      }
+   }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+ Pricing Area-L6 1
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+.pricing-area-l6 {
+   padding-bottom: 60px;
+
+   @include tablet {
+      padding-bottom: 80px;
+   }
+
+   @include desktops {
+      padding-bottom: 130px;
+   }
+
+   .section__heading {
+      padding-bottom: 30px;
+
+      @include tablet {
+         padding-bottom: 40px;
+      }
+   }
+}
+
+.price-area-items-l6{
+   margin-bottom: -30px;
+   .col-xl-4{
+      margin-bottom: 30px;
+   }
+}
+
+.price-card-l6 {
+   padding: 40px 30px 30px 40px;
+   border: 1px solid rgba(29, 36, 58, 0.12);
+   border-radius: 20px;
+
+   @include mobile-lg {
+      padding: 50px 60px 50px 60px;
+   }
+
+   i {
+      color: $java;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      line-height: 80px;
+      text-align: center;
+      background: #D6EBE4;
+
+   }
+
+   h4 {
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 32px;
+      letter-spacing: -0.3px;
+      color: $mirage;
+      margin: 40px 0px 15px 0px;
+   }
+
+   p {
+      font-size: 15px;
+      line-height: 28px;
+      color: $mirage;
+      opacity: 0.8;
+   }
+}
+
+.price-l6-btn {
+   margin-top: 43px;
+
+   .btn {
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 26px;
+      color: $white;
+      min-width: 182px;
+      height: 55px;
+      border-radius: 10px;
+      background: $coral;
+   }
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+ CTA Area-L6 1
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+
+.cta-area-l6-bg {
+   padding: 50px 30px 60px 30px;
+   box-shadow: 0px 54px 100px rgba(10, 4, 60, 0.08);
+   border-radius: 20px;
+   
+  @include tablet {
+   padding: 70px 30px 80px 30px;
+}
+
+@include desktops {
+   padding: 105px 50px 110px 50px;
+}
+
+}
+.cta-area-l6-content {
+   h2 {
+      font-weight: 600;
+      font-size: 34px;
+      line-height: 42px;
+      letter-spacing: -1px;
+      color: $mirage;
+      margin-bottom: 35px;
+      @include mobile-lg {
+         font-size: 38px;
+         line-height: 46px;
+      }
+    
+      @include tablet {
+         font-size: 42px;
+         line-height: 50px;
+      }
+   }
+}
+
+.google-chrome-btn {
+   .btn {
+      min-width: 250px;
+      height: 55px;
+      background: #2E2E36;
+      border-radius: 10px;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 26px;
+      color: $white;
+   }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+ Footer Area-L6
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.footer-area-l6 {
+   padding-top: 80px;
+   padding-bottom: 55px;
+
+   @include tablet {
+      padding-top: 100px;
+      padding-bottom: 75px;
+   }
+
+   @include desktops {
+      padding-top: 140px;
+      padding-bottom: 100px;
+   }
+}
+
+
+.footer-content-l6 {
+   & img {
+     margin-bottom: 30px;
+      @include mobile-lg {
+         margin-bottom: 0;
+         margin-right: 50px;
+      }
+    
+   }
+}
+
+.copyright-text {
+   p {
+      font-size: 17px;
+      line-height: 30px;
+      color: $mirage;
+      margin-bottom: -7px;
+   }
+}
+
+.footer-menu-item-l6 {
+   margin: 30px -20px 0px -20px;
+   @include desktops {
+      margin: 0px -20px 0px -20px;
+   }
+   li {
+      display: inline-flex;
+      flex-wrap: wrap;
+
+      a {
+         text-decoration: none;
+         font-weight: 400;
+         font-size: 15px;
+         line-height: 28px;
+         color: $mirage;
+         margin: 0px 20px 0px 20px;
+      }
+   }
+
+}

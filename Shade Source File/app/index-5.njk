@@ -1,0 +1,395 @@
+{% extends "template.njk" %}
+
+{#
+<!-- Page Info Input Here --> #}
+
+{% set PAGE_INFO = {
+page_title : "Furniture Shop",
+page_wrapper_class : ""
+
+} %}
+{% import 'components/Header/_header.njk' as Header %}
+
+{% block main %}
+<!-- Site Header -->
+{{Header.render({
+"additional_header_class": "site-header--menu-center landing-5-menu",
+"absolute_header" : "true",
+container_fluid : false,
+sticky_header :true,
+menu_wrapper_class : "mx-auto",
+hideMegamenu : false,
+header_button : "true",
+header_button_text : "Sign In",
+header_button_class : "btn focus-reset",
+additional_button_classes : "l5-header-btn ms-auto d-none d-xs-inline-flex"
+
+
+
+})}}
+
+
+<!-- Hero Area -->
+
+<div class="hero-area-l5 ">
+    <div class="container">
+        <div class="row align-items-center justify-content-lg-start justify-content-center">
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-8" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                <div class="hero-l5-image position-relative">
+                    <img class="w-100" src="image/landing-5/hero-image.png" alt="image">
+                    <div class="hero-shape-1">
+                        <img  src="image/landing-5/hero-shape.png" alt="image">
+                    </div>
+                </div>
+            </div>
+            <div class="offset-xxl-1 col-xxl-6 offset-xl-1 col-xl-7 col-lg-8 col-md-10" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
+                <div class="hero-l5-content">
+                    <h4>QUALITY DESIGN FOR ALL</h4>
+                    <h2>Bring back the classic look by using Whiter. Easy home delivery!</h2>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                        duis enim velit mollit. </p>
+                    <div class="btn-l5 btn-style-06">
+                        <a href="#" class="d-flex align-items-center"><span></span>EXPLORE OUR PRODUCTS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Feature Area -->
+
+<div class="feature-area-l5">
+    <div class="container">
+        <div class="row feature-area-l5-items">
+            <div class="col-lg-4 col-md-6" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
+                <div class="feature-card-l5">
+                    <div class="d-flex align-items-center">
+                        <div class="icon">
+                            <img src="image/landing-5/heart1.svg" alt="image">
+                        </div>
+                        <div class="content">
+                            <h4>Best quality</h4>
+                            <p>A team of experts passionate about product management.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
+                <div class="feature-card-l5">
+                    <div class="d-flex align-items-center">
+                        <div class="icon icon-2">
+                            <img src="image/landing-5/zap1.svg" alt="image">
+                        </div>
+                        <div class="content">
+                            <h4>Fastest delivery</h4>
+                            <p>A team of experts passionate about product management.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6" data-aos="fade-left" data-aos-delay="900" data-aos-duration="1000">
+                <div class="feature-card-l5">
+                    <div class="d-flex align-items-center">
+                        <div class="icon icon-3">
+                            <img src="image/landing-5/headphones1.svg" alt="image">
+                        </div>
+                        <div class="content">
+                            <h4>Great support</h4>
+                            <p>A team of experts passionate about product management.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Product Slider Area  -->
+
+<div class="product-area-l5">
+    <div class="container">
+        <div class="border-area-l4"></div>
+        <div class="row align-items-center">
+            <div class="col-lg-8 col-md-8">
+                <div class="section__heading">
+                    <h2>Explore our exclusive design. </h2>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <div class="l5-product-slider text-end">
+                    <i class="prev5-1  fas fa-arrow-left slick-arrow slick-active"></i>
+                    <i class="next5-1 fas fa-arrow-right slick-arrow"></i>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
+                <div class="product-slider-l5">
+                    <div class="single-item focus-reset">
+                        <div class="product-card-l5 position-relative">
+                            <div class="image-box image-hover-style-01 overflow-hidden">
+                                <img class="w-100" src="image/landing-5/product-1.png" alt="image">
+                            </div>
+                            <div class="product-content-card">
+                                <div class="content">
+                                    <h4>$271</h4>
+                                    <div class="d-flex flex-wrap justify-content-between align-items-center">
+                                        <p>White Phonix</p>
+                                        <a href="#"><i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-item focus-reset">
+                        <div class="product-card-l5 position-relative">
+                            <div class="image-box image-hover-style-01 overflow-hidden">
+                                <img class="w-100" src="image/landing-5/product-2.png" alt="image">
+                            </div>
+                            <div class="product-content-card">
+                                <div class="content">
+                                    <h4>$271</h4>
+                                    <div class="d-flex flex-wrap justify-content-between align-items-center">
+                                        <p>White Phonix</p>
+                                        <a href="#"><i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-item focus-reset">
+                        <div class="product-card-l5 position-relative">
+                            <div class="image-box image-hover-style-01 overflow-hidden">
+                                <img class="w-100" src="image/landing-5/product-3.png" alt="image">
+                            </div>
+                            <div class="product-content-card">
+                                <div class="content">
+                                    <h4>$201</h4>
+                                    <div class="d-flex flex-wrap justify-content-between align-items-center">
+                                        <p>White Phonix</p>
+                                        <a href="#"><i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-item focus-reset">
+                        <div class="product-card-l5 position-relative">
+                            <div class="image-box image-hover-style-01 overflow-hidden">
+                                <img class="w-100" src="image/landing-5/product-2.png" alt="image">
+                            </div>
+                            <div class="product-content-card">
+                                <div class="content">
+                                    <h4>$171</h4>
+                                    <div class="d-flex flex-wrap justify-content-between align-items-center">
+                                        <p>White Phonix</p>
+                                        <a href="#"><i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+
+
+<!-- Content Area -->
+
+<div class="content-area-l5-1">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-heading">
+                    <h2>OUR WORKING PROCESS</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row content-process-area-l5" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+            <div class="col-xxl-1 col-lg-1">
+                <div class="process-number">
+                    <span>01</span>
+                </div>
+            </div>
+            <div class="col-xxl-3 col-lg-4">
+                <div class="process-heading">
+                    <h2>Discuss the concept with us. </h2>
+                </div>
+            </div>
+            <div class="offset-xxl-1 col-xxl-4 col-lg-4">
+                <div class="process-content">
+                    <p>With lots of unique blocks, you can easily build a page without coding. Build your next consultancy website within few minutes.</p>
+                </div>
+            </div>
+            <div class="offset-xxl-1 col-xxl-2 col-lg-3">
+                <div class="btn-l5 btn-style-06">
+                    <a href="#" class="d-flex align-items-center"><span></span>LEARN MORE</a>
+                </div>
+            </div>
+        </div>
+        <div class="row content-process-area-l5" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
+            <div class="col-xxl-1 col-lg-1">
+                <div class="process-number">
+                    <span>02</span>
+                </div>
+            </div>
+            <div class="col-xxl-3 col-lg-4">
+                <div class="process-heading">
+                    <h2>Confirm the provided design. </h2>
+                </div>
+            </div>
+            <div class="offset-xxl-1 col-xxl-4 col-lg-4">
+                <div class="process-content">
+                    <p>With lots of unique blocks, you can easily build a page without coding. Build your next consultancy website within few minutes.</p>
+                </div>
+            </div>
+            <div class="offset-xxl-1 col-xxl-2 col-lg-3">
+                <div class="btn-l5 btn-style-06">
+                    <a href="#" class="d-flex align-items-center"><span></span>LEARN MORE</a>
+                </div>
+            </div>
+        </div>
+        <div class="row content-process-area-l5" data-aos="fade-up" data-aos-delay="900" data-aos-duration="1000">
+            <div class="col-xxl-1 col-lg-1">
+                <div class="process-number">
+                    <span>03</span>
+                </div>
+            </div>
+            <div class="col-xxl-3 col-lg-4">
+                <div class="process-heading">
+                    <h2>Get delivered the furniture on time. </h2>
+                </div>
+            </div>
+            <div class="offset-xxl-1 col-xxl-4 col-lg-4">
+                <div class="process-content">
+                    <p>With lots of unique blocks, you can easily build a page without coding. Build your next consultancy website within few minutes.</p>
+                </div>
+            </div>
+            <div class="offset-xxl-1 col-xxl-2 col-lg-3">
+                <div class="btn-l5 btn-style-06">
+                    <a href="#" class="d-flex align-items-center"><span></span>LEARN MORE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- Content Area 2-->
+
+<div class="content-area-l5-2">
+    <div class="container">
+        <div class="row justify-content-lg-start justify-content-center align-items-center">
+            <div class="col-xl-5 col-lg-6 col-md-10" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                <div class="content-l5-2-image">
+                    <div class="image-box image-hover-style-01 overflow-hidden ">
+                        <img class="w-100" src="image/landing-5/content-3-image.png" alt="image">
+                    </div>  
+                    
+                    <div class="shape-1 d-none d-sm-block">
+                        <img src="image/landing-5/content-3-shape.png" alt="image">
+                    </div>
+                </div>
+            </div>
+            <div class="offset-xl-1 col-xl-5 col-lg-6 col-md-10" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
+                <div class="content-l5-2-content">
+                    <h2>Spend your happy time with full comfort.</h2>
+                    <p>With lots of unique blocks, you can easily build a page without coding. Build your next consultancy website within few minutes.</p>
+                    <div class="btn-l5 btn-style-06">
+                        <a href="#" class="d-flex align-items-center"><span></span>EXPLORE OUR PRODUCTS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Content Area 3-->
+
+<div class="content-area-l5-3">
+    <div class="container-fluid p-0">
+        <div class="row">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                <div class="content-l5-3-content bg-coral">
+                    <h2>“It was super easy to share my unique concept. I got exactly what I ordered. Great service!”</h2>
+                    <div class="identity">
+                        <div class="d-flex">
+                            <div class="identity-left-border">
+                                <span></span>
+                            </div>
+                            <div class="content">
+                                <h6>Jenny Wilson</h6>
+                                <span>St. Celina, Delaware</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
+                <div class="video-l5-bg background-property position-relative" style="background: url(./image/landing-5/video-bg.png);">
+                    <div class="video-area-l5">
+                        <a data-fancybox="" href="https://www.youtube.com/embed/9yc1lfFZX-I"><i
+                            class="fas fa-play font-size-7"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Newslitter Area -->
+
+<div class="newsletter-area-l5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xxl-5 col-xl-6 col-lg-7 col-md-9" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                <div class="newsletter-content-l5 text-center">
+                    <h2>Subscribe to our<br class="d-none d-sm-block"> newsletter to get updated</h2>
+                    <p>Get our latest update on your inbox. With lots of unique blocks, you can easily build a page without coding. Build your next consultancy website within few minutes.</p>
+                    <div class="newsletter-form-l5">
+                        <form action="#">
+                            <div class="d-sm-flex">
+                                <input type="email" name="email" id="email" class="form-control" placeholder="Enter email address">
+                                <button class="btn">Subscribe</button>
+                              </div>
+                        </form>
+                    </div>
+                    <div class="news-ltr-l5-bottom d-flex justify-content-center">
+                        <div class="icon">
+                            <img src="image/landing-5/lock.svg" alt="icon">
+                        </div>
+                        <div class="content">
+                            <span>We don’t spam at all, our promise!</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Footer Area -->
+
+{% include "footer-5.njk" %}
+
+
+
+{% endblock %}

@@ -1,0 +1,381 @@
+{% extends "template.njk" %}
+
+{#
+<!-- Page Info Input Here --> #}
+
+{% set PAGE_INFO = {
+page_title : "Real Estate",
+page_wrapper_class : ""
+
+} %}
+{% import 'components/Header/_header.njk' as Header %}
+
+{% block main %}
+<!-- Site Header -->
+{{Header.render({
+"additional_header_class": "site-header--menu-right",
+"absolute_header" : "true",
+container_fluid : false,
+sticky_header :true,
+menu_wrapper_class : "mx-auto",
+hideMegamenu : false,
+header_button : "true",
+header_button_text : "Get Whiter",
+header_button_class : "btn btn-style-03 focus-reset",
+additional_button_classes : "l7-header-btn ms-auto d-none d-xs-inline-flex"
+
+
+
+})}}
+
+
+<!-- Hero Area -->
+
+<div class="hero-area-l7 background-property" style="background: url(./image/landing-7/banner.png);">
+    <div class="container">
+        <div class="row align-items-center justify-content-lg-start justify-content-center">
+            <div class="col-xxl-5 col-xl-6 col-lg-6 col-md-10 order-lg-1 order-1" data-aos="fade-up" data-aos-delay="700"
+                data-aos-duration="1000">
+                <div class="hero-l7-content">
+                    <h2>Find the perfect place to stay with your family. </h2>
+                    <p>Family is number one, and comfortable is number two. That two things is must br together. Let’s
+                        start it!</p>
+                </div>
+            </div>
+            <div class="offset-xxl-2 col-xxl-5 col-xl-6 col-lg-6 col-md-10 order-lg-1 order-0" data-aos="fade-up" data-aos-delay="500"
+                data-aos-duration="1000">
+                <div class="hero-l7-slider position-relative">
+                    <div class="hero-slider-single-item focus-reset">
+                        <div class="image overflow-hidden image-hover-style-01">
+                            <img class="w-100" src="image/landing-7/slider-1.png" alt="image">
+                        </div>
+                        <div class="content-box d-flex flex-wrap align-items-center justify-content-between">
+                            <div class="item">
+                                <p>Location</p>
+                                <span>New York</span>
+                            </div>
+                            <div class="item">
+                                <p>Type</p>
+                                <span>Duplex</span>
+                            </div>
+                            <div class="item">
+                                <p>Price</p>
+                                <span>$50,000</span>
+                            </div>
+                            <div class="item view-property-btn">
+                                <a href="#" class="btn focus-reset btn-style-05">View Property</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-slider-single-item focus-reset">
+                        <div class="image overflow-hidden image-hover-style-01">
+                            <img class="w-100" src="image/landing-7/slider-2.png" alt="image">
+                        </div>
+                        <div class="content-box d-flex flex-wrap align-items-center justify-content-between">
+                            <div class="item">
+                                <p>Location</p>
+                                <span>New York</span>
+                            </div>
+                            <div class="item">
+                                <p>Type</p>
+                                <span>Duplex</span>
+                            </div>
+                            <div class="item">
+                                <p>Price</p>
+                                <span>$50,000</span>
+                            </div>
+                            <div class="item view-property-btn">
+                                <a href="#" class="btn focus-reset btn-style-05">View Property</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-slider-single-item focus-reset">
+                        <div class="image overflow-hidden image-hover-style-01">
+                            <img class="w-100" src="image/landing-7/slider-3.png" alt="image">
+                        </div>
+                        <div class="content-box d-flex flex-wrap align-items-center justify-content-between">
+                            <div class="item">
+                                <p>Location</p>
+                                <span>New York</span>
+                            </div>
+                            <div class="item">
+                                <p>Type</p>
+                                <span>Duplex</span>
+                            </div>
+                            <div class="item">
+                                <p>Price</p>
+                                <span>$50,000</span>
+                            </div>
+                            <div class="item view-property-btn">
+                                <a href="#" class="btn focus-reset btn-style-05">View Property</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- Feature Area -->
+
+<div class="feature-area-l7">
+    <div class="container">
+        <div class="row justify-content-center feature-area-l7-items">
+            <div class="col-lg-4 col-sm-6" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
+                <div class="feature-card-l7">
+                    <div class="icon">
+                        <img src="image/landing-7/feature-icon-1.svg" alt="image">
+                    </div>
+                    <div class="content">
+                        <h4>Beautiful Architecture</h4>
+                        <p>Duis aute irure dolor in velit esse reprehen derit in voluptate cillum dolore eu fugiat
+                            nulla.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                <div class="feature-card-l7">
+                    <div class="icon">
+                        <img src="image/landing-7/feature-icon-1.svg" alt="image">
+                    </div>
+                    <div class="content">
+                        <h4>Best Location</h4>
+                        <p>Duis aute irure dolor in velit esse reprehen derit in voluptate cillum dolore eu fugiat
+                            nulla.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000">
+                <div class="feature-card-l7">
+                    <div class="icon">
+                        <img src="image/landing-7/feature-icon-1.svg" alt="image">
+                    </div>
+                    <div class="content">
+                        <h4>Affordable Price</h4>
+                        <p>Duis aute irure dolor in velit esse reprehen derit in voluptate cillum dolore eu fugiat
+                            nulla.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Content Area 1-->
+
+
+<div class="content-area-l7-1">
+    <div class="container">
+        <div class="row align-items-center justify-content-lg-start justify-content-center">
+            <div class="col-xxl-5 col-xl-5 col-lg-6 col-md-10" data-aos="fade-up" data-aos-delay="700"
+                data-aos-duration="1000">
+                <div class="content-1-l7-image overflow-hidden image-hover-style-01">
+                    <img class="w-100" src="image/landing-7/content-1-image-1.png" alt="image">
+                </div>
+            </div>
+            <div class="offset-xxl-1 col-xxl-5 offset-xl-1 col-xl-5 col-lg-6 col-md-10">
+                <div class="content-l7-1-content-box position-relative">
+                    <div class="section__heading-3" data-aos="fade-up" data-aos-delay="500"
+                    data-aos-duration="1000">
+                        <h2>Get a perfect house for your family right now.</h2>
+                        <p>We know your issue. You’re new couple who want to be simple, including house. So we decided
+                            to make it for you! Make your living for live.</p>
+                    </div>
+                    <div class="content-1-l7-service">
+                        <div class="content-box d-flex flex-wrap align-items-center justify-content-between" data-aos="fade-up" data-aos-delay="500"
+                        data-aos-duration="1000">
+                            <div class="item">
+                                <p>Budget</p>
+                                <span>Confidential</span>
+                            </div>
+                            <div class="item">
+                                <p>Size</p>
+                                <span>500m</span>
+                            </div>
+                            <div class="item">
+                                <p>Type</p>
+                                <span>House</span>
+                            </div>
+                        </div>
+
+
+                        <div class="content-box d-flex flex-wrap align-items-center justify-content-between" data-aos="fade-up" data-aos-delay="500"
+                        data-aos-duration="1000">
+                            <div class="item">
+                                <p>Status</p>
+                                <span>Completed</span>
+                            </div>
+                            <div class="item">
+                                <p>Location</p>
+                                <span>Anywhere</span>
+                            </div>
+                            <div class="item">
+                                <p>Bedroom</p>
+                                <span>2 Room</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="content-1-l7-btn-group" data-aos="fade-up" data-aos-delay="500"
+                    data-aos-duration="1000">
+                        <a href="#" class="btn focus-reset l7-view-pro-btn btn-style-05">View Property</a>
+                        <a href="#" class="btn focus-reset l7-book-pro-btn btn-style-05">Book Property</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Content Area 2-->
+
+<div class="content-area-l7-2">
+    <div class="container">
+        <div class="row content-area-l7-2-heading align-items-center justify-content-lg-start justify-content-center">
+            <div class="col-lg-6 col-md-7">
+                <div class="section__heading-3">
+                    <h2>Why you should buy your dream house from us?</h2>
+                </div>
+            </div>
+            <div class="col-xxl-3 col-xl-4 col-lg-5 col-md-5">
+                <div class="section__heading-3">
+                    <p>Contory to popular belief, Lorem ipsum is random text, it has roots in a piece</p>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-center justify-content-lg-start justify-content-center">
+            <div class="col-xxl-5 col-xl-6 col-lg-6 col-md-10 order-lg-1 order-1">
+                <div class="content-l7-2-content-box">
+                    <div class="item d-flex flex-wrap " data-aos="fade-up" data-aos-delay="500"
+                    data-aos-duration="1000">
+                        <div class="item-icon">
+                            <span>1</span>
+                        </div>
+                        <div class="item-content">
+                            <h4>Easy Payment Method</h4>
+                            <p>Contray to popular belief, Lorem ipsum</p>
+                        </div>
+                    </div>
+                    <div class="item d-flex flex-wrap" data-aos="fade-up" data-aos-delay="500"
+                    data-aos-duration="1000">
+                        <div class="item-icon">
+                            <span>2</span>
+                        </div>
+                        <div class="item-content">
+                            <h4>Fixed Fee & Suppo</h4>
+                            <p>Contray to popular belief, Lorem ipsum</p>
+                        </div>
+                    </div>
+                    <div class="item d-flex flex-wrap" data-aos="fade-up" data-aos-delay="500"
+                    data-aos-duration="1000">
+                        <div class="item-icon">
+                            <span>3</span>
+                        </div>
+                        <div class="item-content">
+                            <h4>Tax Advantage</h4>
+                            <p>Contray to popular belief, Lorem ipsum</p>
+                        </div>
+                    </div>
+                    <div class="item d-flex flex-wrap" data-aos="fade-up" data-aos-delay="500"
+                    data-aos-duration="1000">
+                        <div class="item-icon">
+                            <span>4</span>
+                        </div>
+                        <div class="item-content">
+                            <h4>Property Insurance</h4>
+                            <p>Contray to popular belief, Lorem ipsum</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="offset-xxl-1 col-xxl-6 col-xl-6 col-lg-6 col-md-10 order-lg-1 order-0" data-aos="fade-up" data-aos-delay="500"
+            data-aos-duration="1000">
+                <div class="content-2-l7-image overflow-hidden image-hover-style-01">
+                    <img class="w-100" src="image/landing-7/content-2-image-1.png" alt="image">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Testimonial Area-->
+
+<div class="testimonial-area-l7">
+    <div class="container">
+        <div class="row  justify-content-center">
+            <div class="col-xl-5 col-lg-5 col-md-10">
+                <div class="testimonial-area-l7-left-side">
+                  
+                    <div class="video-area position-relative" data-aos="fade-up" data-aos-delay="500"
+                    data-aos-duration="1000">
+                    <div class="image overflow-hidden image-hover-style-01">
+                        <img class="w-100" src="image/landing-7/testimonial-1.png" alt="image">
+                    </div>
+                       
+                        <div class="video-card d-flex align-items-center justify-content-between">
+                            <div class="content">
+                                <h6>Gustavo George</h6>
+                                <span>West London, Uk</span>
+                            </div>
+                            <div class="video-icon-area">
+                                <a class="video-icon" data-fancybox="" href="https://www.youtube.com/embed/9yc1lfFZX-I"><span><img src="image/landing-7/video-icon.svg" alt="icon"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-content-l7" data-aos="fade-up" data-aos-delay="500"
+                    data-aos-duration="1000">
+                        <div class="user">
+                            <img src="image/landing-7/testimonial-user.png" alt="image">
+                        </div>
+                        <div class="content">
+                            <h4>Gustavo George</h4>
+                            <p>“Saya tuh kalau pengin beli rumah pasti yagn selalu mahal. Saya tuh gak pengin rumah yang jelek kaya punya kau. Pokoknya saya ganteng.”</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-7 col-lg-7 col-md-10 position-relative" data-aos="fade-up" data-aos-delay="500"
+            data-aos-duration="1000">
+                <div class="testimonial-area-l7-right-side">
+                    <div class="row">
+                        <div class="offset-xxl-1 col-xxl-7 offset-xl-1 col-xl-8" >
+                            <div class="section__heading-3">
+                                <h2>Testimonials from lovely previous buyers.</h2>
+                                <p>Sed ultrices nisl velit, eu ornare est ullamcorper a. Nunc quis nibh magna. Proin risus erat, fringilla vel purus.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="testimonial-right-content-image-l7 overflow-hidden image-hover-style-01">
+                                <img class="w-100" src="image/landing-7/testimonial-2.png" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<!-- CTA Area -->
+
+
+
+
+
+<!-- Footer Area -->
+
+{% include "footer-7.njk" %}
+
+
+
+{% endblock %}

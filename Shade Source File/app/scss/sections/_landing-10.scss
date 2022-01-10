@@ -1,0 +1,1153 @@
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+   Hero Area-L10
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.landing-10-menu{
+   .site-menu-main .nav-link-item {
+      font-family: Karla;
+       color: #1f1f1f;
+       font-size: 16px;
+       font-weight: 400;
+       font-style: normal;
+       letter-spacing: -0.4px;
+
+       i{
+         color: #1f1f1f;
+       }
+   }
+}
+.landing-10-menu{
+.site-menu-main .sub-menu--item {
+   font-family: Karla;
+       color: #1f1f1f;
+       font-size: 16px;
+       font-weight: 400;
+       font-style: normal;
+       letter-spacing: -0.4px;
+}
+}
+
+.hero-area-l0 {
+   background: #F8F8F8;
+   padding-top: 95px;
+   padding-bottom: 25px;
+
+   @include mobile {
+      padding-top: 120px;
+   }
+
+   @include tablet {
+      padding-top: 145px;
+      padding-bottom: 45px;
+   }
+
+   @include desktops {
+      padding-top: 240px;
+      padding-bottom: 130px;
+   }
+
+   .content {
+      padding-top: 45px;
+      position: relative;
+      z-index: 5;
+
+      @include desktops {
+         padding-top: 0;
+
+      }
+
+      h1 {
+         font-family: Karla;
+         color: #1F1F1F;
+         font-size: 34px;
+         font-weight: 700;
+         font-style: normal;
+         letter-spacing: -4px;
+         line-height: 40px;
+         margin-bottom: 28px;
+
+         @include mobile-lg {
+            font-size: 40px;
+            line-height: 46px;
+         }
+
+         @include tablet {
+            font-size: 48px;
+            line-height: 54px;
+         }
+
+         @include large-desktops {
+            font-size: 60px;
+            line-height: 65px;
+         }
+      }
+
+      p {
+         font-family: Karla;
+         color: #222F3F;
+         font-size: 21px;
+         font-weight: 400;
+         font-style: normal;
+         letter-spacing: -0.4px;
+         line-height: 36px;
+
+      }
+
+
+   }
+
+   .banner-sign-text {
+      font-family: Karla;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 17px;
+      line-height: 36px;
+      letter-spacing: -0.32381px;
+      color: #878B90;
+      margin-top: 7px;
+
+      a {
+         color: #258AFF;
+      }
+   }
+}
+
+.header-btn-l10 {
+   .sign-in-btn {
+      font-family: Karla;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: center;
+      letter-spacing: -1px;
+      color: #666666;
+      min-width: initial;
+      padding: 0;
+      margin-right: 40px;
+   }
+
+   .get-start-btn {
+      font-family: Karla;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      text-align: center;
+      letter-spacing: -1px;
+      color: #FFFFFF;
+      border-radius: 3px;
+      background: #1290A4;
+      min-width: 137px;
+      height: 40px;
+   }
+}
+.landing-10-menu{
+   &.reveal-header .sign-in-btn {
+      color: #666666 !important;
+   }
+}
+
+
+
+.subscription-form-1 .form-control {
+   max-width:100%;
+   height: 60px;
+   background: #EEF4F5;
+   border-radius: 3px;
+   padding-left: 25px;
+   border: 0;
+   margin-top: 20px;
+
+   @include mobile {
+      max-width: 275px;
+   }
+   &::placeholder {
+      color: #878B90;
+   }
+}
+
+.subscription-form-1 .btn {
+   min-width: 100%;
+   height: 55px;
+   border-radius: 3px;
+   color: #fff;
+   padding: 0px 15px;
+   background: #1290A4;
+   margin-top: 15px;
+   @include mobile {
+      margin-top: 0;
+      min-width: 176px;
+      height: 60px;
+      margin-top: -6px;
+   }
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+  Feature Area-L10
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.feature-area-l0 {
+   padding-top: 70px;
+   padding-bottom: 60px;
+   @include tablet {
+      padding-top: 90px;
+      padding-bottom: 80px;
+   }
+ 
+   @include desktops {
+      padding-top: 200px;
+   padding-bottom: 130px;
+   }
+   background: #EEF4F5;
+
+   .section-heading-4 {
+      margin-bottom: 20px;
+      @include desktops {
+         margin-bottom: 40px;
+      }
+   }
+}
+
+.single-features-l10-items {
+   margin-bottom: -25px;
+   .col-xl-4{
+      margin-bottom: 25px;
+   }
+   .single-features {
+      padding: 35px 40px 25px 40px;
+      background: #FFFFFF;
+      border: 1px solid #D9E4E6;
+      border-radius: 5px;
+
+      .feature-icon {
+         display: inline-block;
+         margin-bottom: 32px;
+         background: rgba(244, 111, 124, 0.2);
+         border-radius: 50%;
+         height: 80px;
+         width: 80px;
+         text-align: center;
+         line-height: 80px;
+
+         svg {
+            height: 35px;
+            width: 35px;
+         }
+      }
+
+      h4 {
+         font-family: Karla;
+         font-style: normal;
+         font-weight: bold;
+         font-size: 28px;
+         line-height: 33px;
+         letter-spacing: -2px;
+         color: #1F1F1F;
+         margin-bottom: 15px;
+      }
+
+      p {
+         font-family: Karla;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 17px;
+         line-height: 28px;
+         letter-spacing: -0.4px;
+         color: #666666;
+         margin-bottom: 20px;
+      }
+
+      .btn {
+         font-family: Karla;
+         font-style: normal;
+         font-weight: bold;
+         font-size: 17px;
+         line-height: 28px;
+         letter-spacing: -0.4px;
+         color: #1290A4;
+         padding: 0;
+         min-width: initial !important;
+
+         i {
+            margin-left: 20px;
+         }
+
+         &:hover {
+            color: #1290A4 !important;
+         }
+      }
+
+   }
+}
+
+
+
+.shape-bottom-right {
+   position: absolute;
+   top: -7px;
+   @include mobile {
+      top: -2px;
+   }
+}
+
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+  Content Area-L10 1
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+.content-area-l10-1 {
+   padding-top: 60px;
+   padding-bottom: 45px;
+   @include tablet {
+      padding-top: 80px;
+      padding-bottom: 63px;
+   }
+ 
+   @include desktops {
+      padding-top: 130px;
+      padding-bottom: 130px;
+   }
+   .content {
+     padding-top: 45px;
+      @include desktops {
+         padding-top: 0;
+      }
+      h2 {
+         font-family: Karla;
+         font-style: normal;
+         font-weight: bold;
+         font-size: 48px;
+         line-height: 60px;
+         letter-spacing: -3px;
+         color: #1F1F1F;
+         margin-bottom: 20px;
+      }
+
+      p {
+         font-family: Karla;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 21px;
+         line-height: 36px;
+         letter-spacing: -0.4px;
+         color: #333333;
+         margin-bottom: 35px;
+
+      }
+
+      .btn {
+         font-family: Karla;
+         font-style: normal;
+         font-weight: bold;
+         font-size: 17px;
+         line-height: 28px;
+         letter-spacing: -0.4px;
+         color: #1290A4;
+         padding: 0;
+         min-width: initial !important;
+
+         i {
+            margin-left: 20px;
+         }
+
+         &:hover {
+            color: #1290A4 !important;
+         }
+      }
+   }
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+  Content Area-L10 2
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+.content-area-l10-2 {
+   padding-top: 60px;
+   @include tablet {
+      padding-top: 80px;
+   }
+   @include desktops {
+      padding-top: 130px;
+   }
+   background: #f8f8f8;
+
+   .content {
+      padding-top: 45px;
+      @include desktops {
+         padding-top: 0;
+      }
+      h2 {
+         font-family: Karla;
+         font-style: normal;
+         font-weight: bold;
+         font-size: 48px;
+         line-height: 60px;
+         /* or 125% */
+
+         letter-spacing: -3px;
+
+         color: #1F1F1F;
+         margin-bottom: 20px;
+      }
+
+      p {
+         font-family: Karla;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 21px;
+         line-height: 36px;
+         letter-spacing: -0.4px;
+         color: #333333;
+
+      }
+
+      .btn {
+         font-family: Karla;
+         font-style: normal;
+         font-weight: bold;
+         font-size: 17px;
+         line-height: 28px;
+         letter-spacing: -0.4px;
+         color: #1290A4;
+         padding: 0;
+         min-width: initial !important;
+
+         i {
+            margin-left: 20px;
+         }
+
+         &:hover {
+            color: #1290A4 !important;
+         }
+      }
+   }
+
+   ul {
+      margin-top: 50px;
+      margin-bottom: -20px;
+
+      li {
+         font-family: Karla;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 24px;
+         line-height: 32px;
+         /* identical to box height, or 133% */
+
+         letter-spacing: -1.4px;
+
+         color: #000000;
+         margin-bottom: 20px;
+
+         i {
+            color: #258AFF;
+            margin-right: 20px;
+            font-size: 20px;
+         }
+      }
+   }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+  Content Area-L10 3
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+.content-area-l10-3 {
+   padding-top: 35px;
+   padding-bottom: 60px;
+   @include tablet {
+      padding-top: 65px;
+      padding-bottom: 80px;
+   }
+ 
+   @include desktops {
+      padding-top: 65px;
+      padding-bottom: 130px;
+   }
+   background: #FEFDFD;
+
+
+   .content {
+      padding-top: 45px;
+      @include desktops {
+         padding-top: 0;
+      }
+      @include large-desktops {
+         padding-right: 35px;
+      }
+      @include extra-large-desktops {
+         padding-right: 95px;
+      }
+     
+      h2 {
+         font-family: Karla;
+         font-style: normal;
+         font-weight: bold;
+         font-size: 48px;
+         line-height: 60px;
+         letter-spacing: -3px;
+         color: #1F1F1F;
+         margin-bottom: 20px;
+      }
+
+      p {
+         font-family: Karla;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 21px;
+         line-height: 36px;
+         letter-spacing: -0.4px;
+         color: #333333;
+
+      }
+
+      .btn {
+         background: #F46F7C;
+         border-radius: 3px;
+         min-width: 170px;
+         height: 50px;
+         font-family: Karla;
+         font-style: normal;
+         font-weight: bold;
+         font-size: 17px;
+         line-height: 20px;
+         text-align: center;
+         letter-spacing: -1.0625px;
+         color: #FFFFFF;
+         margin-top: 28px;
+
+
+
+         &:hover {
+            color: #fff !important;
+         }
+      }
+
+      .border-top {
+         border-top: 1px solid #E5E5E5 !important;
+         margin: 20px 0px 20px 0px;
+      }
+
+      .double-content-c3 {
+         font-family: Karla;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 17px;
+         line-height: 28px;
+         letter-spacing: -0.4px;
+         color: #666666;
+
+      }
+   }
+
+   ul {
+      margin-top: 40px;
+      margin-bottom: -20px;
+
+      li {
+         font-family: Karla;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 24px;
+         line-height: 32px;
+         /* identical to box height, or 133% */
+
+         letter-spacing: -1.4px;
+
+         color: #000000;
+         margin-bottom: 20px;
+
+         i {
+            color: #258AFF;
+            margin-right: 20px;
+         }
+      }
+   }
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+ Pricing Area L-10
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.price-l10-shape{
+   background: #F8F8F8;
+}
+.price-area-l10-items{
+   margin-bottom: -25px;
+   .col-md-6{
+      margin-bottom: 25px;
+   }
+}
+.pricing-area-l10 {
+   background: #30393B;
+   padding-top: 35px;
+   padding-bottom: 40px;
+   margin-top: -2px;
+
+   @include tablet {
+      padding-top: 45px;
+      padding-bottom: 60px;
+   }
+ 
+   @include desktops {
+      padding-top: 65px;
+   padding-bottom: 110px;
+   }
+   .section-heading-4 {
+      h2 {
+         color: #fff;
+      }
+
+      p {
+         color: #878B90;
+      }
+   }
+}
+
+.price-l10-bottom {
+   padding-top: 35px;
+
+   p {
+      font-family: Karla;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 17px;
+      line-height: 20px;
+      text-align: center;
+      letter-spacing: -0.32381px;
+
+      a {
+         color: #FFFFFF;
+      }
+   }
+
+   span {
+      color: #878B90;
+   }
+}
+
+.flex-y-center {
+   display: flex;
+   align-items: center;
+}
+
+.pricing-area-l10 {
+   .single-price {
+      background: #FFFFFF;
+      border-radius: 6px;
+      padding: 30px 45px 15px 45px;
+
+      del {
+         color: #8E8E8E;
+      }
+
+      .price-top {
+         padding-bottom: 18px;
+
+         span {
+            font-family: Karla;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 13px;
+            line-height: 32px;
+            letter-spacing: 0.433333px;
+            text-transform: uppercase;
+            color: #666666;
+         }
+
+         .popular-price {
+            min-width: 83px;
+            height: 26px;
+            background: #F46F7C;
+            border-radius: 13px;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 15px;
+            letter-spacing: -0.514286px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+         }
+      }
+
+      .main-price {
+         span {
+            font-family: Karla;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 35px;
+            letter-spacing: -1.2px;
+            color: #1F1F1F;
+         }
+
+         h2 {
+            font-family: Karla;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 50px;
+            line-height: 60px;
+            letter-spacing: -2px;
+            color: #1F1F1F;
+            margin-bottom: 0;
+            margin-left: 25px;
+         }
+
+         p {
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 23px;
+            letter-spacing: -0.4px;
+            color: #666666;
+            margin: 12px 0px 28px 0px;
+
+         }
+
+         .dollar-pos {
+            position: absolute;
+            top: 5px;
+            left: 0;
+         }
+      }
+
+      ul {
+         margin-bottom: -10px;
+
+         li {
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 32px;
+            letter-spacing: -0.425px;
+            color: #1F1F1F;
+            margin-bottom: 10px;
+
+            i {
+               margin-right: 12px;
+            }
+
+         }
+      }
+
+      .price-btn {
+         .btn {
+            min-width: 190px;
+            height: 50px;
+            background: #1290A4;
+            border-radius: 5px;
+            font-family: Karla;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            letter-spacing: -1.06px;
+            color: #FFFFFF;
+            margin-top: 35px;
+         }
+
+         p {
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 28px;
+            letter-spacing: -0.4px;
+            color: #666666;
+            margin-top: 7px;
+         }
+      }
+   }
+
+   label {
+      font-family: Karla;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      letter-spacing: -0.4px;
+      color: #FFFFFF;
+   }
+
+   .toggle-btn {
+      padding: 55px 0px 45px;
+   }
+
+   [data-pricing-dynamic][data-value-active="yearly"] .dynamic-value:before {
+      display: inline-block;
+      content: attr(data-yearly);
+   }
+
+   [data-pricing-dynamic][data-value-active="yearly"] [data-pricing-trigger] {
+      background: #1290a4;
+   }
+
+   [data-pricing-dynamic][data-value-active="yearly"] [data-pricing-trigger] span {
+      left: calc(100% - 24px);
+   }
+
+   [data-pricing-dynamic][data-value-active="yearly"] .btn-toggle-2[data-pricing-trigger] {
+      background: #1290a4;
+   }
+
+   [data-pricing-dynamic][data-value-active="yearly"] .btn-toggle-2[data-pricing-trigger] span {
+      left: calc(100% - 52%);
+   }
+
+   [data-pricing-dynamic][data-value-active="yearly"] .btn-toggle-2[data-pricing-trigger].active:before {
+      color: #000 !important;
+   }
+
+   [data-pricing-dynamic][data-value-active="yearly"] .btn-toggle-2[data-pricing-trigger].active:after {
+      color: #000 !important;
+   }
+
+   [data-pricing-dynamic][data-value-active="monthly"] .dynamic-value:before {
+      display: inline-block;
+      content: attr(data-monthly);
+   }
+
+   .btn-toggle-2[data-pricing-trigger].active:before {
+      color: #000 !important;
+   }
+
+   .btn-toggle-2[data-pricing-trigger].active:after {
+      color: #000 !important;
+   }
+
+   .dynamic-value:before {
+      display: inline-block;
+      content: attr(data-active);
+   }
+
+   .static-value:before {
+      display: inline-block;
+      content: attr(data-active);
+   }
+
+   .btn-toggle {
+      width: 48px;
+      height: 24px;
+      border-radius: 17px;
+      background-color: #f8f8f8 !important;
+      position: relative;
+      margin: 0 15px;
+   }
+
+   .btn-toggle span {
+      width: 16px;
+      height: 16px;
+      background-color: #1290a4;
+      position: absolute;
+      left: 5px;
+      top: 4px;
+      transition: 0.4s;
+      border-radius: 500px;
+      pointer-events: none;
+   }
+
+   .btn-toggle-2 {
+      width: 220px;
+      height: 42px;
+      border-radius: 30px;
+      background-color: #fff !important;
+      border: 1px solid #e5e5e5 !important;
+      position: relative;
+      margin: 0 15px;
+      z-index: 1;
+   }
+
+   .btn-toggle-2:before {
+      position: absolute;
+      content: "Monthly";
+      width: 46%;
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #000;
+      height: 34px;
+      background: transparent;
+      left: 9px;
+      top: 4px;
+      line-height: 34px;
+   }
+
+   .btn-toggle-2:after {
+      position: absolute;
+      content: "Yearly";
+      width: 46%;
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #000;
+      height: 34px;
+      background: transparent;
+      right: 9px;
+      top: 4px;
+      line-height: 34px;
+   }
+
+   .btn-toggle-2 .round {
+      width: 50%;
+      /* left: 0 !important; */
+      height: 34px;
+      top: 3px;
+      left: 4px;
+      background: blue;
+      display: block;
+      z-index: -1;
+   }
+
+   .btn-toggle-2 span {
+      display: none;
+   }
+
+   .btn-toggle[data-value-active="yearly"] {
+      background-color: #1290a4 !important;
+   }
+
+   .btn-toggle[data-value-active="yearly"] span {
+      left: calc(100% - 25px) !important;
+   }
+
+   .btn-toggle-square {
+      height: 65px;
+      display: inline-flex;
+      position: relative;
+      z-index: 1;
+      padding: 5px;
+      align-items: center;
+   }
+
+   .btn-toggle-square.bg-whisper-3:hover,
+   .btn-toggle-square.bg-whisper-3:focus {
+      background: #8e8e8e !important;
+   }
+
+   .btn-toggle-square span {
+      min-width: 160px;
+      min-height: 50px;
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #000000;
+   }
+
+   .btn-toggle-square span:first-child {
+      border-radius: 10px 0 0 10px;
+   }
+
+   .btn-toggle-square span:nth-child(2) {
+      border-radius: 0px 10px 10px 0;
+   }
+
+   .btn-toggle-square span.active {
+      color: #fff;
+      background: #1290a4;
+   }
+
+   .popular-pricing:before {
+      position: absolute;
+      content: "";
+      left: 0px;
+      top: 0px;
+      width: 100%;
+      height: 4px;
+      background: #f46f7c;
+      border-radius: 6px;
+   }
+
+   .popular-pricing.popular-pricing-2:before {
+      height: 3px;
+      top: -3px;
+      background: #14ee80;
+   }
+
+   .popular-pricing.popular-pricing-3:before {
+      height: 3px;
+      top: -3px;
+      background: #50e3c2;
+   }
+
+   .active-border {
+      position: relative;
+   }
+
+   .active-border:before {
+      position: absolute;
+      content: "";
+      left: 0px;
+      top: 0px;
+      width: 100%;
+      height: 5px;
+      background: #5029de;
+      border-radius: 5px;
+   }
+}
+
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+Newslater areaL-10
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.newsletter-area-l10 {
+   padding-top: 50px;
+   @include tablet {
+      padding-top: 70px;
+   }
+ 
+   @include desktops {
+      padding-top: 115px;
+   }
+}
+
+
+.subscription-form-2 {
+   margin-top: 28px;
+   margin-bottom: 15px;
+
+   .form-control {
+      max-width: 100%;
+      height: 60px;
+      background: #EEF4F5;
+      border-radius: 3px;
+      padding-left: 25px;
+      border: 0;
+      margin-top: 20px;
+      @include mobile {
+         max-width: 275px;
+      }
+      &::placeholder {
+         color: #878B90;
+      }
+   }
+
+   .btn {
+      min-width: 100%;
+      height: 55px;
+      border-radius: 3px;
+      color: #fff;
+      padding: 0px 15px;
+      background: #1290A4;
+     margin-top: 15px;
+      @include mobile {
+         margin-top: 0;
+         margin-top: -6px;
+         min-width: 176px;
+         height: 60px;
+      }
+   }
+}
+
+.newsletter-form-l10-bottom {
+   & img {
+      margin-right: 7px;
+   }
+
+   font-family: Karla;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 28px;
+   text-align: center;
+   letter-spacing: -0.428571px;
+   color: #666666;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+Footer Area L-10
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.footer-l10 {
+   padding-bottom: 30px;
+   @include tablet {
+      padding-bottom: 50px;
+   }
+ 
+   @include desktops {
+      padding-bottom: 85px;
+   }
+   .footer-border-top {
+      margin: 40px 0px 60px 0px;
+      border-top: 1px solid #E5E5E5;
+      @include tablet {
+         margin: 60px 0px 80px 0px;
+      }
+    
+      @include desktops {
+         margin: 103px 0px 120px 0px;
+      }
+   }
+
+   .content {
+      margin: 35px 0px 33px 0px;
+
+      p {
+         font-family: Karla;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 16px;
+         line-height: 28px;
+         letter-spacing: -0.4px;
+         color: #666666;
+      }
+   }
+
+   .footer-widget {
+      p {
+         font-family: Karla;
+         font-style: normal;
+         font-weight: bold;
+         font-size: 14px;
+         line-height: 16px;
+         letter-spacing: -0.4px;
+         color: #666666;
+         margin-bottom: 35px;
+      }
+
+      ul {
+         li {
+            a {
+               font-family: Karla;
+               font-style: normal;
+               font-weight: bold;
+               font-size: 15px;
+               line-height: 40px;
+               letter-spacing: -0.4px;
+               color: #1F1F1F;
+            }
+         }
+      }
+   }
+
+   .social-icons {
+      margin-bottom: 50px;
+      @include desktops {
+         margin-bottom: 0;
+      }
+      ul {
+         margin: 0px -9px 0px -9px;
+
+         li {
+            margin: 0px 9px 0px 9px;
+
+            i {
+               font-size: 16px;
+               color: #1f1f1f !important;
+            }
+         }
+      }
+   }
+}

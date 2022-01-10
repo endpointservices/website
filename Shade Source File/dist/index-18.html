@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Web Application </title>
+  <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon">
+  <!-- Bootstrap , fonts & icons  -->
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./fonts/icon-font/css/style.css">
+  <link rel="stylesheet" href="./fonts/typography-font/typo.css">
+  <link rel="stylesheet" href="./fonts/fontawesome-5/css/all.css">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- Plugin'stylesheets  -->
+  <link rel="stylesheet" href="./plugins/aos/aos.min.css">
+  <link rel="stylesheet" href="./plugins/fancybox/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="./plugins/nice-select/nice-select.min.css">
+  <link rel="stylesheet" href="./plugins/slick/slick.min.css">
+  <!-- Vendor stylesheets  -->
+  <link rel="stylesheet" href="./css/main.css">
+  <!-- Custom stylesheet -->
+</head>
+
+<body data-theme-mode-panel-active data-theme="light" style="font-family: 'Mazzard H';">
+  <div class="site-wrapper overflow-hidden position-relative">
+    <!-- Site Header -->
+    <!-- Preloader -->
+    <!-- <div id="loading">
+    <div class="preloader">
+     <img src="./image/preloader.gif" alt="preloader">
+   </div>
+   </div>    -->
+    <!--Site Header Area -->
+    <header class="site-header site-header--menu-right dark-mode-texts landing-18-menu site-header--absolute site-header--sticky">
+      <div class="container">
+        <nav class="navbar site-navbar">
+          <!-- Brand Logo-->
+          <div class="brand-logo">
+            <a href="#">
+              <!-- light version logo (logo must be black)-->
+              <img src="image/logo/logo-black.png" alt="" class="light-version-logo">
+              <!-- Dark version logo (logo must be White)-->
+              <img src="image/logo/logo-white.png" alt="" class="dark-version-logo">
+            </a>
+          </div>
+          <div class="menu-block-wrapper">
+            <div class="menu-overlay"></div>
+            <nav class="menu-block" id="append-menu-header">
+              <div class="mobile-menu-head">
+                <div class="go-back">
+                  <i class="fa fa-angle-left"></i>
+                </div>
+                <div class="current-menu-title"></div>
+                <div class="mobile-menu-close">&times;</div>
+              </div>
+              <ul class="site-menu-main">
+                <li class="nav-item nav-item-has-children has-megamenu">
+                  <a href="#" class="nav-link-item drop-trigger">Landings <i class="fas fa-angle-down"></i></a>
+                  <div class="sub-menu megamenu  megadropdown-center  d-lg-flex align-items-center" id="submenu-100">
+                    <div class="col-lg-4 d-none d-lg-block">
+                      <div class="mega-menu-image">
+                        <img class="w-100" src="./image/landing-2/people-3.png" alt="image">
+                      </div>
+                    </div>
+                    <ul class="col-lg-8 col-12 row-lg list-unstyled py-lg-7">
+                      <li class="col-lg-3">
+                        <div class="single-dropdown-block">
+                          <a href="index.html" class="mega-drop-menu-item sub-menu--item">Saas Service</a>
+                          <a href="index-2.html" class="mega-drop-menu-item sub-menu--item">Job Directory</a>
+                          <a href="index-3.html" class="mega-drop-menu-item sub-menu--item">Startup Agency</a>
+                          <a href="index-4.html" class="mega-drop-menu-item sub-menu--item">Industry</a>
+                          <a href="index-5.html" class="mega-drop-menu-item sub-menu--item">Furniture Shop</a>
+                        </div>
+                      </li>
+                      <li class="col-lg-3">
+                        <div class="single-dropdown-block">
+                          <a href="index-6.html" class="mega-drop-menu-item sub-menu--item">Software</a>
+                          <a href="index-7.html" class="mega-drop-menu-item sub-menu--item">Real Estate</a>
+                          <a href="index-8.html" class="mega-drop-menu-item sub-menu--item">Finance Service</a>
+                          <a href="index-9.html" class="mega-drop-menu-item sub-menu--item">Mental Health</a>
+                          <a href="index-10.html" class="mega-drop-menu-item sub-menu--item">Saas Applications</a>
+                        </div>
+                      </li>
+                      <li class="col-lg-3">
+                        <div class="single-dropdown-block">
+                          <a href="index-11.html" class="mega-drop-menu-item sub-menu--item">Software 2.0</a>
+                          <a href="index-12.html" class="mega-drop-menu-item sub-menu--item">Course</a>
+                          <a href="index-13.html" class="mega-drop-menu-item sub-menu--item">App</a>
+                          <a href="index-14.html" class="mega-drop-menu-item sub-menu--item">Saas Subscription</a>
+                          <a href="index-15.html" class="mega-drop-menu-item sub-menu--item">Digital Service</a>
+                        </div>
+                      </li>
+                      <li class="col-lg-3">
+                        <div class="single-dropdown-block">
+                          <a href="index-16.html" class="mega-drop-menu-item sub-menu--item">Mobile App</a>
+                          <a href="index-17.html" class="mega-drop-menu-item sub-menu--item">Desktop App</a>
+                          <a href="index-18.html" class="mega-drop-menu-item sub-menu--item">Web Applications</a>
+                          <a href="index-19.html" class="mega-drop-menu-item sub-menu--item">eBook</a>
+                          <a href="index-20.html" class="mega-drop-menu-item sub-menu--item">Social App</a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <!--
+    <li class="nav-item nav-item-has-children">
+        <a href="#" class="nav-link-item drop-trigger">Pages <i class="fas fa-angle-down"></i>
+        </a>
+        <ul class="sub-menu" id="submenu-9">
+            <li class="sub-menu--item">
+                <a href="about-us.html">About Us</a>
+            </li>
+            <li class="sub-menu--item nav-item-has-children">
+                <a href="#" data-menu-get="h3" class="drop-trigger">Contact Us<i class="fas fa-angle-down"></i>
+                </a>
+                <ul class="sub-menu" id="submenu-101">
+                    <li class="sub-menu--item">
+                        <a href="contact-1.html">Contact 01</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="contact-2.html">Contact 02</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="sub-menu--item nav-item-has-children">
+                <a href="#" data-menu-get="h3" class="drop-trigger">Blog<i class="fas fa-angle-down"></i>
+                </a>
+                <ul class="sub-menu" id="submenu-10">
+                    <li class="sub-menu--item">
+                        <a href="blog-category.html">Blog Category</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="blog-regular.html">Blog Regular</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="blog-details.html">Blog Details</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="sub-menu--item nav-item-has-children">
+                <a href="#" data-menu-get="h3" class="drop-trigger">Portfolios<i class="fas fa-angle-down"></i>
+                </a>
+                <ul class="sub-menu" id="submenu-13">
+                    <li class="sub-menu--item">
+                        <a href="portfolio-1.html">Portfolio Grid</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="portfolio-2.html">Portfolio Metro</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="portfolio-3.html">Portfolio Minimal</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="sub-menu--item nav-item-has-children">
+                <a href="#" data-menu-get="h3" class="drop-trigger">Portfolio Details<i class="fas fa-angle-down"></i>
+                </a>
+                <ul class="sub-menu" id="submenu-130">
+                    <li class="sub-menu--item">
+                        <a href="portfolio-details-1.html">Portfolio Details 01</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="portfolio-details-2.html">Portfolio Details 02</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="portfolio-details-3.html">Portfolio Details 03</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="portfolio-details-4.html">Portfolio Details 04</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="sub-menu--item nav-item-has-children">
+                <a href="#" data-menu-get="h3" class="drop-trigger">Services<i class="fas fa-angle-down"></i>
+                </a>
+                <ul class="sub-menu" id="submenu-11">
+                    <li class="sub-menu--item">
+                        <a href="service-1.html">Service</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="service-details.html">Service Details</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="sub-menu--item nav-item-has-children">
+                <a href="#" data-menu-get="h3" class="drop-trigger">Career<i class="fas fa-angle-down"></i>
+                </a>
+                <ul class="sub-menu" id="submenu-111">
+                    <li class="sub-menu--item">
+                        <a href="career.html">Career</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="career-details.html">Career Details</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="sub-menu--item nav-item-has-children">
+                <a href="#" data-menu-get="h3" class="drop-trigger">Testimonials<i class="fas fa-angle-down"></i>
+                </a>
+                <ul class="sub-menu" id="submenu-112">
+                    <li class="sub-menu--item">
+                        <a href="testimonial-1.html">Testimonial 01</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="testimonial-2.html">Testimonial 02</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="sub-menu--item nav-item-has-children">
+                <a href="#" data-menu-get="h3" class="drop-trigger">Pricing<i class="fas fa-angle-down"></i>
+                </a>
+                <ul class="sub-menu" id="submenu-12">
+                    <li class="sub-menu--item">
+                        <a href="pricing-1.html">Pricing 01</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="pricing-2.html">Pricing 02</a>
+                    </li>
+                </ul>
+            </li>
+          
+            <li class="sub-menu--item nav-item-has-children">
+                <a href="#" data-menu-get="h3" class="drop-trigger">Account<i class="fas fa-angle-down"></i>
+                </a>
+                <ul class="sub-menu" id="submenu-14">
+                    <li class="sub-menu--item">
+                        <a href="sign-in-1.html">Sign In 01</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="sign-in-2.html">Sign In 02</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="sign-in-3.html">Sign In 03</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="sign-up-1.html">Sig Up 01</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="sign-up-2.html">Sign Up 02</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="sign-up-3.html">Sig Up 03</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="reset-pass-1.html">Reset Password 01</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="reset-pass-2.html">Reset Password 02</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="reset-pass-3.html">Reset Password 03</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="sub-menu--item nav-item-has-children">
+                <a href="#" data-menu-get="h3" class="drop-trigger">Utility<i class="fas fa-angle-down"></i>
+                </a>
+                <ul class="sub-menu" id="submenu-15">
+                    <li class="sub-menu--item">
+                        <a href="faq.html">FAQ</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="terms-conditions.html">Terms & Conditions</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="404.html">404 Error</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    -->
+                <li class="nav-item">
+                  <a href="https://observablehq.com/collection/@endpointservices/blogs" class="nav-link-item">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a href="mailto:support@webcode.run" class="nav-link-item">Support</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header-btn header-btn-l-18 ms-auto d-none d-xs-inline-flex">
+            <a target="_blank" class="btn btn trail-btn focus-reset" href="https://observablehq.com/collection/@endpointservices/webcode-run">
+              Start free trail
+            </a>
+          </div>
+          <!-- mobile menu trigger -->
+          <div class="mobile-menu-trigger">
+            <span></span>
+          </div>
+          <!--/.Mobile Menu Hamburger Ends-->
+        </nav>
+      </div>
+    </header>
+    <!-- navbar- -->
+    <!-- Hero Area -->
+    <div class="hero-area-l-18">
+      <div class="container">
+        <div class="row position-relative justify-content-center">
+          <div class="col-xxl-5 col-xl-6 col-lg-7 col-md-8" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+            <div class="content text-lg-start text-center">
+              <h1>Chat with your customers easily.</h1>
+              <p>Our mission is to be recognised globally
+                as the leading consultancy exclusively focused on data and information excellence.</p>
+            </div>
+          </div>
+          <div class="col-xxl-4 offset-xxl-1 col-xl-4 col-lg-5" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+            <div class="d-flex justify-content-center justify-content-lg-end">
+              <div class="download-btns">
+                <div class="dw-wi-btn">
+                  <a href="#" class="d-inline-flex">
+                    <div class="icon-box">
+                      <img src="image/l9/microsoft.svg" alt="">
+                    </div>
+                    <div class="text">
+                      <h6>Download for Windows</h6>
+                      <span>Try 30 days free trial</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="dw-mac-btn">
+                  <a href="#" class="d-inline-flex">
+                    <div class="icon-box">
+                      <img src="image/l9/apple.svg" alt="">
+                    </div>
+                    <div class="text">
+                      <h6>Download for Mac</h6>
+                      <span>Try 30 days free trial</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-10 col-lg-10 order-lg-1 order-0" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+            <div class="hero-area-image">
+              <img src="image/l9/hero-img.png" alt="" class="w-100 light-shape default-shape">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Brand Area-->
+    <div class="brand-area-l-18">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-9 col-lg-11 col-md-12">
+            <div class="content text-center">
+              <p>We are proud to have some big brands as our customer</p>
+            </div>
+            <div class="brand-area-l-18-items d-flex justify-content-center justify-content-xl-between align-items-center flex-wrap ">
+              <div class="single-brand " data-aos="fade-right" data-aos-duration="500" data-aos-once="true">
+                <img src="image/l8/brand-logo-1.svg" alt="">
+              </div>
+              <div class="single-brand " data-aos="fade-right" data-aos-duration="700" data-aos-once="true">
+                <img src="image/l8/brand-logo-2.svg" alt="">
+              </div>
+              <div class="single-brand " data-aos="fade-right" data-aos-duration="900" data-aos-once="true">
+                <img src="image/l8/brand-logo-3.svg" alt="">
+              </div>
+              <div class="single-brand " data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
+                <img src="image/l8/brand-logo-4.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Feature Area -->
+    <div class="feature-area-l-18 position-relative">
+      <div class="container">
+        <div class="row justify-content-center ">
+          <div class="col-xxl-5 col-xl-6 col-lg-7 col-md-9 text-center" data-aos="fade-down" data-aos-duration="800" data-aos-once="true">
+            <div class="section-heading-10 text-center">
+              <h2>Features are important
+                for your application.</h2>
+              <p>Create custom landing pages with Shade
+                that convert more visitors than any website.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center justify-content-center position-relative">
+          <div class="col-xxl-5 col-xl-5 col-lg-6 col-md-8 col-sm-11 order-lg-1 order-1">
+            <div class="feature-card-l-18-items">
+              <div class="feature-card-l-18 d-xs-flex">
+                <div class="icon-box">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+                    <g>
+                      <g>
+                        <g>
+                          <path class="mypath1" fill="none" stroke="#2780ff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="20" stroke-width="2" d="M17 4v0h3.77C22.553 4 24 5.679 24 7.75V9" />
+                        </g>
+                        <g>
+                          <path class="mypath1" fill="none" stroke="#2780ff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="20" stroke-width="2" d="M9.571 14v0H1v0V1v0h12v7.348" />
+                        </g>
+                        <g>
+                          <path class="mypath1" fill="none" stroke="#2780ff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="20" stroke-width="2" d="M13 12v0h12v13H13v0z" />
+                        </g>
+                        <g>
+                          <path class="mypath1" fill="none" stroke="#2780ff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="20" stroke-width="2" d="M20 1v0l-3 3v0l3 3v0" />
+                        </g>
+                        <g>
+                          <path class="mypath1" fill="none" stroke="#2780ff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="20" stroke-width="2" d="M9 22v0H5.23C3.447 22 2 20.321 2 18.25V17v0" />
+                        </g>
+                        <g>
+                          <path class="mypath1" fill="none" stroke="#2780ff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="20" stroke-width="2" d="M6 25v0l3-3v0l-3-3v0" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+                <div class="content-body">
+                  <h5>Easy to Navigate</h5>
+                  <p>Create events and see how they all fit into
+                    the bigger picture. Be one step ahead and anticipate the next step.</p>
+                </div>
+              </div>
+              <div class="feature-card-l-18 d-xs-flex">
+                <div class="icon-box">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="22" viewBox="0 0 26 22">
+                    <g>
+                      <g>
+                        <g>
+                          <path class="mypath1" fill="none" stroke="#2780ff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="20" stroke-width="2" d="M21 5v0l-8 8v0L5 5v0" />
+                        </g>
+                        <g>
+                          <path class="mypath1" fill="none" stroke="#2780ff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="20" stroke-width="2" d="M1 5a4 4 0 0 1 4-4h16a4 4 0 0 1 4 4v12a4 4 0 0 1-4 4H5a4 4 0 0 1-4-4z" />
+                        </g>
+                        <g>
+                          <path class="mypath1" fill="none" stroke="#2780ff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="20" stroke-width="2" d="M9 13l-4 4" />
+                        </g>
+                        <g>
+                          <path class="mypath1" fill="none" stroke="#2780ff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="20" stroke-width="2" d="M17 13l4 4" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+                <div class="content-body">
+                  <h5>Multiple Inbox</h5>
+                  <p>Create events and see how they all fit into
+                    the bigger picture. Be one step ahead and anticipate the next step.</p>
+                </div>
+              </div>
+              <div class="feature-card-l-18 d-xs-flex">
+                <div class="icon-box">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="27" viewBox="0 0 16 27">
+                    <g>
+                      <g>
+                        <g>
+                          <path class="mypath1" fill="none" stroke="#2780ff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="20" stroke-width="2" d="M8.5 14v8" />
+                        </g>
+                        <g>
+                          <path class="mypath1" fill="none" stroke="#2780ff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="20" stroke-width="2" d="M8.5 14a6.5 6.5 0 1 0 0-13 6.5 6.5 0 0 0 0 13z" />
+                        </g>
+                        <g>
+                          <path class="mypath1" fill="none" stroke="#2780ff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="20" stroke-width="2" d="M1 25.5h14" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+                <div class="content-body">
+                  <h5>Email Tracking</h5>
+                  <p>Create events and see how they all fit into
+                    the bigger picture. Be one step ahead and anticipate the next step.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="offset-xxl-2 col-xxl-5 offset-xl-1 col-xl-6 col-lg-6 position-static order-lg-1 order-0">
+            <div class="feature-l-18-main-image">
+              <img src="image/l9/features-img.png" alt="" class="w-lg-auto w-100">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Content Area 1-->
+    <div class="content-area-l-18-1">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-xxl-5 col-xl-6 col-lg-6 col-md-9" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+            <div class="content-img">
+              <img src="image/l9/content-img-1.svg" class="w-100" alt="">
+            </div>
+          </div>
+          <div class="offset-xxl-2 col-xxl-5 col-xl-6 col-lg-6 col-md-9" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+            <div class="content section-heading-10">
+              <h6>New Feature</h6>
+              <h2>
+                Easy payment process using messenger.
+              </h2>
+              <p>Create custom landing pages with
+                Shade that convert more visitors than any website. With lots of unique blocks, you can easily
+                build a page without coding.</p>
+              <div class="content-btn">
+                <a href="#" class="btn focus-reset">
+                  Start free 30 days trial
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Content Area 2-->
+    <div class="content-area-l-18-2">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-xxl-5 col-xl-6 col-lg-6 col-md-9 order-lg-1 order-1" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+            <div class="content section-heading-10">
+              <h6>Popular Feature</h6>
+              <h2>
+                Perfectly synced on your mobile devices.
+              </h2>
+              <p>Create custom landing pages with
+                Shade that convert more visitors than any website. With lots of unique blocks, you can easily
+                build a page without coding.</p>
+              <div class="content-btn">
+                <a href="#" class="btn focus-reset">
+                  Start free 30 days trial
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="offset-xxl-2 col-xxl-5 col-lg-6 col-xl-6 col-md-9 order-lg-1 order-0" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+            <div class="content-img">
+              <img src="image/l9/content-img-2.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Testimonial Area-->
+    <div class="testimonial-area-l-18">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-xl-5 col-lg-6 col-md-10">
+            <div class="testimonial-card-slider-l-18">
+              <div class="single-item focus-reset">
+                <div class="card-image-area position-relative">
+                  <img src="image/l9/testimonial-img-1.svg" class="card-img-top" alt="...">
+                  <a class="video-icon focus-reset" data-fancybox="" href="https://www.youtube.com/embed/9yc1lfFZX-I"><i
+                            class="fas fa-play"></i></a>
+                </div>
+                <div class="content-body">
+                  <p>“You made it so simple. My new site is so much faster
+                    and easier to work with than my old site. I just choose the page, make the change and click save.”</p>
+                  <div class="d-xs-flex justify-content-between  align-items-center">
+                    <div class="user-identity">
+                      <h5>Rhoda Nichols</h5>
+                      <span>Senior Product Manager</span>
+                    </div>
+                    <div class="customer-img">
+                      <img src="image/l9/testimonial-logo.svg" alt="" class="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="single-item focus-reset">
+                <div class="card-image-area position-relative">
+                  <img src="image/l9/testimonial-img-1.svg" class="card-img-top" alt="...">
+                  <a class="video-icon focus-reset" data-fancybox="" href="https://www.youtube.com/embed/9yc1lfFZX-I"><i
+                            class="fas fa-play"></i></a>
+                </div>
+                <div class="content-body">
+                  <p>“You made it so simple. My new site is so much faster
+                    and easier to work with than my old site. I just choose the page, make the change and click save.”</p>
+                  <div class="d-xs-flex justify-content-between  align-items-center">
+                    <div class="user-identity">
+                      <h5>Rhoda Nichols</h5>
+                      <span>Senior Product Manager</span>
+                    </div>
+                    <div class="customer-img">
+                      <img src="image/l9/testimonial-logo.svg" alt="" class="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="single-item focus-reset">
+                <div class="card-image-area position-relative">
+                  <img src="image/l9/testimonial-img-1.svg" class="card-img-top" alt="...">
+                  <a class="video-icon focus-reset" data-fancybox="" href="https://www.youtube.com/embed/9yc1lfFZX-I"><i
+                            class="fas fa-play"></i></a>
+                </div>
+                <div class="content-body">
+                  <p>“You made it so simple. My new site is so much faster
+                    and easier to work with than my old site. I just choose the page, make the change and click save.”</p>
+                  <div class="d-xs-flex justify-content-between  align-items-center">
+                    <div class="user-identity">
+                      <h5>Rhoda Nichols</h5>
+                      <span>Senior Product Manager</span>
+                    </div>
+                    <div class="customer-img">
+                      <img src="image/l9/testimonial-logo.svg" alt="" class="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-5 offset-xl-2 col-lg-6 col-md-10">
+            <div class="justify-content-center text-md-start text-center">
+              <div class="content">
+                <h2>
+                  Trusted by over 9,000 business owners in 140 countries
+                </h2>
+                <div class="content-btn">
+                  <a href="#" class="btn focus-reset">
+                    Meet our customers
+                  </a>
+                </div>
+              </div>
+              <div class="row testimonial-logo-l-18 justify-content-center">
+                <div class="col-sm-6">
+                  <div class="testimonial-logo">
+                    <img src="image/l9/testimonial-logo-1.png" alt="">
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="testimonial-logo">
+                    <img src="image/l9/testimonial-logo-2.png" alt="">
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="testimonial-logo mb-lg-m mb-sm-0">
+                    <img src="image/l9/testimonial-logo-3.png" alt="">
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="testimonial-logo">
+                    <img src="image/l9/testimonial-logo-4.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--CTA Area-->
+    <div class="cta-area-l-18">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="section-heading-10 text-center">
+              <h2>
+                Get started with Shade
+              </h2>
+              <p>Download Shade on your Windows or Mac and get 30 days free trial.</p>
+            </div>
+          </div>
+          <div class="col-lg-5 " data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+            <div class="d-flex justify-content-center">
+              <div class="download-btns">
+                <div class="dw-wi-btn">
+                  <a href="#" class="d-inline-flex">
+                    <div class="icon-box">
+                      <img class="" src="image/l9/microsoft.svg" alt="">
+                    </div>
+                    <div class="text">
+                      <h6>Download for Windows</h6>
+                      <span>Try 30 days free trial</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="dw-wi-btn">
+                  <a href="#" class="d-inline-flex">
+                    <div class="icon-box">
+                      <img class="" src="image/l9/apple-black.svg" alt="">
+                    </div>
+                    <div class="text">
+                      <h6>Download for Mac</h6>
+                      <span>Try 30 days free trial</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Footer Area-->
+    <footer class="footer-area-l-18">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-sm-9" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+            <div class="row">
+              <div class="col-xl-9 col-lg-10 col-md-9">
+                <a href="#"><img src="image/logo/logo-black.png" alt="" class="footer-logo"></a>
+                <div class="content">
+                  <p>Big, small, online,
+                    offline, local or international. Size doesn't matter. We work on diverse projects for top brands as well
+                    as for cool startups. Check out some of our favorites.</p>
+                </div>
+                <div class="social-icons">
+                  <ul class="pl-0 list-unstyled d-flex align-items-end">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-11" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+            <div class="row footer-l-18-items">
+              <div class="col-sm-3 col-xs-6">
+                <div class="footer-widget widget2">
+                  <p>Help menu</p>
+                  <ul class="widget-links pl-0 list-unstyled">
+                    <li><a href="">About</a></li>
+                    <li><a href="">Features</a></li>
+                    <li><a href="">Works</a></li>
+                    <li><a href="">Career</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-4 col-xs-6">
+                <div class="footer-widget widget3">
+                  <ul class="widget-links pl-0 list-unstyled">
+                    <li><a href="">Contact </a></li>
+                    <li><a href="">Help & Support</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Terms & Conditions</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-5 col-xs-6">
+                <div class="footer-widget widget4">
+                  <p>Contact us</p>
+                  <ul class="widget-links pl-0 list-unstyled">
+                    <li><a href="hello@berlin.com">hello@berlin.com</a></li>
+                    <li><a href="tel:+1-813-592-8269">+1-813-592-8269</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- Vendor Scripts -->
+  <script src="js/vendor.min.js"></script>
+  <!-- Plugin's Scripts -->
+  <script src="./plugins/fancybox/jquery.fancybox.min.js"></script>
+  <script src="./plugins/nice-select/jquery.nice-select.min.js"></script>
+  <script src="./plugins/aos/aos.min.js"></script>
+  <script src="./plugins/slick/slick.min.js"></script>
+  <script src="https://porjoton.netlify.app/mekanic/js/waypoints.min.js"></script>
+  <script src="./plugins/counter-up/jquery.counterup.min.js"></script>
+  <script src="./plugins/isotope/isotope.pkgd.min.js"></script>
+  <script src="./plugins/isotope/packery.pkgd.min.js"></script>
+  <script src="./plugins/isotope/image.loaded.js"></script>
+  <script src="./plugins/menu/menu.js"></script>
+  <!-- Activation Script -->
+  <script src="js/custom.js"></script>
+</body>
+
+</html>

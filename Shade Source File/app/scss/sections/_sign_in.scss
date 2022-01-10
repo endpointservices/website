@@ -1,0 +1,1499 @@
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+  Sign In Page 01
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.sign-in-menu-1 {
+    background: #fff;
+
+    .site-menu-main .nav-link-item {
+        color: #213053;
+        font-size: 15px;
+        font-weight: 600;
+        font-style: normal;
+        letter-spacing: normal;
+
+        i {
+            color: #213053;
+        }
+    }
+}
+
+.sign-in-menu-1 {
+    .site-menu-main .sub-menu--item {
+        color: #213053;
+        font-size: 15px;
+        font-weight: 600;
+        font-style: normal;
+        letter-spacing: normal;
+    }
+}
+
+.sign-in-menu-1 {
+    &.reveal-header .log-in-btn {
+        color: #666666 !important;
+    }
+}
+
+.sign-in-header-btn-1 {
+    .log-in-btn {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: normal;
+        color: #666666;
+        min-width: 87px;
+        height: 40px;
+        border: 1px solid #1F1F1F;
+        border-radius: 3px;
+    }
+
+    .download-trail-btn {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        text-align: center;
+        letter-spacing: normal;
+        color: #FFFFFF;
+        background: #1787FC;
+        border-radius: 30px;
+        min-width: 131px;
+        height: 40px;
+        margin-left: 15px;
+    }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+        Sign In 01
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.sign-in-1 {
+    background: url(../image/sign-in/sign-in-bg-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 123px;
+    padding-bottom: 60px;
+
+    @include mobile {
+        padding-top: 130px;
+    }
+
+    @include tablet {
+        padding-top: 152px;
+        padding-bottom: 80px;
+    }
+
+    @include desktops {
+        padding-top: 235px;
+        padding-bottom: 150px;
+    }
+}
+
+.sign-in-1-box {
+
+
+    .heading {
+        margin-bottom: 40px;
+
+        h2 {
+
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 54px;
+            letter-spacing: -1px;
+            color: #fff;
+            margin-bottom: 25px;
+
+            @include tablet {
+                font-size: 60px;
+                line-height: 66px;
+            }
+        }
+
+        p {
+
+            font-size: 21px;
+            line-height: 32px;
+            color: #FFFFFF;
+            opacity: 0.7;
+        }
+
+    }
+
+    form {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 64px rgba(0, 0, 0, 0.15);
+        border-radius: 15px;
+        padding: 40px 40px 30px 40px;
+
+        label {
+
+            font-style: normal;
+            font-weight: 600;
+            font-size: 17px;
+            line-height: 30px;
+            color: #1D263A;
+            margin-bottom: 10px;
+        }
+
+        .form-control {
+            background: rgba(225, 231, 240, 0.5);
+            border-radius: 10px;
+            border: 0;
+            font-size: 15px;
+            line-height: 28px;
+            color: #1D263A;
+            height: 50px;
+            padding-left: 25px;
+            margin-bottom: 18px;
+
+            &::placeholder {
+                color: #1D263A !important;
+                opacity: 0.6;
+            }
+        }
+
+        .keep-sign-area {
+            .remember-text {
+
+                font-size: 15px;
+                line-height: 28px;
+                color: rgba(29, 38, 58, 0.8);
+                margin-left: 15px;
+            }
+        }
+
+        .sign-in-log-btn {
+            .btn {
+                background: #20BFA9;
+                border-radius: 50px;
+                width: 100%;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 17px;
+                line-height: 30px;
+                color: #FFFFFF;
+                height: 56px;
+                margin: 20px 0px 35px 0px;
+            }
+        }
+
+        .create-new-acc-text {
+            p {
+
+                font-size: 17px;
+                line-height: 30px;
+                color: #1D263A;
+
+                a {
+                    color: #1787FC;
+                }
+            }
+        }
+    }
+
+}
+
+
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+        Sign Up 01
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.sign-up-1 {
+    background: url(../image/sign-in/sign-in-bg-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 123px;
+    padding-bottom: 60px;
+
+    @include mobile {
+        padding-top: 130px;
+    }
+
+    @include tablet {
+        padding-top: 152px;
+        padding-bottom: 80px;
+    }
+
+    @include desktops {
+        padding-top: 235px;
+        padding-bottom: 150px;
+    }
+}
+
+.sign-up-1-box {
+
+
+    .heading {
+        margin-bottom: 40px;
+
+        h2 {
+
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 54px;
+            letter-spacing: -1px;
+            color: #ffffff;
+            margin-bottom: 25px;
+
+            @include tablet {
+                font-size: 60px;
+                line-height: 66px;
+            }
+        }
+
+        p {
+
+            font-size: 21px;
+            line-height: 32px;
+            color: #FFFFFF;
+            opacity: 0.7;
+        }
+
+    }
+
+    form {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 64px rgba(0, 0, 0, 0.15);
+        border-radius: 15px;
+        padding: 40px 40px 30px 40px;
+
+        label {
+
+            font-style: normal;
+            font-weight: 600;
+            font-size: 17px;
+            line-height: 30px;
+            color: #1D263A;
+            margin-bottom: 10px;
+        }
+
+        .form-control {
+            background: rgba(225, 231, 240, 0.5);
+            border-radius: 10px;
+            border: 0;
+            font-size: 15px;
+            line-height: 28px;
+            color: #1D263A;
+            height: 50px;
+            padding-left: 25px;
+            margin-bottom: 18px;
+
+            &::placeholder {
+                color: #1D263A !important;
+                opacity: 0.6;
+            }
+        }
+
+        .keep-sign-area {
+            .remember-text {
+
+                font-size: 15px;
+                line-height: 28px;
+                color: rgba(29, 38, 58, 0.8);
+                margin-left: 15px;
+            }
+        }
+
+        .sign-in-log-btn {
+            .btn {
+                background: #20BFA9;
+                border-radius: 50px;
+                width: 100%;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 17px;
+                line-height: 30px;
+                color: #FFFFFF;
+                height: 56px;
+                margin: 20px 0px 35px 0px;
+            }
+        }
+
+        .create-new-acc-text {
+            p {
+
+                font-size: 17px;
+                line-height: 30px;
+                color: #1D263A;
+
+                a {
+                    color: #1787FC;
+                }
+            }
+        }
+    }
+
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+        Reset Password 01
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.reset-password-1 {
+    background: url(../image/sign-in/sign-in-bg-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 123px;
+    padding-bottom: 60px;
+
+    @include mobile {
+        padding-top: 130px;
+    }
+
+    @include tablet {
+        padding-top: 152px;
+        padding-bottom: 80px;
+    }
+
+    @include desktops {
+        padding-top: 235px;
+        padding-bottom: 150px;
+    }
+}
+
+.reset-password-1-box {
+
+
+    .heading {
+        margin-bottom: 40px;
+
+        h2 {
+
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 54px;
+            letter-spacing: -1px;
+            color: #ffffff;
+            margin-bottom: 25px;
+
+            @include tablet {
+                font-size: 60px;
+                line-height: 66px;
+            }
+        }
+
+        p {
+
+            font-size: 21px;
+            line-height: 32px;
+            color: #FFFFFF;
+            opacity: 0.7;
+        }
+
+    }
+
+    form {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 64px rgba(0, 0, 0, 0.15);
+        border-radius: 15px;
+        padding: 40px 40px 30px 40px;
+
+        label {
+
+            font-style: normal;
+            font-weight: 600;
+            font-size: 17px;
+            line-height: 30px;
+            color: #1D263A;
+            margin-bottom: 10px;
+        }
+
+        .form-control {
+            background: rgba(225, 231, 240, 0.5);
+            border-radius: 10px;
+            border: 0;
+            font-size: 15px;
+            line-height: 28px;
+            color: #1D263A;
+            height: 50px;
+            padding-left: 25px;
+            margin-bottom: 18px;
+
+            &::placeholder {
+                color: #1D263A !important;
+                opacity: 0.6;
+            }
+        }
+
+
+        .sign-in-log-btn {
+            .btn {
+                background: #20BFA9;
+                border-radius: 50px;
+                width: 100%;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 17px;
+                line-height: 30px;
+                color: #FFFFFF;
+                height: 56px;
+                margin: 10px 0px 35px 0px;
+            }
+        }
+
+        .create-new-acc-text {
+            p {
+
+                font-size: 17px;
+                line-height: 30px;
+                color: #1D263A;
+
+                a {
+                    color: #1787FC;
+                }
+            }
+        }
+    }
+
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+        Sign up 02
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.sign-up-2 {
+    background: url(../image/sign-in/sign-up-2-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 123px;
+    padding-bottom: 60px;
+
+    @include mobile {
+        padding-top: 130px;
+    }
+
+    @include tablet {
+        padding-top: 152px;
+        padding-bottom: 80px;
+    }
+
+    @include desktops {
+        padding-top: 235px;
+        padding-bottom: 150px;
+    }
+}
+
+.sign-up-2-box {
+
+
+    .heading {
+        margin-bottom: 40px;
+
+        h2 {
+
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 54px;
+            letter-spacing: -1px;
+            color: #ffffff;
+            margin-bottom: 25px;
+
+            @include tablet {
+                font-size: 60px;
+                line-height: 66px;
+            }
+        }
+
+        p {
+
+            font-size: 21px;
+            line-height: 32px;
+            color: #FFFFFF;
+            opacity: 0.7;
+        }
+
+    }
+
+    form {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 64px rgba(0, 0, 0, 0.15);
+        border-radius: 15px;
+        padding: 40px 40px 30px 40px;
+
+        .form-control {
+            background: transparent;
+            border-radius: 0px;
+            border-bottom: 2px solid #EAECED;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            font-size: 15px;
+            line-height: 28px;
+            color: #1D263A;
+            height: 50px;
+            padding-left: 0px;
+            margin-bottom: 18px;
+
+            &::placeholder {
+                color: #1D263A !important;
+                opacity: 0.6;
+            }
+        }
+
+        .keep-sign-area {
+            .remember-text {
+
+                font-size: 15px;
+                line-height: 28px;
+                color: rgba(29, 38, 58, 0.8);
+                margin-left: 15px;
+            }
+
+            .check-input-control input:checked~.checkbox {
+                background: #1D263A !important;
+                border-color: #1D263A;
+            }
+        }
+
+        .sign-in-log-btn {
+            .btn {
+                background: #FF794D;
+                border-radius: 5px;
+                width: 100%;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 15px;
+                line-height: 26px;
+                color: #FFFFFF;
+                height: 45px;
+                margin: 20px 0px 35px 0px;
+            }
+        }
+
+        .create-new-acc-text {
+            p {
+
+                font-size: 17px;
+                line-height: 30px;
+                color: #1D263A;
+
+                a {
+                    color: #FF794D;
+                }
+            }
+        }
+    }
+
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+        Sign In 02
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.sign-in-2 {
+    background: url(../image/sign-in/sign-in-2-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 123px;
+    padding-bottom: 60px;
+
+    @include mobile {
+        padding-top: 130px;
+    }
+
+    @include tablet {
+        padding-top: 152px;
+        padding-bottom: 80px;
+    }
+
+    @include desktops {
+        padding-top: 235px;
+        padding-bottom: 150px;
+    }
+}
+
+.sign-in-2-box {
+
+
+    .heading {
+        margin-bottom: 40px;
+
+        h2 {
+
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 54px;
+            letter-spacing: -1px;
+            color: #ffffff;
+            margin-bottom: 25px;
+
+            @include tablet {
+                font-size: 60px;
+                line-height: 66px;
+            }
+        }
+
+        p {
+
+            font-size: 21px;
+            line-height: 32px;
+            color: #FFFFFF;
+            opacity: 0.7;
+        }
+
+    }
+
+    form {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 64px rgba(0, 0, 0, 0.15);
+        border-radius: 15px;
+        padding: 40px 40px 30px 40px;
+
+        .form-control {
+            background: transparent;
+            border-radius: 0px;
+            border-bottom: 2px solid #EAECED;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            font-size: 15px;
+            line-height: 28px;
+            color: #1D263A;
+            height: 50px;
+            padding-left: 0px;
+            margin-bottom: 18px;
+
+            &::placeholder {
+                color: #1D263A !important;
+                opacity: 0.6;
+            }
+        }
+
+        .keep-sign-area {
+            .remember-text {
+
+                font-size: 15px;
+                line-height: 28px;
+                color: rgba(29, 38, 58, 0.8);
+                margin-left: 15px;
+            }
+
+            .check-input-control input:checked~.checkbox {
+                background: #1D263A !important;
+                border-color: #1D263A;
+            }
+        }
+
+        .sign-in-log-btn {
+            .btn {
+                background: #FF794D;
+                border-radius: 5px;
+                width: 100%;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 15px;
+                line-height: 26px;
+                color: #FFFFFF;
+                height: 45px;
+                margin: 20px 0px 35px 0px;
+            }
+        }
+
+        .create-new-acc-text {
+            p {
+
+                font-size: 17px;
+                line-height: 30px;
+                color: #1D263A;
+
+                a {
+                    color: #FF794D;
+                }
+            }
+        }
+
+    }
+
+    .reset-now-text {
+        p {
+            font-size: 15px;
+            line-height: 28px;
+            color: #FFFFFF;
+            margin-top: 35px;
+            margin-bottom: 0;
+
+            a {
+                color: #FFFFFF;
+            }
+        }
+    }
+
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+       Reset Password 02
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.reset-pass-2 {
+    background: url(../image/sign-in/reset-pass-2-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 123px;
+    padding-bottom: 60px;
+
+    @include mobile {
+        padding-top: 130px;
+    }
+
+    @include tablet {
+        padding-top: 152px;
+        padding-bottom: 80px;
+    }
+
+    @include desktops {
+        padding-top: 235px;
+        padding-bottom: 150px;
+    }
+}
+
+.reset-pass-2-box {
+
+
+    .heading {
+        margin-bottom: 40px;
+
+        h2 {
+
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 54px;
+            letter-spacing: -1px;
+            color: #ffffff;
+            margin-bottom: 25px;
+
+            @include tablet {
+                font-size: 60px;
+                line-height: 66px;
+            }
+        }
+
+        p {
+
+            font-size: 21px;
+            line-height: 32px;
+            color: #FFFFFF;
+            opacity: 0.7;
+        }
+
+    }
+
+    form {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 64px rgba(0, 0, 0, 0.15);
+        border-radius: 15px;
+        padding: 40px 40px 30px 40px;
+
+        .form-control {
+            background: transparent;
+            border-radius: 0px;
+            border-bottom: 2px solid #EAECED;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            font-size: 15px;
+            line-height: 28px;
+            color: #1D263A;
+            height: 50px;
+            padding-left: 0px;
+            margin-bottom: 18px;
+
+            &::placeholder {
+                color: #1D263A !important;
+                opacity: 0.6;
+            }
+        }
+
+        .sign-in-log-btn {
+            .btn {
+                background: #FF794D;
+                border-radius: 5px;
+                width: 100%;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 15px;
+                line-height: 26px;
+                color: #FFFFFF;
+                height: 45px;
+                margin: 10px 0px 25px 0px;
+            }
+        }
+
+        .create-new-acc-text {
+            p {
+
+                font-size: 17px;
+                line-height: 30px;
+                color: #1D263A;
+
+                a {
+                    color: #FF794D;
+                }
+            }
+        }
+
+    }
+
+    .reset-now-text {
+        p {
+            font-size: 15px;
+            line-height: 28px;
+            color: #FFFFFF;
+            margin-top: 35px;
+            margin-bottom: 0;
+
+            a {
+                color: #FFFFFF;
+            }
+        }
+    }
+
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+        Sign Up 01
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.sign-up-3 {
+    background: #F9FAFB;
+    padding-top: 123px;
+    padding-bottom: 60px;
+    position: relative;
+    overflow: hidden;
+
+    @include mobile {
+        padding-top: 130px;
+    }
+
+    @include tablet {
+        padding-top: 152px;
+        padding-bottom: 80px;
+    }
+
+    @include desktops {
+        padding-top: 235px;
+        padding-bottom: 150px;
+    }
+
+    .inner-page-left-bg {
+        & img {
+            width: 100%;
+        }
+
+        @include desktops {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 56%;
+
+            & img {
+                width: 100%;
+                height: 1240px;
+                object-fit: cover;
+            }
+        }
+
+        @include large-desktops {
+            width: 46%;
+        }
+
+
+    }
+}
+
+.sign-up-3-box {
+
+
+    .heading {
+        margin-bottom: 40px;
+
+        h2 {
+
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 54px;
+            letter-spacing: -1px;
+            color: #1D263A;
+            margin-bottom: 25px;
+
+            @include tablet {
+                font-size: 60px;
+                line-height: 66px;
+            }
+        }
+
+        p {
+
+            font-size: 21px;
+            line-height: 32px;
+            color: #1D263A;
+            opacity: 0.7;
+        }
+
+    }
+
+    form {
+
+
+        label {
+
+            font-style: normal;
+            font-weight: 600;
+            font-size: 17px;
+            line-height: 30px;
+            color: #1D263A;
+            margin-bottom: 10px;
+        }
+
+        .form-control {
+            background: rgba(225, 231, 240, 0.5);
+            border-radius: 10px;
+            border: 0;
+            font-size: 15px;
+            line-height: 28px;
+            color: #1D263A;
+            height: 50px;
+            padding-left: 25px;
+            margin-bottom: 18px;
+
+            &::placeholder {
+                color: #1D263A !important;
+                opacity: 0.6;
+            }
+        }
+
+        .keep-sign-area {
+            .remember-text {
+
+                font-size: 15px;
+                line-height: 28px;
+                color: rgba(29, 38, 58, 0.8);
+                margin-left: 15px;
+            }
+        }
+
+        .sign-in-log-btn {
+            .btn {
+                background: #20BFA9;
+                border-radius: 50px;
+                width: 100%;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 17px;
+                line-height: 30px;
+                color: #FFFFFF;
+                height: 56px;
+                margin: 20px 0px 35px 0px;
+            }
+        }
+
+        .create-new-acc-text {
+            p {
+
+                font-size: 17px;
+                line-height: 30px;
+                color: #1D263A;
+                margin-bottom: 0;
+
+                a {
+                    color: #1787FC;
+                }
+            }
+        }
+    }
+
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+        Sign In 03
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.sign-in-3 {
+    background: #F9FAFB;
+    padding-top: 123px;
+    padding-bottom: 60px;
+    position: relative;
+    overflow: hidden;
+
+    @include mobile {
+        padding-top: 130px;
+    }
+
+    @include tablet {
+        padding-top: 152px;
+        padding-bottom: 80px;
+    }
+
+    @include desktops {
+        padding-top: 235px;
+        padding-bottom: 150px;
+    }
+
+    .inner-page-left-bg {
+        & img {
+            width: 100%;
+        }
+
+        @include desktops {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 56%;
+
+            & img {
+                width: 100%;
+                height: 945px;
+                object-fit: cover;
+            }
+        }
+
+        @include large-desktops {
+            width: 46%;
+        }
+
+
+    }
+}
+
+.sign-in-3-box {
+
+
+    .heading {
+        margin-bottom: 40px;
+
+        h2 {
+
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 54px;
+            letter-spacing: -1px;
+            color: #1D263A;
+            margin-bottom: 25px;
+
+            @include tablet {
+                font-size: 60px;
+                line-height: 66px;
+            }
+        }
+
+        p {
+
+            font-size: 21px;
+            line-height: 32px;
+            color: #1D263A;
+            opacity: 0.7;
+        }
+
+    }
+
+    form {
+
+
+        label {
+
+            font-style: normal;
+            font-weight: 600;
+            font-size: 17px;
+            line-height: 30px;
+            color: #1D263A;
+            margin-bottom: 10px;
+        }
+
+        .form-control {
+            background: rgba(225, 231, 240, 0.5);
+            border-radius: 10px;
+            border: 0;
+            font-size: 15px;
+            line-height: 28px;
+            color: #1D263A;
+            height: 50px;
+            padding-left: 25px;
+            margin-bottom: 18px;
+
+            &::placeholder {
+                color: #1D263A !important;
+                opacity: 0.6;
+            }
+        }
+
+        .keep-sign-area {
+            .remember-text {
+
+                font-size: 15px;
+                line-height: 28px;
+                color: rgba(29, 38, 58, 0.8);
+                margin-left: 15px;
+            }
+        }
+
+        .sign-in-log-btn {
+            .btn {
+                background: #20BFA9;
+                border-radius: 50px;
+                width: 100%;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 17px;
+                line-height: 30px;
+                color: #FFFFFF;
+                height: 56px;
+                margin: 20px 0px 35px 0px;
+            }
+        }
+
+        .create-new-acc-text {
+            p {
+
+                font-size: 17px;
+                line-height: 30px;
+                color: #1D263A;
+                margin-bottom: 0;
+
+                a {
+                    color: #1787FC;
+                }
+            }
+        }
+    }
+
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+       Reset Password 03
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.reset-pass-3 {
+    background: #F9FAFB;
+    padding-top: 123px;
+    padding-bottom: 60px;
+    position: relative;
+    overflow: hidden;
+
+    @include mobile {
+        padding-top: 130px;
+    }
+
+    @include tablet {
+        padding-top: 152px;
+        padding-bottom: 80px;
+    }
+
+    @include desktops {
+        padding-top: 320px;
+        padding-bottom: 220px;
+    }
+
+    .inner-page-left-bg {
+        & img {
+            width: 100%;
+        }
+
+        @include desktops {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 56%;
+
+            & img {
+                width: 100%;
+                height: 945px;
+                object-fit: cover;
+            }
+        }
+
+        @include large-desktops {
+            width: 46%;
+        }
+
+
+    }
+}
+
+.reset-pass-3-box {
+
+
+    .heading {
+        margin-bottom: 40px;
+
+        h2 {
+
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 54px;
+            letter-spacing: -1px;
+            color: #1D263A;
+            margin-bottom: 25px;
+
+            @include tablet {
+                font-size: 60px;
+                line-height: 66px;
+            }
+        }
+
+        p {
+
+            font-size: 21px;
+            line-height: 32px;
+            color: #1D263A;
+            opacity: 0.7;
+        }
+
+    }
+
+    form {
+
+
+        label {
+
+            font-style: normal;
+            font-weight: 600;
+            font-size: 17px;
+            line-height: 30px;
+            color: #1D263A;
+            margin-bottom: 10px;
+        }
+
+        .form-control {
+            background: rgba(225, 231, 240, 0.5);
+            border-radius: 10px;
+            border: 0;
+            font-size: 15px;
+            line-height: 28px;
+            color: #1D263A;
+            height: 50px;
+            padding-left: 25px;
+            margin-bottom: 18px;
+
+            &::placeholder {
+                color: #1D263A !important;
+                opacity: 0.6;
+            }
+        }
+
+
+
+        .sign-in-log-btn {
+            .btn {
+                background: #20BFA9;
+                border-radius: 50px;
+                width: 100%;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 17px;
+                line-height: 30px;
+                color: #FFFFFF;
+                height: 56px;
+                margin: 10px 0px 25px 0px;
+            }
+        }
+
+        .create-new-acc-text {
+            p {
+
+                font-size: 17px;
+                line-height: 30px;
+                color: #1D263A;
+                margin-bottom: 0;
+
+                a {
+                    color: #1787FC;
+                }
+            }
+        }
+    }
+
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+      404 Page
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.error-page {
+    padding-top: 108px;
+    padding-bottom: 60px;
+
+    @include mobile {
+        padding-top: 125px;
+    }
+
+    @include mobile-lg {
+        padding-top: 130px;
+    }
+
+    @include tablet {
+        padding-top: 150px;
+        padding-bottom: 80px;
+    }
+
+    @include desktops {
+        padding-top: 245px;
+        padding-bottom: 175px;
+    }
+}
+
+.error-page-content {
+    h2 {
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 54px;
+        letter-spacing: -1px;
+        color: #1D263A;
+        margin-top: 30px;
+        margin-bottom: 25px;
+
+        @include mobile-lg {
+            font-size: 60px;
+            line-height: 66px;
+        }
+
+    }
+
+    p {
+        font-size: 21px;
+        line-height: 32px;
+        color: #1D263A;
+        opacity: 0.7;
+    }
+}
+
+.back-to-btn {
+    .btn {
+        background: #FF794D;
+        border-radius: 5px;
+        min-width: 213px;
+        height: 45px;
+        color: #fff;
+        font-size: 15px;
+        line-height: 26px;
+        font-weight: 600;
+        font-style: normal;
+        letter-spacing: -0.53px;
+        line-height: normal;
+        margin-top: 25px;
+
+        &:hover {
+            color: #fff !important;
+        }
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+            Footer Area SIgn In 01
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.footer-sign-in-1 {
+    padding-top: 60px;
+    padding-bottom: 30px;
+
+    @include tablet {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+
+    @include desktops {
+        padding-top: 80px;
+        padding-bottom: 85px;
+    }
+
+    .footer-border-top {
+        margin: 40px 0px 60px 0px;
+        border-top: 1px solid #E5E5E5;
+
+        @include tablet {
+            margin: 60px 0px 80px 0px;
+        }
+
+        @include desktops {
+            margin: 103px 0px 120px 0px;
+        }
+    }
+
+    .content {
+        margin: 35px 0px 33px 0px;
+
+        p {
+            font-family: Karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 28px;
+            letter-spacing: -0.4px;
+            color: #666666;
+        }
+    }
+
+    .footer-widget {
+        p {
+            font-family: Karla;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: -0.4px;
+            color: #666666;
+            margin-bottom: 35px;
+        }
+
+        ul {
+            li {
+                a {
+                    font-family: Karla;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 15px;
+                    line-height: 40px;
+                    letter-spacing: -0.4px;
+                    color: #1F1F1F;
+                }
+            }
+        }
+    }
+
+    .social-icons {
+        margin-bottom: 50px;
+
+        @include desktops {
+            margin-bottom: 0;
+        }
+
+        ul {
+            margin: 0px -9px 0px -9px;
+
+            li {
+                margin: 0px 9px 0px 9px;
+
+                i {
+                    font-size: 16px;
+                    color: #1f1f1f !important;
+                }
+            }
+        }
+    }
+}

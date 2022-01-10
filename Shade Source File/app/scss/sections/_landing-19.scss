@@ -1,0 +1,971 @@
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+   Hero Area-L-19
+
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.landing-19-menu {
+    .site-menu-main .nav-link-item {
+        font-family: Karla;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -0.4px;
+
+        i {
+            color: #fff;
+        }
+    }
+}
+.landing-19-menu{
+    .menu-block.active{
+        .nav-link-item i{
+            color: #000;
+        }
+    }
+}
+
+
+.landing-19-menu {
+    .site-menu-main .sub-menu--item {
+        font-family: Karla;
+        color: #1f1f1f;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -0.4px;
+    }
+}
+
+.landing-19-menu {
+    &.reveal-header .sign-in-btn {
+        color: #fff !important;
+    }
+}
+
+.landing-19-menu.reveal-header .nav-link-item {
+    color: #fff !important;
+}
+
+.landing-19-menu.reveal-header {
+    background: #1D263A !important;
+}
+
+.hero-area-l-19 {
+    background: linear-gradient(-48deg, #8731e8 0%, #4528dc 100%);
+    padding-top: 105px;
+    padding-bottom: 55px;
+
+    @include mobile {
+        padding-top: 125px;
+    }
+
+    @include tablet {
+        padding-top: 145px;
+        padding-bottom: 75px;
+    }
+
+    @include desktops {
+        padding-top: 205px;
+        padding-bottom: 140px;
+    }
+
+    .content {
+        padding-top: 45px;
+
+        @include desktops {
+            padding-top: 0;
+        }
+
+        @include large-desktops {
+            padding-right: 30px;
+        }
+
+        h1 {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 34px;
+            line-height: 46px;
+            letter-spacing: -0.3px;
+            color: #fff;
+
+            @include mobile-lg {
+                font-size: 40px;
+                line-height: 52px;
+            }
+
+            @include tablet {
+                font-size: 46px;
+                line-height: 58px;
+            }
+
+        }
+
+        p {
+
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 34px;
+            color: #DBE4F1;
+            margin: 25px 0px 30px 0px;
+
+        }
+
+
+    }
+
+}
+
+.get-chapter-form-l-19 {
+    .form-control {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        letter-spacing: -0.3px;
+        color: #878B90;
+        background: #FFFFFF;
+        border-radius: 3px;
+        width: 100%;
+        height: 60px;
+
+        @include mobile {
+            width: 455px;
+        }
+
+        &::placeholder {
+            color: #878B90;
+        }
+    }
+
+    .btn {
+        background: #EFD358;
+        border-radius: 3px;
+        width: 100%;
+        height: 60px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        letter-spacing: -0.3px;
+        color: #222D3D;
+        margin-top: 12px;
+
+        @include mobile {
+            width: 455px;
+            height: 60px;
+        }
+
+        &:hover {
+            color: #222D3D !important;
+        }
+    }
+
+    span {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: -0.28px;
+        color: #FFFFFF;
+        display: inline-block;
+        margin-top: 15px;
+    }
+}
+
+
+.header-btn-l-19 {
+    .read-btn {
+        background: #EFD358;
+        border-radius: 3px;
+        min-width: 145px;
+        height: 45px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #222D3D;
+        margin-left: 15px;
+    }
+
+
+}
+
+
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+        Services Area-L-19
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.services-area-l-19 {
+    padding-top: 55px;
+    padding-bottom: 55px;
+
+    @include tablet {
+        padding-top: 70px;
+        padding-bottom: 75px;
+    }
+
+    @include desktops {
+        padding-top: 125px;
+        padding-bottom: 125px;
+    }
+
+    .section-heading-12 {
+        margin-bottom: 40px;
+
+        @include tablet {
+            margin-bottom: 60px;
+        }
+
+        @include desktops {
+            margin-bottom: 98px;
+        }
+    }
+}
+
+.services-area-l-19-items {
+    margin-bottom: -40px;
+    @include tablet {
+        margin-bottom: -50px;
+    }
+  
+    @include desktops {
+        margin-bottom: -73px;
+    }
+    .col-lg-4 {
+        margin-bottom: 40px;
+        @include tablet {
+            margin-bottom: 50px;
+        }
+      
+        @include desktops {
+            margin-bottom: 73px;
+        }
+    }
+
+    .single-services {
+       
+        @include large-desktops {
+            padding-right: 10px;
+        }
+      
+        @include extra-large-desktops {
+            padding-right: 70px;
+        }
+      
+        .icon-box {
+            margin-right: 25px;
+
+            i {
+                background: #EFD358;
+                color: #fff;
+                font-size: 26px;
+                width: 56px;
+                height: 56px;
+                line-height: 56px;
+                text-align: center;
+                border-radius: 50%;
+            }
+
+            &-2{
+                i {
+                    background: #81E2CC;
+                }
+            }
+            &-3{
+                i {
+                    background: #2780FF;
+                }
+            }
+            &-4{
+                i {
+                    background: #B8E986;
+                }
+            }
+            &-5{
+                i {
+                    background: #F69F51;
+                }
+            }
+            &-6{
+                i {
+                    background: #9E84FF;
+                }
+            }
+        }
+
+        .content-body {
+            h5 {
+                font-family: Inter;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 22px;
+                color: #222D3D;
+            }
+
+            p {
+                font-family: Inter;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 28px;
+                color: #878B90;
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+        Brand Area-L-19
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.brand-area-l-19 {
+    padding-bottom: 60px;
+
+    @include tablet {
+        padding-bottom: 80px;
+    }
+
+    @include desktops {
+        padding-bottom: 100px;
+    }
+
+    .content {
+        p {
+            margin-bottom: 35px;
+        }
+    }
+}
+
+.brand-area-l-19-items {
+    margin: 0px -20px -45px -20px;
+
+    .single-brand {
+        margin: 0px 20px 45px 20px;
+    }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+        Content Area-1-L-19
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.content-area-l-19-1 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #F6F9FC;
+
+    @include tablet {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    @include desktops {
+        padding-top: 130px;
+        padding-bottom: 70px;
+    }
+
+    .content {
+        padding-top: 0px;
+
+        @include desktops {
+            padding-top: 0;
+        }
+    }
+
+}
+
+.get-chapter-form-l-19-2 {
+    display: inline-grid;
+    margin-top: 35px;
+
+    .form-control {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        letter-spacing: -0.3px;
+        color: #878B90;
+        background: #FFFFFF;
+        border: 0;
+        border-radius: 3px;
+        width: 100%;
+        height: 60px;
+
+        @include mobile {
+            width: 455px;
+        }
+
+        &::placeholder {
+            color: #878B90;
+        }
+    }
+
+    .btn {
+        background: #EFD358;
+        border-radius: 3px;
+        width: 100%;
+        height: 60px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        letter-spacing: -0.3px;
+        color: #222D3D;
+        margin-top: 12px;
+
+        @include mobile {
+            width: 455px;
+            height: 60px;
+        }
+
+        &:hover {
+            color: #222D3D !important;
+        }
+    }
+
+    span {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: -0.28px;
+        color: #878B90;
+        display: inline-block;
+        margin-top: 15px;
+    }
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+        Tab Area-L-19
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.tab-area-l-19 {
+    padding-top: 50px;
+    padding-bottom: 60px;
+
+    @include tablet {
+        padding-top: 70px;
+        padding-bottom: 80px;
+    }
+
+    @include desktops {
+        padding-top: 125px;
+        padding-bottom: 110px;
+    }
+
+    .content {
+        margin-bottom: 40px;
+
+        @include tablet {
+            margin-bottom: 50px;
+        }
+
+        @include desktops {
+            margin-bottom: 75px;
+        }
+    }
+
+    .chapter-tab-area-l-19 {
+        margin-bottom: -20px;
+
+        .nav-link {
+            margin-bottom: 20px;
+
+            p {
+                font-family: Inter;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 12px;
+                line-height: 15px;
+                text-transform: uppercase;
+                color: #878B90;
+                margin-bottom: 12px;
+            }
+
+            h4 {
+                font-family: Inter;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 21px;
+                line-height: 25px;
+                color: #878B90;
+            }
+
+            &.active {
+                p {
+                    color: #5029DE;
+                }
+
+                h4 {
+                    color: #222D3D;
+                }
+            }
+        }
+
+
+    }
+
+    .tab-content {
+        margin-top: 45px;
+        @include tablet {
+            margin-top: 0;
+        }
+        .content-card {
+            background: #FFFFFF;
+            box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.0710485);
+            border-radius: 8px;
+            padding: 40px 40px 50px 40px;
+        }
+
+        .active-border {
+            border-top: 5px solid #5029DE;
+        }
+
+        p {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 32px;
+            color: #323232;
+            margin-bottom: 25px;
+
+        }
+
+        ul {
+            margin-bottom: -32px;
+            margin-top: 40px;
+
+            @include tablet {
+                margin-top: 50px;
+            }
+
+            @include desktops {
+                margin-top: 65px;
+            }
+
+            li {
+                font-family: Inter;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 22px;
+                color: #222D3D;
+                margin-bottom: 32px;
+
+                i {
+                    width: 21px;
+                    height: 21px;
+                    line-height: 21px;
+                    text-align: center;
+                    border-radius: 50%;
+                    color: #fff;
+                    background: #5029DE;
+                    font-size: 12px;
+                    margin-right: 12px;
+                    display: inline-table;
+                }
+            }
+        }
+    }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+        Testimonial Area-L-19
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.testimonial-area-l-19 {
+    background: #F6F9FC;
+    padding-top: 50px;
+    padding-bottom: 60px;
+
+    @include tablet {
+        padding-top: 70px;
+        padding-bottom: 80px;
+    }
+
+    @include desktops {
+        padding-top: 125px;
+        padding-bottom: 125px;
+    }
+
+    .content {
+        margin-bottom: 40px;
+
+        @include tablet {
+            margin-bottom: 50px;
+        }
+
+        @include desktops {
+            margin-bottom: 75px;
+        }
+    }
+}
+
+.testimonial-area-l-19-items {
+    margin-bottom: -30px;
+
+    .col-lg-4 {
+        margin-bottom: 30px;
+    }
+
+    .col-lg-12 {
+        margin-bottom: 30px;
+    }
+
+    .testimonial-card {
+        padding: 40px 40px 35px 40px;
+        @include desktops {
+            padding: 40px 30px 35px 30px;
+        }
+        @include large-desktops {
+            padding: 40px 40px 35px 40px;
+        }
+      
+        background: #FFFFFF;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.036062);
+        border-radius: 5px;
+
+        .rating {
+            i {
+                color: #FA8231;
+            }
+        }
+
+        p {
+            font-family: Inter;
+            font-style: italic;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 32px;
+            letter-spacing: -0.1px;
+            color: #1F1F1F;
+            margin-top: 30px;
+            margin-bottom: 35px;
+        }
+
+        .customer-img {
+            img {
+                margin-bottom: 15px;
+                @include mobile {
+                    margin-bottom: 0;
+                    margin-right: 25px;
+                }
+               
+            }
+        }
+
+        .user-identity {
+            h5 {
+                font-family: Inter;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 28px;
+                letter-spacing: -0.3375px;
+                color: #1F1F1F;
+                margin-bottom: 0;
+            }
+
+            span {
+                font-family: Inter;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 28px;
+                letter-spacing: -0.3px;
+                color: #666666;
+
+            }
+        }
+
+    }
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+        Author Area-L-19
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.author-area-l-19 {
+    padding-top: 50px;
+    padding-bottom: 60px;
+
+    @include tablet {
+        padding-top: 70px;
+        padding-bottom: 80px;
+    }
+
+    @include desktops {
+        padding-top: 125px;
+        padding-bottom: 80px;
+    }
+
+    .content {
+        margin-bottom: 40px;
+
+        @include tablet {
+            margin-bottom: 50px;
+        }
+
+        @include desktops {
+            margin-bottom: 75px;
+        }
+    }
+
+    .about-content {
+        margin-bottom: -30px;
+
+        & img {
+            margin-bottom: 30px;
+            @include tablet {
+                margin-bottom: 0;
+                margin-right: 55px;
+            }
+          
+            @include desktops {
+                margin-right: 75px;
+            }
+        }
+
+        h5 {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 21px;
+            line-height: 25px;
+            color: #222D3D;
+            margin-bottom: 30px;
+
+        }
+
+        p {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 32px;
+            color: #323232;
+            margin-bottom: 35px;
+
+        }
+
+        a {
+            text-decoration: underline;
+            color: #323232;
+        }
+    }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+        CTA Area-L-19
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.cta-area-l-19 {
+    background: linear-gradient(312.24deg, #8731E8 9.69%, #4528DC 98.05%);
+    padding-top: 85px;
+    padding-bottom: 60px;
+
+    @include tablet {
+        padding-top: 115px;
+        padding-bottom: 80px;
+    }
+
+    @include desktops {
+        padding-top: 130px;
+        padding-bottom: 130px;
+    }
+
+    .content {
+       
+        padding-top: 45px;
+
+        @include tablet {
+            padding-right: 45px;
+        }
+        @include desktops {
+            padding-top: 0;
+        }
+
+        h2 {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 34px;
+            line-height: 46px;
+            letter-spacing: -0.3px;
+            color: #fff;
+
+            @include mobile-lg {
+                font-size: 40px;
+                line-height: 52px;
+            }
+
+            @include tablet {
+                font-size: 46px;
+                line-height: 58px;
+            }
+        }
+
+        p {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 34px;
+            color: #DBE4F1;
+            margin-bottom: 40px;
+        }
+    }
+
+    .cta-shape {
+        position: absolute;
+        top: -13px;
+        left: -15%;
+        width: 125%;
+    }
+
+}
+
+.get-chapter-form-l-19-3 {
+    .form-control {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        letter-spacing: -0.3px;
+        color: #878B90;
+        background: #FFFFFF;
+        border-radius: 3px;
+        width: 100%;
+        height: 60px;
+
+        @include mobile {
+            width: 455px;
+        }
+
+        &::placeholder {
+            color: #878B90;
+        }
+    }
+
+    .btn {
+        background: #EFD358;
+        border-radius: 3px;
+        width: 100%;
+        height: 60px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        letter-spacing: -0.3px;
+        color: #222D3D;
+        margin-top: 12px;
+
+        @include mobile {
+            width: 455px;
+            height: 60px;
+        }
+
+        &:hover {
+            color: #222D3D !important;
+        }
+    }
+
+    span {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: -0.28px;
+        color: #FFFFFF;
+        display: inline-block;
+        margin-top: 15px;
+    }
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+        Footer Area-L-19
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.footer-area-l-19 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .footer-copyright {
+        p {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 18px;
+            color: #323232;
+            margin-bottom: 0;
+        }
+    }
+}
+
+.footer-menu-item-l9 {
+   padding: 25px 0px;
+  @include desktops {
+    padding: 0;
+}
+    margin: 0px -20px -25px -20px;
+  
+    li {
+        margin: 0px 20px 25px 20px;
+        display: inline-flex;
+        flex-wrap: wrap;
+
+        a {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 18px;
+            color: #323232;
+            
+        }
+    }
+
+}
+
+.footer-social-icon-l9 {
+       margin: 0px -15px 0px -15px;
+       li {
+           display: inline-block;
+          margin: 0px 15px 0px 15px;
+ 
+          a {
+             i {
+                color: #000;
+                font-size: 20px;
+             }
+          }
+       }
+    
+ }

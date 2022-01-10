@@ -1,0 +1,847 @@
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+      Pricing-01
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.inner-pricing-area-1 {
+        background: #F9FAFB;
+        padding-bottom: 60px;
+
+        @include tablet {
+                padding-bottom: 80px;
+        }
+
+        @include desktops {
+                padding-bottom: 120px;
+        }
+}
+
+.inner-pricing-area-1-items {
+        margin-bottom: -30px;
+
+        .col-xl-4 {
+                margin-bottom: 30px;
+        }
+
+        .price-card {
+                background: #FFFFFF;
+                border-radius: 15px;
+                padding: 40px 35px 40px 35px;
+
+                .price-top-area {
+                        padding-bottom: 20px;
+                        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+                        h4 {
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 24px;
+                                line-height: 32px;
+                                letter-spacing: -0.3px;
+                                color: #1D263A;
+                                margin-bottom: 5px;
+                        }
+
+                        span {
+                                display: inline-block;
+                                font-size: 13px;
+                                line-height: 22px;
+                                color: #1D263A;
+                                opacity: 0.7;
+                        }
+                }
+
+                .price-item-list {
+                        padding-top: 40px;
+
+                        ul {
+                                li {
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: space-between;
+                                        font-size: 17px;
+                                        line-height: 30px;
+                                        color: #1D263A;
+                                        margin-bottom: 15px;
+
+                                        i {
+                                                color: #1D263A;
+                                        }
+
+                                        &.del {
+                                                color: #7F828A;
+
+                                                i {
+                                                        color: #7F828A;
+                                                }
+                                        }
+                                }
+                        }
+                }
+
+                .price-area-btn {
+                        .btn {
+                                width: 100%;
+                                height: 56px;
+                                background: #1787FC;
+                                border-radius: 50px;
+                                font-weight: 600;
+                                font-size: 17px;
+                                line-height: 30px;
+                                display: flex;
+                                align-items: center;
+                                text-align: center;
+                                color: #FFFFFF;
+                                margin-top: 27px;
+                        }
+                }
+
+                &.professional-price-card {
+                        background: #1787FC;
+
+                        .price-top-area {
+                                border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+                                h4 {
+
+                                        color: #fff;
+
+                                }
+
+                                span {
+
+                                        color: #fff;
+                                        opacity: 0.7;
+                                }
+                        }
+
+                        .price-item-list {
+                                padding-top: 40px;
+
+                                ul {
+                                        li {
+
+                                                color: #fff;
+
+                                                i {
+                                                        color: #fff;
+                                                }
+
+                                                &.del {
+                                                        color: #fff;
+                                                        opacity: 0.7;
+
+                                                        i {
+                                                                color: #fff;
+                                                                opacity: 0.7;
+                                                        }
+                                                }
+                                        }
+                                }
+                        }
+
+                        .price-area-btn {
+                                .btn {
+                                        background: #fff;
+                                        color: #1787FC;
+                                }
+                        }
+                }
+        }
+
+
+}
+
+
+
+
+
+.feature-area-price-1 {
+        background: #F9FAFB;
+     padding-bottom: 60px;
+        @include tablet {
+          padding-bottom: 80px;
+        }
+     
+        @include desktops {
+           padding-bottom: 130px;
+        }
+     }
+     
+     .feature-area-price-1-items {
+        margin-bottom: -55px;
+     
+        .col-lg-4 {
+           margin-bottom: 55px;
+        }
+     }
+     
+     .feature-card-price-1 {
+        .icon {
+           height: 80px;
+           width: 80px;
+           line-height: 80px;
+           border-radius: 50%;
+           text-align: center;
+           background: rgba(214, 227, 235, 0.4);
+           display: inline-table;
+     
+           & img {
+              width: 32px;
+              height: 32px;
+           }
+           &.icon-2{
+                background: rgba(250, 229, 218, 0.4);
+             }
+             &.icon-3{
+                background: #EBF5FF;
+             }
+        }
+     
+        .content {
+           margin-left: 35px;
+     
+           h4 {
+              font-weight: 600;
+              font-size: 24px;
+              line-height: 32px;
+              letter-spacing: -0.3px;
+              color: $mirage;
+              margin-bottom: 15px;
+           }
+     
+           p {
+              font-size: 15px;
+              line-height: 28px;
+              color: $mirage;
+              opacity: 0.8;
+              margin-bottom: 0;
+           }
+        }
+     }
+     
+     
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+      Pricing 02
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.inner-price-table-2 {
+        background: #F9FAFB;
+        padding-bottom: 50px;
+
+        @include tablet {
+                padding-bottom: 70px;
+        }
+
+        @include desktops {
+                padding-bottom: 120px;
+        }
+
+        .section__heading {
+                h2 {
+                        margin-bottom: 30px;
+                }
+        }
+
+        [data-pricing-dynamic][data-value-active="yearly"] {
+                .dynamic-value {
+                        &:before {
+                                display: inline-block;
+                                content: attr(data-yearly);
+                        }
+                }
+
+                [data-pricing-trigger] {
+                        background: $primary;
+
+                        span {
+                                left: calc(100% - 24px);
+                        }
+                }
+
+                .btn-toggle-2[data-pricing-trigger] {
+                        background: $primary;
+
+                        span {
+                                left: calc(100% - 52%);
+                        }
+
+                        &.active {
+                                &:before {
+                                        color: #1D263A !important;
+                                }
+
+                                &:after {
+                                        color: $white !important;
+                                }
+                        }
+                }
+
+        }
+
+        [data-pricing-dynamic][data-value-active="monthly"] {
+                .dynamic-value {
+                        &:before {
+                                display: inline-block;
+                                content: attr(data-monthly);
+                        }
+                }
+        }
+
+        .btn-toggle-2[data-pricing-trigger] {
+                &.active {
+                        &:before {
+                                color: $white !important;
+                        }
+
+                        &:after {
+                                color: #1D263A !important;
+                        }
+                }
+        }
+
+        .dynamic-value {
+                &:before {
+                        display: inline-block;
+                        content: attr(data-active);
+                }
+        }
+
+        .static-value {
+                &:before {
+                        display: inline-block;
+                        content: attr(data-active);
+                }
+        }
+
+        .btn-toggle {
+                width: 48px;
+                height: 24px;
+                border-radius: 17px;
+                background-color: #f8f8f8 !important;
+                position: relative;
+                margin: 0 15px;
+
+                span {
+                        width: 16px;
+                        height: 16px;
+                        background-color: $primary;
+                        position: absolute;
+                        left: 5px;
+                        top: 4px;
+                        transition: 0.4s;
+                        border-radius: 500px;
+                        pointer-events: none;
+                }
+
+                &-8 {
+                        width: 265px;
+                        height: 42px;
+                        border-radius: 30px;
+                        background-color: $white !important;
+                        position: relative;
+                        margin: 0 15px;
+                        z-index: 1;
+
+                        &:before {
+                                position: absolute;
+                                content: "PER MONTHLY" !important;
+                                width: 50%;
+                                text-transform: uppercase;
+                                color: $white;
+                                height: 34px;
+                                background: transparent;
+                                left: 6px;
+                                top: 4px;
+                                line-height: 34px;
+                                font-size: 12px;
+                                font-weight: 700 !important;
+                                letter-spacing: 0.5px;
+
+                        }
+
+                        &:after {
+                                position: absolute;
+                                content: "PER YEARLY" !important;
+                                width: 50%;
+                                font-size: 13px;
+                                font-weight: 700 !important;
+                                text-transform: uppercase;
+                                color: #1D263A;
+                                height: 34px;
+                                background: transparent;
+                                right: 4px;
+                                top: 4px;
+                                line-height: 34px;
+                                font-size: 12px;
+                                font-weight: 700;
+                                letter-spacing: 0.5px;
+                        }
+
+                        .round {
+                                width: 50%;
+                                height: 34px;
+                                top: 3px;
+                                left: 4px;
+                                background: #FF794D;
+                                display: block;
+                                z-index: -1;
+                        }
+
+                        span {
+                                display: none;
+                        }
+
+                }
+
+                &[data-value-active="yearly"] {
+                        background-color: $primary !important;
+
+                        span {
+                                left: calc(100% - 25px) !important;
+                        }
+                }
+
+                &-square {
+                        height: 65px;
+                        display: inline-flex;
+                        position: relative;
+                        z-index: 1;
+                        padding: 5px;
+                        align-items: center;
+
+                        &.bg-whisper-3 {
+
+                                &:hover,
+                                &:focus {
+                                        background: $white !important;
+                                }
+                        }
+
+                        span {
+                                min-width: 160px;
+                                min-height: 50px;
+                                font-size: 16px;
+                                font-weight: 700;
+                                letter-spacing: -0.5px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                color: $black;
+
+                                &:first-child {
+                                        border-radius: 10px 0 0 10px;
+                                }
+
+                                &:nth-child(2) {
+                                        border-radius: 0px 10px 10px 0;
+                                }
+
+                                &.active {
+                                        color: $white;
+                                        background: $primary;
+                                }
+                        }
+
+                }
+        }
+
+
+        .popular-pricing {
+                &:before {
+                        position: absolute;
+                        content: "";
+                        left: 0px;
+                        top: 0px;
+                        width: 100%;
+                        height: 4px;
+                        background: #f46f7c;
+                        border-radius: 6px;
+                }
+
+                &.popular-pricing-2 {
+                        &:before {
+                                height: 3px;
+                                top: -3px;
+                                background: red;
+                        }
+                }
+        }
+
+}
+
+.inner-price-table-2 {
+        .priceing_area_four .sec_title {
+                margin-bottom: 50px
+        }
+
+
+
+        .price_info_two .price_head {
+                display: table;
+                width: 100%
+        }
+
+        .price_info_two .price_head .p_head {
+                width: calc(100%/5);
+                text-align: center;
+                vertical-align: middle;
+                display: table-cell;
+                padding: 31px 0
+        }
+
+        .price_info_two .price_head .p_head h5 {
+                color: #1D263A;
+                font-size: 14px;
+                font-weight: 700;
+                font-style: normal;
+                letter-spacing: -0.53px;
+                line-height: normal;
+
+                @include mobile-lg {
+                        font-size: 16px;
+                }
+        }
+
+        .price_info_two .price_head .p_head p {
+                color: #1D263A;
+                font-size: 16px;
+                font-weight: 400;
+                font-style: normal;
+                letter-spacing: -0.53px;
+                line-height: normal;
+
+        }
+
+        .price_info_two .price_head .p_head h2 {
+                color: #1D263A;
+                font-size: 22px;
+                font-weight: 700;
+                font-style: normal;
+                letter-spacing: -1.12px;
+                line-height: normal;
+                margin-top: 27px;
+
+                @include mobile-lg {
+                        font-size: 34px;
+                }
+        }
+
+        .ex_team_item .hover_content .n_hover_content ul,
+        .job_listing .listing_tab .list_item .joblisting_text ul,
+        .price_info_two .price_head .p_head h5,
+        .priceing_area_four .sec_title h2 {
+                margin-bottom: 0
+        }
+
+        .price_info_two {
+
+                @include desktops {
+                        padding-top: 63px;
+                }
+        }
+
+        @include desktops {
+                .price_info_two .price_head .p_head:nth-child(4) {
+                        background: #1D263A;
+                        border-radius: 9px 9px 0px 0px;
+                }
+
+                .price_info_two .price_item:nth-child(4) {
+                        background: #1D263A;
+
+                }
+
+                .price_info_two .price_item:nth-child(4) a {
+                        color: $white !important;
+                }
+
+                .price_info_two .price_item:nth-child(4) span {
+                        color: $white !important;
+                }
+
+                .price_info_two .price_item:nth-child(4) i {
+                        color: $white !important;
+                }
+
+                .p_head:nth-child(4) h2 {
+                        color: $white !important;
+                }
+
+                .p_head:nth-child(4) p {
+                        color: $white !important;
+                }
+
+        }
+
+        .price_info_two .price_item {
+                width: calc(100%/5);
+                text-align: center;
+                vertical-align: middle;
+                display: table-cell;
+                cursor: pointer;
+                padding: 15px 0
+        }
+
+        .price_info_two .price_item span {
+                margin-bottom: 0;
+                font-size: 16px;
+                font-weight: 500;
+                color: #222d39
+        }
+
+        .pr_list:last-child .price_item:nth-child(4) {
+                border-radius: 0px 0px 9px 9px;
+        }
+
+        .price_info_two .price_item:first-child {
+                text-align: left;
+        }
+
+        .price_info_two .price_item span i {
+                font-size: 15px;
+                color: #1D263A;
+        }
+
+        .pr_list:last-child {
+                border: none !important;
+        }
+
+        .p_head:nth-child(4) h5 {
+                color: $white !important;
+                border-radius: 30px;
+                background-color: #FF794D;
+                padding: 0px 11px;
+
+                @include mobile-lg {
+                        display: inline-block;
+                        padding: 8px 30px;
+                }
+        }
+
+        .price_info_two .price_item .pr_title {
+                position: relative;
+                display: inline-block;
+                color: #1D263A;
+                font-size: 16px;
+                font-weight: 400;
+                font-style: normal;
+                letter-spacing: -0.53px;
+                line-height: normal;
+        }
+
+        .price_btn i {
+                margin-left: 13px;
+                background-color: $white;
+                color: $primary;
+                border: 2px solid $primary;
+                border-radius: 50%;
+                padding: 4px;
+                font-size: 12px;
+        }
+
+        .price_item.price-get-started-btn-3 i {
+
+                @include desktops {
+                        background-color: rgb(51, 39, 39);
+                        color: $white;
+                        border: 2px solid$white;
+                }
+
+        }
+
+        .pr_list.pricing-get-strated-btn {
+
+                @include mobile {
+                        display: inline-flex !important;
+                }
+
+                @include tablet {
+                        display: inherit;
+
+                }
+        }
+
+        .price_info_two .price_item .check {
+                color: #1D263A;
+                font-size: 16px;
+                font-weight: 400;
+                font-style: normal;
+                letter-spacing: -0.53px;
+                line-height: normal;
+        }
+
+        .price_info_two .pr_list {
+                display: table;
+                width: 100%;
+                border-bottom: 1px solid #eaeced;
+        }
+
+        .price_info_two a {
+                text-decoration: none;
+        }
+
+        .price_info_two .price_btn {
+                color: $primary;
+                font-size: 14px;
+                font-weight: 700;
+                font-style: normal;
+                letter-spacing: -0.53px;
+                line-height: normal;
+
+                @include mobile-lg {
+                        font-size: 16px;
+                }
+        }
+
+        @media (max-width: 768px) {
+
+                .price_info_two .pr_list,
+                .price_info_two .price_head .p_head.time {
+                        display: block;
+                        width: 100%;
+                }
+        }
+
+        @media (max-width: 768px) {
+                .price_info_two .price_item:first-child {
+                        text-align: center;
+                        padding: 5px 0;
+                }
+        }
+
+        @media (max-width: 1199px) {
+                .price_info_two .price_item:first-child {
+                        padding-left: 10px;
+                }
+        }
+
+        @media (max-width: 768px) {
+                .price_info_two .price_item {
+                        display: block;
+                        width: 100%;
+                        position: relative;
+                        overflow: hidden;
+
+                }
+        }
+
+        @media (max-width: 768px) {
+                .price_info_two .price_item:before {
+                        content: attr(data-title);
+                        position: absolute;
+                        left: 20px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        font-weight: 500;
+                }
+
+        }
+
+        @media (max-width: 768px) {
+                .price_info_two .price_item:first-child h5 {
+                        width: initial;
+                        border: 0;
+                        float: none;
+                        padding: 15px 0px;
+                }
+        }
+
+        @media (max-width: 768px) {
+                .price_info_two .price_item span {
+                        border-left: 1px dashed #ededed;
+                        display: block;
+                        float: right;
+                        font-size: 1.1rem;
+                        height: 100%;
+                        line-height: 3.1rem;
+                        position: relative;
+                        text-align: center;
+                        text-transform: uppercase;
+                        width: 50%;
+                }
+
+
+                .pr_list.pricing-get-strated-btn {
+
+                        @include tablet {
+                                display: flex;
+                        }
+
+                        @include desktops {
+                                display: initial;
+                        }
+
+
+                }
+
+
+        }
+}
+
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+      Pricing 02 FAQ
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.price-2-faq-area {
+        background: #fff;
+        padding-top: 50px;
+
+        @include tablet {
+                padding-top: 70px;
+        }
+
+        @include desktops {
+                padding-top: 120px;
+        }
+}
+
+.price-2-faq-area-items {
+        padding-top: 70px;
+        margin-bottom: -50px;
+
+        .col-xl-6 {
+                margin-bottom: 50px;
+        }
+
+        .content {
+                .question-item {
+                        h4 {
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 24px;
+                                line-height: 32px;
+                                letter-spacing: -0.3px;
+                                color: #1D263A;
+                                margin-bottom: 30px;
+                        }
+
+                        p {
+                                font-size: 17px;
+                                line-height: 30px;
+                                color: #1D263A;
+                                opacity: 0.7;
+                                margin-bottom: 0;
+                        }
+                }
+        }
+}
+
+.price-2-faq-area-bottom {
+        padding-top: 40px;
+
+        @include tablet {
+                padding-top: 60px;
+        }
+
+        @include desktops {
+                padding-top: 90px;
+        }
+
+        p {
+                font-size: 17px;
+                line-height: 30px;
+                color: #1D263A;
+
+        }
+}

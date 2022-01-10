@@ -1,0 +1,215 @@
+{% extends "template.njk" %}
+
+{#
+<!-- Page Info Input Here --> #}
+
+{% set PAGE_INFO = {
+page_title : "Software",
+page_wrapper_class : ""
+
+} %}
+{% import 'components/Header/_header.njk' as Header %}
+
+{% block main %}
+<!-- Site Header -->
+{{Header.render({
+"additional_header_class": "site-header--menu-center landing-6-menu",
+"absolute_header" : "true",
+container_fluid : false,
+sticky_header :true,
+menu_wrapper_class : "mx-auto",
+hideMegamenu : false,
+header_button : "true",
+header_button_text : "Get Whiter",
+header_button_class : "btn btn-style-03 focus-reset",
+additional_button_classes : "l6-header-btn  ms-auto d-none d-xs-inline-flex"
+
+
+
+})}}
+
+
+<!-- Hero Area -->
+
+<div class="hero-area-l6 ">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xxl-7 col-xl-8 col-lg-9 col-md-8 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                <div class="hero-l6-content text-center">
+                    <h2>Navigate Chrome tabs like a pro</h2>
+                    <div class="hero-btn-l6">
+                        <a href="#" class="btn btn-style-03 focus-reset">Get it on Chrome Web Store</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-10 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
+                <div class="hero-l6-content-image">
+                    <img class="w-100" src="image/landing-6/banner.png" alt="image">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Content Area 1-->
+
+<div class="content-area-l6-1">
+    <div class="container">
+        <div class="row align-items-center justify-content-center justify-content-lg-start">
+            <div class="offset-xxl-1 col-xxl-4 col-xl-5 col-lg-5 col-md-8 order-2 order-lg-1" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
+                <div class="content-box-l6-1 section__heading-3 text-lg-start text-center">
+                    <h2>Pin the ones you visit often - all with a single key stroke.</h2>
+                    <p>Make things faster. Pin tabs to automatically open websites you use the most.</p>
+                </div>
+            </div>
+            <div class="offset-xl-1 col-xl-5 offset-lg-1 col-lg-5 col-md-9 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="700" data-aos-duration="1000">
+                <div class="content-image-group-l6-1 position-relative text-center">
+                    <div class="bg-image">
+                        <img src="image/landing-6/content-1-bg.png" alt="image">
+                    </div>
+                    <div class="main-image-group">
+                        <div class="image-1">
+                            <img src="image/landing-6/content-1-img.png" alt="image">
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Content Area 2-->
+
+<div class="content-area-l6-2">
+    <div class="container">
+        <div class="row align-items-center justify-content-center justify-content-lg-start">
+          
+            <div class="offset-xl-1 col-xl-5 offset-lg-1 col-lg-5 col-md-9" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
+                <div class="content-image-group-l6-2 position-relative text-center">
+                    <div class="bg-image">
+                        <img src="image/landing-6/content-3-bg.png" alt="image">
+                    </div>
+                    <div class="main-image-group">
+                        <div class="image-1 d-none d-sm-block">
+                            <img src="image/landing-6/content-2-img-1.png" alt="image">
+                        </div>
+                        <div class="image-2">
+                            <img src="image/landing-6/content-2-img-2.png" alt="image">
+                        </div>
+                        <div class="image-3 d-none d-sm-block">
+                            <img src="image/landing-6/content-2-img-3.png" alt="image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="offset-xxl-1 col-xxl-4 offset-xl-1 col-xl-5 col-lg-5 col-md-8" data-aos="fade-left" data-aos-delay="700" data-aos-duration="1000">
+                <div class="content-box-l6-2 section__heading-3 text-lg-start text-center">
+                    <h2>There’s a shortcut for every cation - a quick search is a must.</h2>
+                    <p>Make things faster. Pin tabs to automatically open websites you use the most.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Content Area 3-->
+
+<div class="content-area-l6-3">
+    <div class="container">
+        <div class="row align-items-center justify-content-center justify-content-lg-start">
+            <div class="offset-xxl-1 col-xxl-4 col-xl-5 col-lg-5 col-md-8 order-2 order-lg-1" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
+                <div class="content-box-l6-3 section__heading-3 text-lg-start text-center">
+                    <h2>Stay organied with group tabs - and keep truck of multiple pages.</h2>
+                    <p>Make things faster. Pin tabs to automatically open websites you use the most.</p>
+                </div>
+            </div>
+            <div class="offset-xl-1 col-xl-5 offset-lg-1 col-lg-5 col-md-9 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="700" data-aos-duration="1000">
+                <div class="content-image-group-l6-3 position-relative text-center">
+                    <div class="bg-image">
+                        <img src="image/landing-6/content-2-bg.png" alt="image">
+                    </div>
+                    <div class="main-image-group">
+                        <div class="image-1">
+                            <img src="image/landing-6/content-3-img.png" alt="image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Pricing Area -->
+
+<div class="pricing-area-l6">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section__heading text-center">
+                    <h2>Choose according to your needs</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row price-area-items-l6 justify-content-center">
+            <div class="col-xl-4 col-lg-5 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                <div class="price-card-l6 text-center">
+                    <i class="fas fa-user"></i>
+                    <h4>For Personal</h4>
+                    <p>A team is a group of individuals working together to achieve their goal. As defined by Professor Leigh </p>
+                    <div class="price-l6-btn">
+                        <a href="#" class="btn btn-style-03 focus-reset">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-5 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
+                <div class="price-card-l6 text-center">
+                    <i class="fas fa-users"></i>
+                    <h4>For Team</h4>
+                    <p>A team is a group of individuals working together to achieve their goal. As defined by Professor Leigh </p>
+                    <div class="price-l6-btn">
+                        <a href="#" class="btn btn-style-03 focus-reset">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- CTA Area -->
+
+<div class="cta-area-l6">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+              <div class="cta-area-l6-bg background-property" style="background: url(./image/landing-6/cta-bg.png);">
+                <div class="row justify-content-center align-items-center">
+                  <div class="col-xl-7 col-lg-9">
+                    <div class="cta-area-l6-content text-center">
+                      <h2>Be more productive and stay organized with Dash now!</h2>
+                      <div class="google-chrome-btn">
+                        <a href="#" class="btn btn-style-03 focus-reset">Get it on Chrome Web Store</a>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+</div>
+
+
+
+<!-- Footer Area -->
+
+{% include "footer-6.njk" %}
+
+
+
+{% endblock %}

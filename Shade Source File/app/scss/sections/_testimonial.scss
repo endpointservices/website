@@ -1,0 +1,105 @@
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+        Testimonial 01
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+    .inner-testimonial-banner {
+        background: #F9FAFB;
+        padding-top: 123px;
+        padding-bottom: 60px;
+        position: relative;
+
+        @include mobile {
+                padding-top: 130px;
+        }
+
+        @include tablet {
+                padding-top: 152px;
+                padding-bottom: 80px;
+        }
+
+        @include desktops {
+                padding-top: 200px;
+                padding-bottom: 80px;
+        }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+        Testimonial 02
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+
+.inner-testimonial-main-area {
+        background: #F9FAFB;
+        padding-bottom: 120px;
+        .inner-testimonial-card-1-items{
+                margin-bottom: -25px;
+                .col-xl-4{
+                        margin-bottom: 25px;
+                }
+        }
+
+        .inner-testimonial-card-1 {
+                background: $white;
+                border: 1px solid rgba(223, 223, 223, 0.7);
+                box-sizing: border-box;
+                border-radius: 15px;
+                padding: 30px 25px 30px 25px;
+            
+                @include mobile {
+                    height: 100%;
+                }
+            
+                .content {
+                    @include tablet {
+                        min-height: 250px;
+                    }
+            
+                    @include desktops {
+                        min-height: 170px;
+                    }
+            
+                    p {
+                        font-size: 21px;
+                        line-height: 32px;
+                        color: $mirage;
+                    }
+                }
+            
+            
+                .user-identity {
+                    background: rgba(214, 227, 235, 0.3);
+                    padding: 15px 20px;
+                    border-radius: 15px;
+                    margin-top: 40px;
+            
+                    .user-image {
+                        img {
+                            margin: auto;
+                            margin-bottom: 15px;
+            
+                            @include mobile {
+                                margin-bottom: 0;
+                                margin-right: 25px;
+                            }
+                        }
+                    }
+            
+                    .user-details {
+                        h4 {
+                            font-weight: 600;
+                            font-size: 21px;
+                            line-height: 30px;
+                            color: $mirage;
+                        }
+            
+                        p {
+                            font-size: 17px;
+                            line-height: 30px;
+                            color: $mirage;
+                            opacity: 0.7;
+                        }
+                    }
+                }
+            }
+}

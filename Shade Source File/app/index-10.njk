@@ -1,0 +1,537 @@
+{% extends "template.njk" %}
+
+{#
+<!-- Page Info Input Here --> #}
+
+{% set PAGE_INFO = {
+page_title : "Saas Applications",
+page_wrapper_class : ""
+
+} %}
+{% import 'components/Header/_header.njk' as Header %}
+
+{% block main %}
+<!-- Site Header -->
+{{Header.render({
+"additional_header_class": "site-header--menu-center landing-10-menu",
+"absolute_header" : "true",
+container_fluid : false,
+sticky_header :true,
+menu_wrapper_class : "mx-auto",
+hideMegamenu : false,
+header_double_button : true,
+additional_db_classes : "header-btn-l10 ms-auto d-none d-xs-inline-flex align-items-center",
+header_button_class_1 : "btn sign-in-btn focus-reset",
+header_button_text_1 : "Sign in",
+header_button_class_2 : "get-start-btn btn focus-reset",
+header_button_text_2 : "Get started"
+
+
+})}}
+
+
+<!-- Hero Area -->
+
+<div class="hero-area-l0 position-relative">
+    <div class="container">
+        <div class="row position-relative justify-content-center">
+            <div class="col-xxl-5 col-xl-6 col-lg-7 col-md-10 order-lg-1 order-1" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
+                <div class="content">
+                    <h1>Live chat support for your customers.</h1>
+                    <p>Create custom landing pages with Shades that convert more visitors than any website—no coding
+                        required.</p>
+                </div>
+                <form action="#" class="">
+                    <div class="subscription-form-1">
+                        <input type="email" id="email" name="email" placeholder="Enter your email"
+                            class="form-control d-inline-block">
+                        <input type="submit" value="Get Started" class="btn focus-reset">
+                    </div>
+                </form>
+
+                <p class="banner-sign-text">Already using Shade? <a href="#">Sign In</a></p>
+            </div>
+
+            <div class="offset-xxl-1 col-xxl-6 col-xl-6 col-lg-5 col-md-8 order-lg-1 order-0" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
+                <div class="">
+                    <img src="./image/l1/l1-hero-img.png" alt="" class="w-100">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<!-- Features Area -->
+
+<div class="feature-area-l0 position-relative">
+    <div class="shape-bottom-right w-100 z-index-1 ">
+        <img src="image/l1/l1-featrues-bg-shape.svg" alt="" class="w-100">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="section-heading-4 col-md-12 text-center">
+                <h2>Present your product features
+                </h2>
+            </div>
+        </div>
+        <div class="row single-features-l10-items justify-content-center">
+            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-9" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
+                <div class="single-features">
+                    <span class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 37 37">
+                            <g>
+                                <g>
+                                    <g>
+                                        <path class="mypath1" fill="none" stroke="#f46f7c" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-miterlimit="20" stroke-width="2"
+                                            d="M29.434 17.474A14.5 14.5 0 0 1 30 21.5C30 29.508 23.508 36 15.5 36S1 29.508 1 21.5 7.492 7 15.5 7c1.398 0 2.751.198 4.03.567">
+                                        </path>
+                                    </g>
+                                    <g>
+                                        <path class="mypath2" fill="none" stroke="#f46f7c" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-miterlimit="20" stroke-width="2"
+                                            d="M16 29a8 8 0 1 0 0-16 8 8 0 0 0 0 16z"></path>
+                                    </g>
+                                    <g>
+                                        <path class="mypath3" fill="none" stroke="#f46f7c" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-miterlimit="20" stroke-width="2"
+                                            d="M16 21L35 2"></path>
+                                    </g>
+                                    <g>
+                                        <path class="mypath4" fill="none" stroke="#f46f7c" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-miterlimit="20" stroke-width="2"
+                                            d="M31.286 5.714v0L29.714 1v0L25 5.714v0l1.571 4.715v0L31.286 12v0L36 7.286v0z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </span>
+                    <h4>Targeted Marketing</h4>
+                    <p>Whether it’s a small internal app or a new for
+                        millions of customers, our design and development teams.</p>
+                    <a href="#" class="btn focus-reset">
+                        Learn more
+                        <i class="fas fa-angle-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-9" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+                <div class="single-features">
+                    <span class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="37" height="35" viewBox="0 0 37 35">
+                            <g>
+                                <g>
+                                    <g>
+                                        <path class="mypath1" fill="none" stroke="#f46f7c" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-miterlimit="20" stroke-width="2"
+                                            d="M29.637 7.36v0h3.182a3.182 3.182 0 0 1 3.182 3.182v13.523a3.182 3.182 0 0 1-3.182 3.181h-3.182v6.364l-9.545-6.364v0H16.91v0">
+                                        </path>
+                                    </g>
+                                    <g>
+                                        <path class="mypath2" fill="none" stroke="#f46f7c" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-miterlimit="20" stroke-width="2"
+                                            d="M26.455 1H4.182A3.182 3.182 0 0 0 1 4.182v13.523a3.182 3.182 0 0 0 3.182 3.181h3.182v7.955L18.5 20.886v0h7.955a3.182 3.182 0 0 0 3.181-3.181V4.182A3.182 3.182 0 0 0 26.455 1z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </span>
+                    <h4>Easy Communicaton</h4>
+                    <p>Whether it’s a small internal app or a new for
+                        millions of customers, our design and development teams.</p>
+                    <a href="#" class="btn focus-reset">
+                        Learn more
+                        <i class="fas fa-angle-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-9" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
+                <div class="single-features">
+                    <span class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 37 37">
+                            <g>
+                                <g>
+                                    <g>
+                                        <path class="mypath1" fill="none" stroke="#f46f7c" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-miterlimit="20" stroke-width="2"
+                                            d="M18.498 24.066a5.568 5.568 0 1 0 0-11.136 5.568 5.568 0 0 0 0 11.136z">
+                                        </path>
+                                    </g>
+                                    <g>
+                                        <path class="mypath2" fill="none" stroke="#f46f7c" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-miterlimit="20" stroke-width="2"
+                                            d="M31.223 18.5a12.764 12.764 0 0 0-.299-2.725l4.318-3.27v0l-3.182-5.51v0l-5 2.11a12.698 12.698 0 0 0-4.71-2.736L21.677 1v0h-6.364v0l-.671 5.37a12.698 12.698 0 0 0-4.711 2.734l-5-2.11v0L1.75 12.506v0l4.318 3.27a12.574 12.574 0 0 0 0 5.45l-4.318 3.27v0l3.182 5.51v0l5-2.11a12.698 12.698 0 0 0 4.71 2.736L15.315 36v0h6.364v0l.671-5.37a12.698 12.698 0 0 0 4.71-2.734l5.001 2.11v0l3.182-5.511v0l-4.318-3.27c.197-.895.298-1.808.3-2.725z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </span>
+                    <h4>Fastest Setup</h4>
+                    <p>Whether it’s a small internal app or a new for
+                        millions of customers, our design and development teams.</p>
+                    <a href="#" class="btn focus-reset">
+                        Learn more
+                        <i class="fas fa-angle-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Content Area-1 -->
+
+<div class="content-area-l10-1">
+    <div class="container">
+        <div class="row align-items-center justify-content-lg-start justify-content-center">
+            <div class="col-lg-5 col-md-8" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+                <div class="content-img pr-9 pl-13">
+                    <img src="image/l1/content-img1.svg" alt="" class="w-100">
+                </div>
+            </div>
+            <div class="offset-xxl-1 col-xxl-4 offset-xl-1 col-xl-5 col-lg-7 col-md-9" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+
+                <div class="content section-heading-4">
+                    <h2>
+                        Response on a chat wherever you are
+                    </h2>
+                    <p>Create custom landing pages with Shades that convert more visitors than any website, no coding
+                        required.</p>
+
+                    <a href="#" class="btn focus-reset">
+                        Learn more
+                        <i class="fas fa-angle-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Content Area-2  -->
+
+<div class="content-area-l10-2 position-relative">
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-xl-5 col-lg-7 col-md-9 order-lg-1 order-1" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+
+                <div class="content section-heading-4">
+                    <h2>Never miss a thing</h2>
+                    <p>Event is not like most tech conferences. We want our presentations to engage the audience, spark
+                        discussion and inspire new ideas. </p>
+
+                    <ul class="list-unstyled pl-0">
+                        <li class="d-flex align-items-center">
+                            <i class="fas fa-check"></i>Unlimited design possibility
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <i class="fas fa-check"></i>Completely responsive
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <i class="fas fa-check"></i>Easy to customize
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="offset-xl-1 col-xl-5 col-lg-5 col-md-8 order-lg-1 order-0" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                <div class="content-img">
+                    <img src="image/l1/content-img2.png" alt="" class="w-100">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content-area-l10-2-shape-1">
+        <img src="image/l1/shape2.svg" alt="" class="w-100">
+    </div>
+</div>
+
+
+<!-- Content Area -->
+
+<div class="content-area-l10-3">
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-lg-5 col-md-8" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+                <div class="content-img">
+                    <img src="image/l1/content-img3.svg" alt="" class="w-100">
+                </div>
+            </div>
+            <div class="offset-xl-1 col-xl-5 col-lg-7 col-md-9" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                <div class="content section-heading-4">
+                    <h2>Increase Customer Support Productivity</h2>
+                    <p>Create custom landing pages with Shades that convert more visitors than any website, no coding
+                        required.</p>
+                    <div class="border-top"></div>
+                    <p class="double-content-c3">Interested to see how it works? Schedule a free demo to get to learn
+                        everything you need to know.</p>
+                    <div class="btn-area">
+                        <a href="#" class="btn focus-reset">Schedule A Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Pricing Area -->
+
+<div class="price-l10-shape">
+    <img src="image/l1/price-black-shape.svg" alt="" class="w-100">
+</div>
+
+<div class="pricing-area-l10 position-relative overflow-hidden">
+   
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-xl-7 col-lg-9 section-heading-4 text-center">
+
+                <h2>Pricing that suits you better </h2>
+                <p>We designed and tested prototypes that helped identify pain points in the account creation process.
+                    Together, we shaped the new standard.</p>
+
+            </div>
+        </div>
+        <div class="row justify-content-center" id="table-price-value" data-pricing-dynamic data-value-active="monthly">
+            <div class="col-md-12">
+                <div class="toggle-btn flex-y-center justify-content-center ">
+                    <label>Monthly</label>
+                    <a class="btn-toggle price-deck-trigger" data-pricing-trigger data-target="#table-price-value"
+                        href="javascript:">
+                        <span class="round"></span>
+                    </a>
+                    <label>Yearly</label>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="row price-area-l10-items justify-content-center">
+                    <div class="col-md-6 col-xl-4 col-sm-9 " data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
+
+                        <div class="single-price">
+                            <div class="price-top flex-y-center justify-content-between ">
+                                <span class="text-uppercase font-weight-bold">Basic</span>
+                            </div>
+        
+                            <div class="main-price">
+                                <div class="price d-flex align-items-end position-relative">
+                                    <span class="dollar-pos">$</span>
+                                    <h2 class="dynamic-value" data-active="15" data-monthly="19" data-yearly="199"></h2>
+                                    <span class="dynamic-value" data-active="per month" data-monthly="/month"
+                                        data-yearly="/year"></span>
+                                </div>
+                                <p>Good for small business launching <br class="d-none d-sm-block"> their products less then once a year</p>
+                            </div>
+        
+                            <div class="price-body">
+                                <ul class="pricing-list with-check-icon list-unstyled">
+                                    <li><i class="fas fa-check"></i> Unlimited Blocks</li>
+                                    <li><i class="fas fa-check"></i> 5GB Clould Storages</li>
+                                    <li><del><i class="fas fa-check"></i> Custom Domain Names</del></li>
+                                    <li><del><i class="fas fa-check"></i> Unlimited Emails</del></li>
+                                </ul>
+                            </div>
+        
+                            <div class="price-btn">
+                                <a class="btn focus-reset" href="#">Start Free Trial</a>
+                                <p>No credit card required</p>
+                            </div>
+        
+                        </div>
+                    </div>
+        
+                    <div class="col-md-6 col-xl-4 col-sm-9" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+        
+                        <div class="single-price popular-pricing position-relative">
+                            <div class="price-top flex-y-center justify-content-between ">
+                                <span>Pro</span>
+                                <span class="popular-price">Popular</span>
+                            </div>
+        
+                            <div class="main-price">
+                                <div class="price d-flex align-items-end position-relative">
+                                    <span class="dollar-pos">$</span>
+                                    <h2 class="dynamic-value" data-active="15" data-monthly="29" data-yearly="499"></h2>
+                                    <span class="dynamic-value" data-active="per month" data-monthly="/month"
+                                        data-yearly="/year"></span>
+                                </div>
+                                <p>Good for small business launching <br class="d-none d-sm-block"> their products less then once a year</p>
+                            </div>
+        
+                            <div class="price-body">
+                                <ul class="pricing-list with-check-icon list-unstyled">
+                                    <li><i class="fas fa-check"></i> Unlimited Blocks</li>
+                                    <li><i class="fas fa-check"></i> 5GB Clould Storages</li>
+                                    <li><i class="fas fa-check"></i> Custom Domain Names</li>
+                                    <li><del><i class="fas fa-check"></i> Unlimited Emails</del></li>
+                                </ul>
+                            </div>
+        
+                            <div class="price-btn">
+                                <a class="btn" href="#">Start Free Trial</a>
+                                <p>No credit card required</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-6 col-xl-4 col-sm-9 " data-aos="fade-left" data-aos-delay="700" data-aos-duration="1000">
+        
+                        <div class="single-price">
+                            <div class="price-top flex-y-center justify-content-between ">
+                                <span>Pro</span>
+                            </div>
+        
+                            <div class="main-price">
+                                <div class="price d-flex align-items-end position-relative">
+                                    <span class="dollar-pos">$</span>
+                                    <h2 class="dynamic-value" data-active="15" data-monthly="49" data-yearly="999"></h2>
+                                    <span class="dynamic-value" data-active="per month" data-monthly="/month"
+                                        data-yearly="/year"></span>
+                                </div>
+                                <p>Good for small business launching <br class="d-none d-sm-block"> their products less then once a year</p>
+                            </div>
+        
+                            <div class="price-body">
+                                <ul class="pricing-list with-check-icon list-unstyled">
+                                    <li><i class="fas fa-check  "></i> Unlimited Blocks</li>
+                                    <li><i class="fas fa-check "></i> 5GB Clould Storages</li>
+                                    <li><i class="fas fa-check  "></i> Custom Domain Names</li>
+                                    <li><i class="fas fa-check  "></i> Unlimited Emails</li>
+                                </ul>
+                            </div>
+        
+                            <div class="price-btn">
+                                <a class="btn" href="#">Start Free Trial</a>
+                                <p>No credit card required</p>
+                            </div>
+        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="col-12 price-l10-bottom text-center">
+                <p><span>Still confused? </span> <a href="#">Check our full feature list</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Newslater area -->
+
+<div class="newsletter-area-l10">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-7 col-lg-9 text-center section-heading-4">
+                <h2>Join our rich newsletter</h2>
+                <p>We designed and tested prototypes that helped identify pain points in the account creation process.
+                    Together, we shaped the new standard.</p>
+            </div>
+        </div>
+        <div class="row justify-content-center text-center">
+            <div class="col-xxl-5 col-xl-6 col-md-12" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+                <form action="#" class="">
+                    <div class="subscription-form-2">
+                        <input type="email" id="emailNewsletter" name="email" placeholder="Enter your email"
+                            class="form-control d-inline-block">
+                        <input type="submit" value="Get Started" class="btn">
+                    </div>
+                </form>
+
+                <p class="newsletter-form-l10-bottom align-content-center justify-content-center">
+                    <img src="image/l1/lock.svg" alt="Icon Lock"> Your data is protected. We never spam in your inbox
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Footer Area -->
+
+
+<footer class="footer-l10">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="footer-border-top"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-5 col-sm-9">
+                <div class="row">
+                    <div class="col-xl-9 col-lg-10 col-md-8">
+                        <a href="#"><img src="./image/logos/logo-paste.png" alt="" class="footer-logo"></a>
+                        <div class="content">
+                            <p>Big, small, online, offline, local. Size doesn't matter. We work on diverse projects for
+                                top brands as well as for cool startups. </p>
+                        </div>
+
+                        <div class="social-icons">
+                            <ul class="pl-0 list-unstyled d-flex align-items-end ">
+                                <li class="d-flex flex-column justify-content-center"><a href="#"><i
+                                    class="fab fa-twitter"></i></a></li>
+                                <li class="d-flex flex-column justify-content-center"><a href="#"><i
+                                            class="fab fa-facebook-f"></i></a></li>
+                                <li class="d-flex flex-column justify-content-center"><a href="#"><i
+                                            class="fab fa-google"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-12">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <div class="footer-widget">
+                            <p class="widget-title">Help menu</p>
+                            <ul class="widget-links pl-0 list-unstyled">
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Features</a></li>
+                                <li><a href="#">Works</a></li>
+                                <li><a href="#">Career</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-4 col-xs-6 pl-md-9 pl-6">
+                        <div class="footer-widget">
+                            <p class="widget-title ">Support</p>
+                            <ul class="widget-links pl-0 list-unstyled">
+                                <li><a href="#">contact </a></li>
+                                <li><a href="#">Help & Support</a></li>
+                                <li><a href="#">Privacy and Policy</a></li>
+                                <li><a href="#">Terms & Conditions</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                        <div class="footer-widget">
+                            <p class="widget-title ">Products</p>
+                            <ul class="widget-links pl-0 list-unstyled">
+                                <li><a href="#">Shades Pro</a></li>
+                                <li><a href="#">Essentiol Blocks</a></li>
+                                <li><a href="#">Avasta Dash</a></li>
+                                <li><a href="#">vApp Landing Page</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+{% endblock %}

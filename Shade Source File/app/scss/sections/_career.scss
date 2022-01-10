@@ -1,0 +1,256 @@
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+     Career
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+.inner-career-banner {
+     background: #F9FAFB;
+     padding-top: 123px;
+     padding-bottom: 60px;
+     position: relative;
+
+     @include mobile {
+          padding-top: 130px;
+     }
+
+     @include tablet {
+          padding-top: 152px;
+          padding-bottom: 80px;
+     }
+
+     @include desktops {
+          padding-top: 200px;
+          padding-bottom: 115px;
+     }
+}
+.footer-middle-carrer{
+     border-top:2px dashed rgba(29,36,58,0.17);
+     margin-bottom: 60px;
+     @include tablet {
+          margin-bottom: 80px;
+     }
+   
+     @include desktops {
+          margin-bottom: 100px;
+     }
+   
+}
+
+.inner-feature-area-2 {
+     padding-bottom: 140px;
+
+     @include tablet {
+          padding-bottom: 60px;
+     }
+
+     @include desktops {
+          padding-bottom: 110px;
+     }
+
+     .inner-feature-area-2-items {
+          margin-bottom: -30px;
+
+          @include tablet {
+               margin-bottom: -40px;
+          }
+
+          @include desktops {
+               margin-bottom: -55px;
+          }
+
+          .col-xl-4 {
+               margin-bottom: 30px;
+
+               @include tablet {
+                    margin-bottom: 40px;
+               }
+
+               @include desktops {
+                    margin-bottom: 55px;
+               }
+          }
+     }
+
+     .widget {
+          .widget-icon {
+               margin-bottom: 30px;
+
+               @include mobile {
+                    margin-bottom: 0;
+               }
+
+               i {
+                    margin-right: 35px;
+                    width: 80px;
+                    height: 80px;
+                    line-height: 80px;
+                    text-align: center;
+                    border-radius: 50%;
+                    color: #F04037;
+                    background-color: rgba(255, 75, 54, 0.15);
+                    font-size: 24px;
+               }
+
+               &-2 {
+                    i {
+                         color: #413E65 !important;
+                         background-color: rgba(65, 62, 101, 0.15) !important;
+                    }
+               }
+
+               &-3 {
+                    i {
+                         color: #8E59FF !important;
+                         background-color: rgba(142, 89, 255, 0.15) !important;
+                    }
+               }
+
+               &-4 {
+                    i {
+                         color: #F653A2 !important;
+                         background-color: rgba(246, 83, 162, 0.15) !important;
+                    }
+               }
+
+               &-5 {
+                    i {
+                         color: #00BCD4 !important;
+                         background-color: rgba(0, 188, 212, 0.15) !important;
+                    }
+               }
+
+               &-6 {
+                    i {
+                         background-color: rgba(129, 178, 20, 0.15) !important;
+                         color: #81B214 !important;
+                    }
+               }
+          }
+
+          .widget-text {
+               margin-top: -5px;
+
+               h4 {
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 32px;
+                    letter-spacing: -0.3px;
+                    color: #1D263A;
+                    margin-bottom: 18px;
+               }
+
+               p {
+                    font-size: 15px;
+                    line-height: 28px;
+                    color: #1D263A;
+                    opacity: 0.8;
+               }
+          }
+     }
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+     Career Details
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.inner-carrer-job-details {
+     margin-top: 30px;
+
+     ul {
+          margin: 0px -15px -20px -15px;
+
+          li {
+               margin: 0px 15px 20px 15px;
+
+               i {
+                    font-size: 20px;
+                    color: #FF794D;
+                    margin-right: 12px;
+               }
+
+               span {
+                    font-size: 17px;
+                    line-height: 30px;
+                    color: #1D263A;
+                    display: inline-block;
+               }
+          }
+     }
+}
+.footer-border-cd{
+     border-bottom:1px solid rgba(29,36,58,0.13);
+}
+
+.inner-career-details-area {
+     padding-top: 25px;
+     padding-bottom: 60px;
+     
+
+     @include tablet {
+          padding-top: 45px;
+          padding-bottom: 80px;
+     }
+
+     @include desktops {
+          padding-top: 65px;
+          padding-bottom: 100px;
+     }
+
+     h4 {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 21px;
+          line-height: 30px;
+          color: #1D263A;
+          margin-bottom: 18px;
+          margin-top: 35px;
+
+     }
+
+     p {
+          font-size: 17px;
+          line-height: 30px;
+          color: #1D263A;
+          opacity: 0.8;
+          margin-bottom: 20px;
+     }
+
+     .skills-qualification {
+          margin-bottom: 50px;
+          ul {
+               margin-bottom: -15px;
+
+               li {
+                    margin-bottom: 15px;
+                    display: flex;
+                    align-items: center;
+                    font-size: 17px;
+                    line-height: 30px;
+                    color: #1D263A;
+                    opacity: 0.8;
+
+                    i {
+                         font-size: 9px;
+                         color: #19191B;
+                         margin-right: 15px;
+                    }
+               }
+          }
+     }
+
+     .cd-apply-btn {
+          .btn{
+               font-weight: 600;
+               font-size: 17px;
+               line-height: 30px;
+               color: #FFFFFF;
+               background: #FF794D;
+               border-radius: 10px;
+               min-width: 233px;
+               height: 60px;
+               margin-top: 20px;
+          }
+     }
+
+
+}

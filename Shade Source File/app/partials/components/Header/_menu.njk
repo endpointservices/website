@@ -1,0 +1,239 @@
+{% macro render(root,elemroot,hideMegamenu,dropdownStyle2,megamenuPosition) %}
+<ul class="site-menu-main">
+    {% if not hideMegamenu %}
+    <li class="nav-item nav-item-has-children has-megamenu">
+        <a href="#" class="nav-link-item drop-trigger">Landings <i class="fas fa-angle-down"></i></a>
+        <div class="sub-menu megamenu {% if megamenuPosition %}megadropdown-{{megamenuPosition}} {% else %} megadropdown-center {% endif %} d-lg-flex align-items-center"
+            id="submenu-100">
+            <div class="col-lg-4 d-none d-lg-block">
+                <div class="mega-menu-image">
+                    <img class="w-100" src="./image/landing-2/people-3.png" alt="image">
+                </div>
+            </div>
+            <ul class="col-lg-8 col-12 row-lg list-unstyled py-lg-7">
+                <li class="col-lg-3">
+                    <div class="single-dropdown-block">
+                        
+                        <a href="index.html" class="mega-drop-menu-item sub-menu--item">Saas Service</a>
+                        <a href="index-2.html" class="mega-drop-menu-item sub-menu--item">Job Directory</a>
+                        <a href="index-3.html" class="mega-drop-menu-item sub-menu--item">Startup Agency</a>
+                        <a href="index-4.html" class="mega-drop-menu-item sub-menu--item">Industry</a>
+                        <a href="index-5.html" class="mega-drop-menu-item sub-menu--item">Furniture Shop</a>
+                    </div>
+                </li>
+                <li class="col-lg-3">
+                    <div class="single-dropdown-block">
+                      
+                        <a href="index-6.html" class="mega-drop-menu-item sub-menu--item">Software</a>
+                        <a href="index-7.html" class="mega-drop-menu-item sub-menu--item">Real Estate</a>
+                        <a href="index-8.html" class="mega-drop-menu-item sub-menu--item">Finance Service</a>
+                        <a href="index-9.html" class="mega-drop-menu-item sub-menu--item">Mental Health</a>
+                        <a href="index-10.html" class="mega-drop-menu-item sub-menu--item">Saas Applications</a>
+                      
+
+                    </div>
+                </li>
+                <li class="col-lg-3">
+                    <div class="single-dropdown-block">
+                     
+                        <a href="index-11.html" class="mega-drop-menu-item sub-menu--item">Software 2.0</a>
+                        <a href="index-12.html" class="mega-drop-menu-item sub-menu--item">Course</a>
+                        <a href="index-13.html" class="mega-drop-menu-item sub-menu--item">App</a>
+                        <a href="index-14.html" class="mega-drop-menu-item sub-menu--item">Saas Subscription</a>
+                        <a href="index-15.html" class="mega-drop-menu-item sub-menu--item">Digital Service</a>
+
+                    </div>
+                </li>
+                <li class="col-lg-3">
+                    <div class="single-dropdown-block">
+                      
+                        <a href="index-16.html" class="mega-drop-menu-item sub-menu--item">Mobile App</a>
+                        <a href="index-17.html" class="mega-drop-menu-item sub-menu--item">Desktop App</a>
+                        <a href="index-18.html" class="mega-drop-menu-item sub-menu--item">Web Applications</a>
+                        <a href="index-19.html" class="mega-drop-menu-item sub-menu--item">eBook</a>
+                        <a href="index-20.html" class="mega-drop-menu-item sub-menu--item">Social App</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </li>
+    {% endif %}
+ 
+    <!--
+    <li class="nav-item nav-item-has-children">
+        <a href="#" class="nav-link-item drop-trigger">Pages <i class="fas fa-angle-down"></i>
+        </a>
+        <ul class="sub-menu" id="submenu-9">
+            <li class="sub-menu--item">
+                <a href="about-us.html">About Us</a>
+            </li>
+            <li class="sub-menu--item nav-item-has-children">
+                <a href="#" data-menu-get="h3" class="drop-trigger">Contact Us<i class="fas fa-angle-down"></i>
+                </a>
+                <ul class="sub-menu" id="submenu-101">
+                    <li class="sub-menu--item">
+                        <a href="contact-1.html">Contact 01</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="contact-2.html">Contact 02</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="sub-menu--item nav-item-has-children">
+                <a href="#" data-menu-get="h3" class="drop-trigger">Blog<i class="fas fa-angle-down"></i>
+                </a>
+                <ul class="sub-menu" id="submenu-10">
+                    <li class="sub-menu--item">
+                        <a href="blog-category.html">Blog Category</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="blog-regular.html">Blog Regular</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="blog-details.html">Blog Details</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="sub-menu--item nav-item-has-children">
+                <a href="#" data-menu-get="h3" class="drop-trigger">Portfolios<i class="fas fa-angle-down"></i>
+                </a>
+                <ul class="sub-menu" id="submenu-13">
+                    <li class="sub-menu--item">
+                        <a href="portfolio-1.html">Portfolio Grid</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="portfolio-2.html">Portfolio Metro</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="portfolio-3.html">Portfolio Minimal</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="sub-menu--item nav-item-has-children">
+                <a href="#" data-menu-get="h3" class="drop-trigger">Portfolio Details<i class="fas fa-angle-down"></i>
+                </a>
+                <ul class="sub-menu" id="submenu-130">
+                    <li class="sub-menu--item">
+                        <a href="portfolio-details-1.html">Portfolio Details 01</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="portfolio-details-2.html">Portfolio Details 02</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="portfolio-details-3.html">Portfolio Details 03</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="portfolio-details-4.html">Portfolio Details 04</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="sub-menu--item nav-item-has-children">
+                <a href="#" data-menu-get="h3" class="drop-trigger">Services<i class="fas fa-angle-down"></i>
+                </a>
+                <ul class="sub-menu" id="submenu-11">
+                    <li class="sub-menu--item">
+                        <a href="service-1.html">Service</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="service-details.html">Service Details</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="sub-menu--item nav-item-has-children">
+                <a href="#" data-menu-get="h3" class="drop-trigger">Career<i class="fas fa-angle-down"></i>
+                </a>
+                <ul class="sub-menu" id="submenu-111">
+                    <li class="sub-menu--item">
+                        <a href="career.html">Career</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="career-details.html">Career Details</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="sub-menu--item nav-item-has-children">
+                <a href="#" data-menu-get="h3" class="drop-trigger">Testimonials<i class="fas fa-angle-down"></i>
+                </a>
+                <ul class="sub-menu" id="submenu-112">
+                    <li class="sub-menu--item">
+                        <a href="testimonial-1.html">Testimonial 01</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="testimonial-2.html">Testimonial 02</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="sub-menu--item nav-item-has-children">
+                <a href="#" data-menu-get="h3" class="drop-trigger">Pricing<i class="fas fa-angle-down"></i>
+                </a>
+                <ul class="sub-menu" id="submenu-12">
+                    <li class="sub-menu--item">
+                        <a href="pricing-1.html">Pricing 01</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="pricing-2.html">Pricing 02</a>
+                    </li>
+                </ul>
+            </li>
+          
+            <li class="sub-menu--item nav-item-has-children">
+                <a href="#" data-menu-get="h3" class="drop-trigger">Account<i class="fas fa-angle-down"></i>
+                </a>
+                <ul class="sub-menu" id="submenu-14">
+                    <li class="sub-menu--item">
+                        <a href="sign-in-1.html">Sign In 01</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="sign-in-2.html">Sign In 02</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="sign-in-3.html">Sign In 03</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="sign-up-1.html">Sig Up 01</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="sign-up-2.html">Sign Up 02</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="sign-up-3.html">Sig Up 03</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="reset-pass-1.html">Reset Password 01</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="reset-pass-2.html">Reset Password 02</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="reset-pass-3.html">Reset Password 03</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="sub-menu--item nav-item-has-children">
+                <a href="#" data-menu-get="h3" class="drop-trigger">Utility<i class="fas fa-angle-down"></i>
+                </a>
+                <ul class="sub-menu" id="submenu-15">
+                    <li class="sub-menu--item">
+                        <a href="faq.html">FAQ</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="terms-conditions.html">Terms & Conditions</a>
+                    </li>
+                    <li class="sub-menu--item">
+                        <a href="404.html">404 Error</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    -->
+  
+    <li class="nav-item">
+        <a href="https://observablehq.com/collection/@endpointservices/blogs" class="nav-link-item">Blog</a>
+    </li>
+    <li class="nav-item">
+        <a href="mailto:support@webcode.run" class="nav-link-item">Support</a>
+    </li>
+</ul>
+
+{% endmacro %}

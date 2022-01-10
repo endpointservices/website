@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mobile App </title>
+  <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon">
+  <!-- Bootstrap , fonts & icons  -->
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./fonts/icon-font/css/style.css">
+  <link rel="stylesheet" href="./fonts/typography-font/typo.css">
+  <link rel="stylesheet" href="./fonts/fontawesome-5/css/all.css">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- Plugin'stylesheets  -->
+  <link rel="stylesheet" href="./plugins/aos/aos.min.css">
+  <link rel="stylesheet" href="./plugins/fancybox/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="./plugins/nice-select/nice-select.min.css">
+  <link rel="stylesheet" href="./plugins/slick/slick.min.css">
+  <!-- Vendor stylesheets  -->
+  <link rel="stylesheet" href="./css/main.css">
+  <!-- Custom stylesheet -->
+</head>
+
+<body data-theme-mode-panel-active data-theme="light" style="font-family: 'Mazzard H';">
+  <div class="site-wrapper overflow-hidden position-relative">
+    <!-- Site Header -->
+    <!-- Preloader -->
+    <!-- <div id="loading">
+    <div class="preloader">
+     <img src="./image/preloader.gif" alt="preloader">
+   </div>
+   </div>    -->
+    <!--Site Header Area -->
+    <header class="site-header site-header--menu-right landing-16-menu site-header--absolute site-header--sticky">
+      <div class="container-fluid">
+        <nav class="navbar site-navbar">
+          <!-- Brand Logo-->
+          <div class="brand-logo">
+            <a href="#">
+              <!-- light version logo (logo must be black)-->
+              <img src="image/logo/logo-black.png" alt="" class="light-version-logo">
+              <!-- Dark version logo (logo must be White)-->
+              <img src="image/logo/logo-white.png" alt="" class="dark-version-logo">
+            </a>
+          </div>
+          <div class="menu-block-wrapper">
+            <div class="menu-overlay"></div>
+            <nav class="menu-block" id="append-menu-header">
+              <div class="mobile-menu-head">
+                <div class="go-back">
+                  <i class="fa fa-angle-left"></i>
+                </div>
+                <div class="current-menu-title"></div>
+                <div class="mobile-menu-close">&times;</div>
+              </div>
+              <ul class="site-menu-main">
+                <li class="nav-item nav-item-has-children has-megamenu">
+                  <a href="#" class="nav-link-item drop-trigger">Landings <i class="fas fa-angle-down"></i></a>
+                  <div class="sub-menu megamenu  megadropdown-center  d-lg-flex align-items-center" id="submenu-100">
+                    <div class="col-lg-4 d-none d-lg-block">
+                      <div class="mega-menu-image">
+                        <img class="w-100" src="./image/landing-2/people-3.png" alt="image">
+                      </div>
+                    </div>
+                    <ul class="col-lg-8 col-12 row-lg list-unstyled py-lg-7">
+                      <li class="col-lg-3">
+                        <div class="single-dropdown-block">
+                          <a href="index.html" class="mega-drop-menu-item sub-menu--item">Saas Service</a>
+                          <a href="index-2.html" class="mega-drop-menu-item sub-menu--item">Job Directory</a>
+                          <a href="index-3.html" class="mega-drop-menu-item sub-menu--item">Startup Agency</a>
+                          <a href="index-4.html" class="mega-drop-menu-item sub-menu--item">Industry</a>
+                          <a href="index-5.html" class="mega-drop-menu-item sub-menu--item">Furniture Shop</a>
+                        </div>
+                      </li>
+                      <li class="col-lg-3">
+                        <div class="single-dropdown-block">
+                          <a href="index-6.html" class="mega-drop-menu-item sub-menu--item">Software</a>
+                          <a href="index-7.html" class="mega-drop-menu-item sub-menu--item">Real Estate</a>
+                          <a href="index-8.html" class="mega-drop-menu-item sub-menu--item">Finance Service</a>
+                          <a href="index-9.html" class="mega-drop-menu-item sub-menu--item">Mental Health</a>
+                          <a href="index-10.html" class="mega-drop-menu-item sub-menu--item">Saas Applications</a>
+                        </div>
+                      </li>
+                      <li class="col-lg-3">
+                        <div class="single-dropdown-block">
+                          <a href="index-11.html" class="mega-drop-menu-item sub-menu--item">Software 2.0</a>
+                          <a href="index-12.html" class="mega-drop-menu-item sub-menu--item">Course</a>
+                          <a href="index-13.html" class="mega-drop-menu-item sub-menu--item">App</a>
+                          <a href="index-14.html" class="mega-drop-menu-item sub-menu--item">Saas Subscription</a>
+                          <a href="index-15.html" class="mega-drop-menu-item sub-menu--item">Digital Service</a>
+                        </div>
+                      </li>
+                      <li class="col-lg-3">
+                        <div class="single-dropdown-block">
+                          <a href="index-16.html" class="mega-drop-menu-item sub-menu--item">Mobile App</a>
+                          <a href="index-17.html" class="mega-drop-menu-item sub-menu--item">Desktop App</a>
+                          <a href="index-18.html" class="mega-drop-menu-item sub-menu--item">Web Applications</a>
+                          <a href="index-19.html" class="mega-drop-menu-item sub-menu--item">eBook</a>
+                          <a href="index-20.html" class="mega-drop-menu-item sub-menu--item">Social App</a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item nav-item-has-children">
+                  <a href="#" class="nav-link-item drop-trigger">Pages <i class="fas fa-angle-down"></i>
+                  </a>
+                  <ul class="sub-menu" id="submenu-9">
+                    <li class="sub-menu--item">
+                      <a href="about-us.html">About Us</a>
+                    </li>
+                    <li class="sub-menu--item nav-item-has-children">
+                      <a href="#" data-menu-get="h3" class="drop-trigger">Contact Us<i class="fas fa-angle-down"></i>
+                      </a>
+                      <ul class="sub-menu" id="submenu-101">
+                        <li class="sub-menu--item">
+                          <a href="contact-1.html">Contact 01</a>
+                        </li>
+                        <li class="sub-menu--item">
+                          <a href="contact-2.html">Contact 02</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="sub-menu--item nav-item-has-children">
+                      <a href="#" data-menu-get="h3" class="drop-trigger">Blog<i class="fas fa-angle-down"></i>
+                      </a>
+                      <ul class="sub-menu" id="submenu-10">
+                        <li class="sub-menu--item">
+                          <a href="blog-category.html">Blog Category</a>
+                        </li>
+                        <li class="sub-menu--item">
+                          <a href="blog-regular.html">Blog Regular</a>
+                        </li>
+                        <li class="sub-menu--item">
+                          <a href="blog-details.html">Blog Details</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="sub-menu--item nav-item-has-children">
+                      <a href="#" data-menu-get="h3" class="drop-trigger">Portfolios<i class="fas fa-angle-down"></i>
+                      </a>
+                      <ul class="sub-menu" id="submenu-13">
+                        <li class="sub-menu--item">
+                          <a href="portfolio-1.html">Portfolio Grid</a>
+                        </li>
+                        <li class="sub-menu--item">
+                          <a href="portfolio-2.html">Portfolio Metro</a>
+                        </li>
+                        <li class="sub-menu--item">
+                          <a href="portfolio-3.html">Portfolio Minimal</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="sub-menu--item nav-item-has-children">
+                      <a href="#" data-menu-get="h3" class="drop-trigger">Portfolio Details<i class="fas fa-angle-down"></i>
+                      </a>
+                      <ul class="sub-menu" id="submenu-130">
+                        <li class="sub-menu--item">
+                          <a href="portfolio-details-1.html">Portfolio Details 01</a>
+                        </li>
+                        <li class="sub-menu--item">
+                          <a href="portfolio-details-2.html">Portfolio Details 02</a>
+                        </li>
+                        <li class="sub-menu--item">
+                          <a href="portfolio-details-3.html">Portfolio Details 03</a>
+                        </li>
+                        <li class="sub-menu--item">
+                          <a href="portfolio-details-4.html">Portfolio Details 04</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="sub-menu--item nav-item-has-children">
+                      <a href="#" data-menu-get="h3" class="drop-trigger">Services<i class="fas fa-angle-down"></i>
+                      </a>
+                      <ul class="sub-menu" id="submenu-11">
+                        <li class="sub-menu--item">
+                          <a href="service-1.html">Service</a>
+                        </li>
+                        <li class="sub-menu--item">
+                          <a href="service-details.html">Service Details</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="sub-menu--item nav-item-has-children">
+                      <a href="#" data-menu-get="h3" class="drop-trigger">Career<i class="fas fa-angle-down"></i>
+                      </a>
+                      <ul class="sub-menu" id="submenu-111">
+                        <li class="sub-menu--item">
+                          <a href="career.html">Career</a>
+                        </li>
+                        <li class="sub-menu--item">
+                          <a href="career-details.html">Career Details</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="sub-menu--item nav-item-has-children">
+                      <a href="#" data-menu-get="h3" class="drop-trigger">Testimonials<i class="fas fa-angle-down"></i>
+                      </a>
+                      <ul class="sub-menu" id="submenu-112">
+                        <li class="sub-menu--item">
+                          <a href="testimonial-1.html">Testimonial 01</a>
+                        </li>
+                        <li class="sub-menu--item">
+                          <a href="testimonial-2.html">Testimonial 02</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="sub-menu--item nav-item-has-children">
+                      <a href="#" data-menu-get="h3" class="drop-trigger">Pricing<i class="fas fa-angle-down"></i>
+                      </a>
+                      <ul class="sub-menu" id="submenu-12">
+                        <li class="sub-menu--item">
+                          <a href="pricing-1.html">Pricing 01</a>
+                        </li>
+                        <li class="sub-menu--item">
+                          <a href="pricing-2.html">Pricing 02</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="sub-menu--item nav-item-has-children">
+                      <a href="#" data-menu-get="h3" class="drop-trigger">Account<i class="fas fa-angle-down"></i>
+                      </a>
+                      <ul class="sub-menu" id="submenu-14">
+                        <li class="sub-menu--item">
+                          <a href="sign-in-1.html">Sign In 01</a>
+                        </li>
+                        <li class="sub-menu--item">
+                          <a href="sign-in-2.html">Sign In 02</a>
+                        </li>
+                        <li class="sub-menu--item">
+                          <a href="sign-in-3.html">Sign In 03</a>
+                        </li>
+                        <li class="sub-menu--item">
+                          <a href="sign-up-1.html">Sig Up 01</a>
+                        </li>
+                        <li class="sub-menu--item">
+                          <a href="sign-up-2.html">Sign Up 02</a>
+                        </li>
+                        <li class="sub-menu--item">
+                          <a href="sign-up-3.html">Sig Up 03</a>
+                        </li>
+                        <li class="sub-menu--item">
+                          <a href="reset-pass-1.html">Reset Password 01</a>
+                        </li>
+                        <li class="sub-menu--item">
+                          <a href="reset-pass-2.html">Reset Password 02</a>
+                        </li>
+                        <li class="sub-menu--item">
+                          <a href="reset-pass-3.html">Reset Password 03</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="sub-menu--item nav-item-has-children">
+                      <a href="#" data-menu-get="h3" class="drop-trigger">Utility<i class="fas fa-angle-down"></i>
+                      </a>
+                      <ul class="sub-menu" id="submenu-15">
+                        <li class="sub-menu--item">
+                          <a href="faq.html">FAQ</a>
+                        </li>
+                        <li class="sub-menu--item">
+                          <a href="terms-conditions.html">Terms & Conditions</a>
+                        </li>
+                        <li class="sub-menu--item">
+                          <a href="404.html">404 Error</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a href="blog-regular.html" class="nav-link-item">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a href="https://finestdevs.com/product-support/" class="nav-link-item">Support</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header-btn header-btn-l-16 ms-auto d-none d-xs-inline-flex">
+            <a target="_blank" class="btn btn focus-reset download-btn" href="https://finestdevs.com/shade/">
+              Download Now
+            </a>
+          </div>
+          <!-- mobile menu trigger -->
+          <div class="mobile-menu-trigger">
+            <span></span>
+          </div>
+          <!--/.Mobile Menu Hamburger Ends-->
+        </nav>
+      </div>
+    </header>
+    <!-- navbar- -->
+    <!-- Hero area -->
+    <div class="hero-area-l-16 position-relative overflow-hidden">
+      <div class="hero-shape-1 d-none d-sm-block">
+        <img src="image/l7/shape-2.svg" alt="" class="w-100">
+      </div>
+      <div class="container">
+        <div class="row position-relative justify-content-center">
+          <div class="col-xl-6 col-lg-7 col-md-10 col-sm-12" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+            <div class="content">
+              <h1>Promote your app <br class="d-sm-block d-none "> with our Shade <br class="d-sm-block d-none"> landing page.</h1>
+              <p>Create custom landing pages with Shade that <br class="d-sm-block d-none "> convert more visitors than any website.</p>
+              <div class="hero-btns">
+                <a href="#" class="btn">
+                  <i class="icon icon-android d-inline-block"></i> Download for Android</a>
+                <a href="#" class="btn">
+                  <i class="icon icon-apple d-inline-block"></i> Download for iOS</a>
+              </div>
+              <div class="star-ratings d-sm-flex align-items-center">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star star-dif-color"></i>
+                <span class="rating-text">Trused by over 1M+ users</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-5 col-md-8" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+            <div class="hero-img position-relative">
+              <img src="./image/l7/hero-img.png" alt="" class="w-100">
+              <div class="hero-shape-2 d-none d-sm-block">
+                <img src="image/l7/shape-1.svg" alt="" class="w-100">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Feature area -->
+    <div class="feature-area-l6">
+      <div class="container">
+        <div class="row feature-area-l6-items justify-content-center">
+          <div class="col-lg-4 col-md-6 col-sm-7">
+            <div class="content-area">
+              <div class="content-body">
+                <h1>01</h1>
+                <h6>Easy to find</h6>
+                <p>Create custom landing pages with Shade that convert more visitors than any website.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-7">
+            <div class="content-area">
+              <div class="content-body">
+                <h1>02</h1>
+                <h6>Modern design</h6>
+                <p>Create custom landing pages with Shade that convert more visitors than any website.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-7">
+            <div class="content-area">
+              <div class="content-body">
+                <h1>03</h1>
+                <h6>Quick booking</h6>
+                <p>Create custom landing pages with Shade that convert more visitors than any website.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Content-Area-1 -->
+    <div class="content-area-1-l-16 position-relative overflow-hidden">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-12">
+            <div class="border-bottom">
+              <div class="row align-items-center justify-content-center">
+                <div class="col-xl-11">
+                  <div class="row align-items-center justify-content-center">
+                    <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 order-lg-1 order-1" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+                      <div class="content section-heading-10">
+                        <span> <i class="icon icon-camera-flash-2"></i> New feature</span>
+                        <h2>Explore the things you never saw.</h2>
+                        <p>Create custom landing pages with Shade that convert more visitors than any website. With lots of unique blocks, you can easily build a page without coding.</p>
+                      </div>
+                    </div>
+                    <div class="col-xl-4 offset-xl-2 offset-lg-1 col-lg-5 col-md-6 col-sm-8 order-lg-1 order-0 position-relative" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+                      <div class="image-area">
+                        <img src="image/l7/content-img-1.png" alt="" class="w-100">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Content-Area-2 -->
+    <div class="content-area-2-l-16 position-relative overflow-hidden">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-12">
+            <div class="border-bottom border-default-color-2">
+              <div class="row justify-content-center">
+                <div class="col-xl-11">
+                  <div class="row align-items-center justify-content-center">
+                    <div class="col-xl-4 col-lg-5 col-md-6 col-sm-10 position-relative" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+                      <div class="image-area">
+                        <img src="image/l7/content-img-2.png" alt="" class="w-100">
+                      </div>
+                    </div>
+                    <div class="col-xxl-5 offset-xxl-2 col-xl-6 offset-xl-1 offset-lg-1 col-lg-6 col-md-8 col-sm-9 " data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+                      <div class="content section-heading-10">
+                        <h2>Present some awesome features.</h2>
+                        <div class="single-item d-flex">
+                          <div class="icon-box"><i class="icon icon-layers-3"></i></div>
+                          <div class="content-body">
+                            <h4>Super Organized</h4>
+                            <p>Create custom landing pages with Shade that convert more visitors than any website.</p>
+                          </div>
+                        </div>
+                        <div class="single-item d-flex">
+                          <div class="icon-box"><i class="icon icon-layers-3 "></i></div>
+                          <div class="content-body">
+                            <h4>Super Organized</h4>
+                            <p>Create custom landing pages with Shade that convert more visitors than any website.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ScreenShot Area -->
+    <div class="screenshot-area-l-16">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xxl-7 col-xl-8 col-lg-8 col-md-10">
+            <div class="section-heading-10 text-center">
+              <h2>Take a closer look</h2>
+              <p>Create custom landing pages with Shade that convert more
+                visitors than any website. With lots of unique blocks, you can easily build a page without coding.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="screenshot-slider-wrapper-l-16">
+        <div class="screenshot-slider">
+          <div class="single-slide focus-reset">
+            <div class="screenshot-image">
+              <img src="./image/l7/screenshot-1.png" alt="" />
+            </div>
+          </div>
+          <div class="single-slide focus-reset">
+            <div class="screenshot-image">
+              <img src="./image/l7/screenshot-2.png" alt="" />
+            </div>
+          </div>
+          <div class="single-slide focus-reset">
+            <div class="screenshot-image">
+              <img src="./image/l7/screenshot-3.png" alt="" />
+            </div>
+          </div>
+          <div class="single-slide focus-reset">
+            <div class="screenshot-image">
+              <img src="./image/l7/screenshot-4.png" alt="" />
+            </div>
+          </div>
+          <div class="single-slide focus-reset">
+            <div class="screenshot-image">
+              <img src="./image/l7/screenshot-1.png" alt="" />
+            </div>
+          </div>
+          <div class="single-slide focus-reset">
+            <div class="screenshot-image">
+              <img src="./image/l7/screenshot-4.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="phone-bg-img">
+          <img src="./image/l7/iPhone-frame.png" alt="" />
+        </div>
+      </div>
+      <div class="screenshots-dots-l-16"></div>
+    </div>
+    <!-- Testimonial Area -->
+    <div class="testimonial-area-l-16">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xxl-7 col-xl-8 col-lg-9 col-md-10" data-aos="fade-down" data-aos-duration="800" data-aos-once="true">
+            <div class="section-heading-10 text-center">
+              <h2>
+                What people say about us
+              </h2>
+              <p>Create custom landing pages with Shade that convert more visitors than any website.
+                With lots of unique blocks, you can easily build a page without coding.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+          <div class="col-xl-10 col-lg-12 col-sm-11 col-md-8">
+            <div class="testimonial-slider-l-16">
+              <div class="single-slide focus-reset">
+                <div class="testimonial-card">
+                  <div class="customer-img">
+                    <img src="image/l7/testimonial-img-1.svg" alt="" class=" circle-85">
+                  </div>
+                  <p>
+                    ““Amazing experience i love it a lot. Thanks to the team dreams come true, great! I really super appreciate there approach om”</p>
+                  <div class="d-flex align-items-center">
+                    <div class="user-identity">
+                      <h5>Dustin Dean</h5>
+                      <span>Art Director</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="single-slide focus-reset">
+                <div class="testimonial-card">
+                  <div class="customer-img">
+                    <img src="image/l7/testimonial-img-2.svg" alt="" class="circle-85">
+                  </div>
+                  <p>
+                    “Amazing experience i love it a lot. Thanks to the team dreams come true, great! I really super appreciate there approach om”</p>
+                  <div class="d-flex ml-1 align-items-center">
+                    <div class="user-identity">
+                      <h5>Ella Brooks</h5>
+                      <span>Founder of Crips</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="single-slide focus-reset">
+                <div class="testimonial-card">
+                  <div class="customer-img">
+                    <img src="image/l7/testimonial-img-1.svg" alt="" class="circle-85">
+                  </div>
+                  <p>
+                    “Amazing experience i love it a lot. Thanks to the team dreams come true, great! I really super appreciate there approach om”</p>
+                  <div class="d-flex align-items-center">
+                    <div class="user-identity">
+                      <h5>Sallie Lawson</h5>
+                      <span>Founder of Crips</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Newsletter Area -->
+    <div class="newsletter-area-l-16 position-relative overflow-hidden section-bg-img-1">
+      <div class="newsletter-area-shape d-none d-md-block">
+        <img src="image/l7/shape-3.png" alt="" class="w-100 h-100">
+      </div>
+      <div class="container" data-aos="fade-down" data-aos-duration="800" data-aos-once="true">
+        <div class="row justify-content-center">
+          <div class="col-xl-6 col-lg-7 col-sm-10 col-md-10 text-center">
+            <div class="content">
+              <div class="icon-box"><i class="icon icon-ic_file_download_48px"></i></div>
+              <h2>Download it now</h2>
+              <div class="newsletter-btns">
+                <a href="#" class="btn">
+                  <i class="icon icon-android d-inline-block"></i> Download for Android</a>
+                <a href="#" class="btn">
+                  <i class="icon icon-apple d-inline-block"></i> Download for iOS</a>
+              </div>
+              <p>Tell your visitors why they should download your app. <br/>
+  Two lines can be enough here.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Area -->
+    <div class="footer-area-l-16 position-relative">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-5 col-md-6 col-sm-8">
+            <div class="d-lg-flex">
+              <div class="brand-logo">
+                <a href="#">
+                  <img src="image/logo/logo-black.png" alt="">
+                </a>
+              </div>
+              <div class="content-body">
+                <p>Create custom landing pages with Shade that convert more visitors than any website.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-2 offset-xl-2 col-lg-3 col-md-7">
+            <div class="footer-single-item">
+              <h6>Office</h6>
+              <p>359 Hidden Valley<br> Road, NY</p>
+            </div>
+          </div>
+          <div class="col-xl-2 offset-xl-1 col-lg-3 col-md-5">
+            <div class="footer-single-item">
+              <h6>Contacts</h6>
+              <p>contact@grayic.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-12">
+            <div class="copyright-area d-sm-flex justify-content-between align-items-center">
+              <p> &copy; Grayic 2020 All right reserved. </p>
+              <div class="social-icons">
+                <ul class="pl-0 list-unstyled">
+                  <li class="d-inline-block"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                  <li class="d-inline-block"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li class="d-inline-block"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Vendor Scripts -->
+  <script src="js/vendor.min.js"></script>
+  <!-- Plugin's Scripts -->
+  <script src="./plugins/fancybox/jquery.fancybox.min.js"></script>
+  <script src="./plugins/nice-select/jquery.nice-select.min.js"></script>
+  <script src="./plugins/aos/aos.min.js"></script>
+  <script src="./plugins/slick/slick.min.js"></script>
+  <script src="https://porjoton.netlify.app/mekanic/js/waypoints.min.js"></script>
+  <script src="./plugins/counter-up/jquery.counterup.min.js"></script>
+  <script src="./plugins/isotope/isotope.pkgd.min.js"></script>
+  <script src="./plugins/isotope/packery.pkgd.min.js"></script>
+  <script src="./plugins/isotope/image.loaded.js"></script>
+  <script src="./plugins/menu/menu.js"></script>
+  <!-- Activation Script -->
+  <script src="js/custom.js"></script>
+</body>
+
+</html>

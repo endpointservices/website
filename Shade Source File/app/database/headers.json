@@ -1,0 +1,31 @@
+{
+  "headerHome1": {
+    "hideMegamenu": true,
+    "additional_header_class": "site-header--menu-left dynamic-sticky-bg",
+    "menu_wrapper_class" : "ml-xl-12",
+    "absolute_header": true,
+    "container_fluid": true,
+    "sticky_header": true,
+    "mobile_sticky": false,
+    "header_double_button": true,
+    "header_button_class_1": "btn btn-header-btns heading-default-color",
+    "header_button_text_1": "Login",
+    "header_button_class_2": "btn btn-header-btns btn-black rounded-5",
+    "header_button_text_2": "Get Started",
+    "additional_db_classes": "ms-auto ml-lg-0 d-none d-sm-block heading-default-color"
+  },
+  "headerHome2": {
+    "hideMegamenu": true,
+    "additional_header_class": "site-header--menu-left dynamic-sticky-bg",
+    "absolute_header": true,
+    "container_fluid": false,
+    "sticky_header": true,
+    "mobile_sticky": false,
+    "header_double_button": true,
+    "header_button_class_1": "heading-default-color transition-4s",
+    "header_button_text_1": "Login",
+    "header_button_class_2": "btn btn--xl btn-primary rounded-55",
+    "header_button_text_2": "Get Started For Free",
+    "additional_db_classes": "ms-auto ml-lg-0 d-none d-sm-block heading-default-color"
+  }
+}

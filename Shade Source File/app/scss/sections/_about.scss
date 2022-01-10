@@ -1,0 +1,250 @@
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+        About Us 
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.inner-about-us-area {
+        padding-top: 115px;
+
+        @include mobile {
+                padding-top: 120px;
+        }
+
+        @include tablet {
+                padding-top: 135px;
+
+        }
+
+        @include desktops {
+                padding-top: 170px;
+
+        }
+}
+
+.inner-about-bg-area {
+        position: relative;
+        margin-top: 65px;
+        border-radius: 30px;
+
+        .bg-image {
+                & img {
+                        border-radius: 30px 30px 0px 0px;
+
+                        @include desktops {
+                                border-radius: 30px;
+                        }
+                }
+        }
+
+        .content {
+
+                background: #FF794D;
+                border-radius: 0px 0px 30px 30px;
+                padding: 32px 45px 18px 40px;
+
+                @include desktops {
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        width: 80%;
+                        border-radius: 0px 30px 0px 30px;
+                }
+
+                @include large-desktops {
+                        width: 66%;
+                }
+
+                @include extra-large-desktops {
+                        width: 57%;
+                }
+
+                p {
+                        font-size: 21px;
+                        line-height: 32px;
+                        color: #FFFFFF;
+                        opacity: 0.7;
+                }
+
+
+        }
+}
+
+.inner-ab-bg-bottom-content {
+        margin-top: 60px;
+        margin-bottom: -30px;
+
+        .col-md-10 {
+                margin-bottom: 30px;
+        }
+
+        .icon-content-area {
+                .icon {
+                        height: 80px;
+                        width: 80px;
+                        line-height: 80px;
+                        border-radius: 50%;
+                        text-align: center;
+                        background: rgba(214, 227, 235, 0.4);
+                        display: inline-table;
+
+                        & img {
+                                width: 32px;
+                                height: 32px;
+                        }
+
+                        &.icon-2 {
+                                background: rgba(250, 229, 218, 0.4);
+                        }
+                        margin-bottom: 30px;
+                        @include tablet {
+                                margin-bottom: 0;
+                        }
+                }
+
+                .content {
+                        @include large-desktops {
+                                padding-right: 45px;
+                        }
+
+                        @include extra-large-desktops {
+                                padding-right: 135px;
+                        }
+
+                        @include tablet {
+                                margin-left: 35px;
+                        }
+
+                        p {
+                                font-size: 15px;
+                                line-height: 28px;
+                                color: $mirage;
+                                opacity: 0.8;
+                                margin-bottom: 0;
+                        }
+                }
+
+        }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+        Counter area 
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.counter-area-inner-about-us {
+        padding-top: 50px;
+
+        @include tablet {
+                padding-top: 70px;
+        }
+
+        @include desktops {
+                padding-top: 110px;
+        }
+
+        .counter-area-l8-items {
+                background: #1787FC;
+        }
+
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+        Team area 
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.about-area-team {
+        background: #F9FAFB;
+        padding-top: 50px;
+
+        @include tablet {
+                padding-top: 70px;
+        }
+
+        @include desktops {
+                padding-top: 120px;
+        }
+}
+
+.about-area-team-items {
+        margin-top: 35px;
+        margin-bottom: -25px;
+
+        @include tablet {
+                margin-top: 45px;
+        }
+
+        @include desktops {
+                margin-top: 55px;
+        }
+
+        .col-xl-3 {
+                margin-bottom: 25px;
+        }
+
+        .team-card {
+                position: relative;
+
+                .image {
+                        & img {
+                                border-radius: 15px;
+                        }
+                }
+
+                .content {
+                        transition: all 0.4s ease-in-out;
+                        background: #FFFFFF;
+                        border-radius: 15px;
+                        position: absolute;
+                        bottom: 0;
+                        left: 50%;
+                        width: calc(100% - 30px);
+                        transform: translate(-50%, 100%);
+                        padding: 20px 20px 20px 20px;
+
+                        h4 {
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 17px;
+                                line-height: 30px;
+                                color: #1D263A;
+                                margin-bottom: 0;
+
+                        }
+
+                        span {
+                                display: inline-block;
+                                font-size: 13px;
+                                line-height: 22px;
+                                color: #1D263A;
+                                opacity: 0.6;
+                        }
+
+                        .social-icons {
+                                margin-top: 12px;
+
+                                ul {
+                                        margin: 0px -8px;
+
+                                        li {
+                                                margin: 0px 8px;
+
+                                                i {
+                                                        font-size: 20px;
+                                                        color: #1D263A;
+                                                }
+
+                                                &:hover {
+                                                        i {
+                                                                color: #1787FC;
+                                                        }
+                                                }
+                                        }
+                                }
+                        }
+                }
+
+                &:hover {
+                        .content {
+                                transform: translate(-50%, -11%);
+                        }
+                }
+        }
+}

@@ -1,0 +1,282 @@
+{% extends "template.njk" %}
+
+{#
+<!-- Page Info Input Here --> #}
+
+{% set PAGE_INFO = {
+page_title : "Industry",
+page_wrapper_class : ""
+
+} %}
+{% import 'components/Header/_header.njk' as Header %}
+
+{% block main %}
+<!-- Site Header -->
+{{Header.render({
+"additional_header_class": "site-header--menu-left sticky-menu-bg dark-mode-texts",
+"absolute_header" : "true",
+container_fluid : false,
+sticky_header :true,
+menu_wrapper_class : "mx-auto",
+hideMegamenu : false,
+header_button : "true",
+header_button_text : "Buy now",
+header_button_class : "btn btn-style-04 focus-reset",
+additional_button_classes : "l4-header-btn d-none d-xs-inline-flex"
+
+
+
+})}}
+
+
+<!-- Hero Area -->
+
+<div class="hero-area-l4 background-property" style="background: url(./image/landing-4/hero-bg.png);">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-10 col-lg-11 col-md-12" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                <div class="banner-content">
+                    <div class="content">
+                        <h2>THE NEW SCOPE REINVENTED FOR THE SOLAR INDUSTRY.</h2>
+                        <div class="hero-l4-btn">
+                            <a href="#" class="btn btn-style-04 focus-reset">SEE MORE INFO ABOUT US </a>
+                        </div> 
+                        <p>Solar panels are perfect if you are looking for a reliable source of<br class="d-none d-sm-block"> additional power and energy for your home or office.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Counter Area -->
+
+<div class="counter-area-l4">
+    <div class="container">
+        <div class="row counter-area-l4-items text-center text-lg-start">
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+                <div class="counter-wrapper">
+                    <div class="count-number">
+                        <h2><span class="counter">901</span></h2>
+                    </div>
+                    <div class="count-content">
+                        <p>LOREM IPSUM DOLOR SIT AMET CONSECTETUR</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+                <div class="counter-wrapper">
+                    <div class="count-number">
+                        <h2><span class="counter">365</span></h2>
+                    </div>
+                    <div class="count-content">
+                        <p>LOREM IPSUM DOLOR SIT AMET CONSECTETUR</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                <div class="counter-wrapper">
+                    <div class="count-number">
+                        <h2><span class="counter">1032</span></h2>
+                    </div>
+                    <div class="count-content">
+                        <p>LOREM IPSUM DOLOR SIT AMET CONSECTETUR</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+                <div class="counter-wrapper">
+                    <div class="count-number">
+                        <h2><span class="counter">6653</span></h2>
+                    </div>
+                    <div class="count-content">
+                        <p>LOREM IPSUM DOLOR SIT AMET CONSECTETUR</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- Content Area-1  -->
+
+<div class="content-area-l4-1">
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-lg-5 col-md-5" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
+                <div class="content-l4-image-1 image-hover-style-01 overflow-hidden">
+                    <img class="w-100" src="image/landing-4/con-1-img1.png" alt="image">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-7" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                <div class="content-l4-content-1">
+                    <div class="section__heading-2">
+                        <h2>Fusce interdum justo libero</h2>
+                        <p>Sed ultrices nisl velit, eu ornare est ullamcorper a. Nunc quis nibh magna. Proin risus erat, fringilla vel purus sit amet, mattis porta enim.</p>
+                        <div class="con-1-l4-learn-btn">
+                            <a href="#" class="btn btn-style-04 focus-reset">LEARN MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-8" data-aos="fade-left" data-aos-delay="700" data-aos-duration="1000">
+                <div class="content-l4-image-2 image-hover-style-01 overflow-hidden">
+                    <img class="w-100" src="image/landing-4/con-1-img2.png" alt="image">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Services Area -->
+
+<div class="service-area-l4-1">
+    <div class="container">
+        <div class="row">
+            <div class="offset-xxl-2 col-xxl-5 offset-xl-2 col-xl-6 col-lg-8" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                <div class="service-l4-head-content section__heading-2">
+                    <h2>We provide the best service in town.</h2>
+                    <p>Sed ultrices nisl velit, eu ornare est ullamcorper a. Nunc quis nibh magna. Proin risus erat, fringilla vel purus sit amet, mattis porta enim. fringilla vel purus sit amet.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row service-l4-card-items justify-content-center align-items-center">
+            <div class="col-lg-4 col-md-6" data-aos="fade-right" data-aos-delay="400" data-aos-duration="1000">
+                <div class="service-l4-card">
+                    <div class="content">
+                        <h4>SOLAR PANEL<br> INSTALLATION</h4>
+                        <p>Amet minim mollit non deserunt ulla mco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.</p>
+                    </div>
+                    <div class="number-icon-area d-flex justify-content-between flex-wrap">
+                        <div class="icon">
+                            <a href="#"><img src="image/landing-4/arrow-right1.png" alt="icon"></a>
+                        </div>
+                        <div class="number">
+                            <h1>01</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                <div class="service-l4-card">
+                    <div class="content">
+                        <h4>SOLAR PANEL<br> INSTALLATION</h4>
+                        <p>Amet minim mollit non deserunt ulla mco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.</p>
+                    </div>
+                    <div class="number-icon-area d-flex justify-content-between flex-wrap">
+                        <div class="icon">
+                            <a href="#"><img src="image/landing-4/arrow-right1.png" alt="icon"></a>
+                        </div>
+                        <div class="number">
+                            <h1>02</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6" data-aos="fade-left" data-aos-delay="600" data-aos-duration="1000">
+                <div class="service-l4-card">
+                    <div class="content">
+                        <h4>SOLAR PANEL<br> INSTALLATION</h4>
+                        <p>Amet minim mollit non deserunt ulla mco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.</p>
+                    </div>
+                    <div class="number-icon-area d-flex justify-content-between flex-wrap">
+                        <div class="icon">
+                            <a href="#"><img src="image/landing-4/arrow-right1.png" alt="icon"></a>
+                        </div>
+                        <div class="number">
+                            <h1>03</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Testimonial Area -->
+
+<div class="tastimonial-area-l4">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xxl-8 col-xl-9 col-lg-10" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                <div class="testimonial-l4-content d-flex">
+                    <div class="quote-icon">
+                        <img src="image/landing-4/quote.png" alt="image">
+                    </div>
+                    <div class="content-box">
+                        <h3>Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa non consectetur condimentum, diam arcu tristique nibh, nec egestas diam elit at nulla. Suspendisse.</h3>
+                        <div class="user-identity d-flex">
+                            <div class="user-image">
+                                <img src="image/landing-4/testimonial-user.png" alt="image">
+                            </div>
+                            <div class="user-role">
+                                <h6>Arlene McCoy</h6>
+                                <span>New York, USA</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Content Area 2-->
+
+<div class="content-area-l4-12">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-10" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
+                <div class="contant-area-2-l4-content bg-mirage section__heading">
+                    <h2>The company started in 1985 by Mark Tremson</h2>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt. Duis dignissim mi ut.</p>
+                    <div class="l4-learn-btn">
+                        <a href="#" class="btn btn-style-04 focus-reset">learn More</a>
+                    </div>
+                </div>  
+            </div>
+            <div class="col-lg-6 col-md-10" data-aos="fade-left" data-aos-delay="700" data-aos-duration="1000">
+                <div class="contant-area-2-l4-content-image">
+                    <img class="w-100" src="image/landing-4/con-2-img2.png" alt="image">
+                </div>
+            </div>
+        </div>
+        <div class="row cta-l4-items justify-content-center align-items-center text-center text-lg-start">
+            <div class="col-lg-4 col-md-10" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+                <div class="cta-l4-heading section__heading">
+                    <h2>Get started with us today, fast.</h2>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-10" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                <div class="cta-l4-content section__heading">
+                    <p>Aliquam ac dui vel dui vulputate consectetur. Mauris accumsan, massa non consectetur condimentum, diam arcu tristique nibh, nec egestas diam elit.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-10" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
+                <div class="cta-l4-btn text-lg-end">
+                    <a href="#" class="btn btn-style-04 focus-reset">GET STARTED NOW</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- Footer Area -->
+
+{% include "footer-4.njk" %}
+
+
+
+{% endblock %}

@@ -1,0 +1,446 @@
+{% extends "template.njk" %}
+
+{#
+<!-- Page Info Input Here --> #}
+
+{% set PAGE_INFO = {
+page_title : "Job Directory",
+page_wrapper_class : ""
+
+} %}
+{% import 'components/Header/_header.njk' as Header %}
+
+{% block main %}
+<!-- Site Header -->
+{{Header.render({
+"additional_header_class": "site-header--menu-left landing-2-menu",
+"absolute_header" : "true",
+container_fluid : false,
+sticky_header :true,
+menu_wrapper_class : "mx-auto",
+hideMegamenu : false,
+header_double_button : true,
+additional_db_classes : "header-btn-l2 ms-auto d-none d-xs-inline-flex align-items-center",
+header_button_class_1 : "btn sign-in-btn focus-reset",
+header_button_text_1 : "Sign in",
+header_button_class_2 : "btn btn-style-03 register-btn focus-reset",
+header_button_text_2 : "Register"
+
+
+
+})}}
+
+
+<!-- Hero Area -->
+
+<div class="hero-area-l2  position-relative z-index-1 bg-skeptic">
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 order-lg-1 order-1">
+                <div class="content">
+                    <h2>Find Exciting Jobs Today.</h2>
+                    <p>Get the most exciting jobs from all around the world and grow your
+                        career fast with others..</p>
+                    <div class="location-search-area">
+                        <form action="/" class="location-search-area__search-form">
+                            <div class="d-md-flex justify-content-between align-items-center">
+
+                                <div class="d-sm-flex">
+                                    <div class="location-search-area__dropdown">
+                                       <div class="location-heading">
+                                        <label>Locations</label>
+                                       </div>
+                                        <select name="country" id="country" class="nice-select focus-reset border-0">
+                                            <option data-display="Select your destinations">Select your destinations</option>
+                                            <option value="">USA</option>
+                                            <option value="">Canada</option>
+                                            <option value="">Australia</option>
+                                            <option value="">Singapore</option>
+                                        </select>
+                                       
+                                    </div>
+                                    <div class="location-type__input">
+                                        <div class="location-type">
+                                            <label>Type</label>
+                                            <input type="text" class="form-control" name="type" id="type"
+                                                placeholder="What kind of role do you want?">
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="location-search-area__search-btn">
+                                    <button class="btn btn-style-03 btn--search">Explore Now</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="popular-search-area">
+                        <h6>Popular Search: <span>Software Developer, UX Designer, Marketer </span></h6>
+                    </div>
+                </div>
+            </div>
+            <div class="off-right-xxl-1 col-xxl-5 col-xl-5 col-lg-6 col-md-8 order-lg-1 order-0">
+                <div class="hero-image-group-l2">
+                    <div class="image-1">
+                        <img src="image/landing-2/hero-image.png" alt="image">
+                    </div>
+                    <div class="image-2">
+                        <img src="image/landing-2/hero-pattern.png" alt="image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Brand Area -->
+
+<div class="brand-area-l1">
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-12">
+                <div
+                    class="brand-logos d-flex justify-content-center justify-content-lg-between align-items-center flex-wrap ">
+                    <div class="single-brand" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+                        <img src="./image/landing-2/brand-logo-1.png" alt="" class="w-100">
+                    </div>
+                    <div class="single-brand" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+                        <img src="./image/landing-2/brand-logo-2.png" alt="" class="w-100">
+                    </div>
+                    <div class="single-brand" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                        <img src="./image/landing-2/brand-logo-3.png" alt="" class="w-100">
+                    </div>
+                    <div class="single-brand" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+                        <img src="./image/landing-2/brand-logo-4.png" alt="" class="w-100">
+                    </div>
+                    <div class="single-brand" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
+                        <img src="./image/landing-2/brand-logo-5.png" alt="" class="w-100">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="brand-bottom-border"></div>
+
+<!-- Features Area -->
+
+<div class="feature-area-l2">
+    <div class="container">
+        <div class="row justify-content-lg-between justify-content-center align-items-center text-center text-lg-start">
+            <div class="col-xl-4 col-lg-5 col-md-8">
+                <div class="section__heading">
+                    <h2>Explore Jobs by Category</h2>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 col-md-8">
+                <div class="content">
+                    <p>Get the most exciting jobs from all around the world and grow your career fast with others.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row feature-l2-items justify-content-center">
+            {% set feature = [
+            {
+            "color":"color-box bg-java",
+            "title": "Digital Marketing",
+            "content": "37 Jobs"
+            },
+            {
+            "color":"color-box bg-secondary",
+            "title": "Content Writing",
+            "content": "55 Jobs"
+            },
+            {
+            "color":"color-box bg-primary",
+            "title": "HR Management",
+            "content": "91 Jobs"
+            },
+            {
+            "color":"color-box bg-sunglow",
+            "title": "Development",
+            "content": "174 Jobs"
+            },
+            {
+            "color":"color-box bg-electricviolet",
+            "title": "Design",
+            "content": "95 Jobs"
+            },
+            {
+            "color":"color-box bg-sandal",
+            "title": "Account & Finance",
+            "content": "67 Jobs"
+            },
+            {
+            "color":"color-box bg-wattle",
+            "title": "Sales",
+            "content": "87 Jobs"
+            },
+            {
+            "color":"color-box bg-razzle",
+            "title": "Project management",
+            "content": "54 Jobs"
+            }
+
+
+            ]
+            %}
+            {% for item in feature %}
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                <div class="feature-box-l2 h-100">
+                    <div class="d-flex">
+                        <div class="{{item.color}}"></div>
+                        <div class="content-box">
+                            <h4>{{item.title}}</h4>
+                            <p>{{item.content}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Feature Job Area -->
+
+<div class="feature-job-area bg-athensgray">
+    <div class="container">
+        <div class="row justify-content-lg-between justify-content-center align-items-center text-center text-lg-start">
+            <div class="col-lg-8 col-md-8">
+                <div class="section__heading">
+                    <h2>Our Featured Jobs</h2>
+                    <p>Check our featured jobs from popular companies. Start applying now. </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-8">
+                <div class="view-all-job-btn-l1 text-center text-lg-end">
+                    <a href="#" class="btn btn-style-03 focus-reset">View All Jobs</a>
+                </div>
+            </div>
+        </div>
+        <div class="row feature-job-items justify-content-center">
+            {% set jobs = [
+            {
+            "location":"New York, USA",
+            "title":"Full-Stuck Web Developer",
+            "company": "Chorocon Ltd",
+            "week": "1 Week ago"
+
+            },
+            {
+            "location":"Singapore",
+            "title":"Senior Project Manager",
+            "company": "Google Inc",
+            "week": "2 Week ago"
+
+            },
+            {
+            "location":"Remote",
+            "title":"Junior Graphic Designer",
+            "company": "Canava",
+            "week": "3 Week ago"
+
+            }
+
+
+            ]
+            %}
+            {% for item in jobs %}
+            <div class="col-xl-4 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+                <div class="feature-job-box h-100">
+                    <div class="location d-flex align-items-center">
+                        <div class="icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="content">
+                            <span>{{item.location}}</span>
+                        </div>
+                    </div>
+                    <h4>{{item.title}}</h4>
+                    <p>By <span> {{item.company}}</span></p>
+                    <div class="time-apply-area">
+                        <div class="d-xs-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center">
+                                <div class="icon">
+                                    <i class="fas fa-calendar"></i>
+                                </div>
+                                <div class="content">
+                                    <span>{{item.week}}</span>
+                                </div>
+                            </div>
+                            <div class="apply-now-btn-fj">
+                                <a href="#" class="btn btn-style-03 focus-reset">Apply Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<!-- Content Area-1  -->
+
+<div class="content-are-l2-1">
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-xxl-5 col-xl-6 col-lg-7 col-md-9" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000"> 
+                <div class="content text-center text-xl-start">
+                    <h2>Get hired by the popular startups.</h2>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <div class="check-lis-btn-l2">
+                        <a href="#" class="btn btn-style-03 focus-reset">Check Listing</a>
+                    </div>
+                </div>
+            </div>
+            <div class="offset-xxl-1 col-xxl-6 col-xl-6">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+                        <div class="content-l2-2-image-1 image-hover-style-01 overflow-hidden">
+                            <img class="w-100" src="image/landing-2/people-2.png" alt="image">
+                            <div class="logo-1">
+                                <img src="image/landing-2/amazon.png" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="content-l2-2-image-2 overflow-hidden image-hover-style-01" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000">
+                            <img class="w-100" src="image/landing-2/people-1.png" alt="image">
+                            <div class="logo-2">
+                                <img src="image/landing-2/airbnb.png" alt="image">
+                            </div>
+                        </div>
+                        <div class="content-l2-2-image-3 overflow-hidden image-hover-style-01" data-aos="fade-left" data-aos-delay="700" data-aos-duration="1000">
+                            <img class="w-100" src="image/landing-2/people-3.png" alt="image">
+                            <div class="logo-3">
+                                <img src="image/landing-2/google.png" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!-- Testimonial Area -->
+
+
+
+<div class="testimonial-area-l2 bg-athensgray">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-5 col-lg-6 col-md-8" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
+                <div class="section__heading">
+                    <h2>What They Says About Our Services </h2>
+                </div>
+            </div>
+            <div class="col-xl-7 col-lg-6 col-md-4" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
+                <div class="l2-slider-arrow-1 text-end">
+                    <i class="prevl2  fas fa-angle-left slick-arrow slick-active"></i>
+                    <i class="nextl2 fas fa-angle-right slick-arrow"></i>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="testimonial-slider-l2-1">
+                    <div class="single-item focus-reset" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+                        <div class="testimonial-l2-single-card">
+                            <div class="content">
+                                <p>“Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat.” </p>
+                            </div>
+                            <div class="user-identity d-xs-flex text-center text-xs-start align-items-center">
+                                <div class="user-image">
+                                    <img src="image/landing-2/user-1.png" alt="image">
+                                </div>
+                                <div class="user-details">
+                                    <h4>Wade Warren</h4>
+                                    <span>Ui Designer, Adobe</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-item focus-reset" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+                        <div class="testimonial-l2-single-card">
+                            <div class="content">
+                                <p>“Velit officia consequat duis enim velit mollit. Exercitation veniam consequat. Amet minim mollit non deserunt ullamco.</p>
+                            </div>
+                            <div class="user-identity d-xs-flex text-center text-xs-start align-items-center">
+                                <div class="user-image">
+                                    <img src="image/landing-2/user-2.png" alt="image">
+                                </div>
+                                <div class="user-details">
+                                    <h4>Wade Warren</h4>
+                                    <span>Ui Designer, Adobe</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-item focus-reset" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                        <div class="testimonial-l2-single-card">
+                            <div class="content">
+                                <p>“Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat.”</p>
+                            </div>
+                            <div class="user-identity d-xs-flex text-center text-xs-start align-items-centerr">
+                                <div class="user-image">
+                                    <img src="image/landing-2/user-3.png" alt="image">
+                                </div>
+                                <div class="user-details">
+                                    <h4>Wade Warren</h4>
+                                    <span>Ui Designer, Adobe</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-item focus-reset" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+                        <div class="testimonial-l2-single-card">
+                            <div class="content">
+                                <p>“Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. ”</p>
+                            </div>
+                            <div class="user-identity d-xs-flex text-center text-xs-start align-items-center">
+                                <div class="user-image">
+                                    <img src="image/landing-2/user-2.png" alt="image">
+                                </div>
+                                <div class="user-details">
+                                    <h4>Wade Warren</h4>
+                                    <span>Ui Designer, Adobe</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+
+
+{% include "footer-2.njk" %}
+
+<!-- Footer Area -->
+
+
+
+
+
+
+
+{% endblock %}

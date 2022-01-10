@@ -1,0 +1,396 @@
+{% extends "template.njk" %}
+
+{#
+<!-- Page Info Input Here --> #}
+
+{% set PAGE_INFO = {
+page_title : "Mobile App",
+page_wrapper_class : ""
+
+} %}
+{% import 'components/Header/_header.njk' as Header %}
+
+{% block main %}
+<!-- Site Header -->
+{{Header.render({
+"additional_header_class": "site-header--menu-right landing-16-menu",
+"absolute_header" : "true",
+container_fluid : true,
+sticky_header :true,
+menu_wrapper_class : "mx-auto",
+hideMegamenu : false,
+header_button : "true",
+additional_button_classes : "header-btn-l-16 ms-auto d-none d-xs-inline-flex",
+header_button_class : "btn focus-reset download-btn",
+header_button_text : "Download Now"
+
+
+})}}
+
+
+ <!-- Hero area -->
+
+ <div class="hero-area-l-16 position-relative overflow-hidden">
+  <div class="hero-shape-1 d-none d-sm-block">
+    <img src="image/l7/shape-2.svg" alt="" class="w-100"> 
+  </div>
+  <div class="container">
+    <div class="row position-relative justify-content-center">
+      <div class="col-xl-6 col-lg-7 col-md-10 col-sm-12" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+        <div class="content">
+          <h1>Promote your app <br class="d-sm-block d-none "> with our Shade <br class="d-sm-block d-none"> landing page.</h1>
+          <p>Create custom landing pages with Shade that <br class="d-sm-block d-none "> convert more visitors than any website.</p>
+          <div class="hero-btns">
+            <a href="#" class="btn">
+              <i class="icon icon-android d-inline-block"></i> Download for Android</a>
+            <a href="#" class="btn">
+              <i class="icon icon-apple d-inline-block"></i> Download for iOS</a>
+          </div>
+          <div class="star-ratings d-sm-flex align-items-center">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star star-dif-color"></i>
+            <span class="rating-text">Trused by over 1M+ users</span>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-xl-6 col-lg-5 col-md-8" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+          <div class="hero-img position-relative">
+            <img src="./image/l7/hero-img.png" alt="" class="w-100">
+            <div class="hero-shape-2 d-none d-sm-block">
+              <img src="image/l7/shape-1.svg" alt="" class="w-100"> 
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+ <!-- Feature area -->
+
+
+<div class="feature-area-l6">
+  <div class="container">
+      <div class="row feature-area-l6-items justify-content-center">
+          <div class="col-lg-4 col-md-6 col-sm-7">
+            <div class="content-area">
+              <div class="content-body">
+                <h1>01</h1>
+                <h6>Easy to find</h6>
+                <p>Create custom landing pages with Shade that convert more visitors than any website.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-7">
+            <div class="content-area">
+              <div class="content-body">
+                <h1>02</h1>
+                <h6>Modern design</h6>
+                <p>Create custom landing pages with Shade that convert more visitors than any website.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-7">
+            <div class="content-area">
+              <div class="content-body">
+                <h1>03</h1>
+                <h6>Quick booking</h6>
+                <p>Create custom landing pages with Shade that convert more visitors than any website.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+</div>
+
+  
+<!-- Content-Area-1 -->
+
+
+<div class="content-area-1-l-16 position-relative overflow-hidden">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12">
+                <div class="border-bottom">
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-xl-11">
+                            <div class="row align-items-center justify-content-center">
+                                <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 order-lg-1 order-1" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+                                    <div class="content section-heading-10">
+                                        <span> <i class="icon icon-camera-flash-2"></i> New feature</span>
+                                        <h2>Explore the things you never saw.</h2>
+                                        <p>Create custom landing pages with Shade that convert more visitors than any website. With lots of unique blocks, you can easily build a page without coding.</p>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 offset-xl-2 offset-lg-1 col-lg-5 col-md-6 col-sm-8 order-lg-1 order-0 position-relative" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+                                    <div class="image-area">
+                                        <img src="image/l7/content-img-1.png" alt="" class="w-100">
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!-- Content-Area-2 -->
+
+
+
+<div class="content-area-2-l-16 position-relative overflow-hidden">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12">
+                <div class="border-bottom border-default-color-2">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-11">
+                            <div class="row align-items-center justify-content-center">
+                              <div class="col-xl-4 col-lg-5 col-md-6 col-sm-10 position-relative" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+                                <div class="image-area">
+                                    <img src="image/l7/content-img-2.png" alt="" class="w-100">
+                                </div>
+                              </div>
+                              <div class="col-xxl-5 offset-xxl-2 col-xl-6 offset-xl-1 offset-lg-1 col-lg-6 col-md-8 col-sm-9 " data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+                                <div class="content section-heading-10">
+                                  <h2>Present some awesome features.</h2>
+                                  <div class="single-item d-flex">
+                                    <div class="icon-box"><i class="icon icon-layers-3"></i></div>
+                                    <div class="content-body">
+                                      <h4>Super Organized</h4>
+                                      <p>Create custom landing pages with Shade that convert more visitors than any website.</p>
+                                    </div>
+                                  </div>
+                                  <div class="single-item d-flex">
+                                    <div class="icon-box"><i class="icon icon-layers-3 "></i></div>
+                                    <div class="content-body">
+                                      <h4>Super Organized</h4>
+                                      <p>Create custom landing pages with Shade that convert more visitors than any website.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- ScreenShot Area -->
+
+<div class="screenshot-area-l-16">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xxl-7 col-xl-8 col-lg-8 col-md-10">
+        <div class="section-heading-10 text-center">
+          <h2>Take a closer look</h2>
+          <p>Create custom landing pages with Shade that convert more 
+            visitors than any website. With lots of unique blocks, you can easily build a page without coding.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  <div class="screenshot-slider-wrapper-l-16">
+    <div class="screenshot-slider">
+      <div class="single-slide focus-reset">
+        <div class="screenshot-image">
+          <img src="./image/l7/screenshot-1.png" alt="" />
+        </div>
+      </div>
+      <div class="single-slide focus-reset">
+        <div class="screenshot-image">
+          <img src="./image/l7/screenshot-2.png" alt="" />
+        </div>
+      </div>
+      <div class="single-slide focus-reset">
+        <div class="screenshot-image">
+          <img src="./image/l7/screenshot-3.png" alt="" />
+        </div>
+      </div>
+      <div class="single-slide focus-reset">
+        <div class="screenshot-image">
+          <img src="./image/l7/screenshot-4.png" alt="" />
+        </div>
+      </div>
+      <div class="single-slide focus-reset">
+        <div class="screenshot-image">
+          <img src="./image/l7/screenshot-1.png" alt="" />
+        </div>
+      </div>
+      <div class="single-slide focus-reset">
+        <div class="screenshot-image">
+          <img src="./image/l7/screenshot-4.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="phone-bg-img">
+      <img src="./image/l7/iPhone-frame.png" alt="" />
+    </div>
+  </div>
+  <div class="screenshots-dots-l-16"></div>
+ 
+</div>
+
+
+  <!-- Testimonial Area -->
+
+  <div class="testimonial-area-l-16">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xxl-7 col-xl-8 col-lg-9 col-md-10" data-aos="fade-down" data-aos-duration="800" data-aos-once="true">
+                <div class="section-heading-10 text-center">
+                    <h2>
+                      What people say about us
+                    </h2>
+                    <p>Create custom landing pages with Shade that convert more visitors than any website. 
+                      With lots of unique blocks, you can easily build a page without coding.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+            <div class="col-xl-10 col-lg-12 col-sm-11 col-md-8">
+                <div class="testimonial-slider-l-16">
+                    <div class="single-slide focus-reset">
+                        <div class="testimonial-card">
+                          <div class="customer-img">
+                              <img src="image/l7/testimonial-img-1.svg" alt="" class=" circle-85">
+                          </div>
+                          <p>
+                              ““Amazing experience i love it a lot. Thanks to the team dreams come true, great! I really super appreciate there approach om”</p>
+                         
+                          <div class="d-flex align-items-center">
+                              <div class="user-identity">
+                                  <h5>Dustin Dean</h5>
+                                  <span>Art Director</span>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                  
+                    <div class="single-slide focus-reset">
+                        <div class="testimonial-card">
+                          <div class="customer-img">
+                              <img src="image/l7/testimonial-img-2.svg" alt="" class="circle-85">
+                          </div>
+                          <p>
+                            “Amazing experience i love it a lot. Thanks to the team dreams come true, great! I really super appreciate there approach om”</p>
+                          <div class="d-flex ml-1 align-items-center">
+                              <div class="user-identity">
+                                  <h5>Ella Brooks</h5>
+                                  <span>Founder of Crips</span>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                  
+                    <div class="single-slide focus-reset">
+                        <div class="testimonial-card">
+                          <div class="customer-img">
+                              <img src="image/l7/testimonial-img-1.svg" alt="" class="circle-85">
+                          </div>
+                          <p>
+                            “Amazing experience i love it a lot. Thanks to the team dreams come true, great! I really super appreciate there approach om”</p>
+                          <div class="d-flex align-items-center">
+                              <div class="user-identity">
+                                  <h5>Sallie Lawson</h5>
+                                  <span>Founder of Crips</span>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+<!-- Newsletter Area -->
+
+<div class="newsletter-area-l-16 position-relative overflow-hidden section-bg-img-1">
+  <div class="newsletter-area-shape d-none d-md-block">
+     <img src="image/l7/shape-3.png" alt="" class="w-100 h-100"> 
+  </div>
+  <div class="container" data-aos="fade-down" data-aos-duration="800" data-aos-once="true">
+    <div class="row justify-content-center">
+      <div class="col-xl-6 col-lg-7 col-sm-10 col-md-10 text-center">
+        <div class="content">
+          <div class="icon-box"><i class="icon icon-ic_file_download_48px"></i></div>
+          <h2>Download it now</h2>
+      
+          <div class="newsletter-btns">
+            <a href="#" class="btn">
+              <i class="icon icon-android d-inline-block"></i> Download for Android</a>
+            <a href="#" class="btn">
+              <i class="icon icon-apple d-inline-block"></i> Download for iOS</a>
+          </div>
+          <p>Tell your visitors why they should download your app. <br/>
+  Two lines can be enough here.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Footer Area -->
+
+<div class="footer-area-l-16 position-relative">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-5 col-md-6 col-sm-8">
+        <div class="d-lg-flex">
+          <div class="brand-logo">
+            <a href="#">
+              <img src="image/logo/logo-black.png" alt="">
+            </a>
+          </div>
+          <div class="content-body">
+            <p>Create custom landing pages with Shade that convert more visitors than any website.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-2 offset-xl-2 col-lg-3 col-md-7">
+        <div class="footer-single-item">
+          <h6>Office</h6>
+          <p>359  Hidden Valley<br> Road, NY</p>
+        </div>
+      </div>
+      <div class="col-xl-2 offset-xl-1 col-lg-3 col-md-5">
+        <div class="footer-single-item">
+          <h6>Contacts</h6>
+          <p>contact@grayic.com</p>
+        </div>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-12">
+        <div class="copyright-area d-sm-flex justify-content-between align-items-center">
+          <p> &copy; Grayic 2020 All right reserved. </p>
+          <div class="social-icons">
+            <ul class="pl-0 list-unstyled">
+                <li class="d-inline-block"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="d-inline-block"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li class="d-inline-block"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+{% endblock %}

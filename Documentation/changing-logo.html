@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Shade - Documentation</title>
+  <link rel="shortcut icon" href="image/png/favicon.png" type="image/x-icon">
+  <!-- Bootstrap , fonts & icons  -->
+  <!-- <link rel="stylesheet" href="plugins/plugin.css"> -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="fonts/typography-font/typo.css">
+  <link rel="stylesheet" href="fonts/fontawesome-5/css/all.css">
+  <!-- Plugin'stylesheets  -->
+  <link rel="stylesheet" href="plugins/prismJs/prism.css">
+  <!-- Vendor stylesheets  -->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- Custom stylesheet -->
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+  <div class="site-wrapper overflow-hidden " id="top">
+    <header class="doc-topbar shadow-sm">
+      <div class="container-fluid">
+        <nav class="navbar">
+          <a class="navbar-brand" href="#">
+            <img src="./image/png/company-logo.png" alt="">
+          </a>
+           <a href="https://finestdevs.com/shade/" target="_blank" class="buy-button btn btn-primary ml-auto ml-lg-4 mr-3 mr-md-4 mr-lg-0 order-lg-3">Get Shade</a>
+          <button class="mobile-toggle-btn" data-toggle="collapse" data-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="hamburger-box">
+              <div class="hamburger-inner"></div>
+            </div>
+          </button>
+        </nav>
+      </div>
+    </header>
+    <div class="container-fluid">
+      <div class="row">
+        <aside class="doc-sidebar--left collapse col-lg-3 col-xl-2 pt-25" id="sidebar">
+          <!-- 
+  <div class="sidebar-brand-block">
+    <a href=""><img src="./image/png/company-logo.png" alt=""></a>
+  </div> -->
+          <div class="sidebar-menu-group">
+            <h3 class="menu-title">
+              Getting Started
+            </h3>
+            <ul class="sidebar-menu">
+              <li><a href="index.html">Introduction</a></li>
+              <li><a href="file-structure.html">File Structure</a></li>
+              <li><a href="gulp.html">Gulp</a></li>
+              <!-- <li><a href="credits.html">Credits</a></li> -->
+              <li><a href="update.html">Update</a></li>
+              <li><a href="changelog.html">Change Log</a></li>
+              <li><a href="support.html">Support</a></li>
+            </ul>
+          </div>
+          <div class="sidebar-menu-group">
+            <h3 class="menu-title">
+              Theme Intro
+            </h3>
+            <ul class="sidebar-menu">
+              <li><a href="reboot.html">Reboot</a></li>
+              <li><a href="page-default.html">Page Defaults</a></li>
+              
+            </ul>
+          </div>
+          <div class="sidebar-menu-group pt--40 pt-lg--50">
+            <h3 class="menu-title">
+              How-To Guides
+            </h3>
+            <ul class="sidebar-menu">
+              <li><a href="changing-header.html">Change Header</a></li>
+             
+              <li><a href="menu-sticky.html">Make Menu Sticky</a></li>
+              <li><a href="changing-logo.html">Change Site/Brand Logo</a></li>
+              <li><a href="editing-color-scheme.html">Edit the Color Scheme</a></li>
+              <li><a href="customizing-fonts.html">Linking Google Fonts</a></li>
+              <li><a href="starter-template.html">Starter Template Code</a></li>
+              <li><a href="#">Theme Mode Guide (coming soon)</a></li>
+            </ul>
+          </div>
+          <div class="sidebar-menu-group">
+            <h3 class="menu-title">
+              Javascript and Plugins
+            </h3>
+            <ul class="sidebar-menu">
+              <li><a href="aos-doc.html">Animate On Scroll</a></li>
+              <li><a href="counter-doc.html">Counters</a></li>
+              <li><a href="slick-doc.html">Slick (Slider)</a></li>
+            </ul>
+          </div>
+        
+        </aside>
+        <div class="col-lg-9 col-xl-10 offset-xl-2 offset-lg-3">
+          <div class="row justify-content-around">
+            <div class="col-lg-10 col-xl-8 py-4 py-md-5">
+              <div class="doc-breadcrumb">
+                <h2 class="title">Changing Site/Brand logo</h2>
+                <p>You can easily change the logo of your site or brand using either image or text.</p>
+              </div>
+              <hr class="my-4 my-md-5">
+              <article class="mt-4 mt-md-12" id="logo-change">
+                <!-- <h2 class="h3 mb-8">Editing the default color scheme variables</h2> -->
+                <p>For accessing easily, the theme, site or brand logo markup block is well commented with the text "Brand Logo". Simply search for it in your code editor. This will take you to a block similar to the below example:</p>
+                <!-- <ol class="pl-8">
+        <li>
+          <h6>Open the _theme-color-control.scss file</h6>
+          <p>The <code>_theme-color-control.scss</code> file is located in the <code>app/scss/controls</code> directory of the theme package.</p>
+        </li>
+        <li>
+          <h6>Change the variable values to your preferred colors</h6>
+          <p>Editing the default color scheme variables will change the colors in main.css and result the theme colors to change. Follow below instructions for changing heading titles, paragraph texts, buttons and theme base colors.</p> -->
+                <pre class="  language-html mt-9"><code class="  language-html">
+
+&lt;!-- Brand Logo--&gt;
+&lt;div class="brand-logo"&gt;
+  &lt;a href="https://09-temp-apex.netlify.app/"&gt;
+
+    &lt;!-- light version logo (logo must be black)--&gt;
+    &lt;img src="image/logo/logo-2.png" alt="" class="light-version-logo"&gt;
+
+    &lt;!-- Dark version logo (logo must be White)--&gt;
+    &lt;img src="image/logo/logo-1.png" alt="" class="dark-version-logo"&gt;
+
+  &lt;/a&gt;
+&lt;/div&gt;
+
+</code></pre>
+                <p>The <code>light-version-logo</code> is for light mode and The <code>dark-version-logo</code> is for dark mode.</p>
+                <p>Replace the <code>src</code> attribute path according to your brand/company logos.</p>
+                <!-- <p>Replace Shade with your brand name if you want your logo to be text based. Else you can add an image instead of the <code>&lt;h2&gt;&lt;/h2&gt;</code> tag. </p>
+
+      <p class="h6 pl-8 font-weight-light pt-3 line-height-1_7"><strong>NOTE:</strong> To get the most of dynamic logo color feature depending on the themes' dark and light mode, It is recommended to put your logo as text instead of image. Using the logo as an text allows the logo to change color depending on theme mode, for example white logo in dark mode and black logo in white mode. If you don't need dynamic color logo, you can use your brand logo as an image.</p> -->
+              </article>
+            </div>
+            <div class="col-xl-2">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Vendor Scripts -->
+  <script src="plugins/jquery/jquery.min.js"></script>
+  <script src="plugins/jquery/jquery-migrate.min.js"></script>
+  <script src="plugins/bootstrap-4/js/bootstrap.bundle.min.js"></script>
+  <script src="plugins/prismJs/prism.js"></script>
+  <!-- Activation Script -->
+  <script src="js/custom.js"></script>
+</body>
+
+</html>

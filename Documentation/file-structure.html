@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Shade - Documentation</title>
+  <link rel="shortcut icon" href="image/png/favicon.png" type="image/x-icon">
+  <!-- Bootstrap , fonts & icons  -->
+  <!-- <link rel="stylesheet" href="plugins/plugin.css"> -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="fonts/typography-font/typo.css">
+  <link rel="stylesheet" href="fonts/fontawesome-5/css/all.css">
+  <!-- Plugin'stylesheets  -->
+  <link rel="stylesheet" href="plugins/prismJs/prism.css">
+  <!-- Vendor stylesheets  -->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- Custom stylesheet -->
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+  <div class="site-wrapper overflow-hidden " id="top">
+    <header class="doc-topbar shadow-sm">
+      <div class="container-fluid">
+        <nav class="navbar">
+          <a class="navbar-brand" href="#">
+            <img src="./image/png/company-logo.png" alt="">
+          </a>
+           <a href="https://finestdevs.com/shade/" target="_blank" class="buy-button btn btn-primary ml-auto ml-lg-4 mr-3 mr-md-4 mr-lg-0 order-lg-3">Get Shade</a>
+          <button class="mobile-toggle-btn" data-toggle="collapse" data-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="hamburger-box">
+              <div class="hamburger-inner"></div>
+            </div>
+          </button>
+        </nav>
+      </div>
+    </header>
+    <div class="container-fluid">
+      <div class="row">
+        <aside class="doc-sidebar--left collapse col-lg-3 col-xl-2 pt-25" id="sidebar">
+          <!-- 
+  <div class="sidebar-brand-block">
+    <a href=""><img src="./image/png/company-logo.png" alt=""></a>
+  </div> -->
+          <div class="sidebar-menu-group">
+            <h3 class="menu-title">
+              Getting Started
+            </h3>
+            <ul class="sidebar-menu">
+              <li><a href="index.html">Introduction</a></li>
+              <li><a href="file-structure.html">File Structure</a></li>
+              <li><a href="gulp.html">Gulp</a></li>
+              <!-- <li><a href="credits.html">Credits</a></li> -->
+              <li><a href="update.html">Update</a></li>
+              <li><a href="changelog.html">Change Log</a></li>
+              <li><a href="support.html">Support</a></li>
+            </ul>
+          </div>
+          <div class="sidebar-menu-group">
+            <h3 class="menu-title">
+              Theme Intro
+            </h3>
+            <ul class="sidebar-menu">
+              <li><a href="reboot.html">Reboot</a></li>
+              <li><a href="page-default.html">Page Defaults</a></li>
+              
+            </ul>
+          </div>
+          <div class="sidebar-menu-group pt--40 pt-lg--50">
+            <h3 class="menu-title">
+              How-To Guides
+            </h3>
+            <ul class="sidebar-menu">
+              <li><a href="changing-header.html">Change Header</a></li>
+             
+              <li><a href="menu-sticky.html">Make Menu Sticky</a></li>
+              <li><a href="changing-logo.html">Change Site/Brand Logo</a></li>
+              <li><a href="editing-color-scheme.html">Edit the Color Scheme</a></li>
+              <li><a href="customizing-fonts.html">Linking Google Fonts</a></li>
+              <li><a href="starter-template.html">Starter Template Code</a></li>
+              <li><a href="#">Theme Mode Guide (coming soon)</a></li>
+            </ul>
+          </div>
+          <div class="sidebar-menu-group">
+            <h3 class="menu-title">
+              Javascript and Plugins
+            </h3>
+            <ul class="sidebar-menu">
+              <li><a href="aos-doc.html">Animate On Scroll</a></li>
+              <li><a href="counter-doc.html">Counters</a></li>
+              <li><a href="slick-doc.html">Slick (Slider)</a></li>
+            </ul>
+          </div>
+        
+        </aside>
+        <div class="col-lg-9 col-xl-10 offset-xl-2 offset-lg-3">
+          <div class="row justify-content-around">
+            <div class="col-lg-10 col-xl-8 py-4 py-md-5">
+              <div class="doc-breadcrumb">
+                <h2 class="title">File Structure</h2>
+                <p>A guide to understanding how the theme is structured. Within this theme, you’ll find the following directories and files, grouping common resources and providing both compiled and minified distribution files, as well as raw source files.</p>
+              </div>
+              <hr class="my-4 my-md-5">
+              <article class="mt-4 mt-md-12" id="page-templates">
+                <h2 class="h3 mb-8">Page Templates</h2>
+                <p>📁 <code>app</code> is the root directory and source for all HTML pages (in <code>.html</code> or <code>.njk</code>) and contains the example HTML templates supplied with the theme.</p>
+                <p>Contained in <code>app</code> directory/folder is a precompiled static site or sites, equivalent to what you see in the online demo.</p>
+                <p>Pages are named generally according to their demo name, number or purpose, and you can open any of the files in your browser to see it in action, or modify the markup in your editor to suit your needs.</p>
+                <p>As this is the source for all files, Gulp copies all files from the <code>app</code> to the <code>dist</code> folder/directory and does necessary compilation during development.</p>
+                <p>This documentation is also housed in <code>app</code> to share the theme's assets, but the <code>documentation</code> files are not required in your projects, and you may move or make another copy of them elsewhere. </p>
+              </article>
+              <article class="mt-4 mt-md-12" id="folder-contents">
+                <h2 class="h3 mb-8">Folder Contents</h2>
+                <p>📁 <code>app</code> contains <code>database</code>,<code>fonts</code>, <code>image</code>, <code>js</code>, <code>partials</code>, <code>plugins</code>, <code>scss</code>, and other HTML files.</p>
+                <ul class="list-disc">
+                    <li>
+                    <p>📁 components contains <code>json</code> files. where all the theme contents and data's are stored.</p>
+                  </li>
+                  <li>
+                    <p>📁 database contains <code>json</code> files. where all the theme contents and data's are stored.</p>
+                  </li>
+                  <li>
+                    <p>📁 fonts contains all third party fonts/icons used in the theme.</p>
+                  </li>
+                  <li>
+                    <p>📁 image contains all images used in this theme, backgrounds, icons, patterns and more.</p>
+                  </li>
+                  <li>
+                    <p>📁 js contains custom js codes required for theme functionality.</p>
+                  </li>
+                  <li>
+                    <p>📁 partials contains all required components, blocks, chunk of code used in each theme in nunjucks files(<code>.njk</code>)</p>
+                  </li>
+                  <li>
+                    <p>📁 plugins contains both required and additional plugins (with all their contents e.g. <code>.js</code>, and <code>.css</code> files)</p>
+                  </li>
+                  <li>
+                    <p>📁 scss contains all necessary SCSS for theme stylings (other than plugin CSS files)</p>
+                  </li>
+                </ul>
+              </article>
+              <article class="mt-4 mt-md-12" id="scss">
+                <h2 class="h3 mb-8">SCSS (Gulp is required for customizing the scss files)</h2>
+                <p>📁 <code>scss</code> contains the source for all theme CSS. You will find the following contents in scss: </p>
+                <p>📁 <code>bs-theming</code>, 📁 <code>components</code>, 📁 <code>helpers</code>, <code>📁sections</code>, <code>📁theme-mode-control</code>, <code>_bootstrap.scss</code>, <code>_theme-custom-styles.scss</code>, and <code>main.scss</code> file.</p>
+                <ul class="list-disc">
+                    <li>
+                    <p>📁 <code>bs-theming</code> contains common parts, blocks of each page such as <code>border</code>, <code>colors</code>,, <code>fonts</code>, <code>grid</code>, <code>link</code>, etc.</p>
+                  </li>
+                  <li>
+                    <p>📁 <code>components</code> contains common parts, blocks of each page such as <code>header</code>, <code>buttons</code>, <code>accordion</code>, <code>menu</code>, <code>forms</code>,<code>faq</code>, etc.</p>
+                  </li>
+                  <li>
+                    <p>📁 <code>helpers</code> contains files which helps to control functions, mixins & theme media query</p>
+                  </li>
+                  <li>
+                    <p>📁 <code>sections</code> contains css of each sections specefically</p>
+                  </li>
+                  <li>
+                    <p><code>_theme-custom-styles.scss</code> contains some individual styles used in this theme.</p>
+                  </li>
+                     <li>
+                    <p><code>bootstrap.scss</code> contains  bootstrap all css</p>
+                  </li>
+                  <li>
+                    <p><code>main.scss</code> includes/links all theme and page styles in one place to compile into <code>main.css</code> file in <code>dist/css</code> directory.</p>
+                  </li>
+                </ul>
+              </article>
+            </div>
+            <div class="col-xl-2">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Vendor Scripts -->
+  <script src="plugins/jquery/jquery.min.js"></script>
+  <script src="plugins/jquery/jquery-migrate.min.js"></script>
+  <script src="plugins/bootstrap-4/js/bootstrap.bundle.min.js"></script>
+  <script src="plugins/prismJs/prism.js"></script>
+  <!-- Activation Script -->
+  <script src="js/custom.js"></script>
+</body>
+
+</html>

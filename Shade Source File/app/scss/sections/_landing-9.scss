@@ -1,0 +1,747 @@
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+   Hero Area-L9
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+.hero-area-l9 {
+   position: relative;
+   z-index: 1;
+   padding-top: 55px;
+   padding-bottom: 60px;
+   margin: 70px 0px 0px 0px;
+
+
+   &:after {
+      position: absolute;
+      content: '';
+      width: 100%;
+      height: 100%;
+      background: $white;
+      top: 0;
+      left: 0;
+      opacity: 0.7;
+      z-index: -1;
+
+      @include large-desktops {
+         display: none;
+      }
+   }
+
+
+
+
+   @include mobile {
+      padding-top: 55px;
+      margin: 100px 0px 0px 0px;
+   }
+
+   @include tablet {
+      padding-top: 75px;
+      padding-bottom: 80px;
+   }
+
+   @include desktops {
+      margin: 85px 0px 0px 0px;
+      padding-top: 260px;
+      padding-bottom: 265px;
+   }
+
+   .content {
+
+      @include desktops {
+         padding-top: 0;
+
+      }
+
+      h4 {
+         font-weight: 600;
+         font-size: 13px;
+         line-height: 22px;
+         letter-spacing: 5px;
+         color: #FF794D;
+         margin-bottom: 35px;
+       
+      }
+
+      h2 {
+         color: $mirage;
+         font-size: 34px;
+         font-weight: 600;
+         font-style: normal;
+         letter-spacing: -1px;
+         line-height: 40px;
+         margin-bottom: 35px;
+
+         @include mobile-lg {
+            font-size: 40px;
+            line-height: 46px;
+         }
+
+         @include tablet {
+            font-size: 48px;
+            line-height: 54px;
+         }
+
+         @include desktops {
+            font-size: 60px;
+            line-height: 66px;
+
+         }
+
+
+      }
+
+      p {
+         color: $mirage;
+         font-size: 17px;
+         font-weight: 400;
+         font-style: normal;
+         letter-spacing: normal;
+         line-height: 30px;
+         margin-bottom: 35px;
+
+      }
+
+   }
+
+}
+
+.hero-l9-btn {
+   .btn {
+      font-weight: 600;
+      font-size: 17px;
+      line-height: 30px;
+      border-radius: 3px;
+      color: $white;
+      width: 100%;
+      height: 55px;
+      background: $lochinvar;
+
+      @include mobile-lg {
+         width: 225px;
+      }
+   }
+
+}
+
+.hero-curve-shape-l9 {
+   position: absolute;
+   left: 0;
+   bottom: -20px;
+   width: 100%;
+
+   & img {
+      width: 100%;
+   }
+}
+
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+               Content-Area 01-L9
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.content-area-l9-1 {
+   padding-top: 50px;
+   padding-bottom: 60px;
+   @include tablet {
+      padding-top: 70px;
+      padding-bottom: 80px;
+   }
+ 
+   @include desktops {
+      padding-top: 120px;
+      padding-bottom: 110px;
+   }
+   .content-area-l9-1-items{
+      margin-bottom: -30px;
+      .col-lg-4{
+         margin-bottom: 30px;
+      }
+   }
+
+   .content {
+      h2 {
+         font-weight: 600;
+         font-size: 24px;
+         line-height: 32px;
+         letter-spacing: -0.3px;
+         color: #1D263A;
+      }
+
+      p {
+         font-size: 15px;
+         line-height: 28px;
+         color: #1D263A;
+      }
+   }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+               Content-Area 02-L9
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.content-area-l9-2 {
+   padding-top: 60px;
+   padding-bottom: 60px;
+   @include tablet {
+      padding-top: 80px;
+      padding-bottom: 80px;
+   }
+ 
+   @include desktops {
+      padding-top: 145px;
+   padding-bottom: 130px;
+   }
+
+}
+.content-area-l9-2-shape {
+   position: absolute;
+   left: 0;
+   top: 0px;
+   width: 100%;
+
+   & img {
+      width: 100%;
+   }
+}
+
+.content-area-l9-2-image {
+   margin-bottom: 45px;
+   @include desktops {
+      margin-bottom: 0;
+   }
+   .shape-image {
+      position: absolute;
+      top: 50%;
+      left: -40px;
+      transform: translateY(-50%);
+      @include tablet {
+         left: -60px;
+      }
+      @include desktops {
+         left: -35px;
+      }
+      @include large-desktops {
+         left: -85px;
+      }
+    
+   }
+}
+
+.book-app-l9-btn {
+   margin-top: 45px;
+
+   .btn {
+      width: 225px;
+      height: 55px;
+      border: 2px solid #2D947A;
+      box-sizing: border-box;
+      border-radius: 3px;
+      font-weight: 600;
+      font-size: 17px;
+      line-height: 30px;
+      color: #2D947A;
+   }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+  Content Area 2-L7
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.content-area-l9-3 {
+   padding-top: 50px;
+   padding-bottom: 55px;
+
+   @include tablet {
+      padding-top: 75px;
+      padding-bottom: 70px;
+   }
+
+   @include desktops {
+  padding-top: 120px;
+      padding-bottom: 125px;
+   }
+
+   .section__heading-3 {
+      h2 {
+
+         @include large-desktops {
+            padding-right: 86px;
+         }
+
+         @include extra-large-desktops {
+            padding-right: 86px;
+         }
+      }
+   }
+}
+
+.content-area-l9-3-heading {
+   padding-bottom: 45px;
+
+   @include tablet {
+      padding-bottom: 45px;
+   }
+
+   @include desktops {
+      padding-bottom: 45px;
+   }
+}
+
+.content-l9-3-content-box { 
+   margin-bottom: -30px;
+
+   .item {
+      margin-bottom: 30px;
+
+      .item-icon {
+
+         width: 40px;
+         height: 40px;
+         line-height: 40px;
+         border-radius: 50%;
+         text-align: center;
+         color: $white;
+         background: $lochinvar;
+         margin-bottom: 30px;
+
+         @include mobile {
+            margin-right: 30px;
+         }
+
+         span {
+            font-weight: 600;
+            font-size: 15px;
+            color: #FFFFFF;
+         }
+
+      }
+
+
+      .item-content {
+         h4 {
+            font-weight: 600;
+            font-size: 21px;
+            line-height: 30px;
+            color: $mirage;
+         }
+
+         p {
+            font-size: 15px;
+            line-height: 28px;
+            color: $mirage;
+            opacity: 0.7;
+            margin-bottom: 0;
+         }
+      }
+   }
+
+
+}
+
+.content-3-l9-image {
+   margin-bottom: 45px;
+   @include desktops {
+      margin-bottom: 0;
+   }
+   .shape-image {
+      position: absolute;
+      top: -95px;
+      right: 0;
+      @include tablet {
+         top: -95px;
+      }
+      @include desktops {
+         top: -125px;
+      }
+   }
+
+   & img {
+      border-radius: 15px;
+   }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+  CTA  Area-L9
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.cta-area-l9 {
+   padding-top: 60px;
+   padding-bottom: 60px;
+   @include tablet {
+      padding-top: 80px;
+      padding-bottom: 80px;
+   }
+ 
+   @include desktops {
+      padding-top: 110px;
+   padding-bottom: 150px;
+   }
+   &.background-property {
+      background-position: 75% 0% !important;
+      @include tablet {
+         background-position: 20% 0% !important;
+      }
+      @include desktops {
+         background-position: 40% 0% !important;
+      }
+      @include extra-large-desktops {
+         background-position: 100% 0% !important;
+      }
+
+   }
+}
+
+.cta-form-area-l9 {
+   background: #FF794D;
+   box-shadow: 0px 44px 44px rgba(0, 0, 0, 0.15);
+   border-radius: 10px;
+   padding: 50px 40px 50px 40px;
+
+   .icon-area {
+      width: 76px;
+      height: 76px;
+      line-height: 76px;
+      text-align: center;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.2);
+      margin: auto;
+
+      & img {
+         width: 40%;
+      }
+   }
+
+   .cta-form-l9 {
+      margin-top: 40px;
+   }
+
+   .content {
+      margin-top: 32px;
+
+      h4 {
+         font-weight: 600;
+         font-size: 24px;
+         line-height: 32px;
+         text-align: center;
+         letter-spacing: -0.3px;
+         color: #FFFFFF;
+         margin-bottom: 15px;
+      }
+
+      p {
+         font-size: 15px;
+         line-height: 28px;
+         text-align: center;
+         color: #FFFFFF;
+      }
+   }
+
+   .form-group {
+      margin-bottom: 20px;
+   }
+
+   .form-control {
+      border-top: 0;
+      border-right: 0;
+      border-left: 0;
+      border-bottom: 2px solid #fff;
+      border-radius: 0px 0px 4px 4px;
+      padding-left: 0;
+      padding-bottom: 12px;
+      background: transparent;
+      font-size: 13px;
+      line-height: 22px;
+      color: #FFFFFF;
+      opacity: 1;
+
+      &::placeholder {
+         color: #FFFFFF;
+         opacity: 0.7;
+      }
+   }
+
+   .btn {
+      margin-top: 10px;
+      background: #FFFFFF;
+      width: 100%;
+      height: 45px;
+      border-radius: 3px;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 26px;
+      color: #1D263A;
+   }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+ Blog  Area-L9
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+ .blog-area-bg{
+    background: #F5F5F5;
+   @include desktops {
+      padding-top: 100px;
+   }
+ 
+ }       
+
+.blog-area-l9 {
+   position: relative;
+   z-index: 2;
+   background: $white;
+   padding-top: 50px;
+   padding-bottom: 35px;
+   @include tablet {
+      padding-top: 70px;
+      padding-bottom: 60px;
+   }
+ 
+   @include desktops {
+      padding-top: 115px;
+      padding-bottom: 105px;
+   }
+
+   @include large-desktops-mid {
+      box-shadow: 0px 55px 114px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      margin: 0px 80px 0px 80px;
+
+   }
+}
+
+.read-all-btn-l9 {
+  
+   .btn {
+      width: 100%;
+      height: 55px;
+      border: 2px solid #2D947A;
+      box-sizing: border-box;
+      border-radius: 3px;
+      font-weight: 600;
+      font-size: 17px;
+      line-height: 30px;
+      color: #2D947A;
+      margin-top: 30px;
+      
+      @include mobile-lg {
+
+         width: initial;
+         min-width: 200px;
+      }
+      @include tablet {
+         text-align: right;
+         margin-top: 0;
+         width: 100%;
+      }
+    
+   }
+}
+
+.blog-items-l9 {
+   margin-top: 40px;
+   
+  @include tablet {
+   margin-top: 60px;
+}
+
+@include desktops {
+   margin-top: 83px;
+}
+   margin-bottom: -30px;
+   .col-lg-4{
+      margin-bottom: 30px;
+   }
+}
+
+.blog-content-area {
+   .content {
+      padding: 35px 15px 0px 15px;
+
+      h4 {
+         font-weight: 600;
+         font-size: 13px;
+         line-height: 22px;
+         color: #FF794D;
+         margin-bottom: 20px;
+      }
+
+      p {
+         font-weight: 600;
+         font-size: 24px;
+         line-height: 32px;
+         letter-spacing: -0.3px;
+         color: #1D263A;
+      }
+   }
+
+}
+
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+   Footer Area-L9
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.footer-area-l9 {
+   padding-top: 60px;
+ 
+
+   @include tablet {
+      padding-top: 80px;
+     
+   }
+
+   @include desktops {
+      padding-top: 355px;
+      z-index: 1;
+      margin-top: -260px;
+   }
+
+}
+
+
+
+
+
+.subscribe-form-l9 {
+   .form-group {
+      margin-bottom: 20px;
+   }
+
+   .form-control {
+      border-top: 0;
+      border-right: 0;
+      border-left: 0;
+      border-bottom: 2px solid #fff;
+      border-radius: 0px 0px 4px 4px;
+      padding-left: 0;
+      padding-bottom: 12px;
+      background: transparent;
+      font-size: 13px;
+      line-height: 22px;
+      color: #FFFFFF;
+      opacity: 1;
+
+      &::placeholder {
+         color: #FFFFFF;
+         opacity: 0.7;
+      }
+   }
+
+
+}
+
+.foot-sub-btn-l9 {
+   .btn {
+      margin-top: 10px;
+      background: #FFFFFF;
+      width: 100%;
+      height: 45px;
+      border-radius: 3px;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 26px;
+      color: #1D263A;
+   }
+}
+
+.footer-l9-area-items {
+
+   .footer-content-l9 {
+      margin-bottom: 45px;
+      @include desktops {
+         margin-bottom: 0;
+      }
+      & img {
+         margin-bottom: 20px;
+         @include tablet {
+            margin-bottom: 30px;
+         }
+       
+         @include desktops {
+            margin-bottom: 50px;
+         }
+      }
+
+      p {
+         font-size: 15px;
+         line-height: 28px;
+         color: $white;
+         margin-bottom: 0;
+      }
+   }
+
+   h3 {
+      font-weight: 600;
+      font-size: 21px;
+      line-height: 30px;
+      color: $white;
+      margin-bottom: 30px;
+
+      @include desktops {
+         margin-bottom: 43px;
+      }
+   }
+
+   ul {
+      margin-bottom: -20px;
+
+      li {
+         margin-bottom: 20px;
+
+         a {
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 28px;
+            color: $white;
+
+         }
+      }
+   }
+}
+
+.footer-border-l9 {
+   border-top: 1px solid rgba(255, 255, 255, 0.3);
+   margin-top: 40px;
+   @include tablet {
+      margin-top: 60px;
+   }
+ 
+   @include desktops {
+      margin-top: 90px;
+   }
+}
+
+.copyright-text-l9 {
+   padding: 30px 0px;
+   p {
+      font-size: 13px;
+      line-height: 22px;
+      color: #FFFFFF;
+      margin-bottom: 0;
+   }
+}
+
+.footer-curve-shape-l9 {
+   position: absolute;
+   left: 0;
+   top: -1px;
+   z-index: -1;
+   width: 100%;
+
+   & img {
+      width: 100%;
+   }
+}
+
+.subs-form-l9-head{
+   margin-top: 25px;
+   @include mobile-lg {
+      margin-top: 0;
+   }
+}

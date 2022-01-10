@@ -1,0 +1,822 @@
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+   Hero Area-L5
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.hero-area-l5 {
+   background: rgba(250, 229, 218, 0.4);
+
+   position: relative;
+   z-index: 1;
+   padding-top: 43px;
+   padding-bottom: 55px;
+   margin: 70px 0px 0px 0px;
+
+   @include mobile {
+      margin: 80px 0px 0px 0px;
+   }
+
+   @include tablet {
+      padding-top: 68px;
+      padding-bottom: 75px;
+   }
+   @include desktops {
+      margin: 90px 0px 0px 0px;
+   }
+   @include large-desktops-mid {
+      border-radius: 30px;
+      margin: 80px 60px 0px 60px;
+      padding-bottom: 90px;
+   }
+
+   .hero-l5-content {
+      padding-top: 45px;
+
+      @include desktops {
+         padding-top: 0;
+
+      }
+
+      h4 {
+         font-weight: 600;
+         font-size: 13px;
+         line-height: 22px;
+         letter-spacing: 6px;
+         color: $coral;
+         margin-bottom: 30px;
+      }
+
+      h2 {
+         font-weight: 600;
+         font-size: 36px;
+         line-height: 46px;
+         letter-spacing: -1px;
+         color: $mirage;
+         margin-bottom: 30px;
+
+         @include mobile-lg {
+            font-size: 40px;
+            line-height: 46px;
+         }
+
+         @include tablet {
+            font-size: 48px;
+            line-height: 54px;
+         }
+
+         @include desktops {
+            font-size: 60px;
+            line-height: 66px;
+         }
+
+
+      }
+
+      p {
+         font-size: 15px;
+         line-height: 28px;
+         color: $mirage;
+         opacity: 0.7;
+         margin-bottom: 30px;
+
+         @include tablet {
+            margin-bottom: 40px;
+         }
+
+         @include desktops {
+            margin-bottom: 60px;
+         }
+      }
+
+   }
+
+}
+
+.btn-l5 {
+   a {
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 22px;
+      letter-spacing: 4px;
+      color: $mirage;
+
+      span {
+         display: inline-block;
+         width: 40px;
+         height: 4px;
+         background: $coral;
+         margin-right: 25px;
+      }
+   }
+
+}
+
+.hero-l5-image {
+   z-index: 1;
+
+   .hero-shape-1 {
+      position: absolute;
+      top: 8%;
+      right: -3%;
+      z-index: -1;
+      @include mobile {
+         right: 0%;
+      }
+      @include desktops {
+         top: -8%;
+         left: -30px;
+      }
+
+      @include large-desktops {
+         top: 8%;
+         left: 22%;
+      }
+
+      @include extra-large-desktops {
+       
+         left: 39%;
+      }
+   }
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+   Feature Area-L5
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.feature-area-l5 {
+   padding-top: 55px;
+
+   @include tablet {
+      padding-top: 75px;
+   }
+
+   @include desktops {
+      padding-top: 100px;
+   }
+}
+
+.feature-area-l5-items {
+   margin-bottom: -30px;
+
+   .col-lg-4 {
+      margin-bottom: 30px;
+   }
+}
+
+.feature-card-l5 {
+   .icon {
+      height: 80px;
+      width: 80px;
+      line-height: 80px;
+      border-radius: 50%;
+      text-align: center;
+      background: rgba(214, 227, 235, 0.4);
+      display: inline-table;
+
+      & img {
+         width: 32px;
+         height: 32px;
+      }
+      &.icon-2{
+         background: rgba(250, 229, 218, 0.4);
+      }
+      &.icon-3{
+         background: #EBF5FF;
+      }
+   }
+
+   .content {
+      margin-left: 35px;
+
+      h4 {
+         font-weight: 600;
+         font-size: 24px;
+         line-height: 32px;
+         letter-spacing: -0.3px;
+         color: $mirage;
+         margin-bottom: 15px;
+      }
+
+      p {
+         font-size: 15px;
+         line-height: 28px;
+         color: $mirage;
+         opacity: 0.8;
+         margin-bottom: 0;
+      }
+   }
+}
+
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+  Product Area-L5
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+.product-area-l5 {
+   padding-bottom: 50px;
+
+   @include tablet {
+      padding-bottom: 70px;
+   }
+
+   @include desktops {
+      padding-bottom: 125px;
+   }
+
+   h2 {
+      font-weight: 600;
+      font-size: 34px;
+      line-height: 44px;
+      letter-spacing: -1px;
+      color: $mirage;
+      margin-bottom: 30px;
+
+      @include mobile-lg {
+         font-size: 38px;
+         line-height: 48px;
+         margin-bottom: 40px;
+      }
+
+      @include tablet {
+         font-size: 42px;
+         line-height: 50px;
+         margin-bottom: 55px;
+      }
+
+   }
+
+   .border-area-l4 {
+      border-bottom: 2px dashed rgba(29, 36, 58, 0.17);
+      margin: 42px 0px 53px 0px;
+
+      @include tablet {
+         margin: 62px 0px 73px 0px;
+      }
+
+      @include desktops {
+         margin: 90px 0px 100px 0px;
+      }
+   }
+}
+
+.l5-product-slider {
+   margin: 0px -13px 30px -13px;
+   @include tablet {
+      margin: 0px -13px 0px -13px;
+   }
+ 
+
+   i {
+      font-size: 20px;
+      color: #ddd;
+      margin: 0px 13px;
+      cursor: pointer;
+   }
+
+   .slick-active {
+      color: $mirage;
+   }
+
+}
+
+.product-slider-l5 {
+   margin: 0px -15px;
+
+   .single-item {
+      margin: 0px 15px;
+   }
+}
+
+.product-card-l5 {
+   .product-content-card {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      width: 100%;
+      transform: translate(-50%, 100%);
+      padding-left: 30px;
+      padding-right: 30px;
+      transition: .4s;
+
+      .content {
+         background: $white;
+         box-shadow: 0px 34px 50px rgba(0, 0, 0, 0.15);
+         border-radius: 10px;
+         padding: 25px 30px 25px 30px;
+
+         h4 {
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 42px;
+            letter-spacing: -1px;
+            color: $coral;
+            margin-bottom: 13px;
+         }
+a{
+   color: $mirage;
+}
+         p {
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 22px;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: $mirage;
+            margin-bottom: 0;
+         }
+      }
+
+   }
+
+   &:hover {
+      .product-content-card {
+         transform: translate(-50%, -25%);
+      }
+   }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+  Content Area-L5
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.content-area-l5-1 {
+   padding-bottom: 10px;
+   @include tablet {
+      padding-bottom: 20px;
+   }
+ 
+   @include desktops {
+      padding-bottom: 25px;
+   }
+   .section-heading {
+      padding-bottom: 20px;
+
+      @include tablet {
+         padding-bottom: 35px;
+      }
+
+      @include desktops {
+         padding-bottom: 65px;
+      }
+
+      h2 {
+         font-weight: 600;
+         font-size: 17px;
+         line-height: 30px;
+         letter-spacing: 4px;
+         color: #1D263A;
+         opacity: 0.7;
+      }
+   }
+
+}
+
+.content-process-area-l5 {
+   padding-bottom: 40px;
+
+   @include tablet {
+      padding-bottom: 50px;
+   }
+
+   @include desktops {
+      padding-bottom: 75px;
+   }
+
+   span {
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 40px;
+      letter-spacing: -0.5px;
+      color: #20BFA9;
+   }
+
+   h2 {
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 46px;
+      letter-spacing: -1px;
+      color: #1D263A;
+      margin-top: 20px;
+
+      @include desktops {
+         margin-top: 0;
+      }
+
+   }
+
+   p {
+      font-size: 17px;
+      line-height: 30px;
+      color: #1D263A;
+      opacity: 0.6;
+   }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+   Content-2 Area-L5
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.content-area-l5-2 {
+   background: rgba(29, 36, 58, 0.02);
+   padding-top: 60px;
+   padding-bottom: 55px;
+
+   @include tablet {
+      padding-top: 80px;
+      padding-bottom: 75px;
+   }
+
+   @include desktops {
+      padding-top: 130px;
+      padding-bottom: 130px;
+   }
+}
+
+.content-l5-2-content {
+   padding-top: 45px;
+
+   @include desktops {
+      padding-top: 0;
+   }
+
+   h2 {
+      font-weight: 600;
+      font-size: 34px;
+      line-height: 42px;
+      letter-spacing: -1px;
+      color: #1D263A;
+      margin-bottom: 32px;
+
+      @include tablet {
+         font-size: 38px;
+         line-height: 46px;
+      }
+
+      @include desktops {
+         font-size: 42px;
+         line-height: 50px;
+      }
+   }
+
+   p {
+      font-size: 17px;
+      line-height: 30px;
+      display: flex;
+      align-items: center;
+      color: #1D263A;
+      opacity: 0.6;
+      margin-bottom: 30px;
+
+      @include tablet {
+         margin-bottom: 40px;
+      }
+
+      @include desktops {
+         margin-bottom: 48px;
+      }
+
+   }
+}
+
+.content-l5-2-image {
+   position: relative;
+
+   .shape-1 {
+      position: absolute;
+      bottom: 10%;
+      left: -15%;
+
+      @include desktops {
+         bottom: -15%;
+         right: 22%;
+      }
+
+   }
+}
+
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+   Content-3 Area-L5
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.content-area-l5-3 {
+   .col-lg-6 {
+      padding-left: 0;
+      padding-right: 0;
+   }
+}
+
+.content-l5-3-content {
+   padding: 50px 30px 50px 30px;
+
+   @include tablet {
+      padding: 85px 100px 70px 100px;
+   }
+   @include desktops {
+      padding: 85px 30px 70px 30px;
+   }
+   @include large-desktops {
+      padding: 200px 100px 200px 60px;
+   }
+
+   @include extra-large-desktops {
+      padding: 200px 100px 200px 315px;
+
+   }
+
+   h2 {
+      font-weight: 600;
+      font-size: 34px;
+      line-height: 42px;
+      letter-spacing: -1px;
+      color: #FFFFFF;
+
+      @include tablet {
+         font-size: 38px;
+         line-height: 46px;
+      }
+
+      @include desktops {
+         font-size: 42px;
+         line-height: 50px;
+      }
+   }
+
+   .identity {
+      padding-top: 20px;
+
+      @include tablet {
+         padding-top: 30px;
+      }
+
+      @include desktops {
+         padding-top: 57px;
+      }
+
+      .identity-left-border {
+         span {
+            display: inline-block;
+            width: 40px;
+            height: 4px;
+            background: $white;
+            margin-right: 25px;
+         }
+      }
+
+      .content {
+         h6 {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 32px;
+            letter-spacing: -0.3px;
+            color: #FFFFFF;
+         }
+
+         span {
+            font-size: 17px;
+            line-height: 30px;
+            color: #FFFFFF;
+            opacity: 0.8;
+         }
+      }
+   }
+}
+
+.video-l5-bg {
+   height: 450px !important;
+
+   @include desktops {
+      height: 100% !important;
+   }
+}
+
+.video-area-l5 {
+   a {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      i {
+         color: $white;
+         width: 92px;
+         height: 92px;
+         border-radius: 50%;
+         line-height: 92px;
+         text-align: center;
+         background: transparent;
+         border: 3px solid #FFFFFF;
+      }
+   }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+  Newsletter Area-L5
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.newsletter-area-l5 {
+   padding-top: 50px;
+   padding-bottom: 50px;
+
+   @include tablet {
+      padding-top: 70px;
+      padding-bottom: 70px;
+   }
+
+   @include desktops {
+      padding-top: 120px;
+      padding-bottom: 120px;
+   }
+}
+
+.newsletter-content-l5 {
+   h2 {
+      font-weight: 600;
+      font-size: 34px;
+      line-height: 42px;
+      letter-spacing: -1px;
+      color: #1D263A;
+      opacity: 0.9;
+      margin-bottom: 30px;
+
+      @include tablet {
+         font-size: 38px;
+         line-height: 46px;
+         margin-bottom: 42px;
+      }
+
+      @include desktops {
+         font-size: 42px;
+         line-height: 50px;
+
+      }
+   }
+
+   p {
+      font-size: 17px;
+      line-height: 30px;
+      color: #1D263A;
+      opacity: 0.7;
+   }
+}
+
+.newsletter-form-l5 {
+   padding-top: 40px;
+   padding-bottom: 32px;
+
+   .form-control {
+      height: 70px;
+      border: 1px solid rgba(223, 223, 223, 0.7);
+      border-radius: 10px;
+      font-size: 17px;
+      line-height: 30px;
+      padding-left: 28px;
+      @include mobile-lg {
+         border-radius: 10px 0px 0px 10px;
+      }
+      &::placeholder {
+         color: #1D263A;
+         opacity: 0.6;
+      }
+   }
+
+   .btn {
+      background: $java;
+      width: 100%;
+      height: 65px;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 22px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      border-radius: 10px;
+      margin-top: 15px;
+      @include mobile-lg {
+         margin-top: 0;
+         min-width: 200px;
+         height: 70px;
+         border-radius: 0px 10px 10px 0px;
+      }
+    
+   }
+}
+
+.news-ltr-l5-bottom {
+   .icon {
+      margin-right: 12px;
+   }
+
+   .content {
+      span {
+         font-size: 15px;
+         line-height: 28px;
+         color: #1D263A;
+         opacity: 0.7;
+      }
+   }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+   Footer Area-L3
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.footer-area-l5 {
+   background: rgba(250, 229, 218, 0.4);
+
+   padding-top: 60px;
+   padding-bottom: 50px;
+
+   @include tablet {
+      padding-top: 75px;
+      padding-bottom: 70px;
+      margin: 0px;
+   }
+
+   @include large-desktops-mid {
+      border-radius: 30px;
+      padding-top: 125px;
+      padding-bottom: 120px;
+      margin: 0px 60px 60px 60px;
+   }
+}
+
+.footer-l5-area-items {
+   margin-bottom: -30px;
+
+   .col-xl-3 {
+      margin-bottom: 30px;
+   }
+
+   .col-xl-2 {
+      margin-bottom: 30px;
+   }
+
+   .footer-content-l5 {
+      & img {
+         margin-bottom: 20px;
+
+         @include tablet {
+            margin-bottom: 30px;
+         }
+
+         @include desktops {
+            margin-bottom: 80px;
+         }
+      }
+
+      p {
+         font-size: 17px;
+         line-height: 30px;
+         color: #1D263A;
+         opacity: 0.7;
+      }
+   }
+
+   .copyright-text-l5 {
+      margin-top: 20px;
+      @include desktops {
+         margin-top: 40px;
+      }
+   }
+
+   h3 {
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 22px;
+      letter-spacing: 4px;
+      color: #1D263A;
+      margin-bottom: 30px;
+
+      @include tablet {
+         margin-bottom: 50px;
+      }
+
+      @include desktops {
+         margin-bottom: 75px;
+      }
+   }
+
+   ul {
+      margin-bottom: -20px;
+
+      li {
+         margin-bottom: 20px;
+
+         a {
+            font-size: 17px;
+            line-height: 30px;
+            color: #1D263A;
+            opacity: 0.7;
+         }
+      }
+   }
+}

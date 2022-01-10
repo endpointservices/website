@@ -1,0 +1,211 @@
+.btn {
+    position: relative;
+    z-index: 5;
+    border-radius: 6px;
+    border: 0;
+    font-size: 16px;
+    font-weight: 700;
+    height: 40px;
+    min-width: 130px;
+    line-height: 28px;
+    letter-spacing: -0.53px;
+    padding: 15px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s ease-in-out;
+
+    &:hover {
+        color: $white !important;
+    }
+
+    &:focus {
+        box-shadow: 0;
+    }
+
+    &.focus {
+        box-shadow: 0;
+    }
+
+    &.btn-medium {
+        min-width: 160px;
+        height: 48px;
+        line-height: 36px;
+    }
+
+    &.btn--lg {
+        min-width: 181px;
+        height: 61px;
+    }
+
+    &.btn-xl {
+        min-width: 180px;
+        height: 60px;
+        border-radius: 5px;
+    }
+
+    &.btn--xxl {
+        min-width: 194px;
+        height: 60px;
+        border-radius: 5px;
+    }
+
+    &.with-icon {
+
+        i {
+            margin-left: -5px;
+            margin-right: 3px;
+            font-size: 16px;
+            margin-top: 2px;
+        }
+    }
+
+    &--reset {
+        background: transparent;
+        border: 0;
+    }
+}
+
+.btn--link {
+    color: $primary;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    min-width: 88px;
+    letter-spacing: 1.63px;
+    line-height: normal;
+    height: 22px;
+    padding: 0;
+    border-radius: 0;
+    border-bottom: 2px solid $primary;
+    padding: 0px 0px 15px 0px !important;
+    margin-top: 40px;
+
+    &:hover {
+        color: $primary !important;
+    }
+
+}
+
+
+
+.landing-1-menu {
+    .header-btn-l1 {
+        .btn {
+            min-width: 129px;
+            height: 45px;
+            box-shadow: 0 16px 36px rgba(241, 139, 98, 0.3);
+            border-radius: 15px;
+            background-color: $secondary;
+            color: $white;
+            font-size: 15px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 26px;
+            margin-left: 15px;
+            margin-right: 5px;
+            @include desktops {
+                margin-right:0px;
+            }
+        }
+
+    }
+
+}
+
+.l4-header-btn {
+    .btn {
+        text-transform: uppercase;
+        background: $sunglow;
+        min-width: 165px;
+        height: 60px;
+        border-radius: 0;
+        font-weight: 600;
+        font-size: 13px;
+        letter-spacing: 4px;
+        color: $mirage;
+    }
+
+}
+
+.l5-header-btn {
+    .btn {
+        border-radius: 0;
+        font-weight: 600;
+        font-size: 15px;
+        color: $mirage;
+    }
+
+}
+
+.l6-header-btn {
+    .btn {
+        min-width: 131px;
+        height: 40px;
+        border: 1px solid rgba(29, 36, 58, 0.4);
+        border-radius: 15px;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 26px;
+        color: $mirage;
+    }
+
+}
+
+.l7-header-btn {
+    .btn {
+        background: $primary;
+        min-width: 131px;
+        height: 40px;
+        border-radius: 30px;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 26px;
+        color: $white;
+        margin-left: 15px;
+        margin-right: 5px;
+        @include desktops {
+            margin-right:0px;
+        }
+    }
+
+}
+
+
+.l8-header-btn {
+    .btn {
+        background: $java;
+        min-width: 210px;
+        height: 50px;
+        border-radius: 30px;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 30px;
+        color: $white;
+        margin-left: 15px;
+        margin-right: 5px;
+        @include desktops {
+            margin-right:0px;
+        }
+    }
+
+}
+
+.l9-header-btn {
+    .btn {
+        background: $lochinvar;
+        min-width: 256px;
+        height: 60px;
+        border-radius: 0px;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 30px;
+        color: $white;
+        @include desktops {
+            border-radius: 0px 0px 5px 0px;
+        }
+      
+    }
+
+}

@@ -1,0 +1,830 @@
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+   Hero Area-L1
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.hero-area-l1 {
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+    @include mobile-lg {
+        padding-top: 125px;
+    }
+
+    @include tablet {
+        padding-top: 140px;
+        padding-bottom: 70px;
+    }
+
+    @include desktops {
+        padding-top: 200px;
+        padding-bottom: 130px;
+    }
+
+    .content {
+        padding-top: 45px;
+
+        @include desktops {
+            padding-top: 0;
+
+        }
+
+        h2 {
+            color: $cloudburst;
+            font-size: 34px;
+            font-weight: 600;
+            font-style: normal;
+            letter-spacing: -1px;
+            line-height: 40px;
+            margin-bottom: 35px;
+
+            @include mobile-lg {
+                font-size: 40px;
+                line-height: 46px;
+            }
+
+            @include tablet {
+                font-size: 48px;
+                line-height: 54px;
+            }
+
+            @include desktops {
+                font-size: 70px;
+                line-height: 76px;
+            }
+
+            @include large-desktops {
+                font-size: 80px;
+                line-height: 86px;
+            }
+        }
+
+        p {
+            opacity: 0.8;
+            color: $cloudburst;
+            font-size: 17px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 30px;
+        }
+
+        span {
+            opacity: 0.8;
+            color: $cloudburst;
+            font-size: 15px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: normal;
+            display: inline-block;
+            line-height: 28px;
+            margin-top: 23px;
+        }
+    }
+}
+
+.l1-create-acc-btn {
+    i {
+        margin-left: 30px;
+    }
+
+    .btn {
+        min-width: 268px;
+        height: 69px;
+        border-radius: 20px;
+        background-color: $secondary;
+        color: $white;
+        font-size: 17px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        box-shadow: 0 26px 46px rgba(241, 139, 98, 0.5);
+        margin-top: 22px;
+    }
+}
+
+.hero-image-group-l1 {
+    position: relative;
+
+    .image-2 {
+        position: absolute;
+        top: 30%;
+        left: 0%;
+    }
+
+    .image-3 {
+        position: absolute;
+        top: 5%;
+        right: 0%;
+    }
+
+    .image-4 {
+        position: absolute;
+        bottom: 15%;
+        right: -3%;
+
+        @include large-desktops {
+            right: -10%;
+        }
+    }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+  Features Area-L1
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.feature-area-l1 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    @include tablet {
+        padding-top: 75px;
+        padding-bottom: 87px;
+    }
+
+    @include desktops {
+        padding-top: 110px;
+        padding-bottom: 110px;
+    }
+}
+
+.feature-l1-items {
+    margin-bottom: -30px;
+
+    .col-lg-4 {
+        margin-bottom: 30px;
+    }
+
+    .content {
+        @include large-desktops {
+            padding-right: 70px;
+        }
+
+        img {
+            margin-bottom: 52px;
+        }
+
+        h5 {
+            color: $cloudburst;
+            font-size: 24px;
+            font-weight: 500;
+            font-style: normal;
+            letter-spacing: -0.3px;
+            line-height: 32px;
+            margin-bottom: 30px;
+        }
+
+        p {
+            opacity: 0.8;
+            color: $cloudburst;
+            font-size: 15px;
+            font-weight: 500;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 28px;
+        }
+    }
+
+}
+
+.feature-border-l1 {
+    width: 100%;
+    height: 1px;
+    border: 1px solid $catskill;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+    @include tablet {
+        margin-top: 50px;
+        margin-bottom: 70px;
+    }
+
+    @include desktops {
+        margin-top: 80px;
+        margin-bottom: 100px;
+    }
+}
+
+.user-rating-box-area {
+    padding-top: 45px;
+    margin-bottom: -30px;
+
+    @include desktops {
+        padding-top: 0;
+
+    }
+
+    .col-sm-6 {
+        margin-bottom: 30px;
+    }
+
+    .rate-box {
+        box-shadow: 0 6px 0 rgba(23, 135, 252, 0.65);
+        border-radius: 25px;
+        padding: 30px 40px 35px 40px;
+
+        h3 {
+            color: $white;
+            font-size: 60px;
+            font-weight: 600;
+            font-style: normal;
+            letter-spacing: -1px;
+            line-height: 66px;
+            margin-bottom: 30px;
+        }
+
+        p {
+            color: $white;
+            font-size: 17px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 30px;
+            margin-bottom: 0;
+        }
+
+        ul {
+            margin: 0px -3px 7px -3px;
+
+            li {
+                margin: 0px 3px 0px 3px;
+
+                i {
+                    color: $secondary;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    .rate-box-2 {
+        box-shadow: 0 6px 0 rgba(33, 48, 83, 0.65);
+    }
+
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+  Content Area-1-L1
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.content-are-l1-1 {
+    position: relative;
+    z-index: 1;
+    padding-top: 60px;
+
+    @include tablet {
+        padding-top: 80px;
+    }
+
+    @include desktops {
+        padding-top: 130px;
+    }
+}
+
+.curve-image-l1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 125%;
+    margin-top: -14px;
+
+    @include tablet {
+        margin-top: -16px;
+    }
+    @include desktops {
+        margin-top: -11px;
+    }
+
+    @include large-desktops {
+        margin-top: -30px;
+    }
+
+}
+
+.content-box-l1-1 {
+    position: relative;
+    box-shadow: 0 72px 54px rgba(23, 135, 252, 0.12);
+    border-radius: 50px;
+    background-color: $white;
+    padding: 30px;
+
+    @include mobile {
+        padding: 40px 40px 50px 40px;
+    }
+
+    @include tablet {
+        padding: 50px 60px 60px 60px;
+    }
+
+    @include desktops {
+        margin-top: 0;
+    }
+
+    @include large-desktops {
+        padding: 60px 65px 70px 65px;
+    }
+
+    .cap-image {
+        position: absolute;
+        right: 0;
+        bottom: 12%;
+        margin-right: -80px;
+    }
+}
+
+.l1-get-start-btn {
+
+    .btn {
+        width: 247px;
+        height: 69px;
+        box-shadow: 0 26px 46px rgba(241, 139, 98, 0.5);
+        border-radius: 20px;
+        background-color: $secondary;
+        color: $white;
+        font-size: 17px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 30px;
+        margin-top: 40px;
+    }
+
+    i {
+        margin-left: 40px;
+    }
+}
+
+.content-area-l1-image-group {
+    position: relative;
+    padding-top: 45px;
+
+    @include desktops {
+        padding-top: 0;
+
+    }
+
+    .image-2 {
+        position: absolute;
+        top: 7%;
+        right: 25%;
+    }
+
+    .image-3 {
+        position: absolute;
+        bottom: 0;
+        left: -15%;
+    }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+  Content Area-2-L1
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+.content-area-2-l1 {
+    padding-top: 50px;
+    padding-bottom: 60px;
+
+    @include tablet {
+        padding-top: 70px;
+        padding-bottom: 80px;
+    }
+
+    @include desktops {
+        padding-top: 130px;
+        padding-bottom: 130px;
+    }
+}
+
+
+
+.number-content-box-l1 {
+    margin-top: 30px;
+    margin-bottom: -60px;
+
+    @include tablet {
+        margin-top: 50px;
+    }
+
+    @include desktops {
+        margin-top: 70px;
+    }
+
+    li {
+        margin-bottom: 60px;
+    }
+
+    .number {
+        width: 100px;
+        height: 66px;
+        line-height: 66px;
+        box-shadow: 0 5px 0 rgba(23, 135, 252, 0.65);
+        border-radius: 20px;
+        background-color: $primary;
+        text-align: center;
+
+        span {
+
+
+            color: $white;
+            font-size: 32px;
+            font-weight: 500;
+            font-style: normal;
+            letter-spacing: -0.4px;
+
+        }
+
+        &--2 {
+            box-shadow: 0 5px 0 rgba(255, 113, 57, 0.65);
+            background-color: $secondary;
+        }
+    }
+
+    .content {
+        margin-left: 30px;
+
+        h4 {
+            color: $cloudburst;
+            font-size: 24px;
+            font-weight: 600;
+            font-style: normal;
+            letter-spacing: -0.3px;
+            line-height: 32px;
+        }
+
+        p {
+            opacity: 0.8;
+            color: $cloudburst;
+            font-size: 15px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 28px;
+        }
+    }
+}
+
+.content-2-l1-image-group {
+    position: relative;
+
+
+    .image-2 {
+        position: absolute;
+        top: 17%;
+        left: 0%;
+    }
+
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+  Testimonial Area-1-L1
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+.testimonial-area-l1 {
+    padding-top: 60px;
+    padding-bottom: 50px;
+
+    @include tablet {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    @include desktops {
+        padding-top: 147px;
+        padding-bottom: 124px;
+    }
+}
+
+
+.testimonial-area-l1-items {
+    padding-top: 40px;
+    margin-bottom: -30px;
+  .col-lg-4{
+      margin-bottom: 30px;
+  }
+    @include tablet {
+        padding-top: 60px;
+    }
+
+    @include desktops {
+        padding-top: 80px;
+    }
+
+    .content {
+        padding: 0px 0px;
+        @include large-desktops {
+            padding: 0px 20px;
+        }
+        @include extra-large-desktops {
+            padding: 0px 50px;
+        }
+        p {
+            font-size: 21px;
+            line-height: 32px;
+            letter-spacing: 0px;
+            color: $cloudburst;
+            margin-top: 28px;
+            margin-bottom: 30px;
+
+            span {
+                border-bottom: 4px solid $secondary;
+            }
+
+        }
+
+        h5 {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 21px;
+            line-height: 30px;
+            text-align: center;
+            color: $cloudburst;
+            margin-bottom: 0;
+        }
+
+        small {
+            font-size: 15px;
+            line-height: 28px;
+            text-align: center;
+            color: $cloudburst;
+            opacity: 0.7;
+        }
+    }
+}
+
+.testimonial-area-l-image-group {
+    .image-1 {
+        position: absolute;
+        top: 10%;
+        left: 0%;
+        @include desktops {
+            top: 30%;
+            left: 10%;
+        }
+    }
+
+    .image-2 {
+        position: absolute;
+        bottom: 10%;
+        right: 10%;
+    }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+ Contact form Area-1-L1
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.contact-form-area-l1 {
+    padding-top: 50px;
+    padding-bottom: 60px;
+
+    @include tablet {
+        padding-top: 70px;
+        padding-bottom: 80px;
+    }
+
+    @include desktops {
+        padding-top: 115px;
+        padding-bottom: 130px;
+    }
+
+    .section__heading {
+        h2 {
+            color: $white;
+        }
+
+        p {
+            color: $white;
+            opacity: 0.65;
+        }
+    }
+}
+
+.contact-form-l1 {
+    margin-top: 10px;
+
+    @include tablet {
+        margin-top: 20px;
+    }
+
+    @include desktops {
+        margin-top: 40px;
+    }
+
+    label {
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 30px;
+        color: #FFFFFF;
+        padding: 20px 0px;
+    }
+
+    .form-control {
+        background: #FFFFFF;
+        border: 1px solid #E6EAF4;
+        border-radius: 15px;
+        height: 60px;
+        font-size: 17px;
+        line-height: 30px;
+        color: #213053;
+        mix-blend-mode: normal;
+        opacity: 1;
+        padding-left: 22px;
+    }
+
+    .form-control::placeholder {
+        color: #213053;
+        opacity: 0.7;
+    }
+
+    .nice-select {
+        color: #213053;
+        font-size: 17px;
+        height: 60px;
+        line-height: 60px;
+        padding-left: 22px;
+        width: 100%;
+        border-radius: 20px;
+
+        .list {
+            width: 100%;
+        }
+
+        &::after {
+            border-top: 0.3em solid;
+            border-right: 0.3em solid transparent;
+            border-bottom: 0;
+            border-left: 0.3em solid transparent;
+            width: 0;
+            height: 0;
+            transform: rotate(0deg);
+            transform-box: view-box;
+            right: 30px;
+            margin-top: 0;
+        }
+    }
+
+    .nice-select.open:after {
+        -webkit-transform: rotate(-180deg);
+        -ms-transform: rotate(-180deg);
+        transform: rotate(-180deg);
+    }
+
+}
+
+.get-free-demo-btn {
+    background: $secondary;
+    height: 70px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.contact-area-l-image-group {
+    .image-1 {
+        position: absolute;
+        top: 15%;
+        left: 0%;
+    }
+
+    .image-2 {
+        position: absolute;
+        top: 50%;
+        right: 25%;
+        transform: translate(-50%, -50%);
+    }
+
+    .image-3 {
+        position: absolute;
+        bottom: 10%;
+        right: 0%;
+        @include desktops {
+            right: 20%;
+        }
+    }
+
+    .image-4 {
+        position: absolute;
+        bottom: 0%;
+        left: 0%;
+        @include desktops {
+            bottom: 0%;
+            left: 5%;
+        }
+    }
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+ Footer Area-1-L1
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.footer-area {
+    padding-top: 48px;
+    padding-bottom: 30px;
+    @include tablet {
+        padding-top: 68px;
+        padding-bottom: 50px;
+    }
+  
+    @include desktops {
+        padding-top: 105px;
+    padding-bottom: 90px;
+    }
+}
+
+.footer-l1-area-items {
+    h3 {
+        font-size: 15px;
+        line-height: 28px;
+        color: #213053;
+        mix-blend-mode: normal;
+        opacity: 0.7;
+        margin-bottom: 25px;
+    }
+
+    ul {
+        li {
+            a {
+                font-weight: 600;
+                font-size: 15px;
+                line-height: 40px;
+                color: #213053;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.subscribe-newsletter {
+    padding: 22px 30px 10px 30px;
+    border-radius: 25px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    @include tablet {
+        margin-bottom: 45px;
+    }
+  
+    @include desktops {
+    margin-bottom: 0;
+    }
+    h4 {
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 30px;
+        color: $cloudburst;
+        margin-bottom: 18px;
+    }
+
+    .form-control {
+        font-size: 15px;
+        font-weight: 400;
+        color: $cloudburst;
+        font-style: normal;
+        line-height: 28px;
+        border: 0;
+        height: 60px;
+        border-radius: 15px;
+        background-color: $white;
+        padding: 0px 18px 0px 18px;
+        @include mobile-lg {
+            padding: 0px 150px 0px 18px;
+        }
+    }
+
+    .form-control::placeholder {
+        color: $cloudburst;
+        opacity: 0.8;
+    }
+
+    .btn {
+        color: $white;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 26px;
+        width: 104px;
+        height: 50px;
+        border-radius: 15px;
+        background-color: $secondary;
+        margin-left: 0px;
+        margin-top: 9px;
+
+        @include mobile-lg {
+            height: 43px;
+            margin-left: -140px;
+        }
+    }
+
+    p {
+        font-size: 15px;
+        line-height: 28px;
+        color: #213053;
+        opacity: 0.7;
+        margin-top: 12px;
+    }
+}

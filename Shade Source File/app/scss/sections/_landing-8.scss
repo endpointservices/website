@@ -1,0 +1,732 @@
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+   Hero Area-L8
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+.hero-area-l8 {
+   position: relative;
+   z-index: 1;
+   padding-top: 55px;
+   padding-bottom: 60px;
+   margin: 70px 0px 0px 0px;
+
+
+   &:after {
+      position: absolute;
+      content: '';
+      width: 100%;
+      height: 100%;
+      background: $white;
+      top: 0;
+      left: 0;
+      opacity: 0.7;
+      z-index: -1;
+
+      @include large-desktops {
+         display: none;
+      }
+   }
+
+
+   &.background-property {
+      background-position: 75% 0% !important;
+
+      @include extra-large-desktops {
+         background-position: 100% 0% !important;
+      }
+
+   }
+
+   @include mobile {
+      padding-top: 55px;
+      margin: 90px 0px 0px 0px;
+   }
+
+   @include tablet {
+      padding-top: 75px;
+      padding-bottom: 80px;
+   }
+
+   @include desktops {
+
+      padding-top: 210px;
+      padding-bottom: 220px;
+   }
+
+   .content {
+
+      @include desktops {
+         padding-top: 0;
+
+      }
+
+      h2 {
+         color: $mirage;
+         font-size: 34px;
+         font-weight: 600;
+         font-style: normal;
+         letter-spacing: -1px;
+         line-height: 40px;
+         margin-bottom: 35px;
+
+         @include mobile-lg {
+            font-size: 40px;
+            line-height: 46px;
+         }
+
+         @include tablet {
+            font-size: 48px;
+            line-height: 54px;
+         }
+
+         @include desktops {
+            font-size: 70px;
+            line-height: 77px;
+
+         }
+
+
+      }
+
+      p {
+         color: $mirage;
+         font-size: 17px;
+         font-weight: 400;
+         font-style: normal;
+         letter-spacing: normal;
+         line-height: 30px;
+         margin-bottom: 35px;
+
+      }
+
+   }
+
+}
+
+.hero-l8-btn {
+   .btn {
+      font-weight: 600;
+      font-size: 17px;
+      line-height: 30px;
+      border-radius: 30px;
+      color: $white;
+      width: 100%;
+      height: 60px;
+      background: $java;
+
+      @include mobile-lg {
+         width: 210px;
+         height: 60px;
+      }
+   }
+
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+   CTA Area-L8
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.cta-area-l8 {
+   padding-top: 35px;
+   padding-bottom: 35px;
+}
+
+.video-content-l8 {
+   img {
+      border: 2px solid #20BFA9;
+      border-radius: 50%;
+      padding: 8px;
+      margin-right: 12px;
+   }
+
+   a {
+      font-size: 17px;
+      line-height: 30px;
+      color: #FFFFFF;
+   }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+                      Feature Area-L8
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.feature-area-l8 {
+   padding-top: 55px;
+
+   @include tablet {
+      padding-top: 75px;
+   }
+
+   @include desktops {
+      padding-top: 90px;
+   }
+}
+
+.feature-area-l8-items {
+   margin-bottom: -30px;
+   padding-top: 40px;
+
+   .col-lg-4 {
+      margin-bottom: 30px;
+   }
+}
+
+.feature-card-l8 {
+   border: 1px solid rgba(29, 36, 58, 0.12);
+   box-sizing: border-box;
+   border-radius: 10px;
+   padding: 35px 35px 10px 35px;
+
+   .icon {
+      margin-bottom: 35px;
+   }
+
+   .content {
+      h4 {
+         font-weight: 600;
+         font-size: 24px;
+         line-height: 32px;
+         letter-spacing: -0.3px;
+         color: $mirage;
+         margin-bottom: 30px;
+      }
+
+      p {
+         font-size: 17px;
+         line-height: 30px;
+         color: $mirage;
+         opacity: 0.8;
+      }
+   }
+}
+
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+                      Counter Area-L8
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+
+.counter-area-l8 {
+   padding-top: 60px;
+   padding-bottom: 60px;
+
+   @include tablet {
+      padding-top: 80px;
+      padding-bottom: 80px;
+   }
+
+   @include desktops {
+      padding-top: 130px;
+      padding-bottom: 130px;
+   }
+}
+
+.counter-area-l8-items {
+   background: #FF794D;
+   box-shadow: 0px 54px 100px rgba(10, 4, 60, 0.08);
+   border-radius: 15px;
+   margin: 0px;
+   padding: 70px 0px 25px 0px;
+  
+
+   .col-xl-3 {
+      margin-bottom: 30px;
+   }
+
+   .count-number {
+      h2 {
+         margin-right: 35px;
+         font-weight: 600;
+         font-size: 34px;
+         line-height: 40px;
+         letter-spacing: -1px;
+         color: #FFFFFF;
+
+         @include tablet {
+            font-size: 48px;
+            line-height: 55px;
+         }
+
+         @include desktops {
+            font-size: 60px;
+            line-height: 66px;
+         }
+
+      }
+      width: 50%;
+      @include mobile-lg {
+         width: 40%;
+      }
+      @include desktops {
+         width: initial;
+      }
+   }
+
+   .count-content {
+      p {
+         font-size: 21px;
+         line-height: 32px;
+         color: #FFFFFF;
+         text-align: left;
+      }
+      width: 50%;
+      @include mobile-lg {
+         width: 40%;
+      }
+      @include desktops {
+         width: initial;
+      }
+   }
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+                      Content Area-L8-1
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.content-area-l8-1 {
+   padding-bottom: 60px;
+
+   @include tablet {
+      padding-bottom: 80px;
+   }
+
+   @include desktops {
+      padding-bottom: 130px;
+   }
+}
+
+.content-box-l8-1 {
+   background: #FFFFFF;
+   box-shadow: 0px 24px 60px -20px rgba(0, 0, 0, 0.1);
+   border-radius: 15px;
+
+
+   @include extra-large-desktops {
+      margin-left: -20px;
+   }
+
+   .text-block {
+      padding: 25px 30px 30px 30px;
+
+      @include mobile {
+         padding: 45px 50px 50px 50px;
+      }
+
+      h4 {
+         font-weight: 600;
+         font-size: 24px;
+         line-height: 32px;
+         letter-spacing: -0.3px;
+         color: #1D263A;
+         margin-bottom: 30px;
+      }
+
+      p {
+         font-size: 17px;
+         line-height: 30px;
+         color: #1D263A;
+         opacity: 0.8;
+         margin-bottom: 30px;
+      }
+
+      .btn {
+         width: 100%;
+         height: 60px;
+         background: #20BFA9;
+         border-radius: 40px;
+         font-weight: 600;
+         font-size: 17px;
+         line-height: 30px;
+         color: #FFFFFF;
+
+         @include mobile {
+            min-width: 330px;
+         }
+      }
+   }
+}
+
+.content-box-l8-2 {
+   padding-top: 45px;
+
+   @include desktops {
+      padding-top: 0;
+   }
+}
+
+.content-box-l8-2-list {
+   padding-top: 65px;
+
+   @include tablet {}
+
+   @include desktops {}
+
+   ul {
+      margin-bottom: -20px;
+
+      li {
+         color: $mirage;
+         font-size: 21px;
+         font-weight: 600;
+         font-style: normal;
+         margin-bottom: 20px;
+
+         i {
+            font-size: 10px;
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+            margin-right: 25px;
+            border-radius: 50%;
+            color: $mirage;
+            background: #D6EBE4;
+         }
+      }
+   }
+
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+                      Content Area-L8-2
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.content-area-l8-2 {
+   padding-bottom: 50px;
+
+   @include tablet {
+      padding-bottom: 70px;
+   }
+
+   @include desktops {
+      padding-bottom: 130px;
+   }
+}
+
+.content-box-l8-3 {
+   padding-top: 45px;
+
+   @include desktops {
+      padding-top: 0;
+   }
+
+   @include extra-large-desktops {
+      margin-left: -20px;
+   }
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+                      Clients Area-L8
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.clients-area-l8 {
+   background: #F9FAFB;
+   padding-top: 55px;
+   padding-bottom: 60px;
+
+   @include tablet {
+      padding-top: 75px;
+      padding-bottom: 80px;
+   }
+
+   @include desktops {
+      padding-top: 125px;
+      padding-bottom: 130px;
+   }
+}
+
+.clients-l8-items {
+   margin-bottom: -30px;
+   padding-top: 20px;
+
+   @include tablet {
+      padding-top: 30px;
+   }
+
+   @include desktops {
+      padding-top: 60px;
+   }
+
+   .col-lg-4 {
+      margin-bottom: 30px;
+   }
+
+}
+
+.client-l8-card {
+   background: #FFFFFF;
+   border: 1px solid #E1ECF0;
+   border-radius: 10px;
+   padding: 40px 40px 35px 40px;
+   height: 100%;
+
+   .image {
+      & img {
+         width: 179px;
+         height: 179px;
+         border-radius: 10px;
+      }
+   }
+
+   .content {
+      h4 {
+         font-weight: 600;
+         font-size: 24px;
+         line-height: 32px;
+         letter-spacing: -0.3px;
+         color: #1D263A;
+         padding: 40px 0px 12px 0px;
+      }
+
+      p {
+         font-size: 17px;
+         line-height: 30px;
+         color: #1D263A;
+         opacity: 0.8;
+      }
+   }
+
+   .identity {
+      h6 {
+         font-weight: 600;
+         font-size: 17px;
+         line-height: 30px;
+         color: #1D263A;
+         margin-bottom: 0;
+      }
+
+      span {
+         font-size: 13px;
+         line-height: 22px;
+         color: #1D263A;
+         opacity: 0.6;
+      }
+   }
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+                      CTA Area-L8-2
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.cta-area-l8-2 {
+   padding-top: 60px;
+   padding-bottom: 60px;
+
+   @include tablet {
+      padding-top: 80px;
+      padding-bottom: 80px;
+   }
+
+   @include desktops {
+      padding-top: 130px;
+      padding-bottom: 130px;
+   }
+
+   .section__heading {
+      @include large-desktops {
+         padding-right: 35px;
+      }
+      @include large-desktops-mid {
+         padding-right: 30px;
+      }
+      @include extra-large-desktops {
+         padding-right: 105px;
+      }
+   
+      h2 {
+         color: $white;
+      }
+
+      p {
+         color: #FFFFFF;
+         opacity: 0.8;
+      }
+   }
+}
+
+.cta-area-l8-2-list {
+   padding-top: 45px;
+
+   @include desktops {
+      padding-top: 0;
+      position: absolute;
+      bottom: 0px;
+      width: inherit;
+   }
+
+
+   ul {
+      margin-bottom: -20px;
+
+      li {
+         color: $white;
+         font-size: 21px;
+         font-weight: 600;
+         font-style: normal;
+         margin-bottom: 20px;
+
+         i {
+            font-size: 10px;
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+            margin-right: 15px;
+            border-radius: 50%;
+            color: $mirage;
+            background: $java;
+         }
+      }
+   }
+
+}
+
+.contact-form-l8 {
+   background: $white;
+   padding: 30px;
+   border-radius: 15px;
+   margin-top: 45px;
+
+   @include mobile-lg {
+      padding: 35px 45px 45px 45px;
+   }
+
+   @include desktops {
+      margin-top: 0;
+   }
+
+   sup {
+      color: $mirage;
+   }
+
+   .form-group {
+      margin-bottom: 30px;
+   }
+
+   label {
+      font-weight: 600;
+      font-size: 17px;
+      line-height: 30px;
+      color: $mirage;
+      margin-bottom: 10px;
+   }
+
+   .form-control {
+      font-size: 15px;
+      line-height: 28px;
+      color: $mirage;
+      opacity: 0.5;
+      border-left: 0;
+      border-right: 0;
+      border-top: 0;
+      border: none;
+      border-radius: 0;
+      padding-left: 0;
+      background: #E1ECF0;
+      opacity: 0.5;
+      border-radius: 10px;
+      height: 50px;
+      padding-left: 25px;
+
+      &::placeholder {
+         color: #1D263A;
+         opacity: 0.6;
+      }
+   }
+
+   textarea {
+      height: 100px !important;
+
+      @include tablet {
+         height: 180px !important;
+      }
+   }
+
+   .btn {
+      background: $java;
+      border-radius: 30px;
+      width: 100%;
+      height: 60px;
+      font-weight: 600;
+      font-size: 17px;
+      line-height: 30px;
+      color: $white;
+
+   }
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+   Footer Area-L3
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.footer-area-l8 {
+   padding-top: 60px;
+   padding-bottom: 50px;
+
+   @include tablet {
+      padding-top: 80px;
+      padding-bottom: 70px;
+   }
+
+   @include desktops {
+      padding-top: 100px;
+      padding-bottom: 100px;
+   }
+}
+
+.footer-l8-area-items {
+   margin-bottom: -30px;
+
+   .col-xl-4 {
+      margin-bottom: 30px;
+   }
+
+   .col-xl-2 {
+      margin-bottom: 30px;
+   }
+
+   .footer-content-l8 {
+      & img {
+         margin-bottom: 50px;
+      }
+
+      p {
+         font-size: 17px;
+         line-height: 30px;
+         color: $mirage;
+         opacity: 0.8;
+      }
+   }
+
+   h3 {
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 26px;
+      color: $mirage;
+      opacity: 0.6;
+      margin-bottom: 30px;
+
+      @include desktops {
+         margin-bottom: 43px;
+      }
+   }
+
+   ul {
+      margin-bottom: -20px;
+
+      li {
+         margin-bottom: 20px;
+
+         a {
+            font-weight: 600;
+            font-size: 17px;
+            line-height: 30px;
+            color: $mirage;
+
+         }
+      }
+   }
+}
